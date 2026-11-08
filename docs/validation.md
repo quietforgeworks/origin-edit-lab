@@ -2,7 +2,7 @@
 
 This public tree is tested on Linux, Python 3.12. The default test runner runs both normal Python and `python -O`, using only generated synthetic inputs. Synthetic OOXML fixtures are package-logic tests, not independently Office-validated presentations.
 
-A clean checkout on the recorded Linux/Python 3.12 environment runs 701 tests per Python mode: **498 pass and 203 explicitly skip**, with no failures. This includes the optional system liblz4 test, which skips on systems without liblz4 (497 pass, 204 skip). The previous 560 tests and all reviewed scientific modules are retained unchanged. The new binding and scalar packages add 27 and 114 synthetic tests respectively; their overlapping module/test names are deliberately isolated in separate subprocesses.
+A clean checkout on the recorded Linux/Python 3.12 environment runs 739 tests per Python mode: **536 pass and 203 explicitly skip**, with no failures. This includes the optional system liblz4 test, which skips on systems without liblz4 (535 pass, 204 skip). The previous 701 tests and all reviewed scientific modules are retained unchanged. The FPC addition contributes 11 author, 17 independent-review and 10 repository-packaging tests; their overlapping module/test names are deliberately isolated in separate subprocesses.
 
 The original suites include:
 
@@ -94,3 +94,42 @@ Both default to refusal without an explicit research flag. Origin lifecycle
 stages remain NOT_RUN, and macOS native writes remain unsupported.
 
 Additional packaging checks with the separately supplied public fixture passed in both modes: all 13 independent multicurve guards; 29 multicurve author tests with 19 application-evidence skips; all 22 custom native/source/recorded-observation tests. The custom observation tests re-read existing actual LabPlot evidence, not a new app run. Exact suite counts and all 93 distinct added test IDs are recorded in [`NATIVE-DATA-VALIDATION.json`](../research/NATIVE-DATA-VALIDATION.json). The 13 reviewer guards and 10 packaging tests explain the 23 tests beyond the 48 author plus 22 custom tests; there is no duplicate discovery.
+
+
+## Exact-bit modern FPC numeric-stream supplement
+
+[Modern FPC codec](../research/modern_fpc_codec/README.md) is a standalone,
+integer-only, in-memory encoder/decoder. Its exact reviewed core and all author
+and independent-review code are retained unchanged. It is not wired into the
+native writer or preview CLI. Per mode, its 11 author tests, 17 independent
+review tests and 10 repository packaging tests pass using only synthetic inputs
+and recorded-evidence checks. Normal and optimized runs are separate processes.
+
+Historical external runs covered 6,004 synthetic exact-bit cases and 7,843
+public stream occurrences comprising 9,949,997 words from 167 input entries
+(166 distinct source hashes). The strict-parser portion is 5,439 streams /
+8,885,112 words. The additional opt-in matrix parser reaches 2,404 streams /
+1,064,885 words, including 2,050 directly marked matrix streams; that coverage
+is experimental and does not expand strict-parser support. These are occurrence
+counts, not independent-dataset counts or full-file support rates.
+
+Two locally authored raw decoders and a SHA-pinned external implementation were
+compared during the historical experiment. The independent local decoder shares
+the same pinned-codec-derived specification and is not an independently sourced
+Origin format oracle. The unchanged external API maps Origin's finite missing
+sentinel to NaN; the explicitly labeled test-only raw adapter disables only that
+normalization. Original and encoded byte identity was observed in the bounded
+corpus, not guaranteed for all future Origin streams.
+
+This repository integration verifies complete per-stream count/offset/hash
+records, source hashes and manifest selection, but does not execute external
+source or rerun the native corpus. The full optimized report is exactly
+reconstructed and SHA-checked from the normal report's one-byte mode difference.
+No native files, measurement arrays, external parsers or new third-party
+executable source are included. Licensing, exact retained/excluded members and
+reproduction commands are in the [integration audit](../research/modern_fpc_codec/INTEGRATION.md).
+
+No OPJU/CFB/PPT writeback, dataset ownership proof, row-metadata changes, graph or
+analysis-dependency updates, or Origin/PowerPoint application lifecycle acceptance
+is provided by this codec. Those native application stages remain **NOT_RUN**.
+The separate dataset-writeback experiment is not part of this addition.
