@@ -1,0 +1,62 @@
+{
+  "approved_quantized_revision": "431deeb7c8473503970ca56b78cc1678f57d373d",
+  "purpose": "Minimal byte-identical copied code, only pinned approved quantized numeric read modules and prior authored research helpers. No new external code.",
+  "files": {
+    "helpers/cfb_read.py": {
+      "sha256": "636f9e5eba0d7a2a13f271550a05520251fa029d75b3c3599d4e689fb0278812",
+      "source_relative_path": "source-writeback-lab/cfb_read.py"
+    },
+    "helpers/writeback.py": {
+      "sha256": "6313e7bebc4ec383ee7f75b227e283a6d4a0e09ab73ee1b3eccc3832e0d4787c",
+      "source_relative_path": "source-writeback-lab/writeback.py"
+    },
+    "helpers/modern_fpc_patch.py": {
+      "sha256": "94c03cb1f178af65662b56e58f8b23302d9fb8a004f31a9341c75a05182e6fa9",
+      "source_relative_path": "native-experiments/modern_fpc_patch.py"
+    },
+    "helpers/modern_sparse_binding.py": {
+      "sha256": "8324faa30b592b04f827551b59272052ef6b3f258e9ca9ea7cd5cce02532dd7d",
+      "source_relative_path": "native-experiments/modern_sparse_binding.py"
+    },
+    "helpers/modern_embedded_reader.py": {
+      "sha256": "727d5fca1a6ff15e12f130a6203202ac21e79d3843c7a1f1a4e216e1688d140f",
+      "source_relative_path": "native-experiments/modern_embedded_reader.py"
+    },
+    "helpers/embedded_curve_adapter.py": {
+      "sha256": "ec5155e6f6770b84a0dfd83cd6cb22714f57666464cdd65afec4546dc699591e",
+      "source_relative_path": "native-experiments/embedded_curve_adapter.py"
+    },
+    "quantized/io/origin_project/container.py": {
+      "sha256": "e80996b8955d46b446bdc4761a55b19b6d760619edb0b94b98f16ebe47cb4115",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/container.py"
+    },
+    "quantized/io/origin_project/opju_codec.py": {
+      "sha256": "5a2c6f000ff8fef0a71ba8aab0876f7de785d5bb4dfa8d07dd612f052b737be9",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/opju_codec.py"
+    },
+    "quantized/io/origin_project/opju_figure_curves.py": {
+      "sha256": "a6a563c9a26ed98b4dfe0d318f5f5a7ea1e00d98c52665a6f2a2fefea42fffa2",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/opju_figure_curves.py"
+    },
+    "quantized/io/origin_project/curve_style_color.py": {
+      "sha256": "d156c51f603a144d7a01f41cad7137afc323c3b51cffa0d20f0e9425920aec4d",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/curve_style_color.py"
+    },
+    "quantized/io/origin_project/tree_opju.py": {
+      "sha256": "261358ac17fca97e4b77a72c3236e883ed3450df22414d6bd2d234e7564129a3",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/tree_opju.py"
+    },
+    "quantized/io/origin_project/tree.py": {
+      "sha256": "b45baecf8b42d20b7c19469ca0a37827824d8354758dd330e5ab86f5398d45e0",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/tree.py"
+    },
+    "quantized/LICENSE": {
+      "sha256": "c5741e23294011701c3dabe25fd8d05693eabbabf16c21b10412c67440dcceb8",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/LICENSE"
+    },
+    "quantized/NOTICE": {
+      "sha256": "978fd16ce882bb48cf46445557bb79f7be20b7563303e52dd4841f829ec3a158",
+      "source_relative_path": "native-experiments/quantized-431deeb7c8473503970ca56b78cc1678f57d373d/NOTICE"
+    }
+  }
+}
