@@ -38,6 +38,10 @@ python preview/compat.py project.opju
 
 多面板排版见 [视觉布局流程](docs/visual-layout.md)、[参考线提案与审批校验](docs/alignment-plan.md) 和 [字体与配色选项](docs/style-options.md)。这些是独立的外观工作流；审批 JSON 不能自行证明用户授权，像素叠加也不能证明 Origin 原生可编辑性。
 
+## 独立运行的读取验证
+
+[Ropj 原生工作簿读回实验](research/ropj_readback/README.md) 使用真实 Ropj API，在四份合成旧版 OPJ 上核对了 1,761 个 binary64 数值及 12 组列长名/单位。它与 LabPlot 共享 liborigin 祖先，不是独立设计的解析器；不支持 OPJU，也不验证图形。仓库仅包含验收源码、合成单测和事实摘要，不包含 R/Origin 二进制或原生样本。默认测试明确跳过需要外部运行时和样本的用例。
+
 ## 下一步
 
 1. 用公开许可、隔离副本建立真实 Origin/PowerPoint 的打开、编辑、保存与重开验收。
