@@ -1,0 +1,877 @@
+{
+    "curve_found": true,
+    "method": "Actual imported XYCurve pointers, public Column::valueAt/rowCount and AbstractColumn::isValid/isMasked; passive QSignalSpy",
+    "point_signal_emissions": [
+        {
+            "end_index": 49,
+            "logical_point_count": 50,
+            "logical_points_binary64": [
+                [
+                    "8000000000000000",
+                    "8000000000000000"
+                ],
+                [
+                    "3ff199999999999a",
+                    "3fbf9add3746f65e"
+                ],
+                [
+                    "4000cccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "4008cccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "4010666666666666",
+                    "3fe0000000000000"
+                ],
+                [
+                    "4014666666666666",
+                    "3fe3333333333333"
+                ],
+                [
+                    "4018666666666666",
+                    "3fe6666666666666"
+                ],
+                [
+                    "401c666666666666",
+                    "3fe999999999999a"
+                ],
+                [
+                    "4020333333333333",
+                    "3fb999999999999a"
+                ],
+                [
+                    "4022333333333333",
+                    "3fc999999999999a"
+                ],
+                [
+                    "4024333333333333",
+                    "3fd3333333333333"
+                ],
+                [
+                    "4026333333333333",
+                    "3fd999999999999a"
+                ],
+                [
+                    "4028333333333333",
+                    "3fe0000000000000"
+                ],
+                [
+                    "402a333333333333",
+                    "3fe3333333333333"
+                ],
+                [
+                    "402c333333333333",
+                    "3fe6666666666666"
+                ],
+                [
+                    "402e333333333333",
+                    "3fe999999999999a"
+                ],
+                [
+                    "403019999999999a",
+                    "3fb999999999999a"
+                ],
+                [
+                    "403119999999999a",
+                    "3fc999999999999a"
+                ],
+                [
+                    "403219999999999a",
+                    "3fd3333333333333"
+                ],
+                [
+                    "403319999999999a",
+                    "3fd999999999999a"
+                ],
+                [
+                    "403419999999999a",
+                    "3fe0000000000000"
+                ],
+                [
+                    "403519999999999a",
+                    "3fe3333333333333"
+                ],
+                [
+                    "403619999999999a",
+                    "3fe6666666666666"
+                ],
+                [
+                    "403719999999999a",
+                    "3fe999999999999a"
+                ],
+                [
+                    "403819999999999a",
+                    "3fb999999999999a"
+                ],
+                [
+                    "403919999999999a",
+                    "3fc999999999999a"
+                ],
+                [
+                    "403a19999999999a",
+                    "3fd3333333333333"
+                ],
+                [
+                    "403b19999999999a",
+                    "3fd999999999999a"
+                ],
+                [
+                    "403c19999999999a",
+                    "3fe0000000000000"
+                ],
+                [
+                    "403d19999999999a",
+                    "3fe3333333333333"
+                ],
+                [
+                    "403e19999999999a",
+                    "3fe6666666666666"
+                ],
+                [
+                    "403f19999999999a",
+                    "3fe999999999999a"
+                ],
+                [
+                    "40400ccccccccccd",
+                    "3fb999999999999a"
+                ],
+                [
+                    "40408ccccccccccd",
+                    "3fc999999999999a"
+                ],
+                [
+                    "40410ccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "40418ccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "40420ccccccccccd",
+                    "3fe0000000000000"
+                ],
+                [
+                    "40428ccccccccccd",
+                    "3fe3333333333333"
+                ],
+                [
+                    "40430ccccccccccd",
+                    "3fe6666666666666"
+                ],
+                [
+                    "40438ccccccccccd",
+                    "3fe999999999999a"
+                ],
+                [
+                    "40440ccccccccccd",
+                    "3fb999999999999a"
+                ],
+                [
+                    "40448ccccccccccd",
+                    "3fc999999999999a"
+                ],
+                [
+                    "40450ccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "40458ccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "40460ccccccccccd",
+                    "3fe0000000000000"
+                ],
+                [
+                    "40468ccccccccccd",
+                    "3fe3333333333333"
+                ],
+                [
+                    "40470ccccccccccd",
+                    "3fe6666666666666"
+                ],
+                [
+                    "40478ccccccccccd",
+                    "3fe999999999999a"
+                ],
+                [
+                    "40480ccccccccccd",
+                    "3fb999999999999a"
+                ],
+                [
+                    "40488ccccccccccd",
+                    "3fc999999999999a"
+                ]
+            ],
+            "start_index": 0
+        },
+        {
+            "end_index": 49,
+            "logical_point_count": 50,
+            "logical_points_binary64": [
+                [
+                    "8000000000000000",
+                    "8000000000000000"
+                ],
+                [
+                    "3ff199999999999a",
+                    "3fbf9add3746f65e"
+                ],
+                [
+                    "4000cccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "4008cccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "4010666666666666",
+                    "3fe0000000000000"
+                ],
+                [
+                    "4014666666666666",
+                    "3fe3333333333333"
+                ],
+                [
+                    "4018666666666666",
+                    "3fe6666666666666"
+                ],
+                [
+                    "401c666666666666",
+                    "3fe999999999999a"
+                ],
+                [
+                    "4020333333333333",
+                    "3fb999999999999a"
+                ],
+                [
+                    "4022333333333333",
+                    "3fc999999999999a"
+                ],
+                [
+                    "4024333333333333",
+                    "3fd3333333333333"
+                ],
+                [
+                    "4026333333333333",
+                    "3fd999999999999a"
+                ],
+                [
+                    "4028333333333333",
+                    "3fe0000000000000"
+                ],
+                [
+                    "402a333333333333",
+                    "3fe3333333333333"
+                ],
+                [
+                    "402c333333333333",
+                    "3fe6666666666666"
+                ],
+                [
+                    "402e333333333333",
+                    "3fe999999999999a"
+                ],
+                [
+                    "403019999999999a",
+                    "3fb999999999999a"
+                ],
+                [
+                    "403119999999999a",
+                    "3fc999999999999a"
+                ],
+                [
+                    "403219999999999a",
+                    "3fd3333333333333"
+                ],
+                [
+                    "403319999999999a",
+                    "3fd999999999999a"
+                ],
+                [
+                    "403419999999999a",
+                    "3fe0000000000000"
+                ],
+                [
+                    "403519999999999a",
+                    "3fe3333333333333"
+                ],
+                [
+                    "403619999999999a",
+                    "3fe6666666666666"
+                ],
+                [
+                    "403719999999999a",
+                    "3fe999999999999a"
+                ],
+                [
+                    "403819999999999a",
+                    "3fb999999999999a"
+                ],
+                [
+                    "403919999999999a",
+                    "3fc999999999999a"
+                ],
+                [
+                    "403a19999999999a",
+                    "3fd3333333333333"
+                ],
+                [
+                    "403b19999999999a",
+                    "3fd999999999999a"
+                ],
+                [
+                    "403c19999999999a",
+                    "3fe0000000000000"
+                ],
+                [
+                    "403d19999999999a",
+                    "3fe3333333333333"
+                ],
+                [
+                    "403e19999999999a",
+                    "3fe6666666666666"
+                ],
+                [
+                    "403f19999999999a",
+                    "3fe999999999999a"
+                ],
+                [
+                    "40400ccccccccccd",
+                    "3fb999999999999a"
+                ],
+                [
+                    "40408ccccccccccd",
+                    "3fc999999999999a"
+                ],
+                [
+                    "40410ccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "40418ccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "40420ccccccccccd",
+                    "3fe0000000000000"
+                ],
+                [
+                    "40428ccccccccccd",
+                    "3fe3333333333333"
+                ],
+                [
+                    "40430ccccccccccd",
+                    "3fe6666666666666"
+                ],
+                [
+                    "40438ccccccccccd",
+                    "3fe999999999999a"
+                ],
+                [
+                    "40440ccccccccccd",
+                    "3fb999999999999a"
+                ],
+                [
+                    "40448ccccccccccd",
+                    "3fc999999999999a"
+                ],
+                [
+                    "40450ccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "40458ccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "40460ccccccccccd",
+                    "3fe0000000000000"
+                ],
+                [
+                    "40468ccccccccccd",
+                    "3fe3333333333333"
+                ],
+                [
+                    "40470ccccccccccd",
+                    "3fe6666666666666"
+                ],
+                [
+                    "40478ccccccccccd",
+                    "3fe999999999999a"
+                ],
+                [
+                    "40480ccccccccccd",
+                    "3fb999999999999a"
+                ],
+                [
+                    "40488ccccccccccd",
+                    "3fc999999999999a"
+                ]
+            ],
+            "start_index": 0
+        }
+    ],
+    "rows": [
+        {
+            "row": 0,
+            "x_bits": "8000000000000000",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "8000000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 1,
+            "x_bits": "3ff199999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fbf9add3746f65e",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 2,
+            "x_bits": "4000cccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 3,
+            "x_bits": "4008cccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 4,
+            "x_bits": "4010666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 5,
+            "x_bits": "4014666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 6,
+            "x_bits": "4018666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 7,
+            "x_bits": "401c666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 8,
+            "x_bits": "4020333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fb999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 9,
+            "x_bits": "4022333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fc999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 10,
+            "x_bits": "4024333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 11,
+            "x_bits": "4026333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 12,
+            "x_bits": "4028333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 13,
+            "x_bits": "402a333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 14,
+            "x_bits": "402c333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 15,
+            "x_bits": "402e333333333333",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 16,
+            "x_bits": "403019999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fb999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 17,
+            "x_bits": "403119999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fc999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 18,
+            "x_bits": "403219999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 19,
+            "x_bits": "403319999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 20,
+            "x_bits": "403419999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 21,
+            "x_bits": "403519999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 22,
+            "x_bits": "403619999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 23,
+            "x_bits": "403719999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 24,
+            "x_bits": "403819999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fb999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 25,
+            "x_bits": "403919999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fc999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 26,
+            "x_bits": "403a19999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 27,
+            "x_bits": "403b19999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 28,
+            "x_bits": "403c19999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 29,
+            "x_bits": "403d19999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 30,
+            "x_bits": "403e19999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 31,
+            "x_bits": "403f19999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 32,
+            "x_bits": "40400ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fb999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 33,
+            "x_bits": "40408ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fc999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 34,
+            "x_bits": "40410ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 35,
+            "x_bits": "40418ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 36,
+            "x_bits": "40420ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 37,
+            "x_bits": "40428ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 38,
+            "x_bits": "40430ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 39,
+            "x_bits": "40438ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 40,
+            "x_bits": "40440ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fb999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 41,
+            "x_bits": "40448ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fc999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 42,
+            "x_bits": "40450ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 43,
+            "x_bits": "40458ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 44,
+            "x_bits": "40460ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 45,
+            "x_bits": "40468ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 46,
+            "x_bits": "40470ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 47,
+            "x_bits": "40478ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 48,
+            "x_bits": "40480ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fb999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 49,
+            "x_bits": "40488ccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fc999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        }
+    ],
+    "signal_spy_valid": true,
+    "x_allocated_rows": 50,
+    "x_bound": true,
+    "y_allocated_rows": 50,
+    "y_bound": true
+}
