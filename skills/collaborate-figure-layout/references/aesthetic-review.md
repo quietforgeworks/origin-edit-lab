@@ -34,6 +34,8 @@ The default accepted style is **compact scientific**: a white-background, public
 
 Use final physical output size and readable scientific content to resolve tradeoffs. If one route cannot realize a detail safely, name the remaining detail and distinguish the last verified appearance from unfinished source work.
 
+For automatic arrangements and reference-driven improvement, use [reviewed-external-methods.md](reviewed-external-methods.md) to evaluate narrative alternatives, reserve explicit legend/colorbar space and learn the reasoning behind conflicting styles. Transfer compatible methods and conditional lessons, not rigid presets. Existing user preferences, scientific content, exact labels, default color preservation and the complete guide/quality gates remain controlling.
+
 ## Reuse stable defaults
 
 Use these established aesthetics as defaults after the refinement reference-image question below is answered; do not reopen an unchanged reference choice or ask the user to select the established rules again. Reuse a recorded, verified version of the role hierarchy, unit conversions, anchor schema, guide construction and same-canvas comparison method when their assumptions and implementation have not changed. Keep reusable rules in the skill and source-specific measurements/evidence in the private task. Do not rerun a full implementation benchmark or rediscover palette definitions for every layout.
@@ -57,7 +59,7 @@ Render each thumbnail from the complete bound scientific unit. A cropped child i
 
 ## Fast initial HTML suggestion
 
-Default to a **local offline HTML** arrangement, with no deployment or upload of the scientific sources/thumbnails for layout. The normal return path is the user's screenshot; an exported layout file is optional, not required. When the user asks to work faster, make one useful coarse arrangement promptly rather than beginning a typography or source-editing pass.
+For **interactive rough-layout mode only**, default to a **local offline HTML** arrangement, with no deployment or upload of the scientific sources/thumbnails for layout. Light refinement skips HTML and preserves the accepted composition. The normal return path in interactive mode is the user's screenshot; an exported layout file is optional, not required. When the user asks to work faster, make one useful coarse arrangement promptly rather than beginning a typography or source-editing pass.
 
 1. Retain every identified scientific unit unless the user has confirmed a subset, directly or through a verified optional layout export. A busy screenshot, occluded panel or absent crop is not evidence of deletion. Preserve source text and measurement units too.
 2. Use the available source-linked thumbnails. Group related curves with their statistical/comparison panels when the scientific association is supported. Leave uncertain memberships explicit rather than guessing a story.

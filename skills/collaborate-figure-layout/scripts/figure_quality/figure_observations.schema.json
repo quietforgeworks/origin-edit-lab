@@ -1,0 +1,921 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "candidate_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "canvas": {
+      "type": "object",
+      "properties": {
+        "width_pt": {
+          "type": "number",
+          "maximum": 100000,
+          "minimum": 1e-06
+        },
+        "height_pt": {
+          "type": "number",
+          "maximum": 100000,
+          "minimum": 1e-06
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "width_pt",
+        "height_pt",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "thresholds": {
+      "type": "object",
+      "properties": {
+        "ownership_max_gap_pt": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "ownership_neighbor_margin_pt": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "glyph_relative_tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "anisotropy_relative_tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ratio_relative_tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "scale_bar_relative_tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "geometry_tolerance_pt": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "ownership_max_gap_pt",
+        "ownership_neighbor_margin_pt",
+        "glyph_relative_tolerance",
+        "anisotropy_relative_tolerance",
+        "ratio_relative_tolerance",
+        "scale_bar_relative_tolerance",
+        "geometry_tolerance_pt",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/element"
+      },
+      "minItems": 1,
+      "maxItems": 1000
+    },
+    "collision_checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/collision"
+      },
+      "maxItems": 10000
+    },
+    "selection_checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/selection"
+      },
+      "maxItems": 1000
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/anchor"
+      },
+      "minItems": 0,
+      "maxItems": 1000
+    },
+    "alignment_checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/alignment"
+      },
+      "minItems": 0,
+      "maxItems": 1000
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_sha256",
+    "candidate_sha256",
+    "canvas",
+    "thresholds",
+    "elements",
+    "collision_checks",
+    "selection_checks",
+    "anchors",
+    "alignment_checks"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:scientific-figure-observations:1",
+  "title": "Source-verified scientific figure observations, version 1",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+    },
+    "hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "bbox": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": -1,
+        "maximum": 2
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "fingerprint": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "data",
+            "axes",
+            "text",
+            "content",
+            "association"
+          ]
+        },
+        "before": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "after": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "kind",
+        "before",
+        "after",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "string",
+          "enum": [
+            "measured",
+            "unmeasured",
+            "not_applicable"
+          ]
+        },
+        "y": {
+          "type": "string",
+          "enum": [
+            "measured",
+            "unmeasured",
+            "not_applicable"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "glyph": {
+      "type": "object",
+      "properties": {
+        "ink_height_pt": {
+          "type": "number",
+          "maximum": 10000,
+          "minimum": 1e-12
+        },
+        "peer_group": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "comparison_key": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "face": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "weight": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "method": {
+          "type": "string",
+          "enum": [
+            "rendered_mask",
+            "glyph_outline",
+            "manual_verified"
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "ink_height_pt",
+        "peer_group",
+        "comparison_key",
+        "face",
+        "weight",
+        "method",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "ratio": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "number",
+          "maximum": 1000000,
+          "minimum": 1e-12
+        },
+        "final": {
+          "type": "number",
+          "maximum": 1000000,
+          "minimum": 1e-12
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "source",
+        "final",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "scale_bar": {
+      "type": "object",
+      "properties": {
+        "image_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "source_fraction": {
+          "type": "number",
+          "maximum": 2,
+          "minimum": 1e-12
+        },
+        "final_fraction": {
+          "type": "number",
+          "maximum": 2,
+          "minimum": 1e-12
+        },
+        "source_value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "final_value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "source_unit": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "final_unit": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "image_id",
+        "source_fraction",
+        "final_fraction",
+        "source_value",
+        "final_value",
+        "source_unit",
+        "final_unit",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "ownership": {
+      "type": "object",
+      "properties": {
+        "frame_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "neighbor_frame_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+          },
+          "uniqueItems": true,
+          "maxItems": 100
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "frame_id",
+        "neighbor_frame_ids",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "transform": {
+      "type": "object",
+      "properties": {
+        "matrix": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": -1000000,
+            "maximum": 1000000
+          },
+          "minItems": 6,
+          "maxItems": 6
+        },
+        "allowed": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "identity",
+              "translate",
+              "uniform_scale",
+              "rotate",
+              "anisotropic_scale",
+              "shear",
+              "reflect"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1,
+          "maxItems": 7
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "matrix",
+        "allowed",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "collision": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "b": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "method": {
+          "type": "string",
+          "enum": [
+            "bbox_only",
+            "glyph_contour",
+            "rendered_mask",
+            "source_geometry",
+            "manual_verified"
+          ]
+        },
+        "intersects": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "exemption": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "reason": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2048
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2048
+                }
+              },
+              "required": [
+                "reason",
+                "evidence"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "a",
+        "b",
+        "method",
+        "intersects",
+        "evidence",
+        "exemption"
+      ],
+      "additionalProperties": false
+    },
+    "selection": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "owner_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "expected_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+          },
+          "uniqueItems": true,
+          "minItems": 1,
+          "maxItems": 1000
+        },
+        "selected_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+          },
+          "uniqueItems": true,
+          "maxItems": 1000
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "id",
+        "owner_id",
+        "expected_ids",
+        "selected_ids",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "element": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_parent_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "panel",
+            "frame",
+            "text",
+            "region_stroke",
+            "object",
+            "image",
+            "scale_bar",
+            "connector",
+            "axis",
+            "tick",
+            "marker",
+            "curve",
+            "legend_symbol",
+            "roi",
+            "guide"
+          ]
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        },
+        "coordinate_space": {
+          "type": "string",
+          "enum": [
+            "layout",
+            "data",
+            "measurement",
+            "unknown"
+          ]
+        },
+        "source_present": {
+          "type": "boolean"
+        },
+        "present": {
+          "type": "boolean"
+        },
+        "bbox": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": -1,
+                "maximum": 2
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_bbox": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": -1,
+                "maximum": 2
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "bbox_basis": {
+          "type": "string",
+          "enum": [
+            "ink",
+            "stroke_outer",
+            "image_edge",
+            "container",
+            "unknown"
+          ]
+        },
+        "clip_bbox": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": -1,
+                "maximum": 2
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "transform": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/transform"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "glyph": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/glyph"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ownership": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ownership"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scientific_ratio": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ratio"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scale_bar": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/scale_bar"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fingerprints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fingerprint"
+          },
+          "maxItems": 6
+        },
+        "coverage": {
+          "$ref": "#/$defs/coverage"
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "id",
+        "parent_id",
+        "source_parent_id",
+        "kind",
+        "role",
+        "coordinate_space",
+        "source_present",
+        "present",
+        "bbox",
+        "source_bbox",
+        "bbox_basis",
+        "clip_bbox",
+        "transform",
+        "glyph",
+        "ownership",
+        "scientific_ratio",
+        "scale_bar",
+        "fingerprints",
+        "coverage",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "anchor": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "element_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "axis": {
+          "type": "string",
+          "enum": [
+            "x",
+            "y"
+          ]
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "left",
+            "right",
+            "top",
+            "bottom",
+            "center_x",
+            "center_y",
+            "baseline"
+          ]
+        },
+        "basis": {
+          "type": "string",
+          "enum": [
+            "stroke_outer",
+            "ink",
+            "baseline",
+            "image_edge",
+            "group_outer"
+          ]
+        },
+        "position_pt": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": -1000000,
+              "maximum": 1000000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "id",
+        "element_id",
+        "axis",
+        "kind",
+        "basis",
+        "position_pt",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "alignment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+        },
+        "anchor_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{0,127}$"
+          },
+          "minItems": 2,
+          "maxItems": 1000,
+          "uniqueItems": true
+        },
+        "target_offsets_pt": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": -1000000,
+            "maximum": 1000000
+          },
+          "minItems": 2,
+          "maxItems": 1000
+        },
+        "tolerance_pt": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "relationship": {
+          "type": "string",
+          "enum": [
+            "peer_layout",
+            "scientific_attachment"
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048
+        }
+      },
+      "required": [
+        "id",
+        "anchor_ids",
+        "target_offsets_pt",
+        "tolerance_pt",
+        "relationship",
+        "evidence"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

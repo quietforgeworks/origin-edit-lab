@@ -28,11 +28,12 @@ This workflow combines three layers; no stage is complete by making a classifica
 - Measure anchors, propose/confirm guides and preserve whole-slide relationships: [alignment-review.md](references/alignment-review.md).
 - Select and authorize one of three editing routes: [refinement-routes.md](references/refinement-routes.md).
 - Run the explicit **Python direct-edit workflow**: [code-editing.md](references/code-editing.md#python-direct-edit-workflow), with actual CLI commands and supported interfaces in the same module; bundled utilities are under `scripts/source_edit/`.
-- Set measurable design targets and run the complete quality audit: [quality-specification.md](references/quality-specification.md).
+- Set measurable design targets and run the complete quality audit: [quality-specification.md](references/quality-specification.md). For supplied-measurement checks or synthetic regression cases, use [observation-checker.md](references/observation-checker.md); it is not automatic image recognition or whole-figure acceptance.
 - Add, inspect and restore one native guide group: [guide-tool.md](references/guide-tool.md).
 - Verify and deliver the claimed result: [verification-and-delivery.md](references/verification-and-delivery.md).
 - Assess supplied native-edit toolkits without generalizing fixed examples: [bounded-native-methods.md](references/bounded-native-methods.md).
 - Reuse stable defaults efficiently without skipping per-file safety checks: [fast-path.md](references/fast-path.md).
+- Improve automatic composition or evaluate conflicting external figure prescriptions without replacing accepted preferences: [reviewed-external-methods.md](references/reviewed-external-methods.md). Includes the bounded static review of Scientific Figure Skills, Academic Figure Skill and OriginLab-MCP; it adds no installed engine or bridge permission.
 
 Use the available presentation skill for actual PPT inspection/rendering. The installed `edit-origin-in-ppt` skill remains useful for its documented source boundaries; this skill includes a bounded copy of relevant proven utilities, not every capability of that separate skill or future versions.
 
@@ -89,7 +90,7 @@ Test changed interaction when tools permit. If a browser tool explicitly rejects
 
 ## 3. Recover the screenshot's composition intent (interactive mode)
 
-A returned screenshot is the default input. Match visible thumbnails/labels to the verified source and stable panel map. Recover relative order, grouping, width emphasis and approximate alignment, not final pixel coordinates. Read no unseen browser state. A cropped/occluded/absent panel is unresolved, not an instruction to omit or delete it. Ask the smallest question only when the ambiguity affects the proposal; continue independent work. Restore obscured labels only from verified full source previews.
+A returned screenshot is the default input. Match visible thumbnails/labels to the verified source and stable panel map. Recover relative order, grouping, width emphasis and approximate alignment, not final pixel coordinates. Read no unseen browser state. A cropped/occluded/absent panel is unresolved, not an instruction to omit or delete it. Recover label, legend, ROI and inset ownership from the intact source; if occlusion prevents recognition, preserve the candidate identity as unresolved rather than assigning the nearest visible label. Ask the smallest question only when the ambiguity affects the proposal; continue independent work. Restore obscured labels only from verified full source previews.
 
 Keep the screenshot and its source/version association private. Summarize the intended grouping briefly, then refine exact proportions, spacing and typography using the shared aesthetics. Do not require a JSON export when the screenshot sufficiently establishes intent. Only offer the optional saved-layout file if it would resolve missing selection or a genuinely ambiguous arrangement.
 

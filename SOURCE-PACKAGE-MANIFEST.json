@@ -1,9 +1,9 @@
 {
   "schema": "origin-edit-lab-source-package-v1",
-  "baseline_commit": "f43e31cb2c18c5fc2906f2a0235a48214a4b27a0",
+  "baseline_commit": "891ffd13e66daab56ea5e0d65cc0d75e446ab8e5",
   "profile": "reviewed-public-source-only-with-figure-layout-skill",
-  "file_count_excluding_this_manifest_and_its_checksum": 493,
-  "bytes_excluding_this_manifest_and_its_checksum": 9633612,
+  "file_count_excluding_this_manifest_and_its_checksum": 506,
+  "bytes_excluding_this_manifest_and_its_checksum": 9838810,
   "excludes": [
     "this manifest and its companion checksum from recursive inventory",
     "all generated fixtures, application profiles and runtime outputs"
@@ -27,8 +27,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14145,
-      "sha256": "4dca9c486f5042bcfb33aed4ac2f42126381b7515e403c02601cc9b1094652ce"
+      "bytes": 14340,
+      "sha256": "e00b52c15e80f06e2beb377eb05d06d6d0d38674c15ca1ae294f06f762fde7c7"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -2097,8 +2097,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/CHANGELOG.md",
-      "bytes": 1163,
-      "sha256": "a5964ff00849ea60249a599743f60c30f43d9ae2a4b1652a27a8b25fd11708b0"
+      "bytes": 2674,
+      "sha256": "cc8e592e9ef5314a19dcde7235d6510866d5bdacdd2fe889cf19ae421ecababa"
     },
     {
       "path": "skills/collaborate-figure-layout/LICENSE",
@@ -2107,23 +2107,23 @@
     },
     {
       "path": "skills/collaborate-figure-layout/MANIFEST.json",
-      "bytes": 12755,
-      "sha256": "4affa02e0c75de3884691a29599d92a96bc7c0c39300ea871dbd7314b30d9a00"
+      "bytes": 15268,
+      "sha256": "b14da81f5a99835f66f68f60d4caa518786cfa2699cf6b9f24e63d13f6afac5d"
     },
     {
       "path": "skills/collaborate-figure-layout/README.md",
-      "bytes": 2568,
-      "sha256": "ae6922bca65284bd2093ab3f68844a5f720a989e082976f9b5114a56e7784017"
+      "bytes": 4201,
+      "sha256": "953db471c29a73f89bc34815aa1cd154f6c1785b3139ba9130ef0cb911637b30"
     },
     {
       "path": "skills/collaborate-figure-layout/SKILL.md",
-      "bytes": 27406,
-      "sha256": "2024b130d09f0843073e107364c9df0419912a06c12a83a79c210f90b8293dd2"
+      "bytes": 28155,
+      "sha256": "ae6fc61c0f96287dce7190e388ba24a06b3da7900b7c2ab273b243f53158c02b"
     },
     {
       "path": "skills/collaborate-figure-layout/VERSION",
       "bytes": 6,
-      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
     },
     {
       "path": "skills/collaborate-figure-layout/agents/openai.yaml",
@@ -2262,13 +2262,13 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/aesthetic-review.md",
-      "bytes": 27371,
-      "sha256": "8e4aa779418b0c23e554ada8f2436c0aaaadc2472ce6042376ce95a2073f9ab7"
+      "bytes": 27973,
+      "sha256": "81186bf8406e5e6175f83ef3993bc7df912eda9311d2b0af4e5c36e201a39fac"
     },
     {
       "path": "skills/collaborate-figure-layout/references/alignment-review.md",
-      "bytes": 20940,
-      "sha256": "b22529d6e0c652264aa4f54510e0685687855974c80b4baaa4c0de97a9e61294"
+      "bytes": 22965,
+      "sha256": "e6cf403550a9fa117480ca80fcb539928bb418e4e6b92ae01f32eb5b2f004e1a"
     },
     {
       "path": "skills/collaborate-figure-layout/references/bounded-native-methods.md",
@@ -2291,6 +2291,16 @@
       "sha256": "9d4ce553894a13d08f1a957cc11340f75431a0b164021ba279e597dff1db00e7"
     },
     {
+      "path": "skills/collaborate-figure-layout/references/figure-quality-fixtures.md",
+      "bytes": 6697,
+      "sha256": "28cca0d72a7e74bbc2cdfacb610c1be337deaf684d48cb02e11fbfda464313c5"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/figure-quality-license.txt",
+      "bytes": 1349,
+      "sha256": "3d96eae1092ecefcb7cfc79722976d78bacb7332349c10156911fd65157c4eec"
+    },
+    {
       "path": "skills/collaborate-figure-layout/references/file-exchange.md",
       "bytes": 5766,
       "sha256": "0d6cc4137a2e6ebe4d8000e261a483f0b2e8a25d0e9e02f85cd297b6add89ded"
@@ -2301,9 +2311,14 @@
       "sha256": "280ee5e9268214e2c209b20c2babce787be0fb6aab4f5d891307d95111496d9f"
     },
     {
+      "path": "skills/collaborate-figure-layout/references/observation-checker.md",
+      "bytes": 17173,
+      "sha256": "9d153d9560a65712adef7fd548b4bce278f1248fcf67fbedb742b640cd2c40ee"
+    },
+    {
       "path": "skills/collaborate-figure-layout/references/quality-specification.md",
-      "bytes": 22294,
-      "sha256": "8865f460cf94aace07df112b832fe6f65744084f4761d2ffc6935999dada4eb1"
+      "bytes": 23899,
+      "sha256": "dc8ca2d1ab0d2a451f2a14d0ea411e2f6758f20248395a671a087f6f5a4d62c6"
     },
     {
       "path": "skills/collaborate-figure-layout/references/refinement-routes.md",
@@ -2311,9 +2326,14 @@
       "sha256": "7d449f2e8e7fc8e2dd0f31e65960beb2f2bf524df30edbb4a5b1f5f9fe710933"
     },
     {
+      "path": "skills/collaborate-figure-layout/references/reviewed-external-methods.md",
+      "bytes": 18826,
+      "sha256": "6a84e0d19bf3e6012630d8708847257b68088b9403ce00674919640ff1d06fc2"
+    },
+    {
       "path": "skills/collaborate-figure-layout/references/source-preservation.md",
-      "bytes": 4797,
-      "sha256": "27a15e1c5bc8e624dff77126d78a62f39b580ebc4f1ac81a1875063524c516b5"
+      "bytes": 6287,
+      "sha256": "a18f96e18c12ac86c06af6215b140099e2123076b7974f909d5bf6f27bdd45ca"
     },
     {
       "path": "skills/collaborate-figure-layout/references/style-options.md",
@@ -2322,8 +2342,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/verification-and-delivery.md",
-      "bytes": 6886,
-      "sha256": "8cc9adea0f19962105aaa22c7b433f5b93b18d60cfc1349c15fc0a5bbfe04688"
+      "bytes": 7505,
+      "sha256": "a540ce71f8700d6c1aa2d6ef1c3a6bb05aad8907e463eaa8dd2f54f98b882f3e"
     },
     {
       "path": "skills/collaborate-figure-layout/references/web-layout.md",
@@ -2334,6 +2354,51 @@
       "path": "skills/collaborate-figure-layout/scripts/alignment_guides.py",
       "bytes": 18598,
       "sha256": "9429e9ff325f9981564223455e4a681e6978a479cf58cb88b8ff69cb747d822b"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/figure_observations.schema.json",
+      "bytes": 20257,
+      "sha256": "6171f5a5df1b792477308f11e188a7b33f56cd2f528d315f33d7efbab2fd38f7"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/figure_quality_check.py",
+      "bytes": 30016,
+      "sha256": "2e891e39d18cf3508ca3378484bf656ff62e57390ddfc2a990ea7f68686877b7"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/fixtures/build_inset_control.py",
+      "bytes": 2898,
+      "sha256": "a9076e37ef337142348c819fc89a6e0a0599e8432c2ed1c0ac93fb1ad3d140e4"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/fixtures/export_observations.py",
+      "bytes": 10062,
+      "sha256": "ccef130dec13b5a7e76408a1351cf7e9b06bc1302328d90dc800fce28ec2c6b5"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/fixtures/generate_cases.py",
+      "bytes": 33572,
+      "sha256": "4bbf33db277819fdbaaf101f7526a053f9f3d5c33d05c10a4e0de2e8baa7a0a2"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/fixtures/painted_occlusion.py",
+      "bytes": 4050,
+      "sha256": "7a29c231b748f921ee5ffa9d37067e779397e867c021b7cd37a13eef9b970c55"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/fixtures/test_cases.py",
+      "bytes": 11662,
+      "sha256": "18085f96989a03063f64df345ae0cb34f1197898d529f5ceba92cfbbf3b342aa"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/test_figure_quality_check.py",
+      "bytes": 18341,
+      "sha256": "a58370fb0f86d329a77408625e5971865408e81bfe5f2c2bc7431867b2deed0c"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/figure_quality/test_marker_spacing_regressions.py",
+      "bytes": 17353,
+      "sha256": "3746b75dab94f3f225e515daaed6f42b8e04d139ad56a3cf0fbe579dbb211fc6"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/inspect_pptx.py",

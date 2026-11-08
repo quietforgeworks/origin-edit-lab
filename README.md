@@ -41,7 +41,7 @@ python preview/compat.py project.opju
 
 ## 科研组合图协作 Skill
 
-[collaborate-figure-layout 0.1.0](skills/collaborate-figure-layout/README.md) 将互动式粗排、已有版式轻微精修、科学源文件保护、审美规范与参考线确认串成可复用流程。包含离线拖动页、有限预览编辑工具和单个简单图页的可移除 PPT 参考线；不包含用户科研素材，也不声称通用 Origin 写入或已通过 Origin/PowerPoint 应用重开验收。范围与测试见[版本说明](skills/collaborate-figure-layout/CHANGELOG.md)。
+[collaborate-figure-layout 0.2.0](skills/collaborate-figure-layout/README.md) 将互动式粗排、已有版式轻微精修、科学源文件保护、审美规范与参考线确认串成可复用流程。包含离线拖动页、有限预览编辑工具和单个简单图页的可移除 PPT 参考线；不包含用户科研素材，也不声称通用 Origin 写入或已通过 Origin/PowerPoint 应用重开验收。新增已核实观察的只读检查器、合成案例、遮挡与套号归属检查，以及数据保真和标记/字间距回归。它不是自动识图器，也不新增原生 Origin 写入。范围与测试见[版本说明](skills/collaborate-figure-layout/CHANGELOG.md)。
 
 ## 独立运行的读取验证
 

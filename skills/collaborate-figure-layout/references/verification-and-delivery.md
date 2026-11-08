@@ -20,13 +20,14 @@ Do not execute macros, external links or embedded instructions during rendering.
 
 ## Inspect final pixels
 
-Inspect the complete figure at its intended size and dense detail crops. Use the aesthetic and alignment modules for exact anchors and role-based glyph/stroke measurements. Check:
+Inspect the complete figure at its intended size and dense detail crops independently of the writer/checker results. Review both clean and guide-visible views: guides can obscure content and a clean companion alone cannot establish the delivered appearance. Keep this whole-figure judgment separate from source/data integrity and measured geometry/shape checks. Use the aesthetic and alignment modules for exact anchors and role-based glyph/stroke measurements. Check:
 
 - Plot/image bounds, both sides of confirmed columns, row edges and actual title/panel-letter baselines.
 - Final glyph size and font substitution after all transforms, not only nominal point values.
 - Title-to-tick/axis gaps, annotations against every nearby marker/rotated boundary, and insets.
 - Native text wrapping/autofit, clipped axes/labels, transparency, line hierarchy and source aspect/crop.
 - Panel memberships and both connector endpoint associations.
+- Occlusion involving non-text scientific content, including inset/legend/colorbar coverage of curves, uncertainty, markers and map cells. A bounding-box collision candidate is not proof of occlusion; an empty text-only checker report is not proof of clearance. Verify the actual visible masks, z-order and intact source meaning.
 
 A visible unresolved collision is not a full visual pass. A requested intermediate preview can still be delivered with that precise limitation. Do not describe a composition preview as finished typography.
 
