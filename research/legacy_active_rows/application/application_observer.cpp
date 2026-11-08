@@ -91,13 +91,13 @@ static void observe(){
    for(auto*b:w->findChildren<QPushButton*>())if(b->isEnabled()&&b->text().remove("&")=="OK"){b->click();return;}
  });
  QTimer::singleShot(3200,[]{watchCurve();});
- 
+
  QTimer::singleShot(4500,[]{selectObject("Graph2");});
  QTimer::singleShot(5000,[]{captureUnder("Graph2");recordCurve();});
  QTimer::singleShot(5500,[]{selectObject("Book1");});
  QTimer::singleShot(6000,[]{captureUnder("Book1",true);});
- 
- 
+
+
  QTimer::singleShot(7500,[]{
   for(auto*w:QApplication::topLevelWidgets())if(QString(w->metaObject()->className())=="MainWin"){QMetaObject::invokeMethod(w,"saveProjectAs",Qt::DirectConnection);return;}
  });
