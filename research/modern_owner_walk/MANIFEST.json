@@ -1,0 +1,67 @@
+{
+  "package": "modern-owner-source-only-v2",
+  "license": "MIT (existing repository)",
+  "scope": "Generic read-only owner-chain transport and separate LZ4 block helper; synthetic tests and public-only evidence",
+  "files": {
+    "LICENSE": {
+      "bytes": 1072,
+      "sha256": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884"
+    },
+    "README.md": {
+      "bytes": 4336,
+      "sha256": "ba9b6ff51a78a8a913717f39627f5b37a5cd87ac8ad863c1616dcfdd7d63a438"
+    },
+    "code/lz4_block.py": {
+      "bytes": 1498,
+      "sha256": "e20318c40fc824aacdcd076421efd802578b6c94e265b053bcfbf4cd383f9901"
+    },
+    "code/owner_walk.py": {
+      "bytes": 12650,
+      "sha256": "b7ae97ff5ac699d1d9737404f292a51e10a02c2df00b6bed0135feeecc893404"
+    },
+    "code/sparse_transport.py": {
+      "bytes": 1985,
+      "sha256": "7ac8ecc8025f8c8b700197c1cb4e5bb50a1d808cb9cd28bf2afdc912e06cd80a"
+    },
+    "evidence/lz4-public-summary.json": {
+      "bytes": 1201,
+      "sha256": "1f2a335587828c39c0a831d1a2814c18c6c325c4e7f692bf8d4578e2e0d74e22"
+    },
+    "evidence/package-audit.json": {
+      "bytes": 491,
+      "sha256": "2de2606be37ec855dcebaed0406eb60fc4e65a811be308309988f74df5f568df"
+    },
+    "evidence/public-corpus-counts.json": {
+      "bytes": 38996,
+      "sha256": "1b93721a2cd13351e60bec9c38a4a86f5fd2aff880cc8b3656c2cc9de8d92bed"
+    },
+    "evidence/public-provenance.json": {
+      "bytes": 2457,
+      "sha256": "a912773e630d14adc1ab974552579ca2a53ca20071e835788f795200426f95c9"
+    },
+    "evidence/relocation-normal.log": {
+      "bytes": 5258,
+      "sha256": "11632cd891220586148176ba4e7b511d139c59db2a6f16de0dc0b5880b149110"
+    },
+    "evidence/relocation-optimized.log": {
+      "bytes": 5258,
+      "sha256": "0c70a5ee12979edbda679c011437605531b2691818e4b51cb20fe2e2f13aca6e"
+    },
+    "evidence/tests-normal.log": {
+      "bytes": 5258,
+      "sha256": "ed083abbe09b172785aea0d954fae521554c1978540d2d41c5fa5f55677f2678"
+    },
+    "evidence/tests-optimized.log": {
+      "bytes": 5258,
+      "sha256": "08651c905453aa52dff30f0b241f57b50a1b460660d9d9551f031a5934daf2a5"
+    },
+    "tests/test_lz4_block.py": {
+      "bytes": 2643,
+      "sha256": "17320683030252b443f1986ba82e24be44b5654171c6ed1e329e8caadc63644a"
+    },
+    "tests/test_owner_walk.py": {
+      "bytes": 11360,
+      "sha256": "1b964a8b2037c72732658ddd1e213288481f37248ca50929ba9eadf4172b688d"
+    }
+  }
+}
