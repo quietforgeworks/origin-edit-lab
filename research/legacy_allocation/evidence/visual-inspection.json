@@ -1,0 +1,34 @@
+[
+  {
+    "case": "original",
+    "relative_screenshot": "application/results/original/Graph2/002-window2.png",
+    "screenshot_sha256": "7ace351b8324476a3e13e9b56c02b3d5416c723f7e13062e89cb10d213c66a20",
+    "actual_pixels_inspected": true,
+    "observation": "Original public template random-looking 50-point line-and-square plot.",
+    "scope": "Visual shape/graph presence only; point counts/bits proved separately by actual application APIs and signals."
+  },
+  {
+    "case": "expanded51",
+    "relative_screenshot": "application/results/expanded51/Graph2/002-window2.png",
+    "screenshot_sha256": "0734d058559359335fb43a3c6ed1657e579ce373e665c53efc82836337a3b252",
+    "actual_pixels_inspected": true,
+    "observation": "51-point synthetic two-cycle wave; separated black square points, explicit zero endpoints.",
+    "scope": "Visual shape/graph presence only; point counts/bits proved separately by actual application APIs and signals."
+  },
+  {
+    "case": "expanded257",
+    "relative_screenshot": "application/results/expanded257/Graph2/002-window1.png",
+    "screenshot_sha256": "bb4051613b6370a2d889d63084ef835503772e3fd1ffbf59f19f3ccbf9b243e1",
+    "actual_pixels_inspected": true,
+    "observation": "Dense 257-point synthetic wave with zero at row 50 and final zero point.",
+    "scope": "Visual shape/graph presence only; point counts/bits proved separately by actual application APIs and signals."
+  },
+  {
+    "case": "expanded1024",
+    "relative_screenshot": "application/results/expanded1024/Graph2/002-window2.png",
+    "screenshot_sha256": "e74aa179b0b9cbbedefcf8179293fc2a73c44facd24d5bf9ae62a1eb1c1ca6a2",
+    "actual_pixels_inspected": true,
+    "observation": "Dense 1024-point synthetic wave with preserved large native square markers and zero dips beyond the old boundary.",
+    "scope": "Visual shape/graph presence only; point counts/bits proved separately by actual application APIs and signals."
+  }
+]

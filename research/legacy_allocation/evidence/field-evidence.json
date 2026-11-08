@@ -1,0 +1,127 @@
+{
+  "source_fixture_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+  "source_bytes": 231494,
+  "source_framed_end": 228955,
+  "framed_records": 478,
+  "dataset_entry_count": 25,
+  "local_sequential_record_source": {
+    "file": "OriginAnyParser.cpp",
+    "lines": [
+      [
+        92,
+        94
+      ],
+      [
+        114,
+        122
+      ],
+      [
+        245,
+        280
+      ],
+      [
+        329,
+        391
+      ]
+    ],
+    "meaning": "Runtime file length, zero-terminated dataset list, local length-delimited siblings and position-relative seeks. Not a complete Origin specification."
+  },
+  "known_dataset_rows": {
+    "source": "OriginAnyParser.cpp",
+    "lines": [
+      [
+        1139,
+        1144
+      ],
+      [
+        1222,
+        1224
+      ],
+      [
+        1241,
+        1246
+      ]
+    ],
+    "payload_offsets": {
+      "total": 25,
+      "begin": 29,
+      "end_exclusive": 33
+    },
+    "new_values": "[n,0,n]"
+  },
+  "preserved_global_dataset_ids": {
+    "count": 25,
+    "X": 1,
+    "Y": 2,
+    "source": "OriginAnyParser.cpp",
+    "lines": [
+      [
+        114,
+        114
+      ],
+      [
+        1306,
+        1306
+      ],
+      [
+        2388,
+        2413
+      ]
+    ],
+    "graph_payload_offsets": {
+      "x": 35,
+      "y": 4
+    }
+  },
+  "data_frames": {
+    "source_offsets": [
+      249,
+      906
+    ],
+    "source_payload_bytes": 500,
+    "new_payload_bytes": {
+      "51": 510,
+      "257": 2570,
+      "1024": 10240
+    },
+    "cell_width": 10,
+    "own_prefix_bytes": 4,
+    "framing_newline_preserved": true
+  },
+  "relocations": {
+    "B_header_and_data": "10*(n-50)",
+    "all_bytes_from_source_1412": "20*(n-50)",
+    "unknown_pointer_fields_modified": false
+  },
+  "opaque_property_fields": {
+    "source_frame_offsets": [
+      123513,
+      124015,
+      219404
+    ],
+    "payload_offsets": [
+      7,
+      11
+    ],
+    "preserved_values": [
+      0,
+      50
+    ],
+    "native_semantics_established": false
+  },
+  "quantized_nonapplicable_counterexample": {
+    "revision": "431deeb7c8473503970ca56b78cc1678f57d373d",
+    "writer_header_length": 147,
+    "this_fixture_header_length": 140,
+    "writer_allocation_payload_offset": 6,
+    "this_fixture_values_at_offset_6": [
+      250,
+      65786
+    ],
+    "writer_global_size_payload_offset": 115,
+    "this_fixture_global_payload_bytes": 75,
+    "rules_transplanted": false
+  },
+  "native_safety_blocker": "Origin may depend on retained opaque ranges, offsets or enclosing sizes ignored by this reader; exact semantics and native lifecycle unverified. Default export refuses.",
+  "Origin_acceptance": "NOT_RUN"
+}

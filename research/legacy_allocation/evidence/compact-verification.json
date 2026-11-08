@@ -1,0 +1,257 @@
+[
+  {
+    "case": "expanded51",
+    "active_rows": 51,
+    "allocated_rows": 51,
+    "actual_app_bit_exact_active_values": 102,
+    "actual_app_missing_inactive_values": 0,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "curve_selected_range": [
+      0,
+      50
+    ],
+    "graph_object_unchanged_excluding_uuid_creation_time": true,
+    "graph_source_bindings": {
+      "xColumn": "test_tree_import/Folder1/Book1/A",
+      "yColumn": "test_tree_import/Folder1/Book1/B",
+      "plotRangeIndex": "0",
+      "legendVisible": "1",
+      "visible": "1"
+    },
+    "all_other_app_project_content_unchanged": true,
+    "native_safe_export_supported": false,
+    "excluded_ui_metadata_hashes": {
+      "dockWidgetState": {
+        "original_sha256": "ec8f1fcfccb2a42982b9f2cdb3dce64e74a5d21d5a349e59e1e9362a538998e0",
+        "candidate_sha256": "9b21c1d31d47420706feeb347f362334a24d0ca817fceea4399426bcc88acbac"
+      },
+      "modificationTime": {
+        "original_sha256": "3ae41eeeb610b918bb3ee861b4c3ef58e8a8e457a38551579b73cd292e9b601e",
+        "candidate_sha256": "983f3002424bf9683a130a85356e484d56c5d96a4b01d017002f13598b82880f"
+      },
+      "thumbnail": {
+        "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+        "candidate_sha256": "a776c90a07be7256a03284f7606bed2b0915b14f7b33f0e21114f017a901ccce"
+      }
+    },
+    "object_counts": {
+      "spreadsheet": 6,
+      "folder": 2,
+      "workbook": 2,
+      "matrix": 3,
+      "note": 3,
+      "worksheet": 1,
+      "xyCurve": 1
+    },
+    "app_source_preserved": true,
+    "source_artifact_audit": {
+      "regenerated_source_and_all_artifacts_exact": true,
+      "rollback_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "candidate_sha256": "95e76a8dbc04d79671375c92479c546a9b8387a677de2f35c80074cb8625779e",
+      "application_source_link_verified": true,
+      "preserved_graph_sha256": "e9bb6b64ee536d6f6aaa8129c24e357d0f9a83eb41dfb58e61985638b01f8024",
+      "framed_end": 228975,
+      "allocation": 51
+    },
+    "original_source_artifact_audit": {
+      "source_snapshot_and_hash_exact": true,
+      "template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a"
+    },
+    "saved_column_binary64_matches_actual_API": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection",
+    "Origin_acceptance_reopen_update_recalculate_save": "NOT_RUN",
+    "project_differences": [
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/@rows",
+        "before_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "after_sha256": "031b4af5197ec30a926f48cf40e11a7dbc470048a21e4003b7a3c07c5dab1baa"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()",
+        "before_sha256": "029f6c3321c3b4225ea0a9d9d6b4370024372ae544ce1b50855e65cddbebd0a5",
+        "after_sha256": "4ce66d0082facedad430b2196051bd4b66ec770daa70c3e095bdeb1d27827486"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/@rows",
+        "before_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "after_sha256": "031b4af5197ec30a926f48cf40e11a7dbc470048a21e4003b7a3c07c5dab1baa"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()",
+        "before_sha256": "7a892b9f153e8ce2bbc402f601c8343e8aa86937154feb30c307554e16a38196",
+        "after_sha256": "284d54bcb8c8811ebdf94c28f2db244d7435ebf55835164a2db9e9525465cd31"
+      }
+    ]
+  },
+  {
+    "case": "expanded257",
+    "active_rows": 257,
+    "allocated_rows": 257,
+    "actual_app_bit_exact_active_values": 514,
+    "actual_app_missing_inactive_values": 0,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "curve_selected_range": [
+      0,
+      256
+    ],
+    "graph_object_unchanged_excluding_uuid_creation_time": true,
+    "graph_source_bindings": {
+      "xColumn": "test_tree_import/Folder1/Book1/A",
+      "yColumn": "test_tree_import/Folder1/Book1/B",
+      "plotRangeIndex": "0",
+      "legendVisible": "1",
+      "visible": "1"
+    },
+    "all_other_app_project_content_unchanged": true,
+    "native_safe_export_supported": false,
+    "excluded_ui_metadata_hashes": {
+      "dockWidgetState": {
+        "original_sha256": "ec8f1fcfccb2a42982b9f2cdb3dce64e74a5d21d5a349e59e1e9362a538998e0",
+        "candidate_sha256": "e2b8cf2525537a469d8dc6f84516919c40feb89e31586da96e4107f817212828"
+      },
+      "modificationTime": {
+        "original_sha256": "3ae41eeeb610b918bb3ee861b4c3ef58e8a8e457a38551579b73cd292e9b601e",
+        "candidate_sha256": "ef26f1ab2facb1a0e4f0585733a40b8e397c4f25b38338046c9dd0627ced2664"
+      },
+      "thumbnail": {
+        "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+        "candidate_sha256": "4c4b3bfd1456fd0d78ce01b86934416b2c27ba42c216a4c2688bac8269a48767"
+      }
+    },
+    "object_counts": {
+      "spreadsheet": 6,
+      "folder": 2,
+      "workbook": 2,
+      "matrix": 3,
+      "note": 3,
+      "worksheet": 1,
+      "xyCurve": 1
+    },
+    "app_source_preserved": true,
+    "source_artifact_audit": {
+      "regenerated_source_and_all_artifacts_exact": true,
+      "rollback_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "candidate_sha256": "652f7758eceae81740850e132bdc44b58999a48843454562837dbdab7ad9a666",
+      "application_source_link_verified": true,
+      "preserved_graph_sha256": "e9bb6b64ee536d6f6aaa8129c24e357d0f9a83eb41dfb58e61985638b01f8024",
+      "framed_end": 233095,
+      "allocation": 257
+    },
+    "original_source_artifact_audit": {
+      "source_snapshot_and_hash_exact": true,
+      "template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a"
+    },
+    "saved_column_binary64_matches_actual_API": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection",
+    "Origin_acceptance_reopen_update_recalculate_save": "NOT_RUN",
+    "project_differences": [
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/@rows",
+        "before_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "after_sha256": "4c970004b0678d439f177e77d3cabdb7e9a44df770948ddc2467cbc76b7211c3"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()",
+        "before_sha256": "029f6c3321c3b4225ea0a9d9d6b4370024372ae544ce1b50855e65cddbebd0a5",
+        "after_sha256": "fd11705f1bcfbf02b56fb8cd0a0a30ac836e26a6bdf58ff5cb1b802be1527378"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/@rows",
+        "before_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "after_sha256": "4c970004b0678d439f177e77d3cabdb7e9a44df770948ddc2467cbc76b7211c3"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()",
+        "before_sha256": "7a892b9f153e8ce2bbc402f601c8343e8aa86937154feb30c307554e16a38196",
+        "after_sha256": "61baea63fff1ad77b55b9ea610be5eecdb0a4b9af590816a4106c175bc5b1986"
+      }
+    ]
+  },
+  {
+    "case": "expanded1024",
+    "active_rows": 1024,
+    "allocated_rows": 1024,
+    "actual_app_bit_exact_active_values": 2048,
+    "actual_app_missing_inactive_values": 0,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "curve_selected_range": [
+      0,
+      1023
+    ],
+    "graph_object_unchanged_excluding_uuid_creation_time": true,
+    "graph_source_bindings": {
+      "xColumn": "test_tree_import/Folder1/Book1/A",
+      "yColumn": "test_tree_import/Folder1/Book1/B",
+      "plotRangeIndex": "0",
+      "legendVisible": "1",
+      "visible": "1"
+    },
+    "all_other_app_project_content_unchanged": true,
+    "native_safe_export_supported": false,
+    "excluded_ui_metadata_hashes": {
+      "dockWidgetState": {
+        "original_sha256": "ec8f1fcfccb2a42982b9f2cdb3dce64e74a5d21d5a349e59e1e9362a538998e0",
+        "candidate_sha256": "73412dc931db92e21660c63968fefbc3b01b974eb5b4e6df674639713181b54f"
+      },
+      "modificationTime": {
+        "original_sha256": "3ae41eeeb610b918bb3ee861b4c3ef58e8a8e457a38551579b73cd292e9b601e",
+        "candidate_sha256": "0005fcda891373389cef8fb1c4745154039f50b090358e57b004571f5e30a18b"
+      },
+      "thumbnail": {
+        "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+        "candidate_sha256": "2bfd20ecc4a51d9fb9ea04aad8c7a51fa9b4ea54f6d1469fd7bc52480ffcf012"
+      }
+    },
+    "object_counts": {
+      "spreadsheet": 6,
+      "folder": 2,
+      "workbook": 2,
+      "matrix": 3,
+      "note": 3,
+      "worksheet": 1,
+      "xyCurve": 1
+    },
+    "app_source_preserved": true,
+    "source_artifact_audit": {
+      "regenerated_source_and_all_artifacts_exact": true,
+      "rollback_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "candidate_sha256": "799cc39149fd7eca0a24b1a8c427fdc7bc614e0016adcfa0eb24ec3a816b21fe",
+      "application_source_link_verified": true,
+      "preserved_graph_sha256": "e9bb6b64ee536d6f6aaa8129c24e357d0f9a83eb41dfb58e61985638b01f8024",
+      "framed_end": 248435,
+      "allocation": 1024
+    },
+    "original_source_artifact_audit": {
+      "source_snapshot_and_hash_exact": true,
+      "template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a"
+    },
+    "saved_column_binary64_matches_actual_API": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection",
+    "Origin_acceptance_reopen_update_recalculate_save": "NOT_RUN",
+    "project_differences": [
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/@rows",
+        "before_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "after_sha256": "e39eef82f61b21e2e7f762fcc4307358f165757f2e77ec855d6992f7e0191932"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()",
+        "before_sha256": "029f6c3321c3b4225ea0a9d9d6b4370024372ae544ce1b50855e65cddbebd0a5",
+        "after_sha256": "3251909962c1cb1cd5b9a5b43c0b09cea5d7aefb606ae6e4f3fcf1b0e3360529"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/@rows",
+        "before_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "after_sha256": "e39eef82f61b21e2e7f762fcc4307358f165757f2e77ec855d6992f7e0191932"
+      },
+      {
+        "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()",
+        "before_sha256": "7a892b9f153e8ce2bbc402f601c8343e8aa86937154feb30c307554e16a38196",
+        "after_sha256": "b861efbfa3ca3620d6d1b25d8fdb4ba5f96e098291854c8e4ddb32f29b93c0fe"
+      }
+    ]
+  }
+]

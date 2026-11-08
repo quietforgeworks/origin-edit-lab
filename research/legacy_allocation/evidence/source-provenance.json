@@ -1,0 +1,61 @@
+{
+  "official_LabPlot_version": "2.12.1",
+  "official_source_url": "https://download.kde.org/stable/labplot/labplot-2.12.1.tar.xz",
+  "fixture_source_url": "https://github.com/KDE/labplot/blob/0bd2e4094e92e74052ec161022d4e60aeb7605cd/tests/import_export/Project/data/origin8_test_tree_import.opj",
+  "fixture_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+  "quantized_revision_inspected": "431deeb7c8473503970ca56b78cc1678f57d373d",
+  "quantized_executed": false,
+  "new_upstream_software_executed": false,
+  "files": {
+    "official_appimage": {
+      "bytes": 398416376,
+      "sha256": "1b700d60b3297a987022cfc532e413b8211ef917059a21155d8b5604f3012a82"
+    },
+    "official_executable": {
+      "bytes": 13910504,
+      "sha256": "c11d801f47329fcd69b03c8f6acf5a5f8f74a9dc6a2f3bbdaa32293804e17554"
+    },
+    "official_bundled_library": {
+      "bytes": 7702552,
+      "sha256": "81d571e53b9dfb793f07cbbb9307d418391103ae7c8679a36284d12422e10fbf"
+    },
+    "official_source_archive": {
+      "bytes": 23900436,
+      "sha256": "e28155bfddf40e5b6f7c4791313556d1e48138044f216f210d515b9f6d6c106a"
+    },
+    "authored_observer_source": {
+      "bytes": 8973,
+      "sha256": "f5625466d4f3f3d70ace0dacf331497263792715c64049b18260045489e7add5"
+    },
+    "authored_curve_observation_source": {
+      "bytes": 3606,
+      "sha256": "fca6369a3aed2278962f67ffc3a2e972c698644b02cea4df803159e261816a20"
+    },
+    "authored_observer_binary": {
+      "bytes": 429832,
+      "sha256": "3c4df197b6c6c960a44d31bf3f1a704580d63ba119ea927881c02925f2b7aa2a"
+    },
+    "quantized_writer_blocks.py_inspected": {
+      "bytes": 12294,
+      "sha256": "9b88405e8bc8344ee1cec78aedc024d66b05e2ef0b18fc804282f136d075ff72"
+    },
+    "OriginAnyParser.cpp": {
+      "bytes": 122886,
+      "sha256": "b43d1fbf3b70fd135188dcd12838c83b0886dc3444dbc63b086183e09f53d611"
+    },
+    "OriginProjectParser.cpp": {
+      "bytes": 137155,
+      "sha256": "8ef24fc0263a354d873b227fff2b6e556965d5b41a67d7ef88840d67255270ac"
+    },
+    "XYCurve.cpp": {
+      "bytes": 115788,
+      "sha256": "7f97cc88d3fdc119101886c1db0fed69ae08ab52534af8477438dff220c16b08"
+    }
+  },
+  "phase": "Boundary-based allocation 51/257/1024, LabPlot-only experiment",
+  "official_artifact_hashes_rechecked": true,
+  "official_source_files_match_archive_members": true,
+  "no_new_downloads_or_unknown_software": true,
+  "observer_contains_Origin_parser": false,
+  "observer_source_difference_from_prior_author_copy": "Published source removed trailing whitespace on three blank lines; compiled observer SHA-256 remains identical."
+}
