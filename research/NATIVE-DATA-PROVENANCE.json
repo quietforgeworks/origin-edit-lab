@@ -1,0 +1,1140 @@
+{
+  "schema": "native-data-public-provenance-v1",
+  "public_template": {
+    "url": "https://github.com/KDE/labplot/blob/0bd2e4094e92e74052ec161022d4e60aeb7605cd/tests/import_export/Project/data/origin8_test_tree_import.opj",
+    "sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+    "included": false,
+    "role": "Only original native template for the six cases below; public external KDE fixture, not user data."
+  },
+  "declarations": {
+    "inputs/synthetic-declaration.json": "Generated stress-example provenance; no measurements.",
+    "inputs/measured-declaration-example.json": "Schema example only. No actual case claims measured data; no user measurements are included. Its statement is not independent verification."
+  },
+  "cases": [
+    {
+      "case": "curves2",
+      "branch": "legacy_multicurve",
+      "curves": 2,
+      "rows_per_curve": 50,
+      "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+      "raw_input_bytes": 4169,
+      "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218",
+      "native_candidate_bytes": 234416,
+      "generated_by": "legacy_multicurve/make_cases.py:raw_for",
+      "input_origin": "Project-authored deterministic Decimal arithmetic. All X/Y numbers are synthetic demonstrations, not measured data.",
+      "reproduction": "verify_native_data_provenance.py --fixture EXACT_PUBLIC_FIXTURE",
+      "historical_application": "official LabPlot 2.12.1; original plus candidate; recorded independent rerun; not rerun during packaging",
+      "origin_lifecycle": "NOT_RUN"
+    },
+    {
+      "case": "curves5",
+      "branch": "legacy_multicurve",
+      "curves": 5,
+      "rows_per_curve": 50,
+      "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+      "raw_input_bytes": 10286,
+      "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9",
+      "native_candidate_bytes": 243182,
+      "generated_by": "legacy_multicurve/make_cases.py:raw_for",
+      "input_origin": "Project-authored deterministic Decimal arithmetic. All X/Y numbers are synthetic demonstrations, not measured data.",
+      "reproduction": "verify_native_data_provenance.py --fixture EXACT_PUBLIC_FIXTURE",
+      "historical_application": "official LabPlot 2.12.1; original plus candidate; recorded independent rerun; not rerun during packaging",
+      "origin_lifecycle": "NOT_RUN"
+    },
+    {
+      "case": "curves10",
+      "branch": "legacy_multicurve",
+      "curves": 10,
+      "rows_per_curve": 50,
+      "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+      "raw_input_bytes": 20481,
+      "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba",
+      "native_candidate_bytes": 257792,
+      "generated_by": "legacy_multicurve/make_cases.py:raw_for",
+      "input_origin": "Project-authored deterministic Decimal arithmetic. All X/Y numbers are synthetic demonstrations, not measured data.",
+      "reproduction": "verify_native_data_provenance.py --fixture EXACT_PUBLIC_FIXTURE",
+      "historical_application": "official LabPlot 2.12.1; original plus candidate; recorded independent rerun; not rerun during packaging",
+      "origin_lifecycle": "NOT_RUN"
+    },
+    {
+      "case": "custom7",
+      "branch": "legacy_custom_data",
+      "curves": 1,
+      "rows": 7,
+      "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+      "raw_input_bytes": 247,
+      "declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+      "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7",
+      "native_candidate_bytes": 231494,
+      "input_path": "inputs/custom7.csv",
+      "generated_by": "legacy_custom_data/tests/test_custom.py:csv_bytes and provenance",
+      "input_origin": "Project-authored fixed numerical stress literals plus modular arithmetic, with CRLF/quotes. All numbers are synthetic demonstrations, not measured data.",
+      "historical_application": "official LabPlot 2.12.1; original plus candidate; recorded author run independently revalidated; no fresh reviewer or packaging app run",
+      "origin_lifecycle": "NOT_RUN"
+    },
+    {
+      "case": "custom49",
+      "branch": "legacy_custom_data",
+      "curves": 1,
+      "rows": 49,
+      "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+      "raw_input_bytes": 865,
+      "declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+      "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa",
+      "native_candidate_bytes": 231494,
+      "input_path": "inputs/custom49.csv",
+      "generated_by": "legacy_custom_data/tests/test_custom.py:csv_bytes and provenance",
+      "input_origin": "Project-authored fixed numerical stress literals plus modular arithmetic, with CRLF/quotes. All numbers are synthetic demonstrations, not measured data.",
+      "historical_application": "official LabPlot 2.12.1; original plus candidate; recorded author run independently revalidated; no fresh reviewer or packaging app run",
+      "origin_lifecycle": "NOT_RUN"
+    },
+    {
+      "case": "custom50",
+      "branch": "legacy_custom_data",
+      "curves": 1,
+      "rows": 50,
+      "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+      "raw_input_bytes": 880,
+      "declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+      "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0",
+      "native_candidate_bytes": 231494,
+      "input_path": "inputs/custom50.csv",
+      "generated_by": "legacy_custom_data/tests/test_custom.py:csv_bytes and provenance",
+      "input_origin": "Project-authored fixed numerical stress literals plus modular arithmetic, with CRLF/quotes. All numbers are synthetic demonstrations, not measured data.",
+      "historical_application": "official LabPlot 2.12.1; original plus candidate; recorded author run independently revalidated; no fresh reviewer or packaging app run",
+      "origin_lifecycle": "NOT_RUN"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "legacy_multicurve/evidence/final-application-curves10.json",
+      "sha256": "5964bd47d91f4b9e1e7a4b0bd5eb618326736dc84edf79c1eeaf91eb52857adb",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/evidence/final-application-curves2.json",
+      "sha256": "048088462d4517b23d0644c9e8a3260f31a342ec6568e0a6ffec19d7f5a1278b",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "curves2"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/evidence/final-application-curves5.json",
+      "sha256": "2f4318289844981a97a1dca9e773dad218a610d098d6897a523942e95dad297a",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "curves5"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/evidence/source-provenance.json",
+      "sha256": "1cd8b52a5d018acafd16a5eadbbd80470092330f24b77b8f135594649855f282",
+      "kind": "public dependency provenance",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/evidence/tests-normal.log",
+      "sha256": "b815ec8580191122c551b51490a57ff688ef6e4305753bdc59509b233c78ca4a",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/evidence/tests-optimized.log",
+      "sha256": "b7bb1ee43f7150d852848778c64828ae21323a6fcaa4e6c8aa52598a4378dccf",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/evidence/tests-source-only-optimized.log",
+      "sha256": "5653510eaf3f2844af68d4a7841c61e712a61a013e4e6ca96a4623a2ce061c05",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_multicurve/evidence/tests-source-only.log",
+      "sha256": "4695c2af24536023d9ddf6604db2eede798fbb552f957093395e2f98fb99e29d",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_multicurve/evidence/visual-inspection.json",
+      "sha256": "4695b72eb47188612c64e0de4d1729366e70741cd737a71ac894e9f8ffca6b4e",
+      "kind": "historical textual visual observation, no screenshot pixels",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/REVIEW.md",
+      "sha256": "e6063dbec3350b62b30bb8515ebd38dd3a8a65007bbef8a2ebc18833f416eb01",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/author-source-inventory.json",
+      "sha256": "e531261e34f48ba3841020822b48e42787fe57bf8885d61bdef2f8c7cac48c26",
+      "kind": "historical source inventory; no application run",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/final-tests-normal.log",
+      "sha256": "a4ffc3b2db4339a6d70f08a39a7efd221fcdbf9e23644e5d47daa0356feca4eb",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/final-tests-optimized.log",
+      "sha256": "5757dbd8bf5bfb2d2b1c774fe2fb7c19e1a702b4fa5bd32f87d045f20c0a1199",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/independent-final-optimized.log",
+      "sha256": "9ec0f4fc6097fc03e380e132af40727c6f6ba541cc736b864f7811af9e30b075",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/independent-final.json",
+      "sha256": "9ec0f4fc6097fc03e380e132af40727c6f6ba541cc736b864f7811af9e30b075",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/independent-final.log",
+      "sha256": "9ec0f4fc6097fc03e380e132af40727c6f6ba541cc736b864f7811af9e30b075",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/independent-guards-normal.log",
+      "sha256": "3c3d1af2d8ad0ed8f1c64c770fb6b83a197930d17b757ff9c151b207ef5cff7c",
+      "kind": "historical independent native/API guard tests, not application execution",
+      "related_cases": [
+        "curves2"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/independent-guards-optimized.log",
+      "sha256": "d5c51483476dc2a65c50eb135a6d596de0b59a1caae2aa808aeab84ef4c65b9c",
+      "kind": "historical independent native/API guard tests, not application execution",
+      "related_cases": [
+        "curves2"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/independent-visual-check.json",
+      "sha256": "59c133c0771e8bbca9c06fda755ec7c8f7e25268900b6b371a0c8c27d0844bcd",
+      "kind": "historical textual visual observation, no screenshot pixels",
+      "related_cases": [
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/initial-wrapper-prewrite.json",
+      "sha256": "a799952c11bf379199220c7c70a82229c14c822816b89d60ac013ffcd8d6c8b2",
+      "kind": "historical pre-fix failure reproduction for the synthetic wrapper; not a current failure or application run",
+      "related_cases": [
+        "curves2"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/rebuilt-runtime-hashes.json",
+      "sha256": "33119fed1491c7d92e33339cee61708584c479281c5c0494ee7ee9eebb393f9d",
+      "kind": "public dependency provenance",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/source-only-normal.log",
+      "sha256": "115cb1214ca9c23fca4c028f3ab727c594e6bebd9f48f16fafa284ed9296ad25",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/source-only-optimized.log",
+      "sha256": "09a03385cd3a949dd9370f4328c89a34fda65737b52a4d725600362a0b0242f7",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_multicurve/review/evidence/source-provenance.json",
+      "sha256": "8a33f663dbeaab4c2ec3b4561d7022d16214720002353a5dc3f5bd5ab7278ad6",
+      "kind": "public dependency provenance",
+      "related_cases": [
+        "curves2",
+        "curves5",
+        "curves10"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "curves2",
+          "raw_input_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+          "native_candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218"
+        },
+        {
+          "case": "curves5",
+          "raw_input_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+          "native_candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9"
+        },
+        {
+          "case": "curves10",
+          "raw_input_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+          "native_candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified49-normal.json",
+      "sha256": "6ece66d31bc738163ba7e1eecabb9e5d7925783dc17420300738936e93457696",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom49"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified49-optimized.json",
+      "sha256": "6ece66d31bc738163ba7e1eecabb9e5d7925783dc17420300738936e93457696",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom49"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified49.json",
+      "sha256": "6ece66d31bc738163ba7e1eecabb9e5d7925783dc17420300738936e93457696",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom49"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified50-normal.json",
+      "sha256": "9c8e3854689c7d98316b2ee1ed9425db0ff92d34fd414ff070ec8c3a6a511db8",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified50-optimized.json",
+      "sha256": "9c8e3854689c7d98316b2ee1ed9425db0ff92d34fd414ff070ec8c3a6a511db8",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified50.json",
+      "sha256": "9c8e3854689c7d98316b2ee1ed9425db0ff92d34fd414ff070ec8c3a6a511db8",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified7-normal.json",
+      "sha256": "851fbd9302d309870ddac578a4f8c9defab2c44204ff165f00990bcf135597a9",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom7"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified7-optimized.json",
+      "sha256": "851fbd9302d309870ddac578a4f8c9defab2c44204ff165f00990bcf135597a9",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom7"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/application-verified7.json",
+      "sha256": "851fbd9302d309870ddac578a4f8c9defab2c44204ff165f00990bcf135597a9",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom7"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/generation-custom49.json",
+      "sha256": "980da0c384c4c681a4e533c91d7eb7c135351bb39fa02d72cf9ae56e3cc6997e",
+      "kind": "historical native source-integrity result; not an application observation",
+      "related_cases": [
+        "custom49"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/generation-custom50.json",
+      "sha256": "00b695572c2a15cc5b1e41a80beca4d325d1ceb6b7f895f69ff21222ba5a6382",
+      "kind": "historical native source-integrity result; not an application observation",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/generation-custom7.json",
+      "sha256": "5800cb1da537904c3514f85544f4a39e87d230a2f42103a2100e853449c405b7",
+      "kind": "historical native source-integrity result; not an application observation",
+      "related_cases": [
+        "custom7"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/observation-run49.json",
+      "sha256": "7d52c0fc22b598721a9eca4305bee4cbece3e5d5a4e56de8c865d0cf35fad9f2",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom49"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/observation-run50.json",
+      "sha256": "443c15974008823db772aa4dc9b481c11cde132ec4513e3c1be5c5f67717cb2d",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/observation-run7.json",
+      "sha256": "f8f00b43a9eed8790b7c4bb56cd93fb5fe7b65998da53e3bb913ee35d7f7a444",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom7"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/observation-tests-normal.log",
+      "sha256": "a80e49dfc6e0208e0e2c29c3e968b149775b975b4f7b3aacd1b3b8ae44bd1074",
+      "kind": "historical custom50 application-observation adversarial tests; no fresh application launch",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/observation-tests-optimized.log",
+      "sha256": "88023abeb34dcf706f2932aad03395af3658bc69d7dbd168f866b1006f6b1095",
+      "kind": "historical custom50 application-observation adversarial tests; no fresh application launch",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/source-audit-tests-normal.log",
+      "sha256": "388eb66f22fec300a5d4f8f66489bb493ecb43ebcec3940822711567a1119d0f",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_custom_data/evidence/source-audit-tests-optimized.log",
+      "sha256": "5b13f08c1fc648f76ad3c00416420b375d7dacf50c718d956809e076c5bf2558",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_custom_data/evidence/tests-normal.log",
+      "sha256": "8a00c191f89454cc7671537e16be8b1c4a4cb96d9a2083a81c306937d2f8aa41",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "custom7",
+        "custom49",
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        },
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        },
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/tests-optimized.log",
+      "sha256": "fdd73ca6bb30fd6a70160cd1fa72fd07b1fca5ebaf8d9bc322c57eb6af2d01b0",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "custom7",
+        "custom49",
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        },
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        },
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/evidence/visual-inspection.json",
+      "sha256": "90d672495b5807dd47c62d2c718fb43ddbbebbaf230caa8c62f0595aaa8908d1",
+      "kind": "historical textual visual observation, no screenshot pixels",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/HISTORICAL-SOURCE-MANIFEST.json",
+      "sha256": "3b56217e1b537a61bcc6726b7110114bde0ecfe40d83fc0acb48000b6ef94645",
+      "kind": "historical source inventory; no application run",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_custom_data/review/REVIEW.md",
+      "sha256": "c7b5f7e5fc7a42e93d3cd096e4f6a9adc3764e81a128445c0acdb6f94d17eefa",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom7",
+        "custom49",
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        },
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        },
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/custom-normal.log",
+      "sha256": "554a31aa7350de436574b9cba8ad5f3fc1bddfd1f136a821e9da1d365d04a92e",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "custom7",
+        "custom49",
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        },
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        },
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/custom-optimized.log",
+      "sha256": "4bfe790f1b44e4a13f1acac339609cf4421fcacf29833ead53d313d9a3c5fbd7",
+      "kind": "historical test/check transcript, not raw application log",
+      "related_cases": [
+        "custom7",
+        "custom49",
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        },
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        },
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/final-source-audit.json",
+      "sha256": "18508ddae9de9294facbfd7b0abce4bab638601621d61a6d686852c3858b047c",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_custom_data/review/independent-app-revalidation.json",
+      "sha256": "ae6c6cce83a3eb604e091e8c09788ae3b3fccb19cb0552e09ab2739337ba4acb",
+      "kind": "historical compact application/native review evidence",
+      "related_cases": [
+        "custom7",
+        "custom49",
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom7",
+          "raw_input_sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+          "native_candidate_sha256": "40337f17aff726cf91a7b40728924eea196c64ce06617b09df4bd7d4f0989ff7"
+        },
+        {
+          "case": "custom49",
+          "raw_input_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+          "native_candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+        },
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/observation-normal.log",
+      "sha256": "c6d2e745b6674a7461ba379d03b67d55b5f3451b865bc637484257d429d5fae6",
+      "kind": "historical custom50 application-observation adversarial tests; no fresh application launch",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/observation-optimized.log",
+      "sha256": "0f053ac8fc5d2bdb2f9d683522f349ed48e2260b3ad81290603338ee93102cc2",
+      "kind": "historical custom50 application-observation adversarial tests; no fresh application launch",
+      "related_cases": [
+        "custom50"
+      ],
+      "public_template_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+      "case_anchors": [
+        {
+          "case": "custom50",
+          "raw_input_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+          "native_candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0"
+        }
+      ]
+    },
+    {
+      "path": "legacy_custom_data/review/source-normal.log",
+      "sha256": "be9cf5a477f5abf725b2a04e95499f7f19c4d2729b11613c10b91c601227460c",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    },
+    {
+      "path": "legacy_custom_data/review/source-optimized.log",
+      "sha256": "7c6c8c5ba9bfb2e5ca6de2544f2cc8a7d656ee1b0e809be0a06a49853b85e61f",
+      "kind": "historical source-only tests/audit, not application execution",
+      "related_cases": [],
+      "public_template_sha256": null,
+      "case_anchors": []
+    }
+  ],
+  "limits": [
+    "Historical compact reports and test logs are not fresh application reruns or cryptographic execution attestations.",
+    "Application artifacts and screenshot pixels are excluded. Metadata hashes refer to public-template/synthetic-case application runs.",
+    "The raw input and native candidate hashes were independently regenerated during source packaging.",
+    "Origin lifecycle remains NOT_RUN; native-safe export is unsupported."
+  ]
+}

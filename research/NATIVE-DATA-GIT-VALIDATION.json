@@ -1,0 +1,69 @@
+{
+  "schema": "native-data-git-byte-fidelity-check-v1",
+  "baseline_commit": "6248921dd7d6399ab5ac282820520c3c86dbc311",
+  "method": "Isolated temporary Git repository and real index; no global Git configuration changes; command-local core.autocrlf=true; negative controls modify only temporary indexed blobs.",
+  "git_version": "git version 2.52.0",
+  "status": "PASS",
+  "cached_diff_check": "PASS",
+  "files": [
+    {
+      "path": "research/legacy_custom_data/inputs/custom7.csv",
+      "bytes": 247,
+      "sha256": "c3a01dae456b5fad0e7fc3d35bce507f4872e9f1178f803c200e71b1cf1f5317",
+      "CRLF_lines": 8,
+      "indexed_bytes_exact": true,
+      "attributes": {
+        "text": "unset",
+        "whitespace": "blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol"
+      }
+    },
+    {
+      "path": "research/legacy_custom_data/inputs/custom49.csv",
+      "bytes": 865,
+      "sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+      "CRLF_lines": 50,
+      "indexed_bytes_exact": true,
+      "attributes": {
+        "text": "unset",
+        "whitespace": "blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol"
+      }
+    },
+    {
+      "path": "research/legacy_custom_data/inputs/custom50.csv",
+      "bytes": 880,
+      "sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+      "CRLF_lines": 51,
+      "indexed_bytes_exact": true,
+      "attributes": {
+        "text": "unset",
+        "whitespace": "blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol"
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "trailing-space",
+      "expected_rejection_observed": true,
+      "git_exit_status": 2
+    },
+    {
+      "name": "blank-at-eof",
+      "expected_rejection_observed": true,
+      "git_exit_status": 2
+    },
+    {
+      "name": "space-before-tab",
+      "expected_rejection_observed": true,
+      "git_exit_status": 2
+    },
+    {
+      "name": "unlisted-CSV-CRLF-no-exemption",
+      "expected_rejection_observed": true,
+      "git_exit_status": 2
+    }
+  ],
+  "scope": "Exactly three named synthetic CSV fixtures; no global wildcard or repository-wide whitespace relaxation.",
+  "source_csv_files_modified": false,
+  "scientific_modules_modified": false,
+  "publication_performed": false
+}

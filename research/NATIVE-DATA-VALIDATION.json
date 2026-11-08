@@ -1,0 +1,309 @@
+{
+  "schema": "native-data-source-package-validation-v1",
+  "baseline_commit": "6248921dd7d6399ab5ac282820520c3c86dbc311",
+  "environment": {
+    "platform": "Linux",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "lxml": "6.1.1",
+    "Pillow": "13.0.0",
+    "optional_system_liblz4_test": "PASS"
+  },
+  "source_only_per_mode": {
+    "discovered": 560,
+    "passed": 357,
+    "skipped": 203,
+    "failed": 0
+  },
+  "baseline_per_mode": {
+    "discovered": 467,
+    "passed": 328,
+    "skipped": 139
+  },
+  "added_per_mode": {
+    "discovered": 93,
+    "passed": 29,
+    "skipped": 64,
+    "distinct_test_ids": 93,
+    "duplicate_test_ids": []
+  },
+  "suites": [
+    {
+      "suite": "preview",
+      "discovered": 118,
+      "passed": 116,
+      "skipped": 2,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "native",
+      "discovered": 72,
+      "passed": 14,
+      "skipped": 58,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "ropj_readback",
+      "discovered": 25,
+      "passed": 24,
+      "skipped": 1,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "legacy_style_fields",
+      "discovered": 47,
+      "passed": 33,
+      "skipped": 14,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "legacy_active_rows",
+      "discovered": 64,
+      "passed": 32,
+      "skipped": 32,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "modern_binding_diagnostics",
+      "discovered": 33,
+      "passed": 32,
+      "skipped": 1,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "modern_owner_walk",
+      "discovered": 49,
+      "passed": 49,
+      "skipped": 0,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "legacy_allocation",
+      "discovered": 59,
+      "passed": 28,
+      "skipped": 31,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "unchanged baseline suite"
+    },
+    {
+      "suite": "legacy_multicurve_author",
+      "discovered": 48,
+      "passed": 16,
+      "skipped": 32,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "added source-only suite",
+      "test_ids": [
+        "test_app_verifier.VerifierAttacks.test_api_duplicate_cell",
+        "test_app_verifier.VerifierAttacks.test_bad_rendered_pair",
+        "test_app_verifier.VerifierAttacks.test_dropped_source_row",
+        "test_app_verifier.VerifierAttacks.test_duplicate_y_identity",
+        "test_app_verifier.VerifierAttacks.test_expected_column_tail_mutation",
+        "test_app_verifier.VerifierAttacks.test_masked_row",
+        "test_app_verifier.VerifierAttacks.test_new_column_mutation",
+        "test_app_verifier.VerifierAttacks.test_new_style_mutation",
+        "test_app_verifier.VerifierAttacks.test_no_curve",
+        "test_app_verifier.VerifierAttacks.test_no_emission",
+        "test_app_verifier.VerifierAttacks.test_saved_bit_loss",
+        "test_app_verifier.VerifierAttacks.test_saved_wrong_x",
+        "test_app_verifier.VerifierAttacks.test_snapshot_mutation",
+        "test_app_verifier.VerifierAttacks.test_unrelated_mutation",
+        "test_app_verifier.VerifierAttacks.test_unrelated_whitespace_tail_mutation",
+        "test_app_verifier.VerifierAttacks.test_unrelated_whitespace_text_mutation",
+        "test_app_verifier.VerifierAttacks.test_untouched",
+        "test_app_verifier.VerifierAttacks.test_wrong_x_identity",
+        "test_app_verifier.VerifierAttacks.test_wrong_x_values",
+        "test_multicurve.Inputs.test_boolean",
+        "test_multicurve.Inputs.test_duplicate_ids",
+        "test_multicurve.Inputs.test_duplicate_key",
+        "test_multicurve.Inputs.test_explicit_bindings",
+        "test_multicurve.Inputs.test_measurement_claim",
+        "test_multicurve.Inputs.test_missing_pair",
+        "test_multicurve.Inputs.test_missing_x",
+        "test_multicurve.Inputs.test_native_safe_default",
+        "test_multicurve.Inputs.test_no_extra_input",
+        "test_multicurve.Inputs.test_nonnumeric_json",
+        "test_multicurve.Inputs.test_parent_traversal",
+        "test_multicurve.Inputs.test_signed_zero_and_raw_rounding",
+        "test_multicurve.Inputs.test_symlink_and_fifo",
+        "test_multicurve.Inputs.test_unequal",
+        "test_multicurve.Inputs.test_wrapper_native_safe_default",
+        "test_multicurve.Inputs.test_wrong_sheet",
+        "test_multicurve.Native.test_defaults_do_not_touch_disk",
+        "test_multicurve.Native.test_export_and_overwrite",
+        "test_multicurve.Native.test_grammar",
+        "test_multicurve.Native.test_hash_guard",
+        "test_multicurve.Native.test_patch_all",
+        "test_multicurve.Native.test_truncated_frame",
+        "test_multicurve.Native.test_wrapper_bad_template_prewrite",
+        "test_multicurve.Native.test_wrapper_exclusive_raw_race",
+        "test_multicurve.Native.test_wrapper_existing_destination_prewrite",
+        "test_multicurve.Native.test_wrapper_failed_generate_rolls_back",
+        "test_multicurve.Native.test_wrapper_output_race",
+        "test_multicurve.Native.test_wrapper_symlink_destination_prewrite",
+        "test_multicurve.Native.test_wrong_curve_ids"
+      ]
+    },
+    {
+      "suite": "legacy_custom_data_bridge",
+      "discovered": 22,
+      "passed": 3,
+      "skipped": 19,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "added source-only suite",
+      "test_ids": [
+        "reviewed_custom_tests.CustomTests.test_all_shapes_and_full_ledger",
+        "reviewed_custom_tests.CustomTests.test_anchors_and_coordinated_source_substitution",
+        "reviewed_custom_tests.CustomTests.test_atomic_publish_race_and_interruption",
+        "reviewed_custom_tests.CustomTests.test_declaration_strict_schema",
+        "reviewed_custom_tests.CustomTests.test_each_artifact_tamper_all_shapes",
+        "reviewed_custom_tests.CustomTests.test_every_active_cell_tamper_all_shapes",
+        "reviewed_custom_tests.CustomTests.test_generate_verify_recover_filesystem",
+        "reviewed_custom_tests.CustomTests.test_measured_and_unspecified_never_relabelled",
+        "reviewed_custom_tests.CustomTests.test_missing_sentinel",
+        "reviewed_custom_tests.CustomTests.test_numeric_invalid_missing_and_unsupported_shapes",
+        "reviewed_custom_tests.CustomTests.test_opt_in_exact_type",
+        "reviewed_custom_tests.CustomTests.test_semantic_json_tamper",
+        "reviewed_custom_tests.CustomTests.test_unknown_graph_inactive_and_source_tamper",
+        "reviewed_custom_tests.CustomTests.test_vendor_source_tamper",
+        "reviewed_custom_observation_tests.ObservationTests.test_duplicate_nonfinite_and_bool_row",
+        "reviewed_custom_observation_tests.ObservationTests.test_every_curve_row_and_logical_point",
+        "reviewed_custom_observation_tests.ObservationTests.test_every_observed_API_cell",
+        "reviewed_custom_observation_tests.ObservationTests.test_genuine_current_run",
+        "reviewed_custom_observation_tests.ObservationTests.test_runtime_receipt_source_hashes_saved_payloads",
+        "reviewed_custom_source_tests.SourceAuditTests.test_every_declared_source_or_report_tamper",
+        "reviewed_custom_source_tests.SourceAuditTests.test_exact_inventory",
+        "reviewed_custom_source_tests.SourceAuditTests.test_extra_missing_symlink_external_manifest_anchor"
+      ]
+    },
+    {
+      "suite": "legacy_multicurve_independent_review_bridge",
+      "discovered": 13,
+      "passed": 0,
+      "skipped": 13,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "added source-only suite",
+      "test_ids": [
+        "reviewed_multicurve_guards.IndependentGuards.test_default_all_entrypoints_no_io",
+        "reviewed_multicurve_guards.IndependentGuards.test_fifo_inputs_refuse_without_blocking",
+        "reviewed_multicurve_guards.IndependentGuards.test_identity_missing_fields_and_count_refusals",
+        "reviewed_multicurve_guards.IndependentGuards.test_injected_publish_failure_cleans_stage",
+        "reviewed_multicurve_guards.IndependentGuards.test_input_changed_before_publication_refuses",
+        "reviewed_multicurve_guards.IndependentGuards.test_nested_symlinks_all_path_roles",
+        "reviewed_multicurve_guards.IndependentGuards.test_numeric_rejections_and_arrays",
+        "reviewed_multicurve_guards.IndependentGuards.test_raced_directory_destination_preserved",
+        "reviewed_multicurve_guards.IndependentGuards.test_raced_symlink_destination_preserved",
+        "reviewed_multicurve_guards.IndependentGuards.test_symlink_leaf_existing_and_dangling",
+        "reviewed_multicurve_guards.IndependentGuards.test_wrapper_candidates_ancestor_symlink_prewrite",
+        "reviewed_multicurve_guards.IndependentGuards.test_wrapper_failed_attempt_keeps_replaced_raw",
+        "reviewed_multicurve_guards.IndependentGuards.test_wrapper_prewrite_and_rollback"
+      ]
+    },
+    {
+      "suite": "native_data_packaging",
+      "discovered": 10,
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "scope": "added source-only suite",
+      "test_ids": [
+        "test_native_data_packaging.PackagingTests.test_all_compact_evidence_matches_provenance_matrix",
+        "test_native_data_packaging.PackagingTests.test_current_custom_source_audit",
+        "test_native_data_packaging.PackagingTests.test_current_multicurve_inventory",
+        "test_native_data_packaging.PackagingTests.test_every_synthetic_example_regenerates",
+        "test_native_data_packaging.PackagingTests.test_frozen_custom_scientific_sources",
+        "test_native_data_packaging.PackagingTests.test_frozen_multicurve_scientific_sources",
+        "test_native_data_packaging.PackagingTests.test_historical_manifest_external_hashes",
+        "test_native_data_packaging.PackagingTests.test_measured_declaration_is_only_schema_example",
+        "test_native_data_packaging.PackagingTests.test_missing_external_input_skips_only_if_not_selected",
+        "test_native_data_packaging.PackagingTests.test_no_opt_in_means_no_source_io"
+      ]
+    }
+  ],
+  "additional_external_revalidation": [
+    {
+      "suite": "custom-external",
+      "discovered": 22,
+      "passed": 22,
+      "skipped": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "application_launched": false
+    },
+    {
+      "suite": "multicurve-review-external",
+      "discovered": 13,
+      "passed": 13,
+      "skipped": 0,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "application_launched": false
+    },
+    {
+      "suite": "multicurve-external",
+      "discovered": 48,
+      "passed": 29,
+      "skipped": 19,
+      "normal": "PASS",
+      "optimized": "PASS",
+      "application_launched": false
+    }
+  ],
+  "synthetic_inputs_and_native_candidates_regenerated": {
+    "normal": "6/6 PASS",
+    "optimized": "6/6 PASS",
+    "fixture": "public KDE fixture identified in NATIVE-DATA-PROVENANCE.json",
+    "binary_output_files_written": false
+  },
+  "source_audit": {
+    "current_custom_manifest_sha256": "15a56986a1e966053de99145c490e9ee659b0faa53e3f703705c94d1a1c4b3e6",
+    "status": "PASS",
+    "historical_manifest_preserved": true,
+    "scientific_modules_and_observers_byte_exact": true
+  },
+  "application_execution_during_packaging": "NOT_RUN",
+  "Origin_lifecycle": "NOT_RUN",
+  "limitations": [
+    "Custom external revalidation reads recorded actual LabPlot observations; it does not rerun LabPlot.",
+    "Multicurve external test run skips 19 actual-application-evidence tests; their separate historical independent app runs remain documented.",
+    "The 13 reviewer guards are separate tests, not rediscovery of the 48 author tests. Their scope overlaps some author guards.",
+    "The 10 new packaging tests check source inventories/provenance and integration contracts, not additional native-format support.",
+    "liblz4 absent: one existing optional test changes from pass to skip."
+  ],
+  "git_fixture_byte_fidelity": {
+    "status": "PASS",
+    "report": "NATIVE-DATA-GIT-VALIDATION.json",
+    "report_sha256": "d2a331c98261bbc90708892ff00e712cc37ed7a18e8c6f2b20a47197a90ce180",
+    "unit_test_counts_unchanged": true
+  }
+}
