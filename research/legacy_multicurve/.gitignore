@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+candidates/
+application/results/
+application/profiles/
+application/*.so
+public-source-only/
+*.opj
+*.opju
+*.lml
+*.png
