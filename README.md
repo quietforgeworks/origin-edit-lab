@@ -42,6 +42,10 @@ python preview/compat.py project.opju
 
 [Ropj 原生工作簿读回实验](research/ropj_readback/README.md) 使用真实 Ropj API，在四份合成旧版 OPJ 上核对了 1,761 个 binary64 数值及 12 组列长名/单位。它与 LabPlot 共享 liborigin 祖先，不是独立设计的解析器；不支持 OPJU，也不验证图形。仓库仅包含验收源码、合成单测和事实摘要，不包含 R/Origin 二进制或原生样本。默认测试明确跳过需要外部运行时和样本的用例。
 
+## 有限原生样式研究
+
+[旧版 OPJ 样式字段实验](research/legacy_style_fields/README.md) 对两个精确哈希锁定的公开模板，分别修改刻度字号、轴线宽、曲线线宽和图层矩形。8 项变化由实际 LabPlot 导入重绘独立复现，数值与已识别的 EMF 缓存保持不变。代码不改预览，也不是任意文件编辑器；字体和矩形探针可能产生标签重叠，不能当作排版成品。Origin 重开/保存、新版 OPJU 和完整原生单位映射仍未验证。
+
 ## 下一步
 
 1. 用公开许可、隔离副本建立真实 Origin/PowerPoint 的打开、编辑、保存与重开验收。
