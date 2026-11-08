@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "scope": "Measured public candidate counts and actual pinned-code results. No complete typed grammar or Origin acceptance is inferred.",
+  "minimal": {
+    "summary": {
+      "public_files": 1,
+      "descriptor_candidates": 28,
+      "graph_candidates": 3,
+      "explicit_property_candidates": 28,
+      "complete_candidate_files": 1,
+      "complete_candidate_property_ids": 28,
+      "pinned_ids_in_complete_candidate_files": 28,
+      "omitted_ids_in_complete_candidate_files": 0,
+      "partial_candidate_files": 0,
+      "partial_candidate_property_ids": 0,
+      "pinned_ids_in_partial_candidate_files": 0,
+      "files_without_recognized_property_candidates": 0,
+      "files_with_multiple_layer_candidates": 0,
+      "other147_candidates": 0,
+      "positive_x_field82_agreements": 3,
+      "zero_x_candidates": 0,
+      "supported_bindings": 0,
+      "complete_typed_dataset_grammar": false,
+      "origin_acceptance": false
+    },
+    "graphs": [
+      {
+        "explicit_graph_candidates": 3,
+        "distinct_descriptor_identity_pairs": 3,
+        "book_short_y_keys": 1,
+        "pinned_extracted_rows": 1,
+        "graph_x_worksheet_x_disagreements": 3,
+        "pinned_rows_without_matching_explicit_xy": 1,
+        "candidate_xy_pairs_not_represented_in_pinned_rows": 1
+      }
+    ]
+  },
+  "all": {
+    "summary": {
+      "public_files": 110,
+      "descriptor_candidates": 4738,
+      "graph_candidates": 2824,
+      "explicit_property_candidates": 313,
+      "complete_candidate_files": 5,
+      "complete_candidate_property_ids": 295,
+      "pinned_ids_in_complete_candidate_files": 279,
+      "omitted_ids_in_complete_candidate_files": 16,
+      "partial_candidate_files": 3,
+      "partial_candidate_property_ids": 18,
+      "pinned_ids_in_partial_candidate_files": 0,
+      "files_without_recognized_property_candidates": 102,
+      "files_with_multiple_layer_candidates": 15,
+      "other147_candidates": 4,
+      "positive_x_field82_agreements": 2824,
+      "zero_x_candidates": 0,
+      "supported_bindings": 0,
+      "complete_typed_dataset_grammar": false,
+      "origin_acceptance": false
+    }
+  }
+}

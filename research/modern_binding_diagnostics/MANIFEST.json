@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "package": "modern_binding_diagnostics",
+  "scope": "New project source, synthetic tests, public provenance and count evidence only. Manifest lists every file except itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 42,
+      "sha256": "6bb53b08ba30420c5082210de864d1bf094d93f6d85c99c68e5f16e66f4c5c5c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1072,
+      "sha256": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8774,
+      "sha256": "906c9a694cd8a205906e91f3fd1cc761de48e6a433692e732597b18dcd8f2eeb"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 3863,
+      "sha256": "53e25f5ee4cec5a9701938fd6fbd35f0f30525e8431cad4f1dc7002886401dbb"
+    },
+    {
+      "path": "diagnostics.py",
+      "bytes": 7681,
+      "sha256": "3401072f32f2cd6a3960d1e857b1e67708721d19ae4d9a38735e9a9af0d9258c"
+    },
+    {
+      "path": "evidence/observed_counts.json",
+      "bytes": 76423,
+      "sha256": "652b22fa239792994245ce9762dd9914e565c1a6a95d745307b33aa3ce4e860c"
+    },
+    {
+      "path": "evidence/verification.json",
+      "bytes": 1213,
+      "sha256": "fb2bc972a3c6ce9ef608f797c25be11b5705b2d983f71d64eb26c5ab708621dd"
+    },
+    {
+      "path": "expected_counts.json",
+      "bytes": 2153,
+      "sha256": "7fbf94721337702687eca4279faee48672c646edd2eb0cea8126898199e26409"
+    },
+    {
+      "path": "prove_public.py",
+      "bytes": 10664,
+      "sha256": "5cd079ae4ed1810c99e6aa2e3fc6a6d94776241a677043744bb9b5f3411e4edb"
+    },
+    {
+      "path": "public_sources.json",
+      "bytes": 31179,
+      "sha256": "97693c0e4851cba4fdc6a9cc597b82b9f490cfa1f6beb351292c1fdcd03913ee"
+    },
+    {
+      "path": "quantized_sources.json",
+      "bytes": 1040,
+      "sha256": "0fe1a9ba584bdaf53e92e310802d9adb7117c5a2fb30a818bb1c7052a167ccad"
+    },
+    {
+      "path": "runtime.py",
+      "bytes": 3414,
+      "sha256": "a229972868f5a8c7bf3dda45bce7782a7e2274017aeeeaa5948645bd2448ca56"
+    },
+    {
+      "path": "tests/test_diagnostics.py",
+      "bytes": 15983,
+      "sha256": "334dae23dc156502ba542907eeca2fb48bfc6c78b5b98164a65c74131e12e53f"
+    }
+  ]
+}

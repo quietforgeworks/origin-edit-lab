@@ -1,0 +1,914 @@
+{
+  "schema": 1,
+  "scope": "Exact public sources only; no native samples included. Hashes identify sources, not compatibility or acceptance.",
+  "sources": {
+    "heliox": {
+      "url": "https://zenodo.org/records/20155927",
+      "authors": "Alexander Kazakov and coauthors",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "archive": "Low-T Magnetoresistance.zip",
+      "archive_member": "Low-T Magnetoresistance/HelioxVT_MR_summary.pptx",
+      "pptx_sha256": "207de07f76806d1059f4b6829203c2e3a4a74823df8b457cf03497cf9262a250",
+      "extraction": "Unmodified CFB Contents streams from each listed OLE part. OLE containers and preview streams are not inputs."
+    },
+    "spectral": {
+      "url": "https://zenodo.org/records/20155927",
+      "authors": "Alexander Kazakov and coauthors",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "archive": "Spectral studies.zip",
+      "archive_member": "Spectral studies/Spectral_studies_calibration/intensitites.opju"
+    },
+    "dataverse": {
+      "url": "https://doi.org/10.57745/W0SEAA",
+      "authors": "Eric Le Moal and coauthors",
+      "license": "Etalab-2.0",
+      "license_url": "https://spdx.org/licenses/etalab-2.0.html",
+      "file_id_note": "File IDs refer to the linked Recherche Data Gouv dataset."
+    }
+  },
+  "files": [
+    {
+      "file": "dataverse-667553.oggu",
+      "bytes": 29586,
+      "sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+      "source": "dataverse",
+      "public_file_id": 667553,
+      "original_filename": "Fig 4c (Origin file).oggu",
+      "file_doi": "https://doi.org/10.57745/C4BGCH"
+    },
+    {
+      "file": "dataverse-667559.oggu",
+      "bytes": 29769,
+      "sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+      "source": "dataverse",
+      "public_file_id": 667559,
+      "original_filename": "Fig 4b (Origin file).oggu",
+      "file_doi": "https://doi.org/10.57745/BSEB6G"
+    },
+    {
+      "file": "dataverse-667566.oggu",
+      "bytes": 26453,
+      "sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+      "source": "dataverse",
+      "public_file_id": 667566,
+      "original_filename": "Fig 4d (Origin file).oggu",
+      "file_doi": "https://doi.org/10.57745/DXB5FR"
+    },
+    {
+      "file": "oleObject1.Contents.bin",
+      "bytes": 576150,
+      "sha256": "7f020d6e032eeaffcf474829bc7f4bc19a97a1fc6d9d02466f7d4ab737b93808",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject1.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject10.Contents.bin",
+      "bytes": 620127,
+      "sha256": "13f7df3fc35093e52b87a512fc787e6dff1d8e731b89a176eb9682d783c8b003",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject10.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject100.Contents.bin",
+      "bytes": 73783,
+      "sha256": "6fbfbf13cdebda12390d97a0822573a8b2601a2e85d179c7637270ad3583126c",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject100.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject101.Contents.bin",
+      "bytes": 78301,
+      "sha256": "0d5de8aa4f125dd1298e3c06f6339932229d1044675915659f78f5cc414135fd",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject101.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject102.Contents.bin",
+      "bytes": 24229,
+      "sha256": "7960de1a6f9342b443b07ec3307ddfcbcbd1bd416429715989dea1224242b913",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject102.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject103.Contents.bin",
+      "bytes": 23117,
+      "sha256": "5e19e7cdc4485668b098705f2a76376cdb9982a3ba530f73afc895fb54608f6a",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject103.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject104.Contents.bin",
+      "bytes": 23085,
+      "sha256": "17435582bd465aa8addcfa12005cb7219ac77f5b743ab1d1beeb8e48ea75e47c",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject104.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject105.Contents.bin",
+      "bytes": 60513,
+      "sha256": "989d6ab58f19997ccd7b32db614a05f7bfeb791d2a4ab80cd81a1e2aab920ffc",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject105.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject106.Contents.bin",
+      "bytes": 23348,
+      "sha256": "c586c88034ecfb2d9ad1157ff3b87b055414610ed8bd4a22959ba0f27ff998db",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject106.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject107.Contents.bin",
+      "bytes": 46419,
+      "sha256": "9c9751efd56559236db90efdedc568bda9ea926ef499c26be18c7f056298b760",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject107.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject108.Contents.bin",
+      "bytes": 74744,
+      "sha256": "5c1adc238e508e38b75521e1865851b5d436196670d873f133113860abaa5240",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject108.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject109.Contents.bin",
+      "bytes": 86872,
+      "sha256": "f3dcc21b775d0b9eb93bde387a186b2165ff51ff051167dd06826a6091dcb328",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject109.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject11.Contents.bin",
+      "bytes": 631792,
+      "sha256": "ae70d385c5acc393061c900ad78d6ff330e4304693d02aeaa8d5180da8540cab",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject11.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject12.Contents.bin",
+      "bytes": 625643,
+      "sha256": "3480dce4098c944687a181ec4059eefdde1feee72b266d93b168f0738b802d2a",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject12.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject13.Contents.bin",
+      "bytes": 638111,
+      "sha256": "ce97e2ea4890886a7605a9aaf7ea925325617e6ef4a14685b758e660f90617ed",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject13.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject14.Contents.bin",
+      "bytes": 85203,
+      "sha256": "eb7849d31e7684ac6bf9657f1c3e1ddc3419956a9546d4b0a7386ba5f4325f87",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject14.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject15.Contents.bin",
+      "bytes": 1056916,
+      "sha256": "a938f49b57cac8a07e3bea003f064ac7e070ef6a45ef92782559f484b88ea033",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject15.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject16.Contents.bin",
+      "bytes": 1067714,
+      "sha256": "0ad6015b356c177d7d3b31280d9358fe4565d1ea79340550bb000db9fd323a49",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject16.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject17.Contents.bin",
+      "bytes": 104403,
+      "sha256": "9952519a2bfe6c6b8d0a4b10507ea7f203fc389e0ab6a6e6999e8e22c1542908",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject17.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject18.Contents.bin",
+      "bytes": 221410,
+      "sha256": "f2425d164c7c99e772732714b57a68a6f98589c05dba97078d9cd118c5921d1f",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject18.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject19.Contents.bin",
+      "bytes": 24130,
+      "sha256": "1a323c81fdf290737cecd4476967cb0dbc5dd73e20c95844c89a132f58d12f0a",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject19.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject2.Contents.bin",
+      "bytes": 28551,
+      "sha256": "acb163b683226c491b1c745b2af87f7292e5e204592a60cf4275740807021155",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject2.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject20.Contents.bin",
+      "bytes": 25052,
+      "sha256": "470257168e9bf2550fec2681540f71f6fd1fda516ba6dfeca9eab463d986c5c8",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject20.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject21.Contents.bin",
+      "bytes": 24644,
+      "sha256": "34c3092283c5703e9d1260bcb63d4f3c11892ed7082a9013e1456ca624aab9a2",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject21.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject22.Contents.bin",
+      "bytes": 38991,
+      "sha256": "253ca8f7f156d847c6d4c6a0457d80c054086f392dd33ae89a12712e6abfb8c1",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject22.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject23.Contents.bin",
+      "bytes": 323316,
+      "sha256": "a39423df35675d4b37dda4e71cb528e11aa744b2efc04f1a908a6770c261bbcd",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject23.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject24.Contents.bin",
+      "bytes": 79781,
+      "sha256": "799565581c18126ede2f05e91a35d98862003e268d38a3363d9c3f4432b090f9",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject24.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject25.Contents.bin",
+      "bytes": 29834,
+      "sha256": "e893b6e2b62969ee3323594898dfc87890f2cf3f5a2701fb2f23466885566fe5",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject25.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject26.Contents.bin",
+      "bytes": 335819,
+      "sha256": "3f67443a5cc2b9a9370fe74dcb109317b6c08f70a6b1b7aac12dfe338d3c2b12",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject26.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject3.Contents.bin",
+      "bytes": 27912,
+      "sha256": "705879a11126e23133893ad6426b2fc16667302e307daf01df21759b7f45bad3",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject3.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject30.Contents.bin",
+      "bytes": 51429,
+      "sha256": "08608e186da837b345e4084aec4dcf48b7b91ab45baa2fdf00a602f7312fda13",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject30.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject31.Contents.bin",
+      "bytes": 28160,
+      "sha256": "58236753fcf21509ffece90e1cde7c086e859d6c3cc6641bac2f5408edee31ef",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject31.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject32.Contents.bin",
+      "bytes": 28050,
+      "sha256": "a2ed1e662492b295182d68014838a709c3b23c3a7ebbd86ef67ecc538ae630e6",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject32.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject33.Contents.bin",
+      "bytes": 1476615,
+      "sha256": "e422b1c15b488b2453005d3c73e6472e69c2a81ca3ca3c582724143ef2536f2e",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject33.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject34.Contents.bin",
+      "bytes": 1475919,
+      "sha256": "3a199c8b75269ff180f4b0def861e828fb9b369beb1c4422c64d9baaa9b7f735",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject34.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject35.Contents.bin",
+      "bytes": 15657,
+      "sha256": "b6b673b7d930bb72a028f59c61fe3d6a04c89632489ff6cedb86445791304712",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject35.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject36.Contents.bin",
+      "bytes": 1564826,
+      "sha256": "ca0e3c0f4d25f2b6e95d4100dfdecb48e053d3d381438bfacb1a0335779429d0",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject36.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject37.Contents.bin",
+      "bytes": 127417,
+      "sha256": "9cdd071f9e8c1019f9270f34d6108c908899c83172286dce4c7e378e9d3fc764",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject37.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject38.Contents.bin",
+      "bytes": 819151,
+      "sha256": "faacb46c4ea64ca3ac6070c380dcc6844e020fec326ce7de8eae3a3a0eff5185",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject38.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject39.Contents.bin",
+      "bytes": 813786,
+      "sha256": "9c6de9443a7aa80529087d2fb4b484001d2a26da76637d64c41e7d6e060026df",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject39.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject4.Contents.bin",
+      "bytes": 1555873,
+      "sha256": "a70b0906ff2d3c998388065ef94a8caa84d181259995af0174b20e4d99be88c7",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject4.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject40.Contents.bin",
+      "bytes": 792856,
+      "sha256": "b74154e2b2729b6b33d5338944facb901ba5337fb901f78217b4df4d9911dcf7",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject40.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject41.Contents.bin",
+      "bytes": 799074,
+      "sha256": "3c65320f0ac35350e8af812b1671a3e7e789987b886339e2bb4d1f34bcf300ce",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject41.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject42.Contents.bin",
+      "bytes": 788971,
+      "sha256": "f7cdf1205fcae5d50026720be26d4ac17854ef7eebca3e3e8a8dfa67c188f4de",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject42.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject43.Contents.bin",
+      "bytes": 789791,
+      "sha256": "98fa55799c500806244d222546972e61041b98d5e23cee1699b8e0d27b8b4e15",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject43.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject44.Contents.bin",
+      "bytes": 87738,
+      "sha256": "731e2ed66b9fc9b4f2042771b773ac7fe874dc3e4fc3404850088a526e551f12",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject44.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject45.Contents.bin",
+      "bytes": 258944,
+      "sha256": "7929bc6f4c510f6570cd7a78370fcd105e33df298c66822df95acb383ec09543",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject45.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject46.Contents.bin",
+      "bytes": 266072,
+      "sha256": "b642813617f2b722e8ede1f69ae30a8ab3e8d53a64895d2d6f7b43b879f212c7",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject46.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject47.Contents.bin",
+      "bytes": 919061,
+      "sha256": "181d9208768aa4dced628f18086cdddc458f85638c60fd66052e8bc3159ef587",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject47.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject48.Contents.bin",
+      "bytes": 924359,
+      "sha256": "a3fbfc9c7ba24d67f366383a1c863589e8ce15219cbc99822fe1e9e742d446b5",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject48.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject49.Contents.bin",
+      "bytes": 35164,
+      "sha256": "cf052450c1a95b460676c2bb2930493ab2e879bb2aea00171acd8d6958857f0f",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject49.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject5.Contents.bin",
+      "bytes": 1571742,
+      "sha256": "a310050e20d313b795812519d4c9b8d3b53e7d25aa4b4a48aad94148f3244257",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject5.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject50.Contents.bin",
+      "bytes": 34306,
+      "sha256": "bb8b4727b4032aa2896544d186de52e496b07f359ac10b48cda809eec497987b",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject50.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject51.Contents.bin",
+      "bytes": 279593,
+      "sha256": "263788702601b82c639efc95a6017abc92072ac70df92dcf9e288086203e1c15",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject51.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject52.Contents.bin",
+      "bytes": 28842,
+      "sha256": "71bc52236036014c740f42453a44aa495a39a123616a9e92e386071dc5ac42a3",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject52.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject53.Contents.bin",
+      "bytes": 5993523,
+      "sha256": "05aeb4569d13ae63f1fe86e36cc6202ffd1237a2487c054c35da080fbfd8b3c1",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject53.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject54.Contents.bin",
+      "bytes": 5994586,
+      "sha256": "a2cbf2b55bf2a9aad543c763fb82388783084e65b558fe424d80232eedbab746",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject54.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject55.Contents.bin",
+      "bytes": 37174,
+      "sha256": "f37ac06c09b6498e3787b4484127eb843bad9070251827acbef9615bff0ddaff",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject55.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject56.Contents.bin",
+      "bytes": 67060,
+      "sha256": "9ff126acbdc850af26a3dc258c8423d32e7b4a0bf370a45c212c0c22c471171d",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject56.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject57.Contents.bin",
+      "bytes": 338341,
+      "sha256": "13bb443aa2d8ff7a9a4f0c1cb777aeb86ba4abd12333aa961c3f496a34b621f0",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject57.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject58.Contents.bin",
+      "bytes": 29924,
+      "sha256": "1149d1da97c6797e8268334da35ac5f7d0b1332d584c5fcfcaeb548d00efcff7",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject58.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject59.Contents.bin",
+      "bytes": 119641,
+      "sha256": "77aa1d8e3053cd4a5572fe948e433d4104dc1e431e85a73440f0fa60e613ebbd",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject59.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject6.Contents.bin",
+      "bytes": 21142,
+      "sha256": "70742615e3c4b1e232ab731e48f85a88c162fe6ce2648cb644b559a6aaaf7f25",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject6.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject60.Contents.bin",
+      "bytes": 120395,
+      "sha256": "af42de8c8f0eb990372e90b37d151c331153b1bb9521770e10031f85b7cd28da",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject60.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject61.Contents.bin",
+      "bytes": 22281,
+      "sha256": "9c8a5f875131db5b51ff9aa43989782ef0f0cb3ad546db67bc4b0faed89f272f",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject61.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject62.Contents.bin",
+      "bytes": 21593,
+      "sha256": "3150027476275c85b8fc6286001e697bc0630586fc6fb315d3cbe035284bd26b",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject62.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject63.Contents.bin",
+      "bytes": 1493393,
+      "sha256": "d8f37d08209f1e0cb6090b60a6553fb588923c3731a2d3a20ad424cf8d1acfcd",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject63.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject64.Contents.bin",
+      "bytes": 1485104,
+      "sha256": "ae0326d0ff55cbe3a528b593ac475cbb14a601872b73ff6762e7c3ee32a19e2c",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject64.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject65.Contents.bin",
+      "bytes": 1566338,
+      "sha256": "bde1fcfae65ddb17dfbe8aeb25a97c8a77ff3dcce9bdcfbbc2e82f6906f43360",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject65.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject66.Contents.bin",
+      "bytes": 15114,
+      "sha256": "25c752c2c2ad373211040a4d70d4ee278cebbf868a0fbdd09c5a21a10282fd66",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject66.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject67.Contents.bin",
+      "bytes": 119197,
+      "sha256": "6edf3f33ce3f6d2c7e71f6402852bc0de5f851490a96bbd7eb7adacaa0eb1ed3",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject67.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject68.Contents.bin",
+      "bytes": 576552,
+      "sha256": "d2d97929c19f3b0318acd8464819a9461134f68814083b88f0e2d5db06396924",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject68.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject69.Contents.bin",
+      "bytes": 565478,
+      "sha256": "064895404775570611eab30921c8e52c981776d9c498c8face81cda9de500192",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject69.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject7.Contents.bin",
+      "bytes": 1411375,
+      "sha256": "3d25b900fa89dc6902d2bc0f68a6f2d8cb50c84e58f790aef39100ff27e437bc",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject7.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject70.Contents.bin",
+      "bytes": 588736,
+      "sha256": "3099446751ae7183ef05973e9b91b5850d821c52fa16e1e5fb98d0aa4dc44c13",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject70.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject71.Contents.bin",
+      "bytes": 589189,
+      "sha256": "a6aeeaea62bad0d66534a1f1aec444b30a6275b92cc2423b59c567e4a392b187",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject71.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject72.Contents.bin",
+      "bytes": 1164921,
+      "sha256": "98d146f75cd12b1be0b1607646873aa38ec1d4ca4a1fbc08ea7dbddf71a55a83",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject72.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject73.Contents.bin",
+      "bytes": 1164828,
+      "sha256": "339cfc5800665f3e6532d9dbb0c2ade7548fdf0b78367927bb47e0ed467a8979",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject73.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject74.Contents.bin",
+      "bytes": 141295,
+      "sha256": "d1956e7d3f669ddd3f62ff95ae29794d6faf83afb7df6bd9d54d6325ca4bf3cc",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject74.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject75.Contents.bin",
+      "bytes": 144448,
+      "sha256": "94248beab9e289aa2b5ca19dd8e8ba430cbe5e92c7f676b58eb991dbb9e9c11c",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject75.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject76.Contents.bin",
+      "bytes": 136954,
+      "sha256": "05e527d5cb1e10748f956655ea30e7eab1f0b6fb885283a9d4585d3621797134",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject76.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject77.Contents.bin",
+      "bytes": 27057,
+      "sha256": "fa66f62c3ad20fe354441e56909e4e6836912e953589af21ba30a3ae3be8c6d8",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject77.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject78.Contents.bin",
+      "bytes": 18075,
+      "sha256": "f58dbf6632686af65c1a670bd0b31679dc3aa3bb9f3e8187d29f5fa619cf26f2",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject78.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject79.Contents.bin",
+      "bytes": 28611,
+      "sha256": "0d5d1fe7f28b2617c2bdfeed589cafb2b7f9b7bc580dea32456b65383a22c2fc",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject79.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject8.Contents.bin",
+      "bytes": 198821,
+      "sha256": "20114045752a00f2029aafb1f4b0a6b3291fc2f7fa2af471c6060044049554f6",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject8.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject80.Contents.bin",
+      "bytes": 127978,
+      "sha256": "6ecb4972f2cff6a56d73a6825fd3fdf3988e899f6c2efc0083e5aea6dc77b9d2",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject80.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject81.Contents.bin",
+      "bytes": 27873,
+      "sha256": "60b8b3b93e0bfaae12f49e614c837b4f71a5043fc05db295660991541cda6bf5",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject81.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject82.Contents.bin",
+      "bytes": 61001,
+      "sha256": "af713b333c4811454a16b40bf39b67c5bb88c6839b8de8607308eba05022b9ba",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject82.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject83.Contents.bin",
+      "bytes": 130317,
+      "sha256": "2c29d9cbdf2ffe69f2800a31310a583b90c1d5bc14e0fbb8d8c4f59ec8af3ff4",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject83.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject84.Contents.bin",
+      "bytes": 131010,
+      "sha256": "a89254b866a0ccd4446e5b85bc1121bb1ec4f0130c441f45ad8f11905cf9ae76",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject84.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject85.Contents.bin",
+      "bytes": 133097,
+      "sha256": "fdca9c62b72bc9152611bfd9c468ad0ec85dc3ea9d7970815ad026dd926d2363",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject85.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject86.Contents.bin",
+      "bytes": 28643,
+      "sha256": "4d3b8fdb920144a26bd86ddba787e581a26f00e67f0b6dc734743787588e0e4a",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject86.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject87.Contents.bin",
+      "bytes": 28350,
+      "sha256": "3770be7093051d1b254d0a8642a4ecc2aa099c8a41dc264ce700a3e48aebd35c",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject87.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject88.Contents.bin",
+      "bytes": 1556511,
+      "sha256": "b83ffd3ad770d5e2cb5918db1656fc02ecba760f3f7117ff1c4d3efc3b282d12",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject88.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject89.Contents.bin",
+      "bytes": 1555629,
+      "sha256": "17838c086a3948fd0e76e47ea686317bee68aa1b88ac678093416d5d82f212a8",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject89.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject9.Contents.bin",
+      "bytes": 89345,
+      "sha256": "45fb216e13bbed5b78f7bcccf4a31e9431350242ae723e50ac5c64880ebbe43a",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject9.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject90.Contents.bin",
+      "bytes": 13662,
+      "sha256": "73d800c56814c8870e30bcebc20d931aa6f222480d7e42a7b3401def81fa323f",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject90.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject91.Contents.bin",
+      "bytes": 1623492,
+      "sha256": "d7270545d0bcce2a9f1a7699c290eae50e0ec5c5c930df4e887fd1d7cdb8f308",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject91.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject92.Contents.bin",
+      "bytes": 801490,
+      "sha256": "63aa7cb095b06c5357ff90935349eb28b1913162560540b7f50bed168ec6edf9",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject92.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject93.Contents.bin",
+      "bytes": 807010,
+      "sha256": "ad65338eb8f9ffd8ad7d1e472b7b54f961a9aa7aa994bc7914c0b3feb1158c55",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject93.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject94.Contents.bin",
+      "bytes": 134417,
+      "sha256": "5af5e27eb59787aca5ac7d3fdeea3fe3d148800d6e46780ca05b7ae8d723c2dc",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject94.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject95.Contents.bin",
+      "bytes": 806116,
+      "sha256": "95fca570e8d3c54675aacf651533fae55ea692b70afd65a9e52b38687818b0b6",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject95.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject96.Contents.bin",
+      "bytes": 804662,
+      "sha256": "1dc6b660aad1a0c3616fb2685d6f04aaacec6d9e14438553f5eb0a560d8f0be0",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject96.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject97.Contents.bin",
+      "bytes": 527703,
+      "sha256": "9391a2dabe9cc843ec319359905f587b1ffd1295d39d90686b03983c98879f39",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject97.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject98.Contents.bin",
+      "bytes": 542258,
+      "sha256": "4b1935b0512851ab8c2f7c51f3abfde47acafbae299c151165eb33c8bea1a99b",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject98.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "oleObject99.Contents.bin",
+      "bytes": 542256,
+      "sha256": "74af23d6e8e90b52f94d3b4b8a7e856f3ce474fdc80ca8303b5eb222141aac2f",
+      "source": "heliox",
+      "object_part": "ppt/embeddings/oleObject99.bin",
+      "stream": "Contents"
+    },
+    {
+      "file": "spectral-calibration.opju",
+      "bytes": 303758,
+      "sha256": "d33be3c379310b57921a29de3f636142edba782ce7a3707ef52f652026e6333d",
+      "source": "spectral"
+    }
+  ]
+}

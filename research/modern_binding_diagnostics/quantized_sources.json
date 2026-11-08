@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "revision": "431deeb7c8473503970ca56b78cc1678f57d373d",
+  "url": "https://github.com/pquarterman17/quantized/tree/431deeb7c8473503970ca56b78cc1678f57d373d",
+  "license": "Apache-2.0",
+  "files": {
+    "io/origin_project/container.py": "e80996b8955d46b446bdc4761a55b19b6d760619edb0b94b98f16ebe47cb4115",
+    "io/origin_project/opju_codec.py": "5a2c6f000ff8fef0a71ba8aab0876f7de785d5bb4dfa8d07dd612f052b737be9",
+    "io/origin_project/opju_figure_curves.py": "a6a563c9a26ed98b4dfe0d318f5f5a7ea1e00d98c52665a6f2a2fefea42fffa2",
+    "io/origin_project/curve_style_color.py": "d156c51f603a144d7a01f41cad7137afc323c3b51cffa0d20f0e9425920aec4d",
+    "io/origin_project/tree_opju.py": "261358ac17fca97e4b77a72c3236e883ed3450df22414d6bd2d234e7564129a3",
+    "io/origin_project/tree.py": "b45baecf8b42d20b7c19469ca0a37827824d8354758dd330e5ab86f5398d45e0"
+  },
+  "execution_scope": "Only these six verified source modules execute. No package initializers are executed. Existing NumPy is required; it is not bundled or installed."
+}
