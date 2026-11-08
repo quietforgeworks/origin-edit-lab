@@ -1,0 +1,55 @@
+{
+  "findings": [
+    {
+      "case": "strings-probe-baseline",
+      "title": "Log of x",
+      "native_stored_font": 22,
+      "importer_set_point_size": 26,
+      "qt_current_font_before_reset_sizes": [
+        "9pt",
+        "26pt"
+      ],
+      "reset_requested_font": "Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1",
+      "html_after_reset_sizes": [
+        "9pt"
+      ],
+      "caller_object": "official AppRun.wrapped",
+      "caller_image_relative_offset_hex": "7657e0",
+      "executable_load_base_hex": "400000",
+      "caller_return_vma_hex": "b657e0",
+      "caller_symbol_available": false,
+      "source_correspondence": "TextLabel.cpp 321-327 currentFont -> setHtml -> selectAll -> setCurrentFont; identical operation sequence in shipped executable and exported liblabplot TextLabel::setText",
+      "dynamic_TextLabel_symbol_hook_observations": 0,
+      "source_sha256": "8d1e26543e77942faef097a3cdc05ba4a78d2b0d667c9edb9003074b4e0443ed",
+      "log_sha256": "9cabe686c206699f65fe390e11abe5e4a84f103ab2c3f70d12d4e03a176e3aec"
+    },
+    {
+      "case": "strings-probe-font30",
+      "title": "Log of x",
+      "native_stored_font": 30,
+      "importer_set_point_size": 36,
+      "qt_current_font_before_reset_sizes": [
+        "9pt",
+        "36pt"
+      ],
+      "reset_requested_font": "Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1",
+      "html_after_reset_sizes": [
+        "9pt"
+      ],
+      "caller_object": "official AppRun.wrapped",
+      "caller_image_relative_offset_hex": "7657e0",
+      "executable_load_base_hex": "400000",
+      "caller_return_vma_hex": "b657e0",
+      "caller_symbol_available": false,
+      "source_correspondence": "TextLabel.cpp 321-327 currentFont -> setHtml -> selectAll -> setCurrentFont; identical operation sequence in shipped executable and exported liblabplot TextLabel::setText",
+      "dynamic_TextLabel_symbol_hook_observations": 0,
+      "source_sha256": "07185039711b4b3e1eedeec31c91e6b7a8707720d1698d9a639312719667d35d",
+      "log_sha256": "bf1dc6a21ae8d8cf986c3bfc84324f71d66a7767ac224d94ace251c6c811045b"
+    }
+  ],
+  "conclusion": "The actual LabPlot title-import path loses the requested 26pt/36pt formatting by applying the old Sans Serif 9pt current font. This explains the paired font22-to30 non-result in this reader. It does not establish what Origin will render.",
+  "caveats": [
+    "The application executable is stripped at the observed return address; source attribution is corroborated by call sequence and the exported same-version library, not a captured TextLabel symbol stack.",
+    "No Origin reopen, save, recalculation or modern OPJU font editing was tested."
+  ]
+}

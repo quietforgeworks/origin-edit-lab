@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-08",
+  "software": "Official LabPlot 2.12.1, Linux offscreen GUI, pinned external runtime",
+  "fresh_profile_application_runs": 12,
+  "style_baselines": 2,
+  "style_variants": 8,
+  "font_boundary_cases": 2,
+  "additional_revised_runner_baseline_smoke_runs": 1,
+  "candidate_cases": [
+    {
+      "case": "two_graphs-xb_tick_font",
+      "changed_bytes": 1,
+      "allocated_source_cells": 128,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 0,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 2,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 2,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "two_graphs-xb_axis_width",
+      "changed_bytes": 2,
+      "allocated_source_cells": 128,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 0,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 4,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 4,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "two_graphs-curve_line_width",
+      "changed_bytes": 2,
+      "allocated_source_cells": 128,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 0,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 1,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 1,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "two_graphs-layer_rect",
+      "changed_bytes": 7,
+      "allocated_source_cells": 128,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 0,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 6,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 6,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 128,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "single_axes-xb_tick_font",
+      "changed_bytes": 1,
+      "allocated_source_cells": 64,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 32588,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 2,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 2,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "single_axes-xb_axis_width",
+      "changed_bytes": 2,
+      "allocated_source_cells": 64,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 32588,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 4,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 4,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "single_axes-curve_line_width",
+      "changed_bytes": 2,
+      "allocated_source_cells": 64,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 32588,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 1,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 1,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        }
+      }
+    },
+    {
+      "case": "single_axes-layer_rect",
+      "changed_bytes": 7,
+      "allocated_source_cells": 64,
+      "source_complement_identical": true,
+      "complete_source_data_masks_and_bits_identical": true,
+      "known_cache_bytes": 32588,
+      "observations": {
+        "author": {
+          "exact_xml_delta_count": 6,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        },
+        "reviewer": {
+          "exact_xml_delta_count": 6,
+          "all_text_and_tails_exactly_equal": true,
+          "binary64_cells": 64,
+          "unmodified_app_input": true
+        }
+      }
+    }
+  ],
+  "font_boundary": [
+    {
+      "evidence_origin": "author",
+      "cases": [
+        {
+          "case": "strings-probe-baseline",
+          "imported_point_size": 26,
+          "reset_to_point_size": 9,
+          "matching_import_events": 1,
+          "matching_reset_events": 1,
+          "font_log_sha256": "9cabe686c206699f65fe390e11abe5e4a84f103ab2c3f70d12d4e03a176e3aec"
+        },
+        {
+          "case": "strings-probe-font30",
+          "imported_point_size": 36,
+          "reset_to_point_size": 9,
+          "matching_import_events": 1,
+          "matching_reset_events": 1,
+          "font_log_sha256": "bf1dc6a21ae8d8cf986c3bfc84324f71d66a7767ac224d94ace251c6c811045b"
+        }
+      ]
+    },
+    {
+      "evidence_origin": "reviewer",
+      "cases": [
+        {
+          "case": "strings-probe-baseline",
+          "imported_point_size": 26,
+          "reset_to_point_size": 9,
+          "matching_import_events": 1,
+          "matching_reset_events": 1,
+          "font_log_sha256": "9cabe686c206699f65fe390e11abe5e4a84f103ab2c3f70d12d4e03a176e3aec"
+        },
+        {
+          "case": "strings-probe-font30",
+          "imported_point_size": 36,
+          "reset_to_point_size": 9,
+          "matching_import_events": 1,
+          "matching_reset_events": 1,
+          "font_log_sha256": "bf1dc6a21ae8d8cf986c3bfc84324f71d66a7767ac224d94ace251c6c811045b"
+        }
+      ]
+    }
+  ],
+  "exact_xml_text_tail_comparison": true,
+  "all_source_complements_and_known_cache_payloads_identical": true,
+  "normal_fixture_tests": {
+    "methods": 47,
+    "passed": 47,
+    "skipped": 0
+  },
+  "optimized_fixture_tests": {
+    "methods": 47,
+    "passed": 47,
+    "skipped": 0
+  },
+  "source_only_tests_each_mode": {
+    "methods": 47,
+    "passed": 33,
+    "skipped": 14
+  },
+  "screenshots_visually_inspected": 5,
+  "layout_quality": "Parameter probes only; larger font and smaller rectangle cause overlapping labels",
+  "Origin_reopen": "NOT RUN",
+  "modern_OPJU_OGGU": "UNSUPPORTED"
+}

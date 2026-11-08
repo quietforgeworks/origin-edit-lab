@@ -1,0 +1,72 @@
+[
+  {
+    "case": "single_axes-baseline",
+    "reviewed_initial_capture_graph_pixels_equal_final_capture": true,
+    "graph_area": [
+      304,
+      98,
+      1231,
+      876
+    ],
+    "graph_pixels_sha256": "384fdb17cfc44741c0eb38e5d16cbb75971988d803f5c2b588ec7717afa12e44",
+    "pixel_hash_encoding": "SHA-256 of tightly packed row-major RGBA bytes, no header or stride padding",
+    "crop_convention": "Pillow half-open left, top, right, bottom",
+    "independent_rerun_graph_pixels_identical": true
+  },
+  {
+    "case": "single_axes-xb_tick_font",
+    "reviewed_initial_capture_graph_pixels_equal_final_capture": true,
+    "graph_area": [
+      304,
+      98,
+      1231,
+      876
+    ],
+    "graph_pixels_sha256": "945d3d9e4472f6a42d27ff7dec237fedf39b9d5063d48e2900bfbc710dd36d34",
+    "pixel_hash_encoding": "SHA-256 of tightly packed row-major RGBA bytes, no header or stride padding",
+    "crop_convention": "Pillow half-open left, top, right, bottom",
+    "independent_rerun_graph_pixels_identical": true
+  },
+  {
+    "case": "single_axes-xb_axis_width",
+    "reviewed_initial_capture_graph_pixels_equal_final_capture": true,
+    "graph_area": [
+      304,
+      98,
+      1231,
+      876
+    ],
+    "graph_pixels_sha256": "b3bf7fb09f68477b2d6127d3e4160d9217f9ae9325d9a784246fd9337c136556",
+    "pixel_hash_encoding": "SHA-256 of tightly packed row-major RGBA bytes, no header or stride padding",
+    "crop_convention": "Pillow half-open left, top, right, bottom",
+    "independent_rerun_graph_pixels_identical": true
+  },
+  {
+    "case": "single_axes-curve_line_width",
+    "reviewed_initial_capture_graph_pixels_equal_final_capture": true,
+    "graph_area": [
+      304,
+      98,
+      1231,
+      876
+    ],
+    "graph_pixels_sha256": "a45ce741ad45894148b5073d49c5b78f4b849b14d00ccbf8ed2f87a29b20d9bb",
+    "pixel_hash_encoding": "SHA-256 of tightly packed row-major RGBA bytes, no header or stride padding",
+    "crop_convention": "Pillow half-open left, top, right, bottom",
+    "independent_rerun_graph_pixels_identical": true
+  },
+  {
+    "case": "single_axes-layer_rect",
+    "reviewed_initial_capture_graph_pixels_equal_final_capture": true,
+    "graph_area": [
+      304,
+      98,
+      1231,
+      876
+    ],
+    "graph_pixels_sha256": "563bd952bd5334dafe208618d8ea6aa7bdbf51b79059440de226a3ee2902edce",
+    "pixel_hash_encoding": "SHA-256 of tightly packed row-major RGBA bytes, no header or stride padding",
+    "crop_convention": "Pillow half-open left, top, right, bottom",
+    "independent_rerun_graph_pixels_identical": true
+  }
+]

@@ -1,0 +1,52 @@
+test_indentation_difference_detected (test_application_checks.ExactXMLTests.test_indentation_difference_detected) ... ok
+test_leading_tail_space (test_application_checks.ExactXMLTests.test_leading_tail_space) ... ok
+test_leading_text_space (test_application_checks.ExactXMLTests.test_leading_text_space) ... ok
+test_none_vs_empty_not_collapsed (test_application_checks.ExactXMLTests.test_none_vs_empty_not_collapsed) ... ok
+test_only_documented_volatile_attributes_ignored (test_application_checks.ExactXMLTests.test_only_documented_volatile_attributes_ignored) ... ok
+test_other_attribute_change_detected (test_application_checks.ExactXMLTests.test_other_attribute_change_detected) ... ok
+test_trailing_tail_space (test_application_checks.ExactXMLTests.test_trailing_tail_space) ... ok
+test_trailing_text_space (test_application_checks.ExactXMLTests.test_trailing_text_space) ... ok
+test_exact_single_byte_and_rollback (test_application_checks.FontProbeFixtureTests.test_exact_single_byte_and_rollback) ... skipped 'Optional exact public strings fixture not materialized'
+test_repatch_rejected (test_application_checks.FontProbeFixtureTests.test_repatch_rejected) ... skipped 'Optional exact public strings fixture not materialized'
+test_correct_size_wrong_hash_rejected (test_application_checks.FontProbeGuardTests.test_correct_size_wrong_hash_rejected) ... ok
+test_wrong_source_rejected (test_application_checks.FontProbeGuardTests.test_wrong_source_rejected) ... ok
+test_wrong_type_rejected (test_application_checks.FontProbeGuardTests.test_wrong_type_rejected) ... ok
+test_cache_tamper_rejected_even_with_updated_hash (test_application_checks.SourceEvidenceTests.test_cache_tamper_rejected_even_with_updated_hash) ... skipped 'Optional exact public KDE fixture not materialized'
+test_exact_artifacts_accepted (test_application_checks.SourceEvidenceTests.test_exact_artifacts_accepted) ... skipped 'Optional exact public KDE fixture not materialized'
+test_false_manifest_preservation_rejected (test_application_checks.SourceEvidenceTests.test_false_manifest_preservation_rejected) ... skipped 'Optional exact public KDE fixture not materialized'
+test_argument_count (test_application_runner.RunnerGuardTests.test_argument_count) ... ok
+test_case_identifiers (test_application_runner.RunnerGuardTests.test_case_identifiers) ... ok
+test_existing_profile_rejected (test_application_runner.RunnerGuardTests.test_existing_profile_rejected) ... ok
+test_missing_input (test_application_runner.RunnerGuardTests.test_missing_input) ... ok
+test_unknown_mode (test_application_runner.RunnerGuardTests.test_unknown_mode) ... ok
+test_bad_frames (test_native_style_patch.EncodingTests.test_bad_frames) ... ok
+test_empty_frame (test_native_style_patch.EncodingTests.test_empty_frame) ... ok
+test_frame (test_native_style_patch.EncodingTests.test_frame) ... ok
+test_negative_offsets (test_native_style_patch.EncodingTests.test_negative_offsets) ... ok
+test_non_original_rejected (test_native_style_patch.EncodingTests.test_non_original_rejected) ... ok
+test_rect_encoding (test_native_style_patch.EncodingTests.test_rect_encoding) ... ok
+test_rect_rejections (test_native_style_patch.EncodingTests.test_rect_rejections) ... ok
+test_reject_float_font (test_native_style_patch.EncodingTests.test_reject_float_font) ... ok
+test_reject_width (test_native_style_patch.EncodingTests.test_reject_width) ... ok
+test_tick_font (test_native_style_patch.EncodingTests.test_tick_font) ... ok
+test_unknown_field (test_native_style_patch.EncodingTests.test_unknown_field) ... ok
+test_unknown_profile (test_native_style_patch.EncodingTests.test_unknown_profile) ... ok
+test_width_encoding (test_native_style_patch.EncodingTests.test_width_encoding) ... ok
+test_all_repatches_rejected (test_native_style_patch.PublicFixtureTests.test_all_repatches_rejected) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_cache_is_actual_emf_payload (test_native_style_patch.PublicFixtureTests.test_cache_is_actual_emf_payload) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_changed_unknown_byte_rejected (test_native_style_patch.PublicFixtureTests.test_changed_unknown_byte_rejected) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_data_binary64_bit_patterns (test_native_style_patch.PublicFixtureTests.test_data_binary64_bit_patterns) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_exact_diff_and_complete_preservation (test_native_style_patch.PublicFixtureTests.test_exact_diff_and_complete_preservation) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_noop_rejected (test_native_style_patch.PublicFixtureTests.test_noop_rejected) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_outside_page_rejected (test_native_style_patch.PublicFixtureTests.test_outside_page_rejected) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_rollback_candidate_tamper (test_native_style_patch.PublicFixtureTests.test_rollback_candidate_tamper) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_rollback_manifest_tamper (test_native_style_patch.PublicFixtureTests.test_rollback_manifest_tamper) ... skipped 'Optional exact public KDE fixtures not materialized'
+test_invalid_artifact_name_refused (test_native_style_patch.PublicationTests.test_invalid_artifact_name_refused) ... ok
+test_missing_parent_refused (test_native_style_patch.PublicationTests.test_missing_parent_refused) ... ok
+test_publish_and_refuse_overwrite (test_native_style_patch.PublicationTests.test_publish_and_refuse_overwrite) ... ok
+test_symlink_output_refused (test_native_style_patch.PublicationTests.test_symlink_output_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.039s
+
+OK (skipped=14)

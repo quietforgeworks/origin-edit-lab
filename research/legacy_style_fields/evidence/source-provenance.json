@@ -1,0 +1,58 @@
+{
+  "official_labplot_version": "2.12.1",
+  "official_source_archive_url": "https://download.kde.org/stable/labplot/labplot-2.12.1.tar.xz",
+  "source_archive_vendor_sha256": "e28155bfddf40e5b6f7c4791313556d1e48138044f216f210d515b9f6d6c106a",
+  "fixtures_commit": "0bd2e4094e92e74052ec161022d4e60aeb7605cd",
+  "quantized_execution_this_phase": false,
+  "executed_tools": "Existing verified official LabPlot app plus newly authored read-only Qt observer; Python standard-library bounded patcher and comparisons. No new upstream project executed.",
+  "files": {
+    "downloads/labplot-2.12.1-x86_64.AppImage": {
+      "bytes": 398416376,
+      "sha256": "1b700d60b3297a987022cfc532e413b8211ef917059a21155d8b5604f3012a82"
+    },
+    "squashfs-root/AppRun.wrapped": {
+      "bytes": 13910504,
+      "sha256": "c11d801f47329fcd69b03c8f6acf5a5f8f74a9dc6a2f3bbdaa32293804e17554"
+    },
+    "squashfs-root/usr/lib/liblabplot.so.2.12.1": {
+      "bytes": 7702552,
+      "sha256": "81d571e53b9dfb793f07cbbb9307d418391103ae7c8679a36284d12422e10fbf"
+    },
+    "phase3/downloads/labplot-2.12.1.tar.xz": {
+      "bytes": 23900436,
+      "sha256": "e28155bfddf40e5b6f7c4791313556d1e48138044f216f210d515b9f6d6c106a"
+    },
+    "evidence/labplot-2.12.1/src/3rdparty/liborigin/OriginObj.h": {
+      "bytes": 27338,
+      "sha256": "86881710d8c82b91f76db3ccf7a665e2f2aa1d2eb899e9c88ab852ac2b923698"
+    },
+    "evidence/labplot-2.12.1/src/3rdparty/liborigin/OriginAnyParser.cpp": {
+      "bytes": 122886,
+      "sha256": "b43d1fbf3b70fd135188dcd12838c83b0886dc3444dbc63b086183e09f53d611"
+    },
+    "evidence/labplot-2.12.1/src/3rdparty/liborigin/OriginAnyParser.h": {
+      "bytes": 3305,
+      "sha256": "d29a7b6c6096336edd26cf4e22a086dc2b05f75b47c75ab2ec3bd1f78ff17e8f"
+    },
+    "evidence/labplot-2.12.1/src/backend/worksheet/TextLabel.h": {
+      "bytes": 4964,
+      "sha256": "193f93cd39c8cebd05b0049a4e247191548a23e54a067bc6619b8706104bfbb6"
+    },
+    "evidence/labplot-2.12.1/src/backend/worksheet/TextLabel.cpp": {
+      "bytes": 48984,
+      "sha256": "161cc52c1c7e575f5016aceb93854ba6e1aae9a9b561817f7f4f585173612706"
+    },
+    "evidence/labplot-2.12.1/src/backend/worksheet/plots/cartesian/Axis.cpp": {
+      "bytes": 140615,
+      "sha256": "36507d1afeb680c33f69b082b84886856fd652f8dd1a00b43f5781fc84d4cd29"
+    }
+  },
+  "quantized_revision_inspected": "431deeb7c8473503970ca56b78cc1678f57d373d",
+  "title_probe_fixture": {
+    "name": "strings_testing.opj",
+    "public_url": "https://github.com/KDE/labplot/blob/0bd2e4094e92e74052ec161022d4e60aeb7605cd/tests/import_export/Project/data/strings_testing.opj",
+    "bytes": 344049,
+    "sha256": "8d1e26543e77942faef097a3cdc05ba4a78d2b0d667c9edb9003074b4e0443ed",
+    "usage": "Separate one-byte YL title font22-to30 reader diagnostic only"
+  }
+}

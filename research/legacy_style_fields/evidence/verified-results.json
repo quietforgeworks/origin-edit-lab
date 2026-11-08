@@ -1,0 +1,82 @@
+[
+  {
+    "case": "two_graphs-xb_tick_font",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 128,
+    "changed_bytes": 1,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "two_graphs-xb_axis_width",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 128,
+    "changed_bytes": 2,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "two_graphs-curve_line_width",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 128,
+    "changed_bytes": 2,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "two_graphs-layer_rect",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 128,
+    "changed_bytes": 7,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "single_axes-xb_tick_font",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 64,
+    "changed_bytes": 1,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "single_axes-xb_axis_width",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 64,
+    "changed_bytes": 2,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "single_axes-curve_line_width",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 64,
+    "changed_bytes": 2,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  },
+  {
+    "case": "single_axes-layer_rect",
+    "target_and_expected_dependent_changes_only": true,
+    "unchanged_native_double_cells": 64,
+    "changed_bytes": 7,
+    "source_and_numeric_and_cache_preservation": true,
+    "application_property_conversion_matches_source": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual evidence",
+    "Origin_reopen": "NOT RUN"
+  }
+]
