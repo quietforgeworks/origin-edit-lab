@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "application": "official LabPlot 2.12.1",
+  "active_rows": 50,
+  "allocated_rows": 50,
+  "raw_csv_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+  "declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+  "candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0",
+  "active_api_cells_bit_exact": 100,
+  "inactive_api_cells_missing": 0,
+  "actual_curve_point_signal_emissions": 2,
+  "actual_curve_points_bit_exact": true,
+  "saved_LML_column_bits_match_API": true,
+  "graph_source_bindings": {
+    "xColumn": "test_tree_import/Folder1/Book1/A",
+    "yColumn": "test_tree_import/Folder1/Book1/B",
+    "plotRangeIndex": "0",
+    "legendVisible": "1",
+    "visible": "1"
+  },
+  "graph_config_unchanged_except_uuid_creation_time": true,
+  "only_saved_project_data_changes": [
+    {
+      "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()"
+    },
+    {
+      "path": "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()"
+    }
+  ],
+  "excluded_UI_metadata_hashes": {
+    "dockWidgetState": {
+      "original": "773df306de93cb2d60d87affe7468c352c7416ec685db0aa53043ac08b74adf4",
+      "candidate": "3b6e4066199066461b0b4e128a2587dfcf16b7a67e627c37e27a0fdc1b5b1fe9"
+    },
+    "modificationTime": {
+      "original": "803a40f63f973160fdadb755845a7f41f2652d5f30b157d6eaf630c56ef48a67",
+      "candidate": "02877156a455c3bd852fc20fd0127f96c3d9e3aa001fd40b70d1a128330dcd11"
+    },
+    "thumbnail": {
+      "original": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+      "candidate": "3eb3257508d1c2dee1be042e058c8e1c21e35471c0648ceaf5b10af931381638"
+    }
+  },
+  "native_source_unchanged": true,
+  "source_integrity": {
+    "schema": "custom-fixed50-bundle-v1",
+    "source_integrity": "PASS",
+    "all_artifacts_exactly_regenerated": true,
+    "active_rows": 50,
+    "allocated_rows": 50,
+    "input_provenance": {
+      "caller_declaration": {
+        "declared_kind": "synthetic",
+        "schema": "custom-data-provenance-v1",
+        "statement": "Known generated non-toy numerical stress input; not a measurement."
+      },
+      "independently_verified": false,
+      "statement": "Declaration is retained exactly and is not measurement verification."
+    },
+    "inactive_source_cells_retained": 0,
+    "unrelated_template_content_retained": true,
+    "raw_csv_sha256": "fe668293f9efbc5591636554489d49cb1b377ef993b218a70b04d4d0aa92afc0",
+    "declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+    "candidate_sha256": "ba87a622332f8ef1cbf1f13a148369ad903ec7988f36dea407a5b29c6f4b1aa0",
+    "origin_lifecycle": "NOT_RUN",
+    "input_specific_labplot_observation": "NOT_RUN",
+    "native_safe_export_supported": false
+  },
+  "origin_lifecycle": "NOT_RUN",
+  "visual_review": "NOT_RUN by this numerical verifier",
+  "limits": "Importer observation only; no Origin open, edit, update, recalculate, native save or reopen test."
+}

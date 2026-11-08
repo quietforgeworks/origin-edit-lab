@@ -1,0 +1,8 @@
+test_every_declared_source_or_report_tamper (__main__.SourceAuditTests.test_every_declared_source_or_report_tamper) ... ok
+test_exact_inventory (__main__.SourceAuditTests.test_exact_inventory) ... ok
+test_extra_missing_symlink_external_manifest_anchor (__main__.SourceAuditTests.test_extra_missing_symlink_external_manifest_anchor) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.156s
+
+OK

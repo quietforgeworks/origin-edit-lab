@@ -1,0 +1,25 @@
+{
+  "schema": "custom-fixed50-bundle-v1",
+  "source_integrity": "PASS",
+  "all_artifacts_exactly_regenerated": true,
+  "active_rows": 49,
+  "allocated_rows": 50,
+  "input_provenance": {
+    "caller_declaration": {
+      "declared_kind": "synthetic",
+      "schema": "custom-data-provenance-v1",
+      "statement": "Known generated non-toy numerical stress input; not a measurement."
+    },
+    "independently_verified": false,
+    "statement": "Declaration is retained exactly and is not measurement verification."
+  },
+  "inactive_source_cells_retained": 2,
+  "unrelated_template_content_retained": true,
+  "raw_csv_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+  "declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+  "candidate_sha256": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa",
+  "origin_lifecycle": "NOT_RUN",
+  "input_specific_labplot_observation": "NOT_RUN",
+  "native_safe_export_supported": false,
+  "output": "runs/custom49"
+}

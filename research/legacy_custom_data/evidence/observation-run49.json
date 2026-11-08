@@ -1,0 +1,24 @@
+{
+  "schema": "custom-labplot-observation-v1",
+  "native_bundle_before_after_identical": true,
+  "native_bundle_artifacts_sha256": {
+    "raw.csv": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+    "declaration.json": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+    "bundle.json": "22ce4269f7fe8c546b7a890288b9ff6605674b838d80fcbe631024eb19334c2c",
+    "after.json": "869a10ed81202d482fb3f3d79479ed443e069f50f72e2cfd6a334504b202d7e4",
+    "before.json": "4b66b292c2277f20e404b5833a3805b397205c9bbba1f5d3f5ad83451af5d35a",
+    "rollback.opj": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+    "manifest.json": "6a33335c2b73ddf9821fe07ae3ba38b32d1ec1dca57dfb56703941e575dcf1e6",
+    "candidate.opj": "1f555c1957fbe2952976b15618575c6eaf921e294a15b48c07e2c92a7e1408aa"
+  },
+  "runtime_sha256": {
+    "squashfs-root/usr/bin/labplot": "c11d801f47329fcd69b03c8f6acf5a5f8f74a9dc6a2f3bbdaa32293804e17554",
+    "squashfs-root/usr/lib/liblabplot.so.2.12.1": "81d571e53b9dfb793f07cbbb9307d418391103ae7c8679a36284d12422e10fbf",
+    "squashfs-root/AppRun": "ce1d68255d5cd2a27c13471a22f504d35f3e0374ed90763d24f6830b781af30d"
+  },
+  "observer_sha256": "3c4df197b6c6c960a44d31bf3f1a704580d63ba119ea927881c02925f2b7aa2a",
+  "expected_csv_sha256": "ff7a41907cb8e27c80b6fa9d40d4b0efceb482d437f8b6105f2b2bab90a9cd93",
+  "expected_declaration_sha256": "7bd4af26d0aa4aae07923741d7e990c3238a94ae5a6dc950db17a58d23d0d6e1",
+  "origin_lifecycle": "NOT_RUN",
+  "application_results_validation": "PENDING independent validator"
+}
