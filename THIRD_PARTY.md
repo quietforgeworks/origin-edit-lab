@@ -15,3 +15,23 @@ NumPy, lxml and Pillow are installed separately, not vendored. Consult each dist
 ## Test data
 
 The committed CSV is synthetic. Preview fixtures are generated from code; the repository includes no original PPT/OLE/OPJ/OPJU binaries or research measurements. The optional exact-template tests refer to an external CC BY 4.0 research source, documented in `native/README.md`. Its license is separate from the code license.
+
+## Native-data source-only supplements
+
+`research/legacy_multicurve` and `research/legacy_custom_data` add only
+project-authored source, tests, docs, synthetic demonstration inputs and compact
+review evidence under MIT. Their own MIT copies are retained. The three custom
+vendor modules are this project's unchanged authored active-row research code,
+not a newly vendored third-party parser. All scientific modules, observers and
+reviewed tests are byte-identical to the recorded reviewed manifests.
+
+The public native fixture is external KDE/LabPlot material, referenced by pinned
+URL and SHA-256 in `research/NATIVE-DATA-PROVENANCE.json`, and is not distributed.
+LabPlot/liborigin source, headers, runtime and binaries retain their upstream
+licenses and are not added here. The authored observer is compiled locally
+against Qt and uses existing application APIs; distributing a linked observer
+or application runtime requires a separate dependency/license review. MIT does
+not relicense those external dependencies. No copied GPL parser implementation,
+compiled observer, external native sample, screenshot pixel or user measurement
+is included in these supplements. The repository's existing Apache-2.0 modules
+and notices are unchanged.

@@ -1,0 +1,5 @@
+# Exact byte-fidelity fixtures: preserve deliberate CSV quotes and CRLF bytes.
+# Keep the default whitespace-error checks; only accept CR as part of CRLF here.
+research/legacy_custom_data/inputs/custom7.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+research/legacy_custom_data/inputs/custom49.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+research/legacy_custom_data/inputs/custom50.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
