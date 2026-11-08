@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.so
+candidates/generated*/
+application/profiles/
+application/results/
+evidence/application-verification/
+evidence/application-verification-final/
+evidence/full-*.json
+*.opj
+*.lml
+*.png
