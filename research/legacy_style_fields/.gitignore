@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+fixtures/
+*.opj
+*.opju
+*.oggu
+*.pptx
+*.so
+application/results/
+application/profiles/
+candidates/
