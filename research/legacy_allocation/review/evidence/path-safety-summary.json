@@ -1,0 +1,11 @@
+{
+  "initial_static_ancestor_alias_accepted": true,
+  "initial_wrapper_wrote_before_refusal": true,
+  "final_static_ancestor_alias_rejected": true,
+  "final_wrapper_writes_before_refusal": false,
+  "raced_destination_rejected_and_preserved": true,
+  "injected_publication_failure_final_output_absent": true,
+  "injected_publication_failure_staging_leaks": 0,
+  "concurrent_ancestor_substitution": "UNSUPPORTED; trusted stable ancestors required",
+  "crash_durability": "NOT_TESTED"
+}

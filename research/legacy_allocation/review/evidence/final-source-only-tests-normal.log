@@ -1,0 +1,58 @@
+test_attribute_changes_detected (test_application_guards.XMLComparisonTests.test_attribute_changes_detected) ... ok
+test_extra_children_detected (test_application_guards.XMLComparisonTests.test_extra_children_detected) ... ok
+test_identical (test_application_guards.XMLComparisonTests.test_identical) ... ok
+test_leading_whitespace_preserved (test_application_guards.XMLComparisonTests.test_leading_whitespace_preserved) ... ok
+test_none_empty_not_normalized (test_application_guards.XMLComparisonTests.test_none_empty_not_normalized) ... ok
+test_only_documented_metadata_excluded (test_application_guards.XMLComparisonTests.test_only_documented_metadata_excluded) ... ok
+test_tail_whitespace_preserved (test_application_guards.XMLComparisonTests.test_tail_whitespace_preserved) ... ok
+test_trailing_whitespace_preserved (test_application_guards.XMLComparisonTests.test_trailing_whitespace_preserved) ... ok
+test_all_sizes_allocations (test_native_allocation.FixtureTests.test_all_sizes_allocations) ... skipped 'exact public fixture is external prerequisite'
+test_altered_template_rejected (test_native_allocation.FixtureTests.test_altered_template_rejected) ... skipped 'exact public fixture is external prerequisite'
+test_candidate_source_sourceimmutable (test_native_allocation.FixtureTests.test_candidate_source_sourceimmutable) ... skipped 'exact public fixture is external prerequisite'
+test_changed_candidate_hash_rejected (test_native_allocation.FixtureTests.test_changed_candidate_hash_rejected) ... skipped 'exact public fixture is external prerequisite'
+test_changed_framing_rejected (test_native_allocation.FixtureTests.test_changed_framing_rejected) ... skipped 'exact public fixture is external prerequisite'
+test_changed_opaque_fields_rejected (test_native_allocation.FixtureTests.test_changed_opaque_fields_rejected) ... skipped 'exact public fixture is external prerequisite'
+test_every_cell_bit_exact (test_native_allocation.FixtureTests.test_every_cell_bit_exact) ... skipped 'exact public fixture is external prerequisite'
+test_exact_rollback (test_native_allocation.FixtureTests.test_exact_rollback) ... skipped 'exact public fixture is external prerequisite'
+test_full_suffix_relocated_intact (test_native_allocation.FixtureTests.test_full_suffix_relocated_intact) ... skipped 'exact public fixture is external prerequisite'
+test_generate_no_overwrite (test_native_allocation.FixtureTests.test_generate_no_overwrite) ... skipped 'exact public fixture is external prerequisite'
+test_global_ids_preserved (test_native_allocation.FixtureTests.test_global_ids_preserved) ... skipped 'exact public fixture is external prerequisite'
+test_graph_tail_hashes_preserved (test_native_allocation.FixtureTests.test_graph_tail_hashes_preserved) ... skipped 'exact public fixture is external prerequisite'
+test_header_fields_only (test_native_allocation.FixtureTests.test_header_fields_only) ... skipped 'exact public fixture is external prerequisite'
+test_make_cases_candidates_symlink_refused_before_write (test_native_allocation.FixtureTests.test_make_cases_candidates_symlink_refused_before_write) ... skipped 'exact public fixture is external prerequisite'
+test_make_cases_csv_creation_race_no_overwrite (test_native_allocation.FixtureTests.test_make_cases_csv_creation_race_no_overwrite) ... skipped 'exact public fixture is external prerequisite'
+test_make_cases_fixture_symlink_refused_before_output (test_native_allocation.FixtureTests.test_make_cases_fixture_symlink_refused_before_output) ... skipped 'exact public fixture is external prerequisite'
+test_manifest_schema_attacks (test_native_allocation.FixtureTests.test_manifest_schema_attacks) ... skipped 'exact public fixture is external prerequisite'
+test_nested_input_symlink_refused (test_native_allocation.FixtureTests.test_nested_input_symlink_refused) ... skipped 'exact public fixture is external prerequisite'
+test_nested_output_symlink_refused (test_native_allocation.FixtureTests.test_nested_output_symlink_refused) ... skipped 'exact public fixture is external prerequisite'
+test_repatch_rejected (test_native_allocation.FixtureTests.test_repatch_rejected) ... skipped 'exact public fixture is external prerequisite'
+test_signed_zero_after_old_limit (test_native_allocation.FixtureTests.test_signed_zero_after_old_limit) ... skipped 'exact public fixture is external prerequisite'
+test_source_audit_full_manifest_tamper (test_native_allocation.FixtureTests.test_source_audit_full_manifest_tamper) ... skipped 'exact public fixture is external prerequisite'
+test_source_audit_opaque_mutation_rewritten_manifest (test_native_allocation.FixtureTests.test_source_audit_opaque_mutation_rewritten_manifest) ... skipped 'exact public fixture is external prerequisite'
+test_source_audit_signedzero_tamper (test_native_allocation.FixtureTests.test_source_audit_signedzero_tamper) ... skipped 'exact public fixture is external prerequisite'
+test_splice_schema_attacks (test_native_allocation.FixtureTests.test_splice_schema_attacks) ... skipped 'exact public fixture is external prerequisite'
+test_symlinks_refused (test_native_allocation.FixtureTests.test_symlinks_refused) ... skipped 'exact public fixture is external prerequisite'
+test_unknown_counts_no_output (test_native_allocation.FixtureTests.test_unknown_counts_no_output) ... skipped 'exact public fixture is external prerequisite'
+test_unknown_metadata_stays_unchanged (test_native_allocation.FixtureTests.test_unknown_metadata_stays_unchanged) ... skipped 'exact public fixture is external prerequisite'
+test_unrelated_mutation_rewritten_hash_rejected (test_native_allocation.FixtureTests.test_unrelated_mutation_rewritten_hash_rejected) ... skipped 'exact public fixture is external prerequisite'
+test_atomic_no_overwrite (test_native_allocation.InputTests.test_atomic_no_overwrite) ... ok
+test_axis_bounds (test_native_allocation.InputTests.test_axis_bounds) ... ok
+test_bad_csv (test_native_allocation.InputTests.test_bad_csv) ... ok
+test_canonical_signedzero_boolean_types (test_native_allocation.InputTests.test_canonical_signedzero_boolean_types) ... ok
+test_default_export_fails_closed (test_native_allocation.InputTests.test_default_export_fails_closed) ... ok
+test_default_generate_creates_nothing (test_native_allocation.InputTests.test_default_generate_creates_nothing) ... ok
+test_frame_hazards (test_native_allocation.InputTests.test_frame_hazards) ... ok
+test_frame_roundtrip (test_native_allocation.InputTests.test_frame_roundtrip) ... ok
+test_missing_sentinel (test_native_allocation.InputTests.test_missing_sentinel) ... ok
+test_negative_zero (test_native_allocation.InputTests.test_negative_zero) ... ok
+test_nested_symlink_preflight (test_native_allocation.InputTests.test_nested_symlink_preflight) ... ok
+test_numeric_hazards (test_native_allocation.InputTests.test_numeric_hazards) ... ok
+test_parent_traversal_preflight (test_native_allocation.InputTests.test_parent_traversal_preflight) ... ok
+test_research_count_whitelist (test_native_allocation.InputTests.test_research_count_whitelist) ... ok
+test_rounding_ledger (test_native_allocation.InputTests.test_rounding_ledger) ... ok
+test_unvalidated_counts (test_native_allocation.InputTests.test_unvalidated_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 0.028s
+
+OK (skipped=29)

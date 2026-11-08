@@ -1,0 +1,49 @@
+{
+  "scope": "Staging-only source package documentation and explicit toy-wrapper research opt-in; no publication",
+  "tests_normal": {
+    "run": 59,
+    "passed": 59,
+    "skipped": 0
+  },
+  "tests_optimized": {
+    "run": 59,
+    "passed": 59,
+    "skipped": 0
+  },
+  "source_only_normal": {
+    "run": 59,
+    "passed": 28,
+    "skipped": 31
+  },
+  "source_only_optimized": {
+    "run": 59,
+    "passed": 28,
+    "skipped": 31
+  },
+  "default_wrapper_refuses_before_fixture_environment_or_path_access": true,
+  "default_cli_no_outputs_including_bytecode": true,
+  "existing_path_prewrite_and_race_tests_still_reach_guards_with_opt_in": true,
+  "api_and_cli_opt_in_candidate_sha256": {
+    "51": "95e76a8dbc04d79671375c92479c546a9b8387a677de2f35c80074cb8625779e",
+    "257": "652f7758eceae81740850e132bdc44b58999a48843454562837dbdab7ad9a666",
+    "1024": "799cc39149fd7eca0a24b1a8c427fdc7bc614e0016adcfa0eb24ec3a816b21fe"
+  },
+  "scientific_candidate_bytes_unchanged": true,
+  "protected_content_unchanged_sha256": {
+    "native_allocation.py": "4b3192fa386661549d6d18756c0cf3186b7344d95fc17b5bc538035ae2588d02",
+    "numeric_support.py": "f9a5a2b9a672c90512d5b97b1ca3c2991b105b088fb41e859e1f6167b0b21f2d",
+    "application/application_observer.cpp": "f5625466d4f3f3d70ace0dacf331497263792715c64049b18260045489e7add5",
+    "application/curve_observation.inc": "fca6369a3aed2278962f67ffc3a2e972c698644b02cea4df803159e261816a20",
+    "application/build.sh": "b3059529f965532846d746ec3052af1eda726703bec545624a5045cc92720f01",
+    "application/run.sh": "facaf8a8e2ec686bcf791253a171e769691190130ebb4c00dfcc2fd4ae6409db",
+    "candidates/raw51.csv": "633717e0ae55bdf1ec6da02885a631f78caacf23f8a53f4e8426b4232bb65b71",
+    "candidates/raw257.csv": "e6943baf066d99883de149c94a7d5740b1bae958275901f2dcf913c29881ddfc",
+    "candidates/raw1024.csv": "b2905be142dcef078f7d6c8f0fc6c220fef9298f0d4cadc2872236eb21dbfabc",
+    "evidence/source-freeze-manifest.json": "5fdea6c70275c3547e5b5aab88da9307938baee8b53cb2ff9a3e3c183848d7ab",
+    "LICENSE": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884"
+  },
+  "current_inventory": "PACKAGE-INVENTORY.json",
+  "historical_manifest": "evidence/source-freeze-manifest.json",
+  "new_application_runs": "NOT_RUN; wrapper-only hardening",
+  "Origin_acceptance": "NOT_RUN"
+}

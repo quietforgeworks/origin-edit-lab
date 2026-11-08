@@ -1,0 +1,75 @@
+{
+  "native_candidate_checks": [
+    {
+      "case": 51,
+      "candidate_sha256": "95e76a8dbc04d79671375c92479c546a9b8387a677de2f35c80074cb8625779e",
+      "all_frames_complement_and_suffix_exact": true,
+      "binary64_cells_verified": 102,
+      "rollback_exact": true
+    },
+    {
+      "case": 257,
+      "candidate_sha256": "652f7758eceae81740850e132bdc44b58999a48843454562837dbdab7ad9a666",
+      "all_frames_complement_and_suffix_exact": true,
+      "binary64_cells_verified": 514,
+      "rollback_exact": true
+    },
+    {
+      "case": 1024,
+      "candidate_sha256": "799cc39149fd7eca0a24b1a8c427fdc7bc614e0016adcfa0eb24ec3a816b21fe",
+      "all_frames_complement_and_suffix_exact": true,
+      "binary64_cells_verified": 2048,
+      "rollback_exact": true
+    }
+  ],
+  "independent_application_reruns": [
+    {
+      "case": 51,
+      "api_cells_bit_exact": 102,
+      "passive_curve_emissions": 2,
+      "all_points_bit_exact": 51,
+      "curve_range": [
+        0,
+        50
+      ],
+      "saved_binary64_exact": true,
+      "graph_and_project_complement_exact": true,
+      "input_and_snapshot_verified": true,
+      "baseline_50_curve_points_exact": true,
+      "exit_code": 124,
+      "Origin_validation": "NOT_RUN"
+    },
+    {
+      "case": 257,
+      "api_cells_bit_exact": 514,
+      "passive_curve_emissions": 2,
+      "all_points_bit_exact": 257,
+      "curve_range": [
+        0,
+        256
+      ],
+      "saved_binary64_exact": true,
+      "graph_and_project_complement_exact": true,
+      "input_and_snapshot_verified": true,
+      "baseline_50_curve_points_exact": true,
+      "exit_code": 124,
+      "Origin_validation": "NOT_RUN"
+    },
+    {
+      "case": 1024,
+      "api_cells_bit_exact": 2048,
+      "passive_curve_emissions": 2,
+      "all_points_bit_exact": 1024,
+      "curve_range": [
+        0,
+        1023
+      ],
+      "saved_binary64_exact": true,
+      "graph_and_project_complement_exact": true,
+      "input_and_snapshot_verified": true,
+      "baseline_50_curve_points_exact": true,
+      "exit_code": 124,
+      "Origin_validation": "NOT_RUN"
+    }
+  ]
+}
