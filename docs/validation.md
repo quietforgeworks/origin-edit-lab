@@ -33,3 +33,9 @@ Before describing native output as editable and compatible, separately verify:
 **These application stages have not been run.** macOS is not certified by Linux tests. A complete OPJU writer, arbitrary graph serialization, resized compressed records and general native style editing are not implemented.
 
 Work on isolated copies. Do not open untrusted embedded objects automatically. No Origin, Office or VM is launched by the public scripts. Reports, extracted data and reverse manifests may contain original content; review them before sharing.
+
+## Modern read-only research supplements
+
+`research/modern_binding_diagnostics` reproduces a pinned extractor's wrong-X and sheet-deduplication counterexample against 110 public hash-verified inputs. Its counts remain scanner candidates, not supported bindings. The default suite runs 32 synthetic tests with one explicit external-runtime opt-in skip; independent normal/optimized external proof runs matched the published counts.
+
+`research/modern_owner_walk` follows bounded object ownership inside identified graph pages. The source modules match the independently reviewed parser revision; 49 package tests pass locally in both modes, including an optional existing-liblz4 test. That one test skips if the runtime is absent. Initial page discovery, opaque properties, complete dataset identities, and Origin acceptance remain outside scope. These supplements change no preview or native-writer APIs and include no private fixture data.
