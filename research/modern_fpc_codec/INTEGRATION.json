@@ -1,0 +1,252 @@
+{
+  "schema": "origin-edit-lab-fpc-integration-v1",
+  "baseline_commit": "5cc89ef6f7bd4509a4f5ea80ef447008e98aba22",
+  "upstream_archive": {
+    "filename": "origin-modern-fpc-source-only-20261108-licensed.tar.gz",
+    "sha256": "cae754eb202181857b6e5294ae876697260cc16d3c73c8d5d33bff8e334dfb05",
+    "bytes": 1553840,
+    "regular_file_count": 37
+  },
+  "selection": "Every upstream archive file retained byte-identically except the two explicit duplicate exclusions; upstream MANIFEST renamed, not modified. Repository additions have their own MANIFEST.json.",
+  "retained_upstream_files": [
+    {
+      "upstream_path": "CHANGESET.md",
+      "path": "CHANGESET.md",
+      "sha256": "dbced4c2a1adb33693c73d562b9c20871522828cbe1983c00da5dbf45858c17c",
+      "bytes": 2122
+    },
+    {
+      "upstream_path": "LICENSE",
+      "path": "LICENSE",
+      "sha256": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884",
+      "bytes": 1072
+    },
+    {
+      "upstream_path": "MANIFEST.json",
+      "path": "UPSTREAM-MANIFEST.json",
+      "sha256": "84c6bb8a36bc3f47c0b489947d7bc28e04dbaced1c495dd2ef1c730d15e55b30",
+      "bytes": 5761
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "README.md",
+      "sha256": "fdb9f5b2ac0b49d61d5cd041608737462c8be50d4130be8d2dfa94dfac4b23a7",
+      "bytes": 9662
+    },
+    {
+      "upstream_path": "REPORT.md",
+      "path": "REPORT.md",
+      "sha256": "5d3296356665487a061cebcb8c85728ff3b6284e88d9b36c885bde9c6192ca3c",
+      "bytes": 9024
+    },
+    {
+      "upstream_path": "SOURCES.md",
+      "path": "SOURCES.md",
+      "sha256": "12f510c91c4e1f473817abac1176fa774c2d282d581df0f5e3ec06fe97ff05b4",
+      "bytes": 5604
+    },
+    {
+      "upstream_path": "code/fpc_numeric.py",
+      "path": "code/fpc_numeric.py",
+      "sha256": "43c3415066ed12f1f158e8406f6d62d1dc767daea537e31441865934e6c70dbc",
+      "bytes": 6820
+    },
+    {
+      "upstream_path": "code/run_external_synthetic.py",
+      "path": "code/run_external_synthetic.py",
+      "sha256": "5ecca5666f6a0f255f650c4986e0d119835fc4dd7ca3353f4e7b5473343c5353",
+      "bytes": 3233
+    },
+    {
+      "upstream_path": "code/run_public_corpus.py",
+      "path": "code/run_public_corpus.py",
+      "sha256": "17ac25a9bd630ffaf98f83b897069145f22837d96ab0632088e5faa2e8c3747b",
+      "bytes": 10461
+    },
+    {
+      "upstream_path": "code/verified_oracle.py",
+      "path": "code/verified_oracle.py",
+      "sha256": "2e6281e200590d83c063fd1e633caa09988f511ba34fe925c2807871a105b98d",
+      "bytes": 3553
+    },
+    {
+      "upstream_path": "evidence/dependencies.json",
+      "path": "evidence/dependencies.json",
+      "sha256": "90c1e3ba532bcbc63dd566a2ce162834e4e22fcad0e009bbeb770d0218548bdc",
+      "bytes": 2096
+    },
+    {
+      "upstream_path": "evidence/final-reconciliation.json",
+      "path": "evidence/final-reconciliation.json",
+      "sha256": "f6ee72189d148ee3226e6f433441bd4bd7287bb9051da908a1c0c3b3ae9a8b8c",
+      "bytes": 1369
+    },
+    {
+      "upstream_path": "evidence/independent-review.json",
+      "path": "evidence/independent-review.json",
+      "sha256": "f1ad4356df4ebab89fdb0a1c5052ef12211d449b45fce04e33f98758ee575a4c",
+      "bytes": 2202
+    },
+    {
+      "upstream_path": "evidence/license-packaging-revision.json",
+      "path": "evidence/license-packaging-revision.json",
+      "sha256": "aacb5c49f1f8842e0b71a55416c9658f1e800ee05385d6a3d6c7b8646c5aa3a8",
+      "bytes": 1300
+    },
+    {
+      "upstream_path": "evidence/public_sources.json",
+      "path": "evidence/public_sources.json",
+      "sha256": "9da30c7bc4f167290f53d0293083354e2e168614d8e372541115240c0f203e76",
+      "bytes": 51081
+    },
+    {
+      "upstream_path": "evidence/synthetic_bit_categories.json",
+      "path": "evidence/synthetic_bit_categories.json",
+      "sha256": "d9e005197d84a68380dc9c6f695bcc193508ab74c1eb53997a9c5307d99437a0",
+      "bytes": 663
+    },
+    {
+      "upstream_path": "independent-review/README.md",
+      "path": "independent-review/README.md",
+      "sha256": "9e34e2f61739ddc7613969aa0596b466634d63f820c403d44213000a6c3850a9",
+      "bytes": 8338
+    },
+    {
+      "upstream_path": "independent-review/independent_fpc_decoder.py",
+      "path": "independent-review/independent_fpc_decoder.py",
+      "sha256": "0ad34fbaedf86655085e6302d864a3456af6377f7d00e641a2879dbf79734d89",
+      "bytes": 2632
+    },
+    {
+      "upstream_path": "independent-review/test_encoder_adversarial.py",
+      "path": "independent-review/test_encoder_adversarial.py",
+      "sha256": "6622f49babfaebda488f38ed212eab2acda9379f5e0d58e986eb8e7ca925097f",
+      "bytes": 6694
+    },
+    {
+      "upstream_path": "independent-review/test_independent_fpc_decoder.py",
+      "path": "independent-review/test_independent_fpc_decoder.py",
+      "sha256": "8f26024e9e65b78f190d06ff046c96c7ce6176156b53ff36c799513306a1d63f",
+      "bytes": 3611
+    },
+    {
+      "upstream_path": "results/boundary-normal.log",
+      "path": "results/boundary-normal.log",
+      "sha256": "a2239b73b592ab4f58580eb0280322f9317a5fbc09e6f125d763eb5c590e95dc",
+      "bytes": 217
+    },
+    {
+      "upstream_path": "results/boundary-optimized.log",
+      "path": "results/boundary-optimized.log",
+      "sha256": "bab2db89c7ea9559bbfad014f0e20650fa0b73aeabed6ea23384da40f15cb279",
+      "bytes": 217
+    },
+    {
+      "upstream_path": "results/external-synthetic-normal.json",
+      "path": "results/external-synthetic-normal.json",
+      "sha256": "33518fe0c225ffd530225bb636788d5015ff3771ae67a973b5f854f812c56337",
+      "bytes": 802
+    },
+    {
+      "upstream_path": "results/external-synthetic-optimized.json",
+      "path": "results/external-synthetic-optimized.json",
+      "sha256": "c1a7a4dd5b6da04a572c42d6fa279022af531cb8e442011185d16f995eedecfa",
+      "bytes": 802
+    },
+    {
+      "upstream_path": "results/final-tests-normal.log",
+      "path": "results/final-tests-normal.log",
+      "sha256": "cc66633168a7c46f98fd68e96e46647588e26d806690585feaef160cf6f7da98",
+      "bytes": 1275
+    },
+    {
+      "upstream_path": "results/final-tests-optimized.log",
+      "path": "results/final-tests-optimized.log",
+      "sha256": "0a7e10e6b391174f99500cdc93726f878c00d01f82570be31372a4dde23e85bf",
+      "bytes": 1275
+    },
+    {
+      "upstream_path": "results/independent-normal.log",
+      "path": "results/independent-normal.log",
+      "sha256": "ecf00a07c2f8027c69f19357f8ebadce48b6c71726f536eb84032924a31a0712",
+      "bytes": 1938
+    },
+    {
+      "upstream_path": "results/independent-optimized.log",
+      "path": "results/independent-optimized.log",
+      "sha256": "d26de802b104ec5a3b330bdf7ac6042841ec273c960fe5b9a5aac83a3577ac60",
+      "bytes": 1938
+    },
+    {
+      "upstream_path": "results/public-corpus-normal.json",
+      "path": "results/public-corpus-normal.json",
+      "sha256": "2bca1eeeac8b271be79eaf355924aa259dfe4789884cc9a71634f62229bdc271",
+      "bytes": 5991732
+    },
+    {
+      "upstream_path": "results/public-corpus-normal.log",
+      "path": "results/public-corpus-normal.log",
+      "sha256": "2404bab82555d68bcfd92d18e6711ca77866bc2701617ecc9755251696b8ab1f",
+      "bytes": 14475
+    },
+    {
+      "upstream_path": "results/public-corpus-optimized.log",
+      "path": "results/public-corpus-optimized.log",
+      "sha256": "2404bab82555d68bcfd92d18e6711ca77866bc2701617ecc9755251696b8ab1f",
+      "bytes": 14475
+    },
+    {
+      "upstream_path": "results/tests-normal.log",
+      "path": "results/tests-normal.log",
+      "sha256": "af5ebcd2428ca44d985321ff3d75e9ac6b5dbb70c3bcf47acd0667db0aa15343",
+      "bytes": 1063
+    },
+    {
+      "upstream_path": "results/tests-optimized.log",
+      "path": "results/tests-optimized.log",
+      "sha256": "f04ec6b94b274e3d5b4eb9025059b07f075f01c05ba9ab1f7763a65f04758191",
+      "bytes": 1063
+    },
+    {
+      "upstream_path": "tests/test_fpc_numeric.py",
+      "path": "tests/test_fpc_numeric.py",
+      "sha256": "8a44542d2ea7d88e2a3f9a4dccfa028f2f52af4a82054c9d6bf10af36c8ba0db",
+      "bytes": 9036
+    },
+    {
+      "upstream_path": "tests/test_hard_boundaries.py",
+      "path": "tests/test_hard_boundaries.py",
+      "sha256": "2f68b3906ebd426930944b5254f9a85a64aa99907c3fd8580849e493670de993",
+      "bytes": 887
+    }
+  ],
+  "excluded_upstream_files": [
+    {
+      "path": "results/public-corpus-optimized.json",
+      "reason": "Exact duplicate except optimization-mode byte; reconstructed and hash-checked by verify_package.py.",
+      "sha256": "42f715203e70a7f795dc6937009d35d986fc9fcf87dba451b8242f14f97e484d",
+      "bytes": 5991732
+    },
+    {
+      "path": "patches/new-source-files.patch",
+      "reason": "Duplicate presentation of the same retained, unmodified new source files; not needed to build or test.",
+      "sha256": "fbd75a61b2d7540bcc37ce43c053501064d29bbc5372f42806191312cf7d23c8",
+      "bytes": 48534
+    }
+  ],
+  "reconstructed_optimized_report": {
+    "source": "results/public-corpus-normal.json",
+    "upstream_path": "results/public-corpus-optimized.json",
+    "transform": "Replace the sole ASCII occurrence of \"optimize\": 0 with \"optimize\": 1.",
+    "changed_byte_offset": 735,
+    "sha256": "42f715203e70a7f795dc6937009d35d986fc9fcf87dba451b8242f14f97e484d",
+    "bytes": 5991732
+  },
+  "external_corpus_rerun_during_integration": false,
+  "external_runtime_executed_during_integration": false,
+  "native_application_run_during_integration": false,
+  "origin_lifecycle": "NOT_RUN",
+  "default_cli_changed": false,
+  "existing_dependencies_changed": false,
+  "new_third_party_executable_source_bundled": false
+}
