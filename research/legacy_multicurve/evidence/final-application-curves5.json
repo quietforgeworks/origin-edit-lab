@@ -1,0 +1,54 @@
+{
+  "case": "curves5",
+  "curve_count": 5,
+  "source_cells_bit_exact": 500,
+  "rendered_pairs_bit_exact": 250,
+  "point_signal_emissions": 10,
+  "actual_and_saved_source_bindings": [
+    {
+      "series_id": "S01",
+      "x": "test_tree_import/Folder1/Book1/A",
+      "y": "test_tree_import/Folder1/Book1/B"
+    },
+    {
+      "series_id": "S02",
+      "x": "test_tree_import/Folder1/Book1/C",
+      "y": "test_tree_import/Folder1/Book1/D"
+    },
+    {
+      "series_id": "S03",
+      "x": "test_tree_import/Folder1/Book1/E",
+      "y": "test_tree_import/Folder1/Book1/F"
+    },
+    {
+      "series_id": "S04",
+      "x": "test_tree_import/Folder1/Book1/G",
+      "y": "test_tree_import/Folder1/Book1/H"
+    },
+    {
+      "series_id": "S05",
+      "x": "test_tree_import/Folder1/Book1/I",
+      "y": "test_tree_import/Folder1/Book1/J"
+    }
+  ],
+  "all_unrelated_app_content_unchanged": true,
+  "all_expected_column_values_saved_bit_exact": true,
+  "all_X_vectors_pairwise_distinct": true,
+  "excluded_application_ui_metadata": {
+    "dockWidgetState": {
+      "original_sha256": "e3cdabd84fc77aff2afdaa3adce4311758d50bb3b26bae57c98201c84de13a0c",
+      "candidate_sha256": "58944da1a499d48f143aefa1ca76b2aed9dc43c1d9789f7f691b07bdd2fb437e"
+    },
+    "modificationTime": {
+      "original_sha256": "14f0eedc6abfd91382e6f189dd4042b578cd67340d46a29f239c00382221f00a",
+      "candidate_sha256": "5538e5b7640aea44d94fe173c8b5dc4dd7da8ed6f3324207d014323ba123b624"
+    },
+    "thumbnail": {
+      "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+      "candidate_sha256": "ba21879450b67433bf768f34c7a5396ea8dde7c7c347c44b23ef164f70611d48"
+    }
+  },
+  "origin_validation": "NOT_RUN",
+  "native_safe_export_supported": false,
+  "legend_limitation": "Only original B is included in the unchanged template legend; new curves have legendVisible=0."
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "Actual app screenshots inspected; not numerical proof or Origin acceptance",
+  "cases": {
+    "2": "Two visibly interwoven black curves; unchanged B legend.",
+    "5": "Five-curve output visually denser; identical cloned black style.",
+    "10": "Ten-curve graph heavily cluttered; only original B legend. Exact count/values established by APIs/signals, not pixels."
+  }
+}

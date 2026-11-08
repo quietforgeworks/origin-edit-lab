@@ -1,0 +1,39 @@
+{
+  "case": "curves2",
+  "curve_count": 2,
+  "source_cells_bit_exact": 200,
+  "rendered_pairs_bit_exact": 100,
+  "point_signal_emissions": 4,
+  "actual_and_saved_source_bindings": [
+    {
+      "series_id": "S01",
+      "x": "test_tree_import/Folder1/Book1/A",
+      "y": "test_tree_import/Folder1/Book1/B"
+    },
+    {
+      "series_id": "S02",
+      "x": "test_tree_import/Folder1/Book1/C",
+      "y": "test_tree_import/Folder1/Book1/D"
+    }
+  ],
+  "all_unrelated_app_content_unchanged": true,
+  "all_expected_column_values_saved_bit_exact": true,
+  "all_X_vectors_pairwise_distinct": true,
+  "excluded_application_ui_metadata": {
+    "dockWidgetState": {
+      "original_sha256": "e3cdabd84fc77aff2afdaa3adce4311758d50bb3b26bae57c98201c84de13a0c",
+      "candidate_sha256": "1be3437ef364119a23c53fb2b4ec03a1a189cecf2c98ece2e2fe290cbb72d695"
+    },
+    "modificationTime": {
+      "original_sha256": "14f0eedc6abfd91382e6f189dd4042b578cd67340d46a29f239c00382221f00a",
+      "candidate_sha256": "91e8f33f26662034cdd62bb391739588ed82f5551d7a88aa9715e218bdaedef6"
+    },
+    "thumbnail": {
+      "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+      "candidate_sha256": "bfc8859246074d7b8bd534734f93d25ce81b069538db3b3d33d635f475d05cc0"
+    }
+  },
+  "origin_validation": "NOT_RUN",
+  "native_safe_export_supported": false,
+  "legend_limitation": "Only original B is included in the unchanged template legend; new curves have legendVisible=0."
+}

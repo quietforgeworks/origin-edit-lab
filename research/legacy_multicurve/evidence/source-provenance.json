@@ -1,0 +1,34 @@
+{
+  "fixture_source": "https://github.com/KDE/labplot/blob/0bd2e4094e92e74052ec161022d4e60aeb7605cd/tests/import_export/Project/data/origin8_test_tree_import.opj",
+  "fixture_sha256": "ea50c9b97b063898f654a6189b30ca5d8be8b52ad4c9469b3934cd009185265a",
+  "reader": "LabPlot 2.12.1",
+  "reader_source_sha256": "b43d1fbf3b70fd135188dcd12838c83b0886dc3444dbc63b086183e09f53d611",
+  "official_executable_sha256": "c11d801f47329fcd69b03c8f6acf5a5f8f74a9dc6a2f3bbdaa32293804e17554",
+  "official_importer_sha256": "81d571e53b9dfb793f07cbbb9307d418391103ae7c8679a36284d12422e10fbf",
+  "synthetic_candidates": [
+    {
+      "series_count": 2,
+      "candidate_sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218",
+      "candidate_bytes": 234416,
+      "raw_sha256": "acb7b0ddf59f791896aceab8877382a8dcb61d461ca4545c25c097992ed6f5b9",
+      "frame_count": 490,
+      "dataset_count": 27
+    },
+    {
+      "series_count": 5,
+      "candidate_sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9",
+      "candidate_bytes": 243182,
+      "raw_sha256": "17c13daa0481097c9425ffe2861db2ff04636b7e3cbb7491fdbba0b4d2544c14",
+      "frame_count": 526,
+      "dataset_count": 33
+    },
+    {
+      "series_count": 10,
+      "candidate_sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba",
+      "candidate_bytes": 257792,
+      "raw_sha256": "5676859ddeae6a4f93588afa0e6f2216d01f46d5a0c9691a1ff4685cb1bce8d2",
+      "frame_count": 586,
+      "dataset_count": 43
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "case": "curves10",
+  "curve_count": 10,
+  "source_cells_bit_exact": 1000,
+  "rendered_pairs_bit_exact": 500,
+  "point_signal_emissions": 20,
+  "actual_and_saved_source_bindings": [
+    {
+      "series_id": "S01",
+      "x": "test_tree_import/Folder1/Book1/A",
+      "y": "test_tree_import/Folder1/Book1/B"
+    },
+    {
+      "series_id": "S02",
+      "x": "test_tree_import/Folder1/Book1/C",
+      "y": "test_tree_import/Folder1/Book1/D"
+    },
+    {
+      "series_id": "S03",
+      "x": "test_tree_import/Folder1/Book1/E",
+      "y": "test_tree_import/Folder1/Book1/F"
+    },
+    {
+      "series_id": "S04",
+      "x": "test_tree_import/Folder1/Book1/G",
+      "y": "test_tree_import/Folder1/Book1/H"
+    },
+    {
+      "series_id": "S05",
+      "x": "test_tree_import/Folder1/Book1/I",
+      "y": "test_tree_import/Folder1/Book1/J"
+    },
+    {
+      "series_id": "S06",
+      "x": "test_tree_import/Folder1/Book1/K",
+      "y": "test_tree_import/Folder1/Book1/L"
+    },
+    {
+      "series_id": "S07",
+      "x": "test_tree_import/Folder1/Book1/M",
+      "y": "test_tree_import/Folder1/Book1/N"
+    },
+    {
+      "series_id": "S08",
+      "x": "test_tree_import/Folder1/Book1/O",
+      "y": "test_tree_import/Folder1/Book1/P"
+    },
+    {
+      "series_id": "S09",
+      "x": "test_tree_import/Folder1/Book1/Q",
+      "y": "test_tree_import/Folder1/Book1/R"
+    },
+    {
+      "series_id": "S10",
+      "x": "test_tree_import/Folder1/Book1/S",
+      "y": "test_tree_import/Folder1/Book1/T"
+    }
+  ],
+  "all_unrelated_app_content_unchanged": true,
+  "all_expected_column_values_saved_bit_exact": true,
+  "all_X_vectors_pairwise_distinct": true,
+  "excluded_application_ui_metadata": {
+    "dockWidgetState": {
+      "original_sha256": "e3cdabd84fc77aff2afdaa3adce4311758d50bb3b26bae57c98201c84de13a0c",
+      "candidate_sha256": "3512f6a00f6948dd781cec302d9954b912095f403ab30c82976649a18be8675b"
+    },
+    "modificationTime": {
+      "original_sha256": "14f0eedc6abfd91382e6f189dd4042b578cd67340d46a29f239c00382221f00a",
+      "candidate_sha256": "a6953a0fcd818ce1ad9d9da55f8d6ef2b69ed64c9f962d03b96ec4a4033be215"
+    },
+    "thumbnail": {
+      "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+      "candidate_sha256": "5cb886317f81be7806ec412502d7626d5e36cc6c6773e230de61a74c45f105e6"
+    }
+  },
+  "origin_validation": "NOT_RUN",
+  "native_safe_export_supported": false,
+  "legend_limitation": "Only original B is included in the unchanged template legend; new curves have legendVisible=0."
+}
