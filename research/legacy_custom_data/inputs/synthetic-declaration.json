@@ -1,0 +1,5 @@
+{
+ "schema": "custom-data-provenance-v1",
+ "declared_kind": "synthetic",
+ "statement": "Known generated non-toy numerical stress input; not a measurement."
+}
