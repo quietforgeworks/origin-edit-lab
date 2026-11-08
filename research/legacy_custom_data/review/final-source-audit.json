@@ -1,0 +1,8 @@
+{
+  "source_inventory": "PASS",
+  "files": 45,
+  "bytes": 145428,
+  "manifest_sha256": "3b56217e1b537a61bcc6726b7110114bde0ecfe40d83fc0acb48000b6ef94645",
+  "origin_lifecycle": "NOT_RUN",
+  "public_publication": false
+}
