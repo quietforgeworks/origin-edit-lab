@@ -1,0 +1,19 @@
+{
+  "name": "private-figure-layout-template",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "check": "node scripts/validate-artifact.mjs && node --test backend-tests/*.test.mjs",
+    "db:generate": "drizzle-kit generate",
+    "dev": "node scripts/build-worker.mjs && node scripts/dev-preview.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.4",
+    "drizzle-orm": "0.44.5"
+  }
+}
