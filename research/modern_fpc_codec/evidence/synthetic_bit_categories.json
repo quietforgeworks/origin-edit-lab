@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "total_words": 767387,
+    "positive_zero": 36034,
+    "subnormal": 199901,
+    "normal_finite": 402658,
+    "negative_zero": 36895,
+    "positive_infinity": 3256,
+    "negative_infinity": 3237,
+    "signaling_nan": 39604,
+    "positive_nan": 42731,
+    "negative_nan": 42675,
+    "quiet_nan": 45802,
+    "origin_finite_missing_sentinel": 3308
+  },
+  "distinct_nan_bit_patterns": 65627,
+  "aggregate_raw_and_encoded_sha256": "756bc217cd94fc6ad5f89d0d448ba2883d0a9fc0703fa8189f5d002f20def595",
+  "scope": "Same 6004 exact test inputs and encoded streams as external-synthetic-normal.json; counts describe bit categories, no float conversion"
+}

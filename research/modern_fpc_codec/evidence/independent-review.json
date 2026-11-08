@@ -1,0 +1,35 @@
+{
+  "scope": "Standalone exact-bit FPC numeric stream encoder, not native container rewrite or Origin acceptance",
+  "independent_decoder_authored_before_reading_encoder": true,
+  "specification_ancestry": "Same pinned-codec-derived specification; independent implementation, not independent vendor-format provenance",
+  "normal_and_optimized_independent_tests": 17,
+  "arbitrary_stream_differential_cases": 3000,
+  "normal_optimized_public_json_equal_except_optimize": true,
+  "all_public_stream_records_and_source_hashes_reconciled": true,
+  "external_source_executed_by_reviewer": false,
+  "reviewer_findings": "No blocker or correctness/resource-check defect found within stated isolated research scope",
+  "core_sha256": "43c3415066ed12f1f158e8406f6d62d1dc767daea537e31441865934e6c70dbc",
+  "review_files": {
+    "independent-review/README.md": "9e34e2f61739ddc7613969aa0596b466634d63f820c403d44213000a6c3850a9",
+    "independent-review/independent_fpc_decoder.py": "0ad34fbaedf86655085e6302d864a3456af6377f7d00e641a2879dbf79734d89",
+    "independent-review/test_encoder_adversarial.py": "6622f49babfaebda488f38ed212eab2acda9379f5e0d58e986eb8e7ca925097f",
+    "independent-review/test_independent_fpc_decoder.py": "8f26024e9e65b78f190d06ff046c96c7ce6176156b53ff36c799513306a1d63f"
+  },
+  "limitations": [
+    "FPC carries no intrinsic count or checksum; zero-width residuals can hide a wrong smaller count",
+    "An arbitrary prefix byte offset is not a resumable decoder checkpoint",
+    "External raw adapter suppresses only finite missing-sentinel normalization and is not the unchanged public API",
+    "Identical encoded bytes were observed only in the bounded public corpus",
+    "Additional matrix parser framing remains opt-in and experimental",
+    "No native file was rewritten or validated in Origin"
+  ],
+  "license_packaging_review": {
+    "documentation_only": true,
+    "MIT_limited_to_newly_authored_material": true,
+    "quantized_Apache_and_native_input_licenses_separate": true,
+    "publication_statements_historical_experiment_only": true,
+    "code_tests_results_unchanged": true,
+    "corpus_rerun": false,
+    "reviewer_checked_upstream_license_byte_identity": false
+  }
+}

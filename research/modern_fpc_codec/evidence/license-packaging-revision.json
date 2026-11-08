@@ -1,0 +1,19 @@
+{
+  "scope": "Documentation/license/manifest-only packaging revision; no codec or test-code changes",
+  "previous_archive": "origin-modern-fpc-source-only-20261108.tar.gz",
+  "previous_archive_sha256": "198dff06b3e8c4d7da295d2809f37d54e8bd14a013bed0fbcf003789ec895de1",
+  "previous_manifest_sha256": "674182f13e0cda1d9f186918645d641c6c27cbf49616929198151b73af2e7ec8",
+  "project_license": "MIT",
+  "copyright": "Copyright (c) 2026 quietforgeworks",
+  "license_sha256": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884",
+  "license_matches_authorized_project_exactly": true,
+  "license_scope": "Newly authored material only; third-party software and native input data retain original licenses",
+  "external_executable_source_bundled": false,
+  "original_experiment_result_files_unchanged": 14,
+  "core_and_test_python_files_unchanged": 9,
+  "code_additions_patch_unchanged": true,
+  "core_sha256": "43c3415066ed12f1f158e8406f6d62d1dc767daea537e31441865934e6c70dbc",
+  "corpus_rerun_for_this_documentation_revision": false,
+  "publication_language": "No upload/publication described as historical experiment conditions, not a statement about later package distribution",
+  "independent_documentation_review_sha256": "9e34e2f61739ddc7613969aa0596b466634d63f820c403d44213000a6c3850a9"
+}

@@ -1,0 +1,34 @@
+{
+  "normal_optimized_public_reports_equal_except_optimize": true,
+  "normal_optimized_synthetic_reports_equal_except_optimize": true,
+  "corpus_groups": {
+    "additional57": {
+      "files": 57,
+      "files_with_streams": 49,
+      "streams": 3347,
+      "values": 1548672
+    },
+    "original110": {
+      "files": 110,
+      "files_with_streams": 110,
+      "streams": 4496,
+      "values": 8401325
+    }
+  },
+  "observed_identical_source_encoded_wire_hashes": 7843,
+  "maximum_tested_public_stream_count": 72195,
+  "strict_only_streams": 5439,
+  "direct_matrix_values": 795422,
+  "strict_only_values": 8885112,
+  "raw_sentinel_normalization_qualification": "See README: unchanged external API normalizes; independent and adapted external retain raw bits.",
+  "source_file_hashes_unchanged": 167,
+  "result_hashes": {
+    "external-synthetic-optimized.json": "c1a7a4dd5b6da04a572c42d6fa279022af531cb8e442011185d16f995eedecfa",
+    "external-synthetic-normal.json": "33518fe0c225ffd530225bb636788d5015ff3771ae67a973b5f854f812c56337",
+    "public-corpus-normal.json": "2bca1eeeac8b271be79eaf355924aa259dfe4789884cc9a71634f62229bdc271",
+    "public-corpus-optimized.json": "42f715203e70a7f795dc6937009d35d986fc9fcf87dba451b8242f14f97e484d"
+  },
+  "distinct_source_file_hashes": 166,
+  "distinct_encoded_stream_hashes": 6245,
+  "distinct_raw_bits_count_pairs": 6245
+}

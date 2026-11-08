@@ -1,0 +1,48 @@
+{
+  "container": {
+    "sha256": "e80996b8955d46b446bdc4761a55b19b6d760619edb0b94b98f16ebe47cb4115",
+    "bytes": 11306,
+    "upstream": "https://github.com/pquarterman17/quantized/blob/431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/container.py",
+    "license": "Apache-2.0",
+    "source_unmodified": true,
+    "execution_scope": "No package initializers; exact verified buffer only"
+  },
+  "opju_codec": {
+    "sha256": "5a2c6f000ff8fef0a71ba8aab0876f7de785d5bb4dfa8d07dd612f052b737be9",
+    "bytes": 16479,
+    "upstream": "https://github.com/pquarterman17/quantized/blob/431deeb7c8473503970ca56b78cc1678f57d373d/src/quantized/io/origin_project/opju_codec.py",
+    "license": "Apache-2.0",
+    "source_unmodified": true,
+    "execution_scope": "No package initializers; exact verified buffer only"
+  },
+  "python": {
+    "version": "3.12.14",
+    "build": [
+      "main",
+      "Aug 25 2026 14:00:49"
+    ],
+    "executable_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+    "implementation": "CPython"
+  },
+  "numpy": {
+    "version": "2.3.5",
+    "module_init_sha256": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "role": "Only optional external oracle; not required by numeric library or portable tests",
+    "hash_scope": "__init__.py only, not entire distribution"
+  },
+  "strict_parser": {
+    "sha256": "fe3f6998cc5cf09c5f955c7e02ac5d7126a83d30d2d50380a90f2680bc5be575",
+    "bytes": 12055,
+    "role": "Read-only complete dataset-envelope stream extraction; supplied separately, not bundled"
+  },
+  "experimental_matrix_parser": {
+    "sha256": "8f9e49840b5c614b15bd5cabeea6d06290d9a579d16cab005e42e416c0f536aa",
+    "bytes": 14921,
+    "role": "Read-only complete dataset-envelope stream extraction; supplied separately, not bundled"
+  },
+  "external_approval_pin_manifest": {
+    "sha256": "7f139353b91024df1801dd1a65f0aa57f3f856a83f6623a84354475616872dab",
+    "revision": "431deeb7c8473503970ca56b78cc1678f57d373d",
+    "role": "Preexisting approved source manifest checked before execution"
+  }
+}
