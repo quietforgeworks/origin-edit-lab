@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+preview/fixtures/
+native/inputs/*.bin
+*.pptx
+*.opj
+*.opju
+*.ole.bin
+*.origin_payload
+*.zip
+.origin-native-partial-*/
+artifacts/
