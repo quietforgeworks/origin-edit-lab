@@ -65,6 +65,12 @@ python preview/compat.py project.opju
 
 公开 110 份样本中 101 份通过结构门槛，共有 385 项单字段实验；另有一个公开 PPT 的四字段串行实验，逐字节保留非目标流、其他成员和显示缓存。包只含源码、合成测试及公开来源证据，没有原生样本或测量数组。这些字节检查不能证明 Origin 界面单位、打开、刷新、保存重开或 PowerPoint 激活；这些应用兼容性与生命周期仍**未通过验收**，macOS 写入未验证。显示缓存保持旧图，不能视为新字段的渲染结果。
 
+## 新版数值流编解码研究
+
+[精确位 FPC 数值流实验](research/modern_fpc_codec/README.md) 新增独立的整数编解码器，保留 binary64 的全部原始位，包括带符号零、NaN 载荷和 Origin 缺失哨兵。两份本地原始位解码实现及固定版本的外部解码器进行了交叉核验；167 个公开输入条目（166 个不同文件哈希）中的 7,843 个流、9,949,997 个数值出现次数通过往返检查。矩阵解析器新增的 2,404 个流单独标记为实验范围，不扩大严格解析器支持；外部 API 的哨兵归一化适配也明确区分。
+
+这是**内存中的数值流编解码器，不是 OPJU、CFB 或 PPT 写入器**。测试语料中观察到的原始压缩字节一致，不能推广成任意文件的编码保证。默认测试仅运行合成用例、独立审查用例及公开证据完整性检查，不重跑外部语料或 Origin。真实应用打开、重算、保存重开及 PowerPoint 激活仍未验收。源码包不包含原生输入、测量数组、外部解析器或新增第三方可执行源码；精确纳入清单与去重方式见[仓库集成说明](research/modern_fpc_codec/INTEGRATION.md)。
+
 ## 旧版原生图容量扩展研究
 
 [带图模板的 51/257/1024 行扩容实验](research/legacy_allocation/README.md) 对一个公开旧版 OPJ 模板重新分配数据记录。官方 LabPlot 2.12.1 的独立实跑逐位读回全部 X/Y 数据，并产生对应数量的真实曲线点，保存后的数据、原图样式与绑定也经过检查。这是明确选择后才会运行的 **LabPlot-only 研究模式**，不是安全的 Origin 导出：若干旧范围字段和未知依赖仍保留，Origin 的打开、刷新和保存重开未验证，默认导出继续拒绝。包只含源码、合成数据和有限证据，不含原生模板或应用程序。
@@ -101,3 +107,5 @@ The native experiment changes fixed-width numeric residuals in one exact OLE tem
 The separate [visual-layout workflow](docs/visual-layout.md) proposes guides before alignment, with a [read-only approval-binding gate](docs/alignment-plan.md) and an identity-coordinate PNG comparison helper. Neither helper edits native Origin objects or implements automatic layout.
 
 The separate [strict modern reference reader](research/modern_native_binding/README.md) and [restricted scalar writer](research/modern_native_scalar/README.md) operate only on recognized sequential dataset/page roots. The writer edits four stored-integer field classes with equal-length literal changes, external anchors and exact restoration. Neither is a numeric-array decoder, complete project parser, modern UI-unit mapping or Origin-validated editor. Their frozen dependencies and tests remain isolated from the older supplements.
+
+The separate [exact-bit FPC numeric codec](research/modern_fpc_codec/README.md) preserves opaque binary64 representations in memory and has two locally authored raw decoders plus a pinned external comparison. It is not a native dataset/container writer. Corpus-only wire identity, experimental matrix extraction and the external API's finite-sentinel normalization are explicitly bounded. Portable tests and recorded-evidence checks do not rerun native applications or certify Origin acceptance.
