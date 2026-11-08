@@ -1,0 +1,71 @@
+[
+  {
+    "case": "active7",
+    "active_rows": 7,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 14,
+    "actual_app_missing_inactive_values": 86,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "all_other_app_project_content_unchanged": true,
+    "saved_column_binary64_matches_actual_API": true,
+    "source_artifact_audit": {
+      "candidate_exactly_regenerated": true,
+      "manifest_exactly_recomputed": true,
+      "source_and_rollback_and_application_input_bit_exact": true,
+      "allowed_byte_count": 120,
+      "changed_byte_count": 97,
+      "preserved_byte_sha256": "96c506230df90332acf501b9121a45d3da48ace31f27a4344de8d0045eda20c4",
+      "candidate_sha256": "c9bfd2c91a475b1aaa64fbdd8910a4add5cbf7d4c44a87b7c79b236952b16cca",
+      "native_graph_and_opaque_tail_bytes_unchanged": true,
+      "semantic_validity_of_opaque_native_content": "NOT ESTABLISHED"
+    },
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection"
+  },
+  {
+    "case": "active49",
+    "active_rows": 49,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 98,
+    "actual_app_missing_inactive_values": 2,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "all_other_app_project_content_unchanged": true,
+    "saved_column_binary64_matches_actual_API": true,
+    "source_artifact_audit": {
+      "candidate_exactly_regenerated": true,
+      "manifest_exactly_recomputed": true,
+      "source_and_rollback_and_application_input_bit_exact": true,
+      "allowed_byte_count": 792,
+      "changed_byte_count": 675,
+      "preserved_byte_sha256": "57b76e96954334a43201246b2ab5752bba651db2d2c10b8382a30b7178fb7b13",
+      "candidate_sha256": "15f8b3b73c0ca257b6c0ca6a82b3d0e6ebb8c764a173c0a741e2af68ff7c3452",
+      "native_graph_and_opaque_tail_bytes_unchanged": true,
+      "semantic_validity_of_opaque_native_content": "NOT ESTABLISHED"
+    },
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection"
+  },
+  {
+    "case": "active50",
+    "active_rows": 50,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 100,
+    "actual_app_missing_inactive_values": 0,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "all_other_app_project_content_unchanged": true,
+    "saved_column_binary64_matches_actual_API": true,
+    "source_artifact_audit": {
+      "candidate_exactly_regenerated": true,
+      "manifest_exactly_recomputed": true,
+      "source_and_rollback_and_application_input_bit_exact": true,
+      "allowed_byte_count": 808,
+      "changed_byte_count": 687,
+      "preserved_byte_sha256": "698969df3c85db16ae2af623ad76a89bbbe9fc4c8ed6cac6ab1b104d29cfc81e",
+      "candidate_sha256": "d9c3116a98734aad2b7d45c3dd21013dfbcba6ba037cafdfd2db1e38630b83c6",
+      "native_graph_and_opaque_tail_bytes_unchanged": true,
+      "semantic_validity_of_opaque_native_content": "NOT ESTABLISHED"
+    },
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection"
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "case": "active7",
+    "active_rows": 7,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 14,
+    "actual_app_missing_inactive_values": 86,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "curve_selected_range": [
+      0,
+      6
+    ],
+    "graph_object_unchanged_excluding_uuid_creation_time": true,
+    "graph_source_bindings": {
+      "xColumn": "test_tree_import/Folder1/Book1/A",
+      "yColumn": "test_tree_import/Folder1/Book1/B",
+      "plotRangeIndex": "0",
+      "legendVisible": "1",
+      "visible": "1"
+    },
+    "all_other_app_project_content_unchanged": true,
+    "excluded_ui_metadata_hashes": {
+      "dockWidgetState": {
+        "original_sha256": "0f56beb8df915b1029f4d9e44f76bbe0db4caa82f00e3c6bab3da98b8cc30aec",
+        "candidate_sha256": "060a3c2de317707b887a84e04686e166e4a440d83494906055b8f94baf64e25d"
+      },
+      "modificationTime": {
+        "original_sha256": "d7d3801bf1c42d668e24193b9bd597fd3c1ecb48e1d67bbbec5f6bc33f4ec95a",
+        "candidate_sha256": "427534f4928f61bfbfdc5ff7077d2b414d00fde51e70abf1083b73b5bd7ff38d"
+      },
+      "thumbnail": {
+        "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+        "candidate_sha256": "abfddf496cea6fd9239b5b5805a7b86ff92a4bd982dc113b2134224d57aeec04"
+      }
+    },
+    "object_counts": {
+      "spreadsheet": 6,
+      "folder": 2,
+      "workbook": 2,
+      "matrix": 3,
+      "note": 3,
+      "worksheet": 1,
+      "xyCurve": 1
+    },
+    "app_source_preserved": true,
+    "source_artifact_audit": {
+      "candidate_exactly_regenerated": true,
+      "manifest_exactly_recomputed": true,
+      "source_and_rollback_and_application_input_bit_exact": true,
+      "allowed_byte_count": 120,
+      "changed_byte_count": 97,
+      "preserved_byte_sha256": "96c506230df90332acf501b9121a45d3da48ace31f27a4344de8d0045eda20c4",
+      "candidate_sha256": "c9bfd2c91a475b1aaa64fbdd8910a4add5cbf7d4c44a87b7c79b236952b16cca",
+      "native_graph_and_opaque_tail_bytes_unchanged": true,
+      "semantic_validity_of_opaque_native_content": "NOT ESTABLISHED"
+    },
+    "saved_column_binary64_matches_actual_API": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection",
+    "Origin_acceptance_reopen_update_recalculate_save": "NOT_RUN",
+    "changed_project_paths": [
+      "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()",
+      "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()"
+    ]
+  },
+  {
+    "case": "active49",
+    "active_rows": 49,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 98,
+    "actual_app_missing_inactive_values": 2,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "curve_selected_range": [
+      0,
+      48
+    ],
+    "graph_object_unchanged_excluding_uuid_creation_time": true,
+    "graph_source_bindings": {
+      "xColumn": "test_tree_import/Folder1/Book1/A",
+      "yColumn": "test_tree_import/Folder1/Book1/B",
+      "plotRangeIndex": "0",
+      "legendVisible": "1",
+      "visible": "1"
+    },
+    "all_other_app_project_content_unchanged": true,
+    "excluded_ui_metadata_hashes": {
+      "dockWidgetState": {
+        "original_sha256": "0f56beb8df915b1029f4d9e44f76bbe0db4caa82f00e3c6bab3da98b8cc30aec",
+        "candidate_sha256": "9900537e633ff48dfb14012295c6415d3d1ce083c1a78b305df7425d9d6badd9"
+      },
+      "modificationTime": {
+        "original_sha256": "d7d3801bf1c42d668e24193b9bd597fd3c1ecb48e1d67bbbec5f6bc33f4ec95a",
+        "candidate_sha256": "02b43ae613917e662a85f2b8927b0810b65aa90715b5b914a7be58f36a256342"
+      },
+      "thumbnail": {
+        "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+        "candidate_sha256": "62ad752648961d4a18c69b57f77d663b3f37cb0e274e0f97e6c83f0a2655fb4f"
+      }
+    },
+    "object_counts": {
+      "spreadsheet": 6,
+      "folder": 2,
+      "workbook": 2,
+      "matrix": 3,
+      "note": 3,
+      "worksheet": 1,
+      "xyCurve": 1
+    },
+    "app_source_preserved": true,
+    "source_artifact_audit": {
+      "candidate_exactly_regenerated": true,
+      "manifest_exactly_recomputed": true,
+      "source_and_rollback_and_application_input_bit_exact": true,
+      "allowed_byte_count": 792,
+      "changed_byte_count": 675,
+      "preserved_byte_sha256": "57b76e96954334a43201246b2ab5752bba651db2d2c10b8382a30b7178fb7b13",
+      "candidate_sha256": "15f8b3b73c0ca257b6c0ca6a82b3d0e6ebb8c764a173c0a741e2af68ff7c3452",
+      "native_graph_and_opaque_tail_bytes_unchanged": true,
+      "semantic_validity_of_opaque_native_content": "NOT ESTABLISHED"
+    },
+    "saved_column_binary64_matches_actual_API": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection",
+    "Origin_acceptance_reopen_update_recalculate_save": "NOT_RUN",
+    "changed_project_paths": [
+      "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()",
+      "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()"
+    ]
+  },
+  {
+    "case": "active50",
+    "active_rows": 50,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 100,
+    "actual_app_missing_inactive_values": 0,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "curve_selected_range": [
+      0,
+      49
+    ],
+    "graph_object_unchanged_excluding_uuid_creation_time": true,
+    "graph_source_bindings": {
+      "xColumn": "test_tree_import/Folder1/Book1/A",
+      "yColumn": "test_tree_import/Folder1/Book1/B",
+      "plotRangeIndex": "0",
+      "legendVisible": "1",
+      "visible": "1"
+    },
+    "all_other_app_project_content_unchanged": true,
+    "excluded_ui_metadata_hashes": {
+      "dockWidgetState": {
+        "original_sha256": "0f56beb8df915b1029f4d9e44f76bbe0db4caa82f00e3c6bab3da98b8cc30aec",
+        "candidate_sha256": "0f7fa28de8e4bac63a26e3b509f98de268f8c74c6f9cc9272c771375e1b9d931"
+      },
+      "modificationTime": {
+        "original_sha256": "d7d3801bf1c42d668e24193b9bd597fd3c1ecb48e1d67bbbec5f6bc33f4ec95a",
+        "candidate_sha256": "1896d08d19952b6296c55b7cd94e339db922b4dc8e3490476093a7bf968403c2"
+      },
+      "thumbnail": {
+        "original_sha256": "f31aa689679c0afdfa75c7230f2c999402756b58d02de4cb7e5d19bfcc4f3409",
+        "candidate_sha256": "62ad752648961d4a18c69b57f77d663b3f37cb0e274e0f97e6c83f0a2655fb4f"
+      }
+    },
+    "object_counts": {
+      "spreadsheet": 6,
+      "folder": 2,
+      "workbook": 2,
+      "matrix": 3,
+      "note": 3,
+      "worksheet": 1,
+      "xyCurve": 1
+    },
+    "app_source_preserved": true,
+    "source_artifact_audit": {
+      "candidate_exactly_regenerated": true,
+      "manifest_exactly_recomputed": true,
+      "source_and_rollback_and_application_input_bit_exact": true,
+      "allowed_byte_count": 808,
+      "changed_byte_count": 687,
+      "preserved_byte_sha256": "698969df3c85db16ae2af623ad76a89bbbe9fc4c8ed6cac6ab1b104d29cfc81e",
+      "candidate_sha256": "d9c3116a98734aad2b7d45c3dd21013dfbcba6ba037cafdfd2db1e38630b83c6",
+      "native_graph_and_opaque_tail_bytes_unchanged": true,
+      "semantic_validity_of_opaque_native_content": "NOT ESTABLISHED"
+    },
+    "saved_column_binary64_matches_actual_API": true,
+    "visual_review": "NOT PERFORMED by this verifier; see separately recorded visual inspection",
+    "Origin_acceptance_reopen_update_recalculate_save": "NOT_RUN",
+    "changed_project_paths": [
+      "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='A']/output_filter[1]/tail()",
+      "/project/child_aspect[4]/folder[@name='Folder1']/child_aspect[2]/spreadsheet[@name='Book1']/column[@name='B']/output_filter[1]/tail()"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "requested_active_rows": 51,
+    "result": "REFUSED before output creation",
+    "reason": "unvalidated active-row count; allocation changes unsupported",
+    "output_exists": false
+  },
+  {
+    "requested_active_rows": 257,
+    "result": "REFUSED before output creation",
+    "reason": "unvalidated active-row count; allocation changes unsupported",
+    "output_exists": false
+  }
+]

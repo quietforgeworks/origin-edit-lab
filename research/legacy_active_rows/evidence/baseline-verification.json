@@ -1,0 +1,7 @@
+{
+  "case": "original",
+  "all_100_source_values_bit_exact_in_actual_app": true,
+  "all_50_actual_curve_logical_points_bit_exact": true,
+  "actual_signal_emissions": 2,
+  "Origin_acceptance": "NOT_RUN"
+}

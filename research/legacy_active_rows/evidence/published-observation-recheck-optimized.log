@@ -1,0 +1,23 @@
+[
+  {
+    "active_rows": 7,
+    "allocated_rows": 50,
+    "bit_exact_active_values": 14,
+    "missing_inactive_values": 86,
+    "verified_curve_signals": 2
+  },
+  {
+    "active_rows": 49,
+    "allocated_rows": 50,
+    "bit_exact_active_values": 98,
+    "missing_inactive_values": 2,
+    "verified_curve_signals": 2
+  },
+  {
+    "active_rows": 50,
+    "allocated_rows": 50,
+    "bit_exact_active_values": 100,
+    "missing_inactive_values": 0,
+    "verified_curve_signals": 2
+  }
+]

@@ -1,0 +1,33 @@
+test_all_bits_and_ledger (test_native_active_rows.FixtureTests.test_all_bits_and_ledger) ... ok
+test_atomic_existing_directory (test_native_active_rows.FixtureTests.test_atomic_existing_directory) ... ok
+test_bound_field_ownership (test_native_active_rows.FixtureTests.test_bound_field_ownership) ... ok
+test_candidate_tamper (test_native_active_rows.FixtureTests.test_candidate_tamper) ... ok
+test_complete_allowed_diff (test_native_active_rows.FixtureTests.test_complete_allowed_diff) ... ok
+test_framing_corruption (test_native_active_rows.FixtureTests.test_framing_corruption) ... ok
+test_generate_roundtrip_no_overwrite (test_native_active_rows.FixtureTests.test_generate_roundtrip_no_overwrite) ... ok
+test_inactive_raw_cells_retained (test_native_active_rows.FixtureTests.test_inactive_raw_cells_retained) ... ok
+test_manifest_tamper (test_native_active_rows.FixtureTests.test_manifest_tamper) ... ok
+test_modified_source_rejected (test_native_active_rows.FixtureTests.test_modified_source_rejected) ... ok
+test_native_graph_and_tail_exact (test_native_active_rows.FixtureTests.test_native_graph_and_tail_exact) ... ok
+test_noop_rejected (test_native_active_rows.FixtureTests.test_noop_rejected) ... ok
+test_opaque_fields_refused (test_native_active_rows.FixtureTests.test_opaque_fields_refused) ... ok
+test_patch_restore_all_supported (test_native_active_rows.FixtureTests.test_patch_restore_all_supported) ... ok
+test_random_numeric_roundtrips (test_native_active_rows.FixtureTests.test_random_numeric_roundtrips) ... ok
+test_repatch_rejected (test_native_active_rows.FixtureTests.test_repatch_rejected) ... ok
+test_replacement_tamper (test_native_active_rows.FixtureTests.test_replacement_tamper) ... ok
+test_symlink_no_overwrite (test_native_active_rows.FixtureTests.test_symlink_no_overwrite) ... ok
+test_unknown_rows_no_output (test_native_active_rows.FixtureTests.test_unknown_rows_no_output) ... ok
+test_allowed_counts (test_native_active_rows.InputTests.test_allowed_counts) ... ok
+test_axis_bounds (test_native_active_rows.InputTests.test_axis_bounds) ... ok
+test_bad_numbers (test_native_active_rows.InputTests.test_bad_numbers) ... ok
+test_csv_shape_encoding (test_native_active_rows.InputTests.test_csv_shape_encoding) ... ok
+test_missing_sentinel_refused (test_native_active_rows.InputTests.test_missing_sentinel_refused) ... ok
+test_negative_zero (test_native_active_rows.InputTests.test_negative_zero) ... ok
+test_range_count_types (test_native_active_rows.InputTests.test_range_count_types) ... ok
+test_rounding_ledger (test_native_active_rows.InputTests.test_rounding_ledger) ... ok
+test_unvalidated_counts (test_native_active_rows.InputTests.test_unvalidated_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.868s
+
+OK

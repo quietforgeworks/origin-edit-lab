@@ -1,0 +1,32 @@
+[
+  {
+    "case": "active7",
+    "active_rows": 7,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 14,
+    "actual_app_missing_inactive_values": 86,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "all_other_app_project_content_unchanged": true
+  },
+  {
+    "case": "active49",
+    "active_rows": 49,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 98,
+    "actual_app_missing_inactive_values": 2,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "all_other_app_project_content_unchanged": true
+  },
+  {
+    "case": "active50",
+    "active_rows": 50,
+    "allocated_rows": 50,
+    "actual_app_bit_exact_active_values": 100,
+    "actual_app_missing_inactive_values": 0,
+    "actual_curve_signal_emissions": 2,
+    "all_curve_logical_points_bit_exact_to_csv": true,
+    "all_other_app_project_content_unchanged": true
+  }
+]

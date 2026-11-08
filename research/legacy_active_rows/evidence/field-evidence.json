@@ -1,0 +1,115 @@
+{
+  "dataset_headers": [
+    {
+      "name": "Book1_A",
+      "frame": 103,
+      "header_bytes": 140,
+      "data_frame": 249,
+      "data_bytes": 500,
+      "value_bytes": 10,
+      "endRow_absolute_offset": 141
+    },
+    {
+      "name": "Book1_B",
+      "frame": 760,
+      "header_bytes": 140,
+      "data_frame": 906,
+      "data_bytes": 500,
+      "value_bytes": 10,
+      "endRow_absolute_offset": 798
+    }
+  ],
+  "documented_source_semantics": [
+    {
+      "source": "OriginAnyParser.cpp",
+      "lines": [
+        1139,
+        1144,
+        1222,
+        1224,
+        1241,
+        1246
+      ],
+      "meaning": "Read numRows/beginRow/endRow at payload 0x19/0x1d/0x21; data vector length comes from framed payload bytes divided by value width."
+    },
+    {
+      "source": "OriginProjectParser.cpp",
+      "lines": [
+        858,
+        861,
+        867,
+        933,
+        936,
+        945,
+        966
+      ],
+      "meaning": "Allocate maximum column data vector length; numeric active rows copied only in [beginRow,endRow)."
+    },
+    {
+      "source": "XYCurve.cpp",
+      "lines": [
+        1026,
+        1041,
+        1047,
+        1088,
+        1091,
+        966
+      ],
+      "meaning": "Only valid unmasked X/Y rows enter logical point vector; pointsUpdated exposes vector used by normal app rendering."
+    },
+    {
+      "source": "OriginAnyParser.cpp",
+      "lines": [
+        2388,
+        2413
+      ],
+      "meaning": "Explicit Y/X dataset binding IDs at graph curve header payload offsets 0x04 and 0x23."
+    }
+  ],
+  "opaque_unchanged_fields": [
+    {
+      "kind": "worksheet column",
+      "frame_offset": 123513,
+      "payload_offsets": [
+        7,
+        11
+      ],
+      "values": [
+        0,
+        50
+      ]
+    },
+    {
+      "kind": "worksheet column",
+      "frame_offset": 124015,
+      "payload_offsets": [
+        7,
+        11
+      ],
+      "values": [
+        0,
+        50
+      ]
+    },
+    {
+      "kind": "graph curve",
+      "frame_offset": 219404,
+      "payload_offsets": [
+        7,
+        11
+      ],
+      "values": [
+        0,
+        50
+      ]
+    }
+  ],
+  "prior_correlation_only_inventory": {
+    "fixtures": 13,
+    "graph_and_worksheet_observations": 239,
+    "proves_semantics": false
+  },
+  "expansion_reason": "Known allocation/data-frame sizes are insufficient to establish all native plot range/size/offset dependencies. Refuse unknown cases rather than rely on a reader ignoring opaque fields.",
+  "graph_source_bytes_touched": false,
+  "Origin_acceptance": "NOT_RUN"
+}

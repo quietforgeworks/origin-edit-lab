@@ -1,0 +1,69 @@
+test_all_bits_and_ledger (test_native_active_rows.FixtureTests.test_all_bits_and_ledger) ... skipped 'Exact separately obtained public fixture required'
+test_atomic_existing_directory (test_native_active_rows.FixtureTests.test_atomic_existing_directory) ... skipped 'Exact separately obtained public fixture required'
+test_bound_field_ownership (test_native_active_rows.FixtureTests.test_bound_field_ownership) ... skipped 'Exact separately obtained public fixture required'
+test_candidate_tamper (test_native_active_rows.FixtureTests.test_candidate_tamper) ... skipped 'Exact separately obtained public fixture required'
+test_complete_allowed_diff (test_native_active_rows.FixtureTests.test_complete_allowed_diff) ... skipped 'Exact separately obtained public fixture required'
+test_framing_corruption (test_native_active_rows.FixtureTests.test_framing_corruption) ... skipped 'Exact separately obtained public fixture required'
+test_generate_roundtrip_no_overwrite (test_native_active_rows.FixtureTests.test_generate_roundtrip_no_overwrite) ... skipped 'Exact separately obtained public fixture required'
+test_inactive_raw_cells_retained (test_native_active_rows.FixtureTests.test_inactive_raw_cells_retained) ... skipped 'Exact separately obtained public fixture required'
+test_manifest_tamper (test_native_active_rows.FixtureTests.test_manifest_tamper) ... skipped 'Exact separately obtained public fixture required'
+test_modified_source_rejected (test_native_active_rows.FixtureTests.test_modified_source_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_native_graph_and_tail_exact (test_native_active_rows.FixtureTests.test_native_graph_and_tail_exact) ... skipped 'Exact separately obtained public fixture required'
+test_noop_rejected (test_native_active_rows.FixtureTests.test_noop_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_opaque_fields_refused (test_native_active_rows.FixtureTests.test_opaque_fields_refused) ... skipped 'Exact separately obtained public fixture required'
+test_patch_restore_all_supported (test_native_active_rows.FixtureTests.test_patch_restore_all_supported) ... skipped 'Exact separately obtained public fixture required'
+test_random_numeric_roundtrips (test_native_active_rows.FixtureTests.test_random_numeric_roundtrips) ... skipped 'Exact separately obtained public fixture required'
+test_repatch_rejected (test_native_active_rows.FixtureTests.test_repatch_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_replacement_tamper (test_native_active_rows.FixtureTests.test_replacement_tamper) ... skipped 'Exact separately obtained public fixture required'
+test_symlink_no_overwrite (test_native_active_rows.FixtureTests.test_symlink_no_overwrite) ... skipped 'Exact separately obtained public fixture required'
+test_unknown_rows_no_output (test_native_active_rows.FixtureTests.test_unknown_rows_no_output) ... skipped 'Exact separately obtained public fixture required'
+test_allowed_counts (test_native_active_rows.InputTests.test_allowed_counts) ... ok
+test_axis_bounds (test_native_active_rows.InputTests.test_axis_bounds) ... ok
+test_bad_numbers (test_native_active_rows.InputTests.test_bad_numbers) ... ok
+test_csv_shape_encoding (test_native_active_rows.InputTests.test_csv_shape_encoding) ... ok
+test_missing_sentinel_refused (test_native_active_rows.InputTests.test_missing_sentinel_refused) ... ok
+test_negative_zero (test_native_active_rows.InputTests.test_negative_zero) ... ok
+test_range_count_types (test_native_active_rows.InputTests.test_range_count_types) ... ok
+test_rounding_ledger (test_native_active_rows.InputTests.test_rounding_ledger) ... ok
+test_unvalidated_counts (test_native_active_rows.InputTests.test_unvalidated_counts) ... ok
+test_clean_generation_and_refusals (test_review_guards.MakeCasesTests.test_clean_generation_and_refusals) ... skipped 'Exact separately obtained public fixture required'
+test_csv_symlink_not_followed (test_review_guards.MakeCasesTests.test_csv_symlink_not_followed) ... skipped 'Exact separately obtained public fixture required'
+test_existing_csv_is_not_overwritten (test_review_guards.MakeCasesTests.test_existing_csv_is_not_overwritten) ... skipped 'Exact separately obtained public fixture required'
+test_existing_generated_directory_refused (test_review_guards.MakeCasesTests.test_existing_generated_directory_refused) ... skipped 'Exact separately obtained public fixture required'
+test_existing_report_refused (test_review_guards.MakeCasesTests.test_existing_report_refused) ... skipped 'Exact separately obtained public fixture required'
+test_curve_source_bit_change_rejected (test_review_guards.ObservationTests.test_curve_source_bit_change_rejected) ... ok
+test_mask_change_rejected (test_review_guards.ObservationTests.test_mask_change_rejected) ... ok
+test_missing_cell_API_change_rejected (test_review_guards.ObservationTests.test_missing_cell_API_change_rejected) ... ok
+test_no_signal_rejected (test_review_guards.ObservationTests.test_no_signal_rejected) ... ok
+test_retained_actual_evidence_accepted (test_review_guards.ObservationTests.test_retained_actual_evidence_accepted) ... ok
+test_signed_zero_API_change_rejected (test_review_guards.ObservationTests.test_signed_zero_API_change_rejected) ... ok
+test_signed_zero_signal_change_rejected (test_review_guards.ObservationTests.test_signed_zero_signal_change_rejected) ... ok
+test_validity_change_rejected (test_review_guards.ObservationTests.test_validity_change_rejected) ... ok
+test_wrong_point_count_rejected (test_review_guards.ObservationTests.test_wrong_point_count_rejected) ... ok
+test_wrong_range_rejected (test_review_guards.ObservationTests.test_wrong_range_rejected) ... ok
+test_argument_count (test_review_guards.RunnerTests.test_argument_count) ... ok
+test_case_traversal_and_unvalidated_count (test_review_guards.RunnerTests.test_case_traversal_and_unvalidated_count) ... ok
+test_dangling_result_symlink (test_review_guards.RunnerTests.test_dangling_result_symlink) ... ok
+test_existing_result_and_profile (test_review_guards.RunnerTests.test_existing_result_and_profile) ... ok
+test_symlink_parent_rejected (test_review_guards.RunnerTests.test_symlink_parent_rejected) ... ok
+test_unknown_mode (test_review_guards.RunnerTests.test_unknown_mode) ... ok
+test_wrong_fixture_refused_without_app (test_review_guards.RunnerTests.test_wrong_fixture_refused_without_app) ... ok
+test_before_after_inspection_tamper_rejected (test_review_guards.SourceTests.test_before_after_inspection_tamper_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_boolean_number_substitution_rejected (test_review_guards.SourceTests.test_boolean_number_substitution_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_exact_candidate_and_manifest_accepted (test_review_guards.SourceTests.test_exact_candidate_and_manifest_accepted) ... skipped 'Exact separately obtained public fixture required'
+test_false_preservation_flags_rejected (test_review_guards.SourceTests.test_false_preservation_flags_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_opaque_tail_tamper_even_with_new_hash_rejected (test_review_guards.SourceTests.test_opaque_tail_tamper_even_with_new_hash_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_same_forged_hash_logs_do_not_prove_source (test_review_guards.SourceTests.test_same_forged_hash_logs_do_not_prove_source) ... skipped 'Exact separately obtained public fixture required'
+test_signed_zero_ledger_substitution_rejected (test_review_guards.SourceTests.test_signed_zero_ledger_substitution_rejected) ... skipped 'Exact separately obtained public fixture required'
+test_snapshot_must_match_hash_records (test_review_guards.SourceTests.test_snapshot_must_match_hash_records) ... skipped 'Exact separately obtained public fixture required'
+test_exact_leading_and_trailing_tail (test_review_guards.XMLTests.test_exact_leading_and_trailing_tail) ... ok
+test_exact_leading_and_trailing_text (test_review_guards.XMLTests.test_exact_leading_and_trailing_text) ... ok
+test_indentation_is_not_ignored (test_review_guards.XMLTests.test_indentation_is_not_ignored) ... ok
+test_none_and_empty_distinct_in_text_and_tail (test_review_guards.XMLTests.test_none_and_empty_distinct_in_text_and_tail) ... ok
+test_only_documented_volatile_attributes_ignored (test_review_guards.XMLTests.test_only_documented_volatile_attributes_ignored) ... ok
+test_substantive_attributes_checked (test_review_guards.XMLTests.test_substantive_attributes_checked) ... ok
+
+----------------------------------------------------------------------
+Ran 64 tests in 0.075s
+
+OK (skipped=32)

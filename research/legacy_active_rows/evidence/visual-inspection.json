@@ -1,0 +1,70 @@
+{
+  "scope": "Separate visual inspection, not a verifier-generated claim. Exact counts and values come from API and Qt records, not pixel counting.",
+  "screenshots_distributed": false,
+  "captures": [
+    {
+      "run": "retained initial evidence",
+      "case": "original",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "d853593e04fae4f99b122b086ce3b00f616bb28445ba3f25a04087a2e8a160fb",
+      "manually_inspected": true,
+      "observed": "Original public 50-point line/square-marker graph is visible."
+    },
+    {
+      "run": "retained initial evidence",
+      "case": "active7",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "5f95f4d0dd3302bc71b1ed59ac8817ad78d5ffe45c26c9a522feddb29ab53eaf",
+      "manually_inspected": true,
+      "observed": "Seven markers end at the expected seventh active row; unchanged axes/legend/style."
+    },
+    {
+      "run": "retained initial evidence",
+      "case": "active49",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "be446d851f5fa0db415188836274e7c0ca7dfbeaa2ec999dd0bc7949fff8ebcb",
+      "manually_inspected": true,
+      "observed": "Toy curve ends at the 49th row before the final additional endpoint; unchanged axes/legend/style."
+    },
+    {
+      "run": "retained initial evidence",
+      "case": "active50",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "9bee326dc4b66450c51ad188fcf922f9479bd62efa3825e07de0ffc6dc55a5f4",
+      "manually_inspected": true,
+      "observed": "Toy curve includes the additional 50th-row endpoint; unchanged axes/legend/style."
+    },
+    {
+      "run": "independent rerun",
+      "case": "original",
+      "capture": "Graph2/002-window2.png",
+      "sha256": "65819cc84028e39155146b1c73d3b85b237f1a895165c43bced9bce97466c1cb",
+      "manually_inspected": true,
+      "observed": "Original public 50-point line/square-marker graph is visible."
+    },
+    {
+      "run": "independent rerun",
+      "case": "active7",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "2e1ed03e86716d85d2620fa4fcb8bff4e416f38533727f7b65a4f3ef90bcef25",
+      "manually_inspected": true,
+      "observed": "Seven markers end at the expected seventh active row; unchanged axes/legend/style."
+    },
+    {
+      "run": "independent rerun",
+      "case": "active49",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "7f9b24a65d4b9a22ef28aef5839e05bcfcae13a5ad131f5c3d171c0d8371d1cc",
+      "manually_inspected": true,
+      "observed": "Toy curve ends at the 49th row before the final additional endpoint; unchanged axes/legend/style."
+    },
+    {
+      "run": "independent rerun",
+      "case": "active50",
+      "capture": "Graph2/002-window1.png",
+      "sha256": "99675766a0b34975111ccb3347b82fbc67d5239cbf88d672fcbc86cd0919ba4c",
+      "manually_inspected": true,
+      "observed": "Toy curve includes the additional 50th-row endpoint; unchanged axes/legend/style."
+    }
+  ]
+}
