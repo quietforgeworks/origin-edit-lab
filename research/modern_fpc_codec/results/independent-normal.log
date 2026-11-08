@@ -1,0 +1,22 @@
+test_arbitrary_stream_differential (test_encoder_adversarial.EncoderAdversarial.test_arbitrary_stream_differential) ... ok
+test_exact_budget_and_every_smaller_budget (test_encoder_adversarial.EncoderAdversarial.test_exact_budget_and_every_smaller_budget) ... ok
+test_hand_calculated_encoder_bytes (test_encoder_adversarial.EncoderAdversarial.test_hand_calculated_encoder_bytes) ... ok
+test_knob_types_bounds (test_encoder_adversarial.EncoderAdversarial.test_knob_types_bounds) ... ok
+test_prefix_count_semantic_limit (test_encoder_adversarial.EncoderAdversarial.test_prefix_count_semantic_limit) ... ok
+test_seeded_exact_bits_differential (test_encoder_adversarial.EncoderAdversarial.test_seeded_exact_bits_differential) ... ok
+test_unused_high_nibble_and_fresh_state (test_encoder_adversarial.EncoderAdversarial.test_unused_high_nibble_and_fresh_state) ... ok
+test_dfcm_stride_and_pair_order (test_independent_fpc_decoder.SpecFixtures.test_dfcm_stride_and_pair_order) ... ok
+test_dfcm_wraparound (test_independent_fpc_decoder.SpecFixtures.test_dfcm_wraparound) ... ok
+test_empty (test_independent_fpc_decoder.SpecFixtures.test_empty) ... ok
+test_every_truncation (test_independent_fpc_decoder.SpecFixtures.test_every_truncation) ... ok
+test_fcm_hash_cell (test_independent_fpc_decoder.SpecFixtures.test_fcm_hash_cell) ... ok
+test_fcm_reuses_previous_cell (test_independent_fpc_decoder.SpecFixtures.test_fcm_reuses_previous_cell) ... ok
+test_negative_stride_bits (test_independent_fpc_decoder.SpecFixtures.test_negative_stride_bits) ... ok
+test_prefix_and_strict (test_independent_fpc_decoder.SpecFixtures.test_prefix_and_strict) ... ok
+test_sizes_types_and_fresh_state (test_independent_fpc_decoder.SpecFixtures.test_sizes_types_and_fresh_state) ... ok
+test_width_codes (test_independent_fpc_decoder.SpecFixtures.test_width_codes) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.234s
+
+OK

@@ -1,0 +1,16 @@
+test_all_widths_and_selectors (test_fpc_numeric.FPCTests.test_all_widths_and_selectors) ... ok
+test_compressed_count_cannot_self_identify (test_fpc_numeric.FPCTests.test_compressed_count_cannot_self_identify) ... ok
+test_edge_bits_and_nan_payloads (test_fpc_numeric.FPCTests.test_edge_bits_and_nan_payloads) ... ok
+test_every_truncation_rejected (test_fpc_numeric.FPCTests.test_every_truncation_rejected) ... ok
+test_manual_encoder_fixtures (test_fpc_numeric.FPCTests.test_manual_encoder_fixtures) ... ok
+test_mutation_is_not_a_checksum (test_fpc_numeric.FPCTests.test_mutation_is_not_a_checksum) ... ok
+test_reset_and_concatenated_prefixes (test_fpc_numeric.FPCTests.test_reset_and_concatenated_prefixes) ... ok
+test_strict_types_and_budgets (test_fpc_numeric.FPCTests.test_strict_types_and_budgets) ... ok
+test_thousands_deterministic_sequences (test_fpc_numeric.FPCTests.test_thousands_deterministic_sequences) ... ok
+test_unused_odd_nibble_never_consumes_bytes (test_fpc_numeric.FPCTests.test_unused_odd_nibble_never_consumes_bytes) ... ok
+test_one_million_values_and_rejection_above (test_hard_boundaries.BoundaryTests.test_one_million_values_and_rejection_above) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 6.808s
+
+OK

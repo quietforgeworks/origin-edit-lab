@@ -1,0 +1,6 @@
+test_one_million_values_and_rejection_above (__main__.BoundaryTests.test_one_million_values_and_rejection_above) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.327s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "sequences": 6004,
+    "values": 767387,
+    "unchanged_external_bit_exact_sequences": 5545,
+    "sequences_with_missing_sentinel": 459,
+    "missing_sentinel_values": 3308
+  },
+  "aggregate_raw_and_encoded_sha256": "756bc217cd94fc6ad5f89d0d448ba2883d0a9fc0703fa8189f5d002f20def595",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "optimize": 1,
+  "quantized_revision": "431deeb7c8473503970ca56b78cc1678f57d373d",
+  "external_source_hashes": {
+    "container": "e80996b8955d46b446bdc4761a55b19b6d760619edb0b94b98f16ebe47cb4115",
+    "opju_codec": "5a2c6f000ff8fef0a71ba8aab0876f7de785d5bb4dfa8d07dd612f052b737be9"
+  },
+  "all_raw_adapter_and_independent_checks_exact": true,
+  "all_unchanged_checks_match_documented_missing_normalization": true,
+  "native_origin_acceptance": false
+}

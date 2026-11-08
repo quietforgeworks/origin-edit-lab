@@ -1,0 +1,15 @@
+test_all_widths_and_selectors (__main__.FPCTests.test_all_widths_and_selectors) ... ok
+test_compressed_count_cannot_self_identify (__main__.FPCTests.test_compressed_count_cannot_self_identify) ... ok
+test_edge_bits_and_nan_payloads (__main__.FPCTests.test_edge_bits_and_nan_payloads) ... ok
+test_every_truncation_rejected (__main__.FPCTests.test_every_truncation_rejected) ... ok
+test_manual_encoder_fixtures (__main__.FPCTests.test_manual_encoder_fixtures) ... ok
+test_mutation_is_not_a_checksum (__main__.FPCTests.test_mutation_is_not_a_checksum) ... ok
+test_reset_and_concatenated_prefixes (__main__.FPCTests.test_reset_and_concatenated_prefixes) ... ok
+test_strict_types_and_budgets (__main__.FPCTests.test_strict_types_and_budgets) ... ok
+test_thousands_deterministic_sequences (__main__.FPCTests.test_thousands_deterministic_sequences) ... ok
+test_unused_odd_nibble_never_consumes_bytes (__main__.FPCTests.test_unused_odd_nibble_never_consumes_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.350s
+
+OK
