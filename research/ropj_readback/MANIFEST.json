@@ -1,0 +1,50 @@
+{
+  "schema": "source-only-publication-manifest-v1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5399,
+      "sha256": "e3a11b0c88026759b7fb6941494c5cf2c496e2bd0edbca14ba3d8c67cd3f49f8"
+    },
+    {
+      "path": "facts.json",
+      "bytes": 1911,
+      "sha256": "c6a20a65a278064b8b317d43ef2639bdb8d304dc2a6f984de25770fb6f464ae7"
+    },
+    {
+      "path": "readback.R",
+      "bytes": 2161,
+      "sha256": "5d38fbf7cb67117f9ee08dc8480fd40d7f8a6be575ab3ce320ac007ff2bb3614"
+    },
+    {
+      "path": "scans.json",
+      "bytes": 951,
+      "sha256": "86a16aa1852e1c5ac5a2a602221689423066c875639ad25bb254e91a586f10f7"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 1605,
+      "sha256": "5079914025840359c760b66af14e5c875292dee21118299139f2b16a475de7c9"
+    },
+    {
+      "path": "test_verify.py",
+      "bytes": 10213,
+      "sha256": "c4d2535d267f86d4c4e93f366518bda3c20363f452d8d7311352f90a18e13764"
+    },
+    {
+      "path": "testsummary.json",
+      "bytes": 1839,
+      "sha256": "712a7aa4d307822db169c93df6d6a47753424cf2bda56e3b2f8e35ff64264c9b"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9567,
+      "sha256": "8ea8db4468f1d7bf3053a8b5870844b58f87aafde7813ecffdc3a0af001992e2"
+    }
+  ],
+  "excluded_self_files": [
+    "MANIFEST.json",
+    "SHA256SUMS"
+  ],
+  "contains_no_runtime_or_fixtures": true
+}

@@ -1,0 +1,40 @@
+{
+  "Ropj": {
+    "version": "0.3-7",
+    "registry": "CRAN",
+    "homepage": "https://cran.r-project.org/package=Ropj",
+    "manual": "https://cran.r-project.org/web/packages/Ropj/refman/Ropj.html",
+    "source_archive": "https://cran.r-project.org/src/contrib/Ropj_0.3-7.tar.gz",
+    "source_sha256": "f55341b11c3fb0a328b3b0ab681da210a21d610cf1c56302ff3f82a4dafd43c1",
+    "license": "GPL-3.0-or-later",
+    "inspected_source_members": [
+      "Ropj/src/read_opj.cpp",
+      "Ropj/R/read.opj.R"
+    ],
+    "source_distributed_here": false
+  },
+  "runtime_tested": {
+    "R": "4.5.0",
+    "Rcpp": "1.0.14",
+    "source": "Official Debian packages; extracted into an isolated runtime",
+    "R_package": "https://packages.debian.org/trixie/r-base-core",
+    "Rcpp_package": "https://packages.debian.org/trixie/r-cran-rcpp"
+  },
+  "Origin_Viewer": {
+    "product": "https://www.originlab.com/viewer/",
+    "release_notes": "https://docs.originlab.com/viewer/origin-viewer-release-notes.html",
+    "official_archive": "https://www.originlab.com/ftp/OriginViewer_64.zip",
+    "version_reported_by_vendor": "10.4.0.25",
+    "executed": false,
+    "binary_or_EULA_included_here": false
+  },
+  "Wine_startup_bug": {
+    "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1110936",
+    "observed_runtime": "10.0~repack-6",
+    "resolved_before_subsequent_IPC_failure": true
+  },
+  "public_mixed_type_fixture_provenance": {
+    "source": "https://github.com/KDE/labplot/blob/0bd2e4094e92e74052ec161022d4e60aeb7605cd/tests/import_export/Project/data/2graphs.opj",
+    "fixture_distributed_here": false
+  }
+}

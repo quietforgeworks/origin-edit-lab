@@ -1,0 +1,30 @@
+{
+  "schema": "ropj-publication-scan-v1",
+  "files_reviewed": 7,
+  "all_files_utf8_text": true,
+  "findings": [],
+  "checks": [
+    "Explicit file allowlist",
+    "Machine-specific absolute paths",
+    "Email-like strings",
+    "Private fixture markers",
+    "Vendor full-license markers",
+    "NUL/binary bytes",
+    "Python syntax parse"
+  ],
+  "excluded_artifacts": [
+    "Native OPJ/OPJU fixtures",
+    "CSV and research readback data",
+    "Viewer/R/Wine or compiled binaries",
+    "Vendor EULA text",
+    "Runtime logs containing local paths"
+  ],
+  "manual_review": {
+    "new_source_and_tests_only": true,
+    "unit_data_from_documented_public_algorithm": true,
+    "no_download_or_install_action": true,
+    "runtime_only_from_explicit_executable_argument": true,
+    "no_automatic_upload_or_publication": true
+  },
+  "scope_note": "Pattern checks and manual review apply to this prepared directory, not arbitrary future generated output."
+}

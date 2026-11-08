@@ -1,0 +1,70 @@
+{
+  "schema": "ropj-readback-testsummary-v1",
+  "recorded_at_utc": "2026-11-08T05:02:59.207664+00:00",
+  "source_only_test_counts_include_skipped_integration_test": true,
+  "runs": [
+    {
+      "mode": "normal",
+      "tests_run": 25,
+      "passed": 24,
+      "skipped": 1,
+      "failures": 0,
+      "errors": 0,
+      "external_runtime_explicitly_supplied": false,
+      "real_reader_result": "not run; explicit skip",
+      "command": "python -m unittest -v"
+    },
+    {
+      "mode": "optimized",
+      "tests_run": 25,
+      "passed": 24,
+      "skipped": 1,
+      "failures": 0,
+      "errors": 0,
+      "external_runtime_explicitly_supplied": false,
+      "real_reader_result": "not run; explicit skip",
+      "command": "python -O -m unittest -v"
+    },
+    {
+      "mode": "normal_with_runtime",
+      "tests_run": 25,
+      "passed": 25,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "external_runtime_explicitly_supplied": true,
+      "real_reader_result": {
+        "cells": 1761,
+        "longname_unit_pairs": 12
+      },
+      "command": "python -m unittest -v"
+    },
+    {
+      "mode": "optimized_with_runtime",
+      "tests_run": 25,
+      "passed": 25,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "external_runtime_explicitly_supplied": true,
+      "real_reader_result": {
+        "cells": 1761,
+        "longname_unit_pairs": 12
+      },
+      "command": "python -O -m unittest -v"
+    }
+  ],
+  "real_runtime": {
+    "R": "4.5.0",
+    "Rcpp": "1.0.14",
+    "Ropj": "0.3-7",
+    "fixtures": "Externally supplied synthetic decimal7/161/162/257 workbooks; no fixture files included"
+  },
+  "not_claimed": [
+    "Origin Viewer execution",
+    "Origin editor save/reopen",
+    "original graph rendering",
+    "modern OPJU support",
+    "independent parser implementation"
+  ]
+}

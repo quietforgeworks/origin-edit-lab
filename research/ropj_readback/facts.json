@@ -1,0 +1,55 @@
+{
+  "schema": "ropj-research-facts-v1",
+  "historical_run_date": "2026-11-08",
+  "reader": "Ropj 0.3-7",
+  "synthetic_cases": [
+    {
+      "case": "decimal7",
+      "rows": 7,
+      "columns": 3,
+      "binary64_cells_equal": 21,
+      "longname_unit_pairs_equal": 3
+    },
+    {
+      "case": "decimal161",
+      "rows": 161,
+      "columns": 3,
+      "binary64_cells_equal": 483,
+      "longname_unit_pairs_equal": 3
+    },
+    {
+      "case": "decimal162",
+      "rows": 162,
+      "columns": 3,
+      "binary64_cells_equal": 486,
+      "longname_unit_pairs_equal": 3
+    },
+    {
+      "case": "decimal257",
+      "rows": 257,
+      "columns": 3,
+      "binary64_cells_equal": 771,
+      "longname_unit_pairs_equal": 3
+    }
+  ],
+  "total_binary64_cells_equal": 1761,
+  "total_longname_unit_pairs_equal": 12,
+  "all_returned_column_commands_empty": true,
+  "all_inputs_unchanged": true,
+  "shared_parser_ancestry": "Ropj and LabPlot use liborigin-derived readers. Independent execution is not independent implementation.",
+  "mixed_columns": {
+    "observed": "The public mixed-type fixture returned character vectors containing six-fractional-place numeric strings.",
+    "source_behavior": "Numeric variants in mixed columns are converted using std::to_string in the C++17 importer.",
+    "numeric_precision_proof": false
+  },
+  "scope": {
+    "numeric_single_sheet_workbooks": true,
+    "full_project_parse_proved": false,
+    "original_graph_rendered": false,
+    "modern_OPJU_supported": false,
+    "OriginViewer_executed": false,
+    "Origin_editor_reopen_or_save_proved": false
+  },
+  "viewer_blocker": "Wine could not create the required local IPC socket in the tested Linux environment. Origin Viewer did not execute.",
+  "publication_contents": "New harness and tests, compact facts and public provenance only. No runtime, OPJ fixture, research data, full EULA, private path, or user content."
+}
