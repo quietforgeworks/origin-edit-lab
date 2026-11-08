@@ -1,0 +1,17 @@
+{
+  "kind": "source-only research candidate; not published",
+  "files": {
+    ".gitignore": "f7e52deea8a3bdd1c222bdef4a040d1ab0cd487451d4c71c4eb94b7187c51b1e",
+    "LICENSE": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884",
+    "README.md": "30da5955e6e59e94d4e4bbddc6a668e5168d5d4d6c163a221e7bc7f651be0568",
+    "SOURCES.md": "c07fac67379f8c590ccb02d658ad8e16a03d7346fa6177dde9b472b6c5fc6bf8",
+    "expected_public_counts.json": "a91d3e85322e48065282ec4c8fb956ceda118a4d4c389d5190fc50acd868d7e2",
+    "native_binding.py": "2f54d94c26a998069209e30e4f62f70ce69e1579c50dcc42bfa9beabc9264e07",
+    "owner_walk.py": "b7ae97ff5ac699d1d9737404f292a51e10a02c2df00b6bed0135feeecc893404",
+    "prove_public.py": "20fdfe247967c804257d891ef5af32f430eb619d577f05e4a999e0374cafc9e3",
+    "public_sources.json": "5e6b3a2fc0d610dd84c689eb11b152d18a634a6505cc567f411cb06e998c7bd7",
+    "sparse_transport.py": "7ac8ecc8025f8c8b700197c1cb4e5bb50a1d808cb9cd28bf2afdc912e06cd80a",
+    "test_native_binding.py": "2bdc7e45e372b8904b6cb95fb4471a79023482ccb218d1f69421ba5c471afdf4",
+    "walk_dataset_envelope.py": "fe3f6998cc5cf09c5f955c7e02ac5d7126a83d30d2d50380a90f2680bc5be575"
+  }
+}
