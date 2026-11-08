@@ -1,13 +1,15 @@
 # Evidence and limitations
 
-This initial public tree is tested on Linux, Python 3.12. The default test runner runs both normal Python and `python -O`, using only generated synthetic inputs. Synthetic OOXML fixtures are package-logic tests, not independently Office-validated presentations.
+This public tree is tested on Linux, Python 3.12. The default test runner runs both normal Python and `python -O`, using only generated synthetic inputs. Synthetic OOXML fixtures are package-logic tests, not independently Office-validated presentations.
 
 A clean checkout runs:
 
-- 86 preview/helper tests: 84 pass, 2 external real-file tests skip.
+- 118 preview/helper tests: 116 pass, 2 external real-file tests skip.
 - 72 native tests: 14 synthetic tests pass, 58 exact-template tests skip because the external OLE is not included.
 
 In a separate local verification copy, the exact public-source OLE fixture was supplied: all 72 native tests passed in normal and optimized Python. That external binary is not committed. The test environment used NumPy 2.3.5, lxml 6.1.1 and Pillow 13.0.0.
+
+The 32 added layout/overlay tests use generated synthetic inputs. They cover approval bindings and stale-plan refusal, semantic anchor constraints, identity-coordinate pixels, opacity, source hashes and input/output refusals. They do not exercise an alignment editor, native guide generation/removal, palette application or a real Office client. See [layout approval](alignment-plan.md) and [visual verification](visual-layout.md#independent-verification-and-overlays).
 
 The skipped native tests cover two-decoder agreement, nonnumeric-byte preservation, source guards, restoration, strict input handling, optimized-mode verification and publication failures. They can be enabled by providing the exact external fixture described in `native/README.md`. A passing decoder or byte comparison is not an application acceptance test.
 

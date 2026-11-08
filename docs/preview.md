@@ -25,3 +25,19 @@ python preview/pptx_origin.py verify source.pptx changed.pptx
 The editor supports only the inspected layouts, including the tested paired VML Choice/DrawingML Fallback. Shared media is cloned for the selected object. SVG and PNG fallback must match in aspect ratio. Strict/unknown OOXML layouts, signed files, external image targets and unsupported AlternateContent are refused. `.ppt`, `.pptm` and encrypted files are not converted.
 
 Verification compares package members and embedded payload hashes. Unchanged package members preserve uncompressed content; this preview path does not promise byte-identical ZIP encoding. Always keep the source, examine the changed slide and independently test your target Office version. No universal file-safety or Office compatibility claim is made.
+
+## Layout proposals and comparison overlays
+
+For multi-panel alignment, typography and spacing, follow the [visual-layout workflow](visual-layout.md). Draw and show a guide proposal first, resolve uncertain panel/object/role/edge choices, and obtain explicit confirmation of that exact proposal before applying alignment. The [approval gate](alignment-plan.md) checks the complete plan, version, source and guide hashes plus exact anchor bindings. It is read-only: it neither draws guides nor moves objects, and it cannot authenticate user approval. A task-specific editor still needs guarded geometry edits and independent preservation checks.
+
+[Typography and palette choices](style-options.md) describe reference-panel or project-scaled fonts and six starting palettes. Style choices need their own authorization, preserve scientific series meaning, and require actual contrast checks. No palette is guaranteed universally accessible.
+
+The PNG overlay helper uses identical canvas coordinates, without registration or resizing. Old content is grayscale on white at 35% opacity by default; each nonwhite new RGB pixel stays fully opaque and unchanged. Inputs must be opaque single-frame PNGs with inspected SHA-256 hashes, and the output must be new. See [overlay usage and verification](visual-layout.md#independent-verification-and-overlays).
+
+```sh
+python preview/layout_plan.py inspect plan.json > review-summary.json
+python preview/pixel_overlay.py old.png new.png overlay.png \
+  --old-sha256 VERIFIED_OLD_HASH --new-sha256 VERIFIED_NEW_HASH
+```
+
+These helpers do not modify PPTX/OLE source objects. Alignment application, guide generation/removal, palette application, and client rendering are workflow requirements, not newly implemented editing APIs. Existing preview APIs and the native experiment are unchanged.
