@@ -7,6 +7,7 @@
 ## 目前做到哪里
 
 - **原生数据写回实验**：对一个严格限定的 Origin OLE 模板，在既有压缩记录的空间内写入两列、各 9 个数值。双解码器核对数值，保留图对象、X/Y 绑定、其他流及未知字节，支持精确恢复。
+- **新版结构与有限原生字段实验**：从数据集根记录顺序建立工作表/图形引用，只在完整、已识别的数据集与页链上，尝试四类存储整数字段的等长修改。未知结构拒绝；数字数组解码、Origin 界面单位和应用重开验收仍不在支持范围内。
 - **容器与预览工具**：检查 PPTX/OLE、提取 CFB 流及 WMF 中的 EMF；按明确选择器修改 SVG 外观，并替换支持布局中的 PPTX 预览。这些工具单独存在，预览修改不会改变 Origin 源对象。
 - **布局提案与对照**：先展示参考线提案并取得明确确认，再按精确对象与锚点执行。新增只读审批绑定校验和同画布像素叠加工具；它们不自动画参考线、移动对象或修改 Origin 源数据。
 - **测试基础**：公开的合成样本测试不依赖真实科研文件。严格拒绝不支持的输入、覆盖输出、越界编辑等情况。
@@ -56,6 +57,14 @@ python preview/compat.py project.opju
 
 [只读图形归属解析](research/modern_owner_walk/README.md) 在已识别的新版图页内，按文件记录顺序追踪图层、标题、曲线和轴参数，而不是按最近出现的名称猜测归属。公开 110 份输入中走通了 105 个图页、120 个图层和 2,717 条曲线；页的初始发现仍是候选扫描，未知对象会停止解析。独立的 LZ4 实验还复核了 182 个压缩属性块的字节一致性，但没有据此推断属性含义。此补充只读，不提供通用原生编辑或 Origin 重开验收。
 
+## 新版根记录、引用与四类字段研究
+
+[严格根记录与引用读取](research/modern_native_binding/README.md) 从 prolog 开始，顺序读取完整数据集列表和页链，以原生选择器与所属记录确定工作表列和曲线引用，不再依赖页扫描或最近名称。原公开样本中 101/110 份、独立公开样本中 24/57 份完成受限数据集与页段；这不是完整项目支持率，后续项目尾部仍未知。它不解码数值数组，也不把 X=0 猜成 A 列。
+
+[有限原生标量写入](research/modern_native_scalar/README.md) 只支持 type200 曲线线宽、具名轴标题字体、刻度字体与轴线宽四类**存储整数**。每次写入都经过完整根链检查、精确归属、外部哈希锚点和一对一 literal 字节来源验证；不改变压缩控制、零位模式或长度，不编辑 repeat 支撑的字节。输出只能独占创建新文件，原生、CFB 和单个 PPT 嵌入对象的变更均能精确恢复。
+
+公开 110 份样本中 101 份通过结构门槛，共有 385 项单字段实验；另有一个公开 PPT 的四字段串行实验，逐字节保留非目标流、其他成员和显示缓存。包只含源码、合成测试及公开来源证据，没有原生样本或测量数组。这些字节检查不能证明 Origin 界面单位、打开、刷新、保存重开或 PowerPoint 激活；这些应用兼容性与生命周期仍**未通过验收**，macOS 写入未验证。显示缓存保持旧图，不能视为新字段的渲染结果。
+
 ## 旧版原生图容量扩展研究
 
 [带图模板的 51/257/1024 行扩容实验](research/legacy_allocation/README.md) 对一个公开旧版 OPJ 模板重新分配数据记录。官方 LabPlot 2.12.1 的独立实跑逐位读回全部 X/Y 数据，并产生对应数量的真实曲线点，保存后的数据、原图样式与绑定也经过检查。这是明确选择后才会运行的 **LabPlot-only 研究模式**，不是安全的 Origin 导出：若干旧范围字段和未知依赖仍保留，Origin 的打开、刷新和保存重开未验证，默认导出继续拒绝。包只含源码、合成数据和有限证据，不含原生模板或应用程序。
@@ -66,7 +75,7 @@ python preview/compat.py project.opju
 
 [自定义声明输入实验](research/legacy_custom_data/README.md) 保持固定 50 行分配和一条曲线，接受 7、49、50 行 CSV 及单独的来源声明。原始 CSV、声明和完整 binary64 转换记录精确保留；核验和恢复要求外部保存的原始输入哈希。公开示例全部是自有生成的合成数字，measured 声明文件仅测试 schema，不代表真实测量。7/49 行仍保留 86/2 个未使用的原生单元格，所有情况都保留无关模板内容。
 
-两项补充都仅适用于精确公开模板，默认拒绝原生安全导出；Origin 打开、编辑、重算、原生保存重开均未运行，macOS 写入不支持。仓库只包含源码和有限历史证据，不包含原生样本、截图或应用二进制。当前测试与历史应用实跑的区别、逐例来源与哈希见[分发和复现说明](docs/native-data-packaging.md)。
+两项补充都仅适用于精确公开模板，默认拒绝原生安全导出；Origin 打开、编辑、重算和原生保存重开的完整兼容性仍未通过验收，macOS 写入不支持。仓库只包含源码和有限历史证据，不包含原生样本、截图或应用二进制。当前测试与历史应用实跑的区别、逐例来源与哈希见[分发和复现说明](docs/native-data-packaging.md)。
 
 ## 下一步
 
@@ -87,6 +96,8 @@ python preview/compat.py project.opju
 
 A source-preserving research toolkit for Origin graphs embedded in PowerPoint. The goal is to keep the underlying graph editable, including data, object bindings and eventual Origin save/reopen behavior.
 
-The native experiment changes fixed-width numeric residuals in one exact OLE template, with independent decoding and reversible byte deltas. It is **not a general OPJU writer**. Preview utilities are separately tested helpers; they do not satisfy the native-editability goal. Origin application acceptance, recalculation, PowerPoint activation and macOS validation are still **not run**. See [validation and limitations](docs/validation.md).
+The native experiment changes fixed-width numeric residuals in one exact OLE template, with independent decoding and reversible byte deltas. It is **not a general OPJU writer**. Preview utilities are separately tested helpers; they do not satisfy the native-editability goal. Origin application lifecycle, recalculation, PowerPoint activation and macOS compatibility remain **unvalidated**. See [validation and limitations](docs/validation.md).
 
 The separate [visual-layout workflow](docs/visual-layout.md) proposes guides before alignment, with a [read-only approval-binding gate](docs/alignment-plan.md) and an identity-coordinate PNG comparison helper. Neither helper edits native Origin objects or implements automatic layout.
+
+The separate [strict modern reference reader](research/modern_native_binding/README.md) and [restricted scalar writer](research/modern_native_scalar/README.md) operate only on recognized sequential dataset/page roots. The writer edits four stored-integer field classes with equal-length literal changes, external anchors and exact restoration. Neither is a numeric-array decoder, complete project parser, modern UI-unit mapping or Origin-validated editor. Their frozen dependencies and tests remain isolated from the older supplements.
