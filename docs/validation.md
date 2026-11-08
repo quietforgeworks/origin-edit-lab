@@ -2,7 +2,7 @@
 
 This public tree is tested on Linux, Python 3.12. The default test runner runs both normal Python and `python -O`, using only generated synthetic inputs. Synthetic OOXML fixtures are package-logic tests, not independently Office-validated presentations.
 
-A clean checkout on the recorded Linux/Python 3.12 environment runs 560 tests per Python mode: **357 pass and 203 explicitly skip**, with no failures. This includes the optional system liblz4 test, which skips on systems without liblz4 (356 pass, 204 skip). The previous suites are retained unchanged.
+A clean checkout on the recorded Linux/Python 3.12 environment runs 701 tests per Python mode: **498 pass and 203 explicitly skip**, with no failures. This includes the optional system liblz4 test, which skips on systems without liblz4 (497 pass, 204 skip). The previous 560 tests and all reviewed scientific modules are retained unchanged. The new binding and scalar packages add 27 and 114 synthetic tests respectively; their overlapping module/test names are deliberately isolated in separate subprocesses.
 
 The original suites include:
 
@@ -32,7 +32,7 @@ Before describing native output as editable and compatible, separately verify:
 4. Native redraw/recalculation, save, close and reopen.
 5. PowerPoint activation, OLE refresh, save and reopen, including preview consistency.
 
-**These application stages have not been run.** macOS is not certified by Linux tests. A complete OPJU writer, arbitrary graph serialization, resized compressed records and general native style editing are not implemented.
+**These application stages remain unvalidated and are not accepted as compatible.** Linux tests do not certify macOS. A complete OPJU writer, arbitrary graph serialization, resized compressed records and general native style editing are not implemented.
 
 Work on isolated copies. Do not open untrusted embedded objects automatically. No Origin, Office or VM is launched by the public scripts. Reports, extracted data and reverse manifests may contain original content; review them before sharing.
 
@@ -41,6 +41,20 @@ Work on isolated copies. Do not open untrusted embedded objects automatically. N
 `research/modern_binding_diagnostics` reproduces a pinned extractor's wrong-X and sheet-deduplication counterexample against 110 public hash-verified inputs. Its counts remain scanner candidates, not supported bindings. The default suite runs 32 synthetic tests with one explicit external-runtime opt-in skip; independent normal/optimized external proof runs matched the published counts.
 
 `research/modern_owner_walk` follows bounded object ownership inside identified graph pages. The source modules match the independently reviewed parser revision; 49 package tests pass locally in both modes, including an optional existing-liblz4 test. That one test skips if the runtime is absent. Initial page discovery, opaque properties, complete dataset identities, and Origin acceptance remain outside scope. These supplements change no preview or native-writer APIs and include no private fixture data.
+
+## Strict modern root/reference and scalar research supplements
+
+[Modern native binding](../research/modern_native_binding/README.md) starts at the prolog and requires complete sequential dataset/page roots for its strict gate. The source-only suite passes 27 synthetic tests per mode. The separately reviewed public proof covers 167 pinned public sources: 101/110 original and 24/57 independent files have complete recognized dataset and page sections. The project tail is unvalidated in every case. Prefix counts from incomplete files are not full-file support. Numerical arrays, UI rows and special plot interpretation remain outside this reader's scope. A separate independent review passed 38 tests per mode; those review tests and external samples are not part of the default checkout suite.
+
+[Modern native scalar](../research/modern_native_scalar/README.md) passes 114 synthetic tests per mode, including its intentionally frozen binding/ownership tests and synthetic native/CFB/PPT restoration and path guards. A separate independent review passed 49 tests per mode. Neither count is a new Origin application run.
+
+Its four fields are type200 curve width, named axis-title font, axis tick font and axis line width, expressed only as raw stored integers. Every write is gated by the complete recognized dataset and page chains, exact owners, supported version profiles and external hashes. Only same-length one-to-one literal bytes can change; sparse controls, zero/nonzero patterns, repeat-backed edits and record resizing are excluded. Unknown project-tail bytes and all non-target native contents remain identical. Output files are new and exclusively created; native, CFB and PPT restoration requires independently retained anchors and reproduces the exact source bytes.
+
+Historical public-source evidence records 101 complete-root inputs among 110 and 385 successful single-field trials: 82 curve-width trials plus 101 each for title, tick and axis-line fields. Nine inputs reject. A public four-field serial container trial preserves 516 other ZIP members, 319 other CFB streams, 102 OlePres streams and 152 media parts, with exact full-PPT restoration. These public corpus runs are recorded evidence, not repeated by the default synthetic runner. They do not decode or validate every scientific numerical value.
+
+All four field classes have public real-source trials for CPYUA4.3268 build195. CPYUA4.3683 build132 has public title/tick/axis trials but type200 curve writing is disabled. CPYUA4.3811 build222 has generic synthetic shape coverage only in this public package. Native record layout does not establish modern Origin UI units. Origin opening, recalculation, save/reopen and PowerPoint activation/refresh remain **unvalidated, not accepted**; macOS writes remain unvalidated. The frozen public experiments record their own application stages as NOT_RUN. Caches intentionally remain stale.
+
+The packages retain their reviewed MIT licenses and public-source attribution. Sources are CC-BY-4.0 Zenodo records and an Etalab 2.0 Dataverse dataset; source bytes, private fixtures and measured arrays are not bundled. Exact package snapshots are checked by their own inventories and the root source manifest. The binding inventory's historical candidate label describes that snapshot, not the current repository publication state. These supplements do not change older native/preview APIs, dependencies, permissions or historical evidence, and do not include the separate experimental direct-matrix codec.
 
 ## Legacy allocation expansion, application-specific research
 
