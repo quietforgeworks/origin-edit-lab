@@ -91,5 +91,3 @@ def publish_noreplace(staging, outdir):
             raise OSError(error, os.strerror(error))
     finally:
         os.close(descriptor)
-
-
