@@ -1,0 +1,175 @@
+{
+  "native": [
+    {
+      "case": 2,
+      "bytes": 234416,
+      "sha256": "3a4be4178c47eddf62287cd1a391ef5c6f4b0c01e997e4a8a64ce4c0def78218",
+      "source_cells_bit_exact": 200,
+      "frames": 490,
+      "original_dataset_slots_preserved": 25,
+      "added_dataset_slots": 2,
+      "all_other_bytes_and_opaque_tail_exact": true,
+      "rollback_exact": true
+    },
+    {
+      "case": 5,
+      "bytes": 243182,
+      "sha256": "459ba0e761c0e8abfb12e61fde627cb5418c302e54cff6776bb13d7f440f78e9",
+      "source_cells_bit_exact": 500,
+      "frames": 526,
+      "original_dataset_slots_preserved": 25,
+      "added_dataset_slots": 8,
+      "all_other_bytes_and_opaque_tail_exact": true,
+      "rollback_exact": true
+    },
+    {
+      "case": 10,
+      "bytes": 257792,
+      "sha256": "ffaf7eb4911fe7d27fe91802786a9cf3abfa32ae71052f5c17e6b391e8e6a1ba",
+      "source_cells_bit_exact": 1000,
+      "frames": 586,
+      "original_dataset_slots_preserved": 25,
+      "added_dataset_slots": 18,
+      "all_other_bytes_and_opaque_tail_exact": true,
+      "rollback_exact": true
+    }
+  ],
+  "application": [
+    {
+      "case": 2,
+      "actual_xycurve_objects": 2,
+      "api_cells_bit_exact": 200,
+      "logical_pairs_bit_exact": 100,
+      "passive_emissions_per_curve": [
+        2,
+        2
+      ],
+      "all_saved_arrays_bit_exact": true,
+      "all_source_bindings": [
+        [
+          "test_tree_import/Folder1/Book1/A",
+          "test_tree_import/Folder1/Book1/B"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/C",
+          "test_tree_import/Folder1/Book1/D"
+        ]
+      ],
+      "all_unrelated_app_project_content_exact": true,
+      "xml_whitespace_preserved": true,
+      "original_baseline_verified": true,
+      "input_snapshot_and_hashes_verified": true,
+      "exit_status": 124,
+      "Origin_acceptance": "NOT_RUN"
+    },
+    {
+      "case": 5,
+      "actual_xycurve_objects": 5,
+      "api_cells_bit_exact": 500,
+      "logical_pairs_bit_exact": 250,
+      "passive_emissions_per_curve": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_saved_arrays_bit_exact": true,
+      "all_source_bindings": [
+        [
+          "test_tree_import/Folder1/Book1/A",
+          "test_tree_import/Folder1/Book1/B"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/C",
+          "test_tree_import/Folder1/Book1/D"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/E",
+          "test_tree_import/Folder1/Book1/F"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/G",
+          "test_tree_import/Folder1/Book1/H"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/I",
+          "test_tree_import/Folder1/Book1/J"
+        ]
+      ],
+      "all_unrelated_app_project_content_exact": true,
+      "xml_whitespace_preserved": true,
+      "original_baseline_verified": true,
+      "input_snapshot_and_hashes_verified": true,
+      "exit_status": 124,
+      "Origin_acceptance": "NOT_RUN"
+    },
+    {
+      "case": 10,
+      "actual_xycurve_objects": 10,
+      "api_cells_bit_exact": 1000,
+      "logical_pairs_bit_exact": 500,
+      "passive_emissions_per_curve": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_saved_arrays_bit_exact": true,
+      "all_source_bindings": [
+        [
+          "test_tree_import/Folder1/Book1/A",
+          "test_tree_import/Folder1/Book1/B"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/C",
+          "test_tree_import/Folder1/Book1/D"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/E",
+          "test_tree_import/Folder1/Book1/F"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/G",
+          "test_tree_import/Folder1/Book1/H"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/I",
+          "test_tree_import/Folder1/Book1/J"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/K",
+          "test_tree_import/Folder1/Book1/L"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/M",
+          "test_tree_import/Folder1/Book1/N"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/O",
+          "test_tree_import/Folder1/Book1/P"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/Q",
+          "test_tree_import/Folder1/Book1/R"
+        ],
+        [
+          "test_tree_import/Folder1/Book1/S",
+          "test_tree_import/Folder1/Book1/T"
+        ]
+      ],
+      "all_unrelated_app_project_content_exact": true,
+      "xml_whitespace_preserved": true,
+      "original_baseline_verified": true,
+      "input_snapshot_and_hashes_verified": true,
+      "exit_status": 124,
+      "Origin_acceptance": "NOT_RUN"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+test_api_duplicate_cell (test_app_verifier.VerifierAttacks.test_api_duplicate_cell) ... ok
+test_bad_rendered_pair (test_app_verifier.VerifierAttacks.test_bad_rendered_pair) ... ok
+test_dropped_source_row (test_app_verifier.VerifierAttacks.test_dropped_source_row) ... ok
+test_duplicate_y_identity (test_app_verifier.VerifierAttacks.test_duplicate_y_identity) ... ok
+test_expected_column_tail_mutation (test_app_verifier.VerifierAttacks.test_expected_column_tail_mutation) ... ok
+test_masked_row (test_app_verifier.VerifierAttacks.test_masked_row) ... ok
+test_new_column_mutation (test_app_verifier.VerifierAttacks.test_new_column_mutation) ... ok
+test_new_style_mutation (test_app_verifier.VerifierAttacks.test_new_style_mutation) ... ok
+test_no_curve (test_app_verifier.VerifierAttacks.test_no_curve) ... ok
+test_no_emission (test_app_verifier.VerifierAttacks.test_no_emission) ... ok
+test_saved_bit_loss (test_app_verifier.VerifierAttacks.test_saved_bit_loss) ... ok
+test_saved_wrong_x (test_app_verifier.VerifierAttacks.test_saved_wrong_x) ... ok
+test_snapshot_mutation (test_app_verifier.VerifierAttacks.test_snapshot_mutation) ... ok
+test_unrelated_mutation (test_app_verifier.VerifierAttacks.test_unrelated_mutation) ... ok
+test_unrelated_whitespace_tail_mutation (test_app_verifier.VerifierAttacks.test_unrelated_whitespace_tail_mutation) ... ok
+test_unrelated_whitespace_text_mutation (test_app_verifier.VerifierAttacks.test_unrelated_whitespace_text_mutation) ... ok
+test_untouched (test_app_verifier.VerifierAttacks.test_untouched) ... ok
+test_wrong_x_identity (test_app_verifier.VerifierAttacks.test_wrong_x_identity) ... ok
+test_wrong_x_values (test_app_verifier.VerifierAttacks.test_wrong_x_values) ... ok
+test_boolean (test_multicurve.Inputs.test_boolean) ... ok
+test_duplicate_ids (test_multicurve.Inputs.test_duplicate_ids) ... ok
+test_duplicate_key (test_multicurve.Inputs.test_duplicate_key) ... ok
+test_explicit_bindings (test_multicurve.Inputs.test_explicit_bindings) ... ok
+test_measurement_claim (test_multicurve.Inputs.test_measurement_claim) ... ok
+test_missing_pair (test_multicurve.Inputs.test_missing_pair) ... ok
+test_missing_x (test_multicurve.Inputs.test_missing_x) ... ok
+test_native_safe_default (test_multicurve.Inputs.test_native_safe_default) ... ok
+test_no_extra_input (test_multicurve.Inputs.test_no_extra_input) ... ok
+test_nonnumeric_json (test_multicurve.Inputs.test_nonnumeric_json) ... ok
+test_parent_traversal (test_multicurve.Inputs.test_parent_traversal) ... ok
+test_signed_zero_and_raw_rounding (test_multicurve.Inputs.test_signed_zero_and_raw_rounding) ... ok
+test_symlink_and_fifo (test_multicurve.Inputs.test_symlink_and_fifo) ... ok
+test_unequal (test_multicurve.Inputs.test_unequal) ... ok
+test_wrapper_native_safe_default (test_multicurve.Inputs.test_wrapper_native_safe_default) ... ok
+test_wrong_sheet (test_multicurve.Inputs.test_wrong_sheet) ... ok
+test_defaults_do_not_touch_disk (test_multicurve.Native.test_defaults_do_not_touch_disk) ... ok
+test_export_and_overwrite (test_multicurve.Native.test_export_and_overwrite) ... ok
+test_grammar (test_multicurve.Native.test_grammar) ... ok
+test_hash_guard (test_multicurve.Native.test_hash_guard) ... ok
+test_patch_all (test_multicurve.Native.test_patch_all) ... ok
+test_truncated_frame (test_multicurve.Native.test_truncated_frame) ... ok
+test_wrapper_bad_template_prewrite (test_multicurve.Native.test_wrapper_bad_template_prewrite) ... ok
+test_wrapper_exclusive_raw_race (test_multicurve.Native.test_wrapper_exclusive_raw_race) ... ok
+test_wrapper_existing_destination_prewrite (test_multicurve.Native.test_wrapper_existing_destination_prewrite) ... ok
+test_wrapper_failed_generate_rolls_back (test_multicurve.Native.test_wrapper_failed_generate_rolls_back) ... ok
+test_wrapper_output_race (test_multicurve.Native.test_wrapper_output_race) ... ok
+test_wrapper_symlink_destination_prewrite (test_multicurve.Native.test_wrapper_symlink_destination_prewrite) ... ok
+test_wrong_curve_ids (test_multicurve.Native.test_wrong_curve_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.239s
+
+OK

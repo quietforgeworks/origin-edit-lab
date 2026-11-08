@@ -1,0 +1,30 @@
+{
+  "source_url": "https://download.kde.org/stable/labplot/labplot-2.12.1.tar.xz",
+  "archive_sha256": "e28155bfddf40e5b6f7c4791313556d1e48138044f216f210d515b9f6d6c106a",
+  "members": {
+    "src/3rdparty/liborigin/OriginAnyParser.cpp": {
+      "sha256": "b43d1fbf3b70fd135188dcd12838c83b0886dc3444dbc63b086183e09f53d611",
+      "external_only": true
+    },
+    "src/3rdparty/liborigin/OriginObj.h": {
+      "sha256": "86881710d8c82b91f76db3ccf7a665e2f2aa1d2eb899e9c88ab852ac2b923698",
+      "external_only": true
+    },
+    "src/backend/datasources/projects/OriginProjectParser.cpp": {
+      "sha256": "8ef24fc0263a354d873b227fff2b6e556965d5b41a67d7ef88840d67255270ac",
+      "external_only": true
+    },
+    "src/backend/core/AspectTreeModel.cpp": {
+      "sha256": "45074b0ef7ef8c1f0cfeae6ae6a06e8ef2bd31f52fdfa3261e8e081e9eb89ac8",
+      "external_only": true
+    },
+    "src/backend/worksheet/plots/cartesian/XYCurve.cpp": {
+      "sha256": "7f97cc88d3fdc119101886c1db0fed69ae08ab52534af8477438dff220c16b08",
+      "external_only": true
+    },
+    "src/backend/worksheet/plots/cartesian/XYCurve.h": {
+      "sha256": "246e5bf3abfe1f335df52990a90bdce0b6df76c6baa2b00a202ac3178ffdb423",
+      "external_only": true
+    }
+  }
+}

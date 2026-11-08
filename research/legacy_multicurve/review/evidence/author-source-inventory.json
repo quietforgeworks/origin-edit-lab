@@ -1,0 +1,135 @@
+{
+  "profile": "source-only-no-native-payload-v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 136,
+      "sha256": "25aded39bbb055399df57e2117b1eb4c80776331ec75a120863424701f2d1eba"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1072,
+      "sha256": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4685,
+      "sha256": "52c88dc3abd0871f4c59bd070d933c537ae569f0013182b8596504b9a56cea0f"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 8575,
+      "sha256": "885f725355968a9ea7e2d3e3ee79213245ee083c82abd2ec70ff18ceabbdf61a"
+    },
+    {
+      "path": "application/application_observer.cpp",
+      "bytes": 8973,
+      "sha256": "f5625466d4f3f3d70ace0dacf331497263792715c64049b18260045489e7add5"
+    },
+    {
+      "path": "application/build.sh",
+      "bytes": 537,
+      "sha256": "b3059529f965532846d746ec3052af1eda726703bec545624a5045cc92720f01"
+    },
+    {
+      "path": "application/curve_observation.inc",
+      "bytes": 3733,
+      "sha256": "4f85d18747f380802af3a5b8ac570619c178def9bb47db62c3584b5a8d66831d"
+    },
+    {
+      "path": "application/run.sh",
+      "bytes": 2049,
+      "sha256": "d147b6ce29bd11e2a1467f1310103f68750ae1a9adb1e4e056be730234681f31"
+    },
+    {
+      "path": "evidence/final-application-curves10.json",
+      "bytes": 2544,
+      "sha256": "5964bd47d91f4b9e1e7a4b0bd5eb618326736dc84edf79c1eeaf91eb52857adb"
+    },
+    {
+      "path": "evidence/final-application-curves2.json",
+      "bytes": 1484,
+      "sha256": "048088462d4517b23d0644c9e8a3260f31a342ec6568e0a6ffec19d7f5a1278b"
+    },
+    {
+      "path": "evidence/final-application-curves5.json",
+      "bytes": 1881,
+      "sha256": "2f4318289844981a97a1dca9e773dad218a610d098d6897a523942e95dad297a"
+    },
+    {
+      "path": "evidence/source-provenance.json",
+      "bytes": 1523,
+      "sha256": "1cd8b52a5d018acafd16a5eadbbd80470092330f24b77b8f135594649855f282"
+    },
+    {
+      "path": "evidence/tests-normal.log",
+      "bytes": 4142,
+      "sha256": "b815ec8580191122c551b51490a57ff688ef6e4305753bdc59509b233c78ca4a"
+    },
+    {
+      "path": "evidence/tests-optimized.log",
+      "bytes": 4142,
+      "sha256": "b7bb1ee43f7150d852848778c64828ae21323a6fcaa4e6c8aa52598a4378dccf"
+    },
+    {
+      "path": "evidence/tests-source-only-optimized.log",
+      "bytes": 6132,
+      "sha256": "5653510eaf3f2844af68d4a7841c61e712a61a013e4e6ca96a4623a2ce061c05"
+    },
+    {
+      "path": "evidence/tests-source-only.log",
+      "bytes": 6132,
+      "sha256": "4695c2af24536023d9ddf6604db2eede798fbb552f957093395e2f98fb99e29d"
+    },
+    {
+      "path": "evidence/visual-inspection.json",
+      "bytes": 387,
+      "sha256": "4695b72eb47188612c64e0de4d1729366e70741cd737a71ac894e9f8ffca6b4e"
+    },
+    {
+      "path": "legacy_records.py",
+      "bytes": 3029,
+      "sha256": "03013e69b99c12ec95eacee3d8c39021996fe530835e5ddd37dc21d36158906f"
+    },
+    {
+      "path": "make_cases.py",
+      "bytes": 2763,
+      "sha256": "fa509d925bf88ef35932a9bb561162dbb6e6ceec3e0cf54208c00edd7977d622"
+    },
+    {
+      "path": "native_multicurve.py",
+      "bytes": 10704,
+      "sha256": "a4e7816bbd701edcd750d0c191420df731dfb3d742fb12088f413dc99380d118"
+    },
+    {
+      "path": "numeric_support.py",
+      "bytes": 4228,
+      "sha256": "f9a5a2b9a672c90512d5b97b1ca3c2991b105b088fb41e859e1f6167b0b21f2d"
+    },
+    {
+      "path": "tests/test_app_verifier.py",
+      "bytes": 4911,
+      "sha256": "0919bf70f8b860791509983d3e48d12341be58fde6cb8a21deab2f213e6ee19f"
+    },
+    {
+      "path": "tests/test_multicurve.py",
+      "bytes": 8100,
+      "sha256": "07e0c96819c6f1af2465ccd8d7f94ec986eee6e5b45f0ae19124c019ff8c1a2c"
+    },
+    {
+      "path": "verify_application.py",
+      "bytes": 8241,
+      "sha256": "2ff26da3ccc2d1296a83bd780e3c6d18fcb2656671216640e4ced95b8b23dd61"
+    },
+    {
+      "path": "verify_source.py",
+      "bytes": 1124,
+      "sha256": "857abb36b5a0da8e6f7d24819ab16501256ff5afcab133eaa6323273f71c6341"
+    }
+  ],
+  "file_count_excluding_manifest": 25,
+  "bytes_excluding_manifest": 101227,
+  "native_files_included": false,
+  "third_party_implementation_included": false,
+  "Origin_compatibility_claimed": false
+}

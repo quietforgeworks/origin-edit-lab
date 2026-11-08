@@ -1,0 +1,18 @@
+test_default_all_entrypoints_no_io (__main__.IndependentGuards.test_default_all_entrypoints_no_io) ... ok
+test_fifo_inputs_refuse_without_blocking (__main__.IndependentGuards.test_fifo_inputs_refuse_without_blocking) ... ok
+test_identity_missing_fields_and_count_refusals (__main__.IndependentGuards.test_identity_missing_fields_and_count_refusals) ... ok
+test_injected_publish_failure_cleans_stage (__main__.IndependentGuards.test_injected_publish_failure_cleans_stage) ... ok
+test_input_changed_before_publication_refuses (__main__.IndependentGuards.test_input_changed_before_publication_refuses) ... ok
+test_nested_symlinks_all_path_roles (__main__.IndependentGuards.test_nested_symlinks_all_path_roles) ... ok
+test_numeric_rejections_and_arrays (__main__.IndependentGuards.test_numeric_rejections_and_arrays) ... ok
+test_raced_directory_destination_preserved (__main__.IndependentGuards.test_raced_directory_destination_preserved) ... ok
+test_raced_symlink_destination_preserved (__main__.IndependentGuards.test_raced_symlink_destination_preserved) ... ok
+test_symlink_leaf_existing_and_dangling (__main__.IndependentGuards.test_symlink_leaf_existing_and_dangling) ... ok
+test_wrapper_candidates_ancestor_symlink_prewrite (__main__.IndependentGuards.test_wrapper_candidates_ancestor_symlink_prewrite) ... ok
+test_wrapper_failed_attempt_keeps_replaced_raw (__main__.IndependentGuards.test_wrapper_failed_attempt_keeps_replaced_raw) ... ok
+test_wrapper_prewrite_and_rollback (__main__.IndependentGuards.test_wrapper_prewrite_and_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.061s
+
+OK

@@ -1,0 +1,5 @@
+{
+  "case": 10,
+  "observed": "Actual offscreen LabPlot Graph2 contains dense overlapping black square-marked lines, original A/B axes and only B legend. Pixels are supplementary, not a source-cell or curve-count proof.",
+  "Origin_acceptance": "NOT_RUN"
+}

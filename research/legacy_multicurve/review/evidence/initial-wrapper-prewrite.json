@@ -1,0 +1,6 @@
+{
+  "returncode": 1,
+  "raw_created_on_refusal": true,
+  "raw_bytes": 4169,
+  "stderr_last": "numeric_support.Rejected: output exists"
+}
