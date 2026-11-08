@@ -1,0 +1,75 @@
+{
+  "source_record": "https://zenodo.org/records/20155927",
+  "archive": {
+    "id": "e702b38a-539a-497c-8a95-0f9dc1e9de57",
+    "key": "Low-T Magnetoresistance.zip",
+    "size": 516655334,
+    "checksum": "md5:088db5c047a6ff467e5434723b0fe94c",
+    "links": {
+      "self": "https://zenodo.org/api/records/20155927/files/Low-T%20Magnetoresistance.zip/content"
+    }
+  },
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "authors": [
+    {
+      "name": "Kazakov, Alexander",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0002-8066-2922"
+    },
+    {
+      "name": "Krizman, Gauthier",
+      "affiliation": "Laboratoire de Physique de l'Ecole normale sup\u00b4erieure, ENS, Universit\u00b4e PSL, CNRS, Sorbonne Universit\u00b4e, 24 rue Lhomond 75005 Paris, France",
+      "orcid": "0000-0003-2375-5302"
+    },
+    {
+      "name": "Volobuev, Valentine",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0002-8474-7392"
+    },
+    {
+      "name": "Szot, Michal",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0002-4114-3767"
+    },
+    {
+      "name": "Wolkanowicz, Wojciech",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0002-3254-8471"
+    },
+    {
+      "name": "Cho, Chang-Woo",
+      "affiliation": "Laboratoire National des Champs Magn\u00b4etiques Intenses, CNRS, LNCMI, Universit\u00b4e Grenoble Alpes, Univ. Toulouse, INSA Toulouse, EMFL, F-38042 Grenoble, France",
+      "orcid": "0000-0002-5190-7070"
+    },
+    {
+      "name": "Piot, Benjamin",
+      "affiliation": "Laboratoire National des Champs Magn\u00b4etiques Intenses, CNRS, LNCMI, Universit\u00b4e Grenoble Alpes, Univ. Toulouse, INSA Toulouse, EMFL, F-38042 Grenoble, France",
+      "orcid": "0000-0003-4858-2452"
+    },
+    {
+      "name": "Wojciechowski, Tomasz",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0002-6424-988X"
+    },
+    {
+      "name": "Springholz, Gunther",
+      "affiliation": "Institut fur Halbleiter- und Festkorperphysik, Johannes Kepler University, Altenbergerstrasse 69, A-4040 Linz, Austria",
+      "orcid": "0000-0003-3133-4815"
+    },
+    {
+      "name": "Wojtowicz, Tomasz",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0003-4498-4622"
+    },
+    {
+      "name": "Dietl, Tomasz",
+      "affiliation": "International Research Centre MagTop, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland",
+      "orcid": "0000-0003-1090-4380"
+    }
+  ],
+  "origin_executed": false,
+  "samples": [],
+  "downloaded_range_bytes": 184859
+}

@@ -1,0 +1,1694 @@
+{
+  "source_ppt_sha256": "207de07f76806d1059f4b6829203c2e3a4a74823df8b457cf03497cf9262a250",
+  "source_url": "https://zenodo.org/records/20155927",
+  "license": "CC-BY-4.0",
+  "authors": "Alexander Kazakov and coauthors",
+  "archive_member": "Low-T Magnetoresistance/HelioxVT_MR_summary.pptx",
+  "CFB_reader_sha256": "636f9e5eba0d7a2a13f271550a05520251fa029d75b3c3599d4e689fb0278812",
+  "objects": [
+    {
+      "part": "ppt/embeddings/oleObject1.bin",
+      "cfb_bytes": 910336,
+      "cfb_sha256": "ff40e2d007e60145007fc3f75b8880912d308bd2d3dae7ab36aa0252419599df",
+      "contents_bytes": 576150,
+      "contents_sha256": "7f020d6e032eeaffcf474829bc7f4bc19a97a1fc6d9d02466f7d4ab737b93808",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject1.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 324502,
+          "sha256": "8f2e5cec13411ffc3c69a3f119c3813fc2e4cbeac9968ae9f0e67d113495640b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject10.bin",
+      "cfb_bytes": 1561600,
+      "cfb_sha256": "5028da3e496155c7a692f50d935882b1854c674e823524c7e9908e6476226eed",
+      "contents_bytes": 620127,
+      "contents_sha256": "13f7df3fc35093e52b87a512fc787e6dff1d8e731b89a176eb9682d783c8b003",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject10.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 926520,
+          "sha256": "9f2f16e21dcb2d6eea161a9c18f9ad0b1001a1e6febb1ae2a62a3f7956cd475b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject100.bin",
+      "cfb_bytes": 189440,
+      "cfb_sha256": "65a3065dd8f16bfe32fc84fef8fb0a6e36af04707550114baf28977661810e7e",
+      "contents_bytes": 73783,
+      "contents_sha256": "6fbfbf13cdebda12390d97a0822573a8b2601a2e85d179c7637270ad3583126c",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject100.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 111400,
+          "sha256": "f848aac68ab10e43b53a422818aede58ec48ed43514f80349b7c99e61f733cfe"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject101.bin",
+      "cfb_bytes": 189952,
+      "cfb_sha256": "878120c8cbfbf18b11f51df95f5fe477e311080e4ed6b77eab731bff86ef4bb0",
+      "contents_bytes": 78301,
+      "contents_sha256": "0d5de8aa4f125dd1298e3c06f6339932229d1044675915659f78f5cc414135fd",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject101.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 107870,
+          "sha256": "4a565cbcf4cc3cc38c051327339d5bee9c681bd475a54254e75128578bff264b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject102.bin",
+      "cfb_bytes": 85504,
+      "cfb_sha256": "e42fd8977cab8b909c9466a721d762e4f4ea84f91be62f22494f152cc0ae0c76",
+      "contents_bytes": 24229,
+      "contents_sha256": "7960de1a6f9342b443b07ec3307ddfcbcbd1bd416429715989dea1224242b913",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject102.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 57694,
+          "sha256": "747a3422e95eefb95c830a7d9647f17b0986bdd85ddac2ea2046ac0ad710b60b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject103.bin",
+      "cfb_bytes": 80384,
+      "cfb_sha256": "5732afeeb362ad44ebd9726e8a8dba278893acf79732f9b3d0b6d5e4d8f3f121",
+      "contents_bytes": 23117,
+      "contents_sha256": "5e19e7cdc4485668b098705f2a76376cdb9982a3ba530f73afc895fb54608f6a",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject103.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 53264,
+          "sha256": "4c4617dafbd1426557e4627a07345ddf94f816bf5cd0e06a856cc07b9b947b5b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject104.bin",
+      "cfb_bytes": 75264,
+      "cfb_sha256": "11bf9ead84c058637080b5b6ded0a8a87e3edf68eeec147d34c32eed800d8fe2",
+      "contents_bytes": 23085,
+      "contents_sha256": "17435582bd465aa8addcfa12005cb7219ac77f5b743ab1d1beeb8e48ea75e47c",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject104.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 48638,
+          "sha256": "623e40ad62c449fc02440421b4b04e5daf215843070ba7c14aa5f1cc1892914d"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject105.bin",
+      "cfb_bytes": 140288,
+      "cfb_sha256": "ed287bef0636fb2afa7725a1dbd25663c66c77ef19df1e7af5139d84a70b9238",
+      "contents_bytes": 60513,
+      "contents_sha256": "989d6ab58f19997ccd7b32db614a05f7bfeb791d2a4ab80cd81a1e2aab920ffc",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject105.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 75330,
+          "sha256": "9db4c455e0acdd7344256fc7f5bc436589637ac9abdc240036ddda2b72ddceb2"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject106.bin",
+      "cfb_bytes": 60928,
+      "cfb_sha256": "808720e305e04c141da9d3e55d712d221b1ed557b1cddb553d5825ddce71f0a0",
+      "contents_bytes": 23348,
+      "contents_sha256": "c586c88034ecfb2d9ad1157ff3b87b055414610ed8bd4a22959ba0f27ff998db",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject106.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 34494,
+          "sha256": "b5e25f41a3536a4de3cdffe531bc1d3bb6c2d32965083d82ed5650f5b0c8e156"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject107.bin",
+      "cfb_bytes": 121856,
+      "cfb_sha256": "bac7562c3795c96c05982b35404d26bd1c36b9bb304cfa603559af78a2c3ded3",
+      "contents_bytes": 46419,
+      "contents_sha256": "9c9751efd56559236db90efdedc568bda9ea926ef499c26be18c7f056298b760",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject107.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 71876,
+          "sha256": "36d6407a9635e54ef45e57f917903e487bfad6332af6f255b7fd28b48451d621"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject108.bin",
+      "cfb_bytes": 153088,
+      "cfb_sha256": "e551c68e141063941b85d5e9b94c9e8debaf5de50e53bc4d956ca6e37279c6dc",
+      "contents_bytes": 74744,
+      "contents_sha256": "5c1adc238e508e38b75521e1865851b5d436196670d873f133113860abaa5240",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject108.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 74342,
+          "sha256": "2a8a2877a73dc2e6cf0a6fa775857b3a6fb6d12231a91a29b3573c64f206ca18"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject109.bin",
+      "cfb_bytes": 534528,
+      "cfb_sha256": "1ee73e31537b58bcd862b5b20f8967bd40c89e001a2da952081e4d7ab0f321dd",
+      "contents_bytes": 86872,
+      "contents_sha256": "f3dcc21b775d0b9eb93bde387a186b2165ff51ff051167dd06826a6091dcb328",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject109.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 440534,
+          "sha256": "18115a2de52744d1039e7a72fbf6e6d4010ec8c6f37547c5713022a37163b4a1"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject11.bin",
+      "cfb_bytes": 1926656,
+      "cfb_sha256": "75e1463f90ba35ba941643dd007cc1ee4444342b38d6a4c91d657a7a3e26c504",
+      "contents_bytes": 631792,
+      "contents_sha256": "ae70d385c5acc393061c900ad78d6ff330e4304693d02aeaa8d5180da8540cab",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject11.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1277044,
+          "sha256": "9e482064dd4f2d7cabc2822b49d5d7dd8b7b9b2c081733935c50062714fcde5f"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject12.bin",
+      "cfb_bytes": 1562112,
+      "cfb_sha256": "b51670f0021d0a8590c54f1f66c822b0135fa06568f349d54b05b16c378289f6",
+      "contents_bytes": 625643,
+      "contents_sha256": "3480dce4098c944687a181ec4059eefdde1feee72b266d93b168f0738b802d2a",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject12.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 921692,
+          "sha256": "7c8c541d0cd6c77be0d8e2c57c79ad6a4e935d56cea1368f2927f8ea39a0b1f4"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject13.bin",
+      "cfb_bytes": 1572864,
+      "cfb_sha256": "f9ef9c7990faf1491691776e4c112c51bd59faa76162ffaba6d30c985b62d778",
+      "contents_bytes": 638111,
+      "contents_sha256": "ce97e2ea4890886a7605a9aaf7ea925325617e6ef4a14685b758e660f90617ed",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject13.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 920062,
+          "sha256": "462171e337b7fc28243754d84b6317fe20447c3b9937a9b71e21665499d14a0f"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject14.bin",
+      "cfb_bytes": 205312,
+      "cfb_sha256": "b3c78f2bdceef98698f1cc4bdc5bac14100195ffe2476f4ef22407c625f50a14",
+      "contents_bytes": 85203,
+      "contents_sha256": "eb7849d31e7684ac6bf9657f1c3e1ddc3419956a9546d4b0a7386ba5f4325f87",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject14.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 115536,
+          "sha256": "3e0e5f500270fe28c647633cef078754bf4e2473252210261d875fcc46a3caee"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject15.bin",
+      "cfb_bytes": 2119680,
+      "cfb_sha256": "a66035483aab8b3537394c93fee8237ad310995e8ab9c386aeea9a4f52961662",
+      "contents_bytes": 1056916,
+      "contents_sha256": "a938f49b57cac8a07e3bea003f064ac7e070ef6a45ef92782559f484b88ea033",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject15.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1043022,
+          "sha256": "d1e4715650e0d4ee3f38263f1616889a5d792a14909a2a40666721e22018cf44"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject16.bin",
+      "cfb_bytes": 2130432,
+      "cfb_sha256": "ce784482ff1480c779dfbf0545c4ecd5103d77a2a6a315fbb822be9837b7c1e2",
+      "contents_bytes": 1067714,
+      "contents_sha256": "0ad6015b356c177d7d3b31280d9358fe4565d1ea79340550bb000db9fd323a49",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject16.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1043046,
+          "sha256": "ed18795a3cd17f32bc3fd45b810f882021ce61ed4de7db103152fdad179c7d31"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject17.bin",
+      "cfb_bytes": 230912,
+      "cfb_sha256": "7bafad77101ab2418e98e5468ab2722668646de56583e3728e9f5514affd3dbb",
+      "contents_bytes": 104403,
+      "contents_sha256": "9952519a2bfe6c6b8d0a4b10507ea7f203fc389e0ab6a6e6999e8e22c1542908",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject17.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 122260,
+          "sha256": "12ee607a891803c7d1aeb8403b9ff4ed3014f4f760cd8fb14c2102707c1623b2"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject18.bin",
+      "cfb_bytes": 446464,
+      "cfb_sha256": "f9a28ee3a8de0fe9b303b44784ee97cc515bb9b5d172eeef7569bd808601e309",
+      "contents_bytes": 221410,
+      "contents_sha256": "f2425d164c7c99e772732714b57a68a6f98589c05dba97078d9cd118c5921d1f",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject18.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 218656,
+          "sha256": "8e1abcf068be3e9233ad3f8e45cf692ce9be1555c6d6873472c28804c1802aa0"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject19.bin",
+      "cfb_bytes": 98816,
+      "cfb_sha256": "4eed88b7ec63d856e6175247f8c9418760a3278a583193a33070c39410245612",
+      "contents_bytes": 24130,
+      "contents_sha256": "1a323c81fdf290737cecd4476967cb0dbc5dd73e20c95844c89a132f58d12f0a",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject19.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 70792,
+          "sha256": "4ed6e1cd636b7fc082a71755fbfde885fffc906b9fc7e04885f5cd46f7b4044a"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject2.bin",
+      "cfb_bytes": 88576,
+      "cfb_sha256": "eb6bd910960ad89741ba6d09e6e85f05f61d222392786b0cda92e175ab412f35",
+      "contents_bytes": 28551,
+      "contents_sha256": "acb163b683226c491b1c745b2af87f7292e5e204592a60cf4275740807021155",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject2.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 56326,
+          "sha256": "ba6d7a8823fdda3df10ccb4a8f4e7601656e397cee9571a4bb6c842280fd3489"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject20.bin",
+      "cfb_bytes": 102912,
+      "cfb_sha256": "7d6260c92fda7bee39ea98fcf38bcf1b15f4a9b6d7b5d427b20b8e500601bc96",
+      "contents_bytes": 25052,
+      "contents_sha256": "470257168e9bf2550fec2681540f71f6fd1fda516ba6dfeca9eab463d986c5c8",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject20.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 74386,
+          "sha256": "f90b65edb754f502251f6dc4025480399af69009fb7933f12170a45e83d482a1"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject21.bin",
+      "cfb_bytes": 101376,
+      "cfb_sha256": "b826350ccde4bc2d7795391aa0647569f69742a021a9c184831bc969a5d2b616",
+      "contents_bytes": 24644,
+      "contents_sha256": "34c3092283c5703e9d1260bcb63d4f3c11892ed7082a9013e1456ca624aab9a2",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject21.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 72706,
+          "sha256": "905a013616aeb65ca31e3f7d2e7ae270aea3d4d0d9de3aec98cb05a9736febd0"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject22.bin",
+      "cfb_bytes": 103936,
+      "cfb_sha256": "5dca80b00da7e2cc50aa32e30ae80b356ec2f8bb6001774e55f4d99faf12826a",
+      "contents_bytes": 38991,
+      "contents_sha256": "253ca8f7f156d847c6d4c6a0457d80c054086f392dd33ae89a12712e6abfb8c1",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject22.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 60930,
+          "sha256": "270dcb6f7d698f3519ddee0f65683fbc0e00abfd742f53c00715a93178162b91"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject23.bin",
+      "cfb_bytes": 579072,
+      "cfb_sha256": "6aea1f8a0903fe7d398ab6326ee317ca8a100d0c568d7f906978b367b19a6dc9",
+      "contents_bytes": 323316,
+      "contents_sha256": "a39423df35675d4b37dda4e71cb528e11aa744b2efc04f1a908a6770c261bbcd",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject23.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 248650,
+          "sha256": "a35f1d9f5b74cad2117f814894d7ef0bddde17a3cc15b1ef020628a8763a6e9d"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject24.bin",
+      "cfb_bytes": 195072,
+      "cfb_sha256": "f5b54a9ed13c096bf3c4cea2bde4d60af249fd9fe41f86eddf12e88cf70aad89",
+      "contents_bytes": 79781,
+      "contents_sha256": "799565581c18126ede2f05e91a35d98862003e268d38a3363d9c3f4432b090f9",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject24.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 111374,
+          "sha256": "caccf9da84296239735b71ae74848d10d3f84e0d8755697eefe30bd9147cf7f4"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject25.bin",
+      "cfb_bytes": 88064,
+      "cfb_sha256": "bc8811d024aa815de1df4e64ab44d95c5304818272dc0b2c4330d73b505a7b16",
+      "contents_bytes": 29834,
+      "contents_sha256": "e893b6e2b62969ee3323594898dfc87890f2cf3f5a2701fb2f23466885566fe5",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject25.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 54744,
+          "sha256": "f76f9849e9ce69570123bb29048752bb558d68aee7e8550d96f0f2ce1af5fddf"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject26.bin",
+      "cfb_bytes": 730624,
+      "cfb_sha256": "9a5dcb7a80d739664abca9a184e1d673ecb8c159aa75a5bef43d8be4a5701fd4",
+      "contents_bytes": 335819,
+      "contents_sha256": "3f67443a5cc2b9a9370fe74dcb109317b6c08f70a6b1b7aac12dfe338d3c2b12",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject26.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 386422,
+          "sha256": "b9b4b454734b9466cc6c4064c34cdc88efff878fa3228233eb7b4e7d5c976bec"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject27.bin",
+      "cfb_bytes": 198144,
+      "cfb_sha256": "243df13985d93ae4ad8d1752076d82c6fad8db56cacfb802f6dc07646700495b",
+      "contents_bytes": 100671,
+      "contents_sha256": "14b3caac7afd9e7c7a57f19d9caad91a8cab07c7c8a8efac43f6ec1d5572876c",
+      "signature": "CPYA 4.3268 195 W64 #"
+    },
+    {
+      "part": "ppt/embeddings/oleObject28.bin",
+      "cfb_bytes": 3480064,
+      "cfb_sha256": "0de64936d811316a06b5f24288e7e1e4e7ae2a4d7759e5608f6ca8184f6e4c91",
+      "contents_bytes": 3449919,
+      "contents_sha256": "28e09d00d2e919cbdf845a3144bcb86e86306123c38a3df738d1c43fcc06c345",
+      "signature": "CPYA 4.3268 195 W64 #"
+    },
+    {
+      "part": "ppt/embeddings/oleObject29.bin",
+      "cfb_bytes": 3745280,
+      "cfb_sha256": "6c9616f76759427c23f51d8d3082f90c97f899e184c07167764de4174dd3733a",
+      "contents_bytes": 3286318,
+      "contents_sha256": "6418187aef13def5f6e8adb74e85dd7cef7119b5bf32a5d1eca905121138c942",
+      "signature": "CPYA 4.3268 195 W64 #"
+    },
+    {
+      "part": "ppt/embeddings/oleObject3.bin",
+      "cfb_bytes": 89600,
+      "cfb_sha256": "7d626ce45912e9eb338e83f21dd9641513705f9f2e374cd7105cc17e241867fa",
+      "contents_bytes": 27912,
+      "contents_sha256": "705879a11126e23133893ad6426b2fc16667302e307daf01df21759b7f45bad3",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject3.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 57932,
+          "sha256": "29e20973c40cb1c8732481359e66b8dfa733cea55d0ff64e167fd9c84c4b9657"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject30.bin",
+      "cfb_bytes": 177152,
+      "cfb_sha256": "08686faad9ac2fadc52d2c98deae42fdd7a50ad16212192919e872322467cfd2",
+      "contents_bytes": 51429,
+      "contents_sha256": "08608e186da837b345e4084aec4dcf48b7b91ab45baa2fdf00a602f7312fda13",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject30.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 121580,
+          "sha256": "f5d163498623db05d1475f0caaf1f414da32c2f50fa41d49058b2d33049b284b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject31.bin",
+      "cfb_bytes": 83968,
+      "cfb_sha256": "2b7ef4e5585475aefd3ecdb90638d2af4690896bdf6a5b5c11851a11bbade69e",
+      "contents_bytes": 28160,
+      "contents_sha256": "58236753fcf21509ffece90e1cde7c086e859d6c3cc6641bac2f5408edee31ef",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject31.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 52666,
+          "sha256": "3a56f61f2a076ab6a5db2659ca083f0bd09e10434566315afca1d0c1921b6daf"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject32.bin",
+      "cfb_bytes": 84992,
+      "cfb_sha256": "011e935f929c5ba1056d7f9ba1b09b3a7a87b161276d56222d02dd4b281d5081",
+      "contents_bytes": 28050,
+      "contents_sha256": "a2ed1e662492b295182d68014838a709c3b23c3a7ebbd86ef67ecc538ae630e6",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject32.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 53536,
+          "sha256": "6eb69db2c0a168bee9cfc950ea51ec0c4f38a5d43e8d8290c904b2561dfc4f67"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject33.bin",
+      "cfb_bytes": 2095104,
+      "cfb_sha256": "eead49be88de937ff21cd0a093527a86ebdfd9a9ef710bc577406dd06ade335f",
+      "contents_bytes": 1476615,
+      "contents_sha256": "e422b1c15b488b2453005d3c73e6472e69c2a81ca3ca3c582724143ef2536f2e",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject33.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 599126,
+          "sha256": "623fe609a7b625b1a2821d7ecf5a40cab27dc35183fadc41895d32c3c1074c43"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject34.bin",
+      "cfb_bytes": 2099200,
+      "cfb_sha256": "a8e4117033a7104ced4a00011bcb5cdaa1b5296f0a34fa6fa92c26914f4223b6",
+      "contents_bytes": 1475919,
+      "contents_sha256": "3a199c8b75269ff180f4b0def861e828fb9b369beb1c4422c64d9baaa9b7f735",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject34.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 603778,
+          "sha256": "bd6413750161a5760d2a1f6d35149a70d66a3e3152a119c3f770544328947c38"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject35.bin",
+      "cfb_bytes": 68096,
+      "cfb_sha256": "b0c07235b8c4ade9e0d21db0609dd1486c0fc02d86460be060bccfc0e76870a0",
+      "contents_bytes": 15657,
+      "contents_sha256": "b6b673b7d930bb72a028f59c61fe3d6a04c89632489ff6cedb86445791304712",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject35.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 48920,
+          "sha256": "eda1d805491f4ff4b55653a79823023c7cfd4676ae9dbd4cfca6fef33b5046ae"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject36.bin",
+      "cfb_bytes": 1768448,
+      "cfb_sha256": "85c2d94fd3c33139f8f22a53825948eb02c3f0b5a50a8f34310f573de0899a8c",
+      "contents_bytes": 1564826,
+      "contents_sha256": "ca0e3c0f4d25f2b6e95d4100dfdecb48e053d3d381438bfacb1a0335779429d0",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject36.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 187368,
+          "sha256": "0932d9dc98e4cb4c32595f44ba982fc4f93a3f525d99896814148311c7441cef"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject37.bin",
+      "cfb_bytes": 270336,
+      "cfb_sha256": "8307e6050a5c7138c787d9d5c7e158067ecb5de131c399bf81ab87c8fb2c9155",
+      "contents_bytes": 127417,
+      "contents_sha256": "9cdd071f9e8c1019f9270f34d6108c908899c83172286dce4c7e378e9d3fc764",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject37.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 138212,
+          "sha256": "7cdf78f9ceafde47c662934bcaa74ad19a50fc350436d4d0d8e97dbeef2248b6"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject38.bin",
+      "cfb_bytes": 2101760,
+      "cfb_sha256": "c711e56600826f2aab811bd637fdc616a4cdbfe102a4db23106907694780e80b",
+      "contents_bytes": 819151,
+      "contents_sha256": "faacb46c4ea64ca3ac6070c380dcc6844e020fec326ce7de8eae3a3a0eff5185",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject38.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1263152,
+          "sha256": "534cf34436d69f8da8d55ab49965d63549c75902682d8adc42af3e76ced4bc0b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject39.bin",
+      "cfb_bytes": 2096128,
+      "cfb_sha256": "fb0fc606a1c686275b6a5af9b831af5fe8713ea189837603ee958d5a93dd6804",
+      "contents_bytes": 813786,
+      "contents_sha256": "9c6de9443a7aa80529087d2fb4b484001d2a26da76637d64c41e7d6e060026df",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject39.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1263128,
+          "sha256": "707dc91b2f0a7a450cd2e7613d185c4aef3037d6498125ce5394d42420e68eca"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject4.bin",
+      "cfb_bytes": 1570304,
+      "cfb_sha256": "e4e8b96a761b1d7fb4a25ab98b50f9a30c195fa8dbc4aab7b242d0ea323e37c5",
+      "contents_bytes": 1555873,
+      "contents_sha256": "a70b0906ff2d3c998388065ef94a8caa84d181259995af0174b20e4d99be88c7",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject4.Contents.bin",
+      "ole_cache_hashes": []
+    },
+    {
+      "part": "ppt/embeddings/oleObject40.bin",
+      "cfb_bytes": 2003456,
+      "cfb_sha256": "48bcee9d78d0ddcf21b0ad1e48f2e15ed1cc2c14d54e25345463206ca1603cac",
+      "contents_bytes": 792856,
+      "contents_sha256": "b74154e2b2729b6b33d5338944facb901ba5337fb901f78217b4df4d9911dcf7",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject40.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1192130,
+          "sha256": "80811e31c82e9893770f047d6978474a713473e4bc9fd30d96639ca46102d612"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject41.bin",
+      "cfb_bytes": 2009600,
+      "cfb_sha256": "861f20fab1cabc8c8f80914bb8c366e5f6f367f9d3c1449a5b7701e22d7ff395",
+      "contents_bytes": 799074,
+      "contents_sha256": "3c65320f0ac35350e8af812b1671a3e7e789987b886339e2bb4d1f34bcf300ce",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject41.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1192034,
+          "sha256": "a2f8a9aa71bfd78760ce87cb4e5bed3f2e5f42ec50744e12ec5eab9feb3926e6"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject42.bin",
+      "cfb_bytes": 1951744,
+      "cfb_sha256": "6a46f736a6e8fa62f503654d3a53169bd5466a8b1e4191c18865674bb56868b6",
+      "contents_bytes": 788971,
+      "contents_sha256": "f7cdf1205fcae5d50026720be26d4ac17854ef7eebca3e3e8a8dfa67c188f4de",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject42.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1144878,
+          "sha256": "2fa808f87de25096828875ab4c332b295d8af2f97a19d8bab539fb1c820b6324"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject43.bin",
+      "cfb_bytes": 1952768,
+      "cfb_sha256": "d07384bc57be4c777308cb514b53f443d312a2526ba749dbe6da82f13ad5fb63",
+      "contents_bytes": 789791,
+      "contents_sha256": "98fa55799c500806244d222546972e61041b98d5e23cee1699b8e0d27b8b4e15",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject43.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1145046,
+          "sha256": "6291526f6904abf8d9e41f18ebe2436142eba8e5d46f92af82427b5cfaa2386b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject44.bin",
+      "cfb_bytes": 198144,
+      "cfb_sha256": "6ae79111d30af71e5966367121777d5f97e905078a209b4df961cf6007ee33f9",
+      "contents_bytes": 87738,
+      "contents_sha256": "731e2ed66b9fc9b4f2042771b773ac7fe874dc3e4fc3404850088a526e551f12",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject44.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 105638,
+          "sha256": "2f443386d2f0af18b710185febdce14360fd0b48486ce7d726f8b11fe8f27d49"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject45.bin",
+      "cfb_bytes": 546816,
+      "cfb_sha256": "30aaee85a4ec75673d9283c8d842ed2a9635ced04d607c3d3017421b5b1f8da4",
+      "contents_bytes": 258944,
+      "contents_sha256": "7929bc6f4c510f6570cd7a78370fcd105e33df298c66822df95acb383ec09543",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject45.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 280816,
+          "sha256": "0acc578a1647a20913dd9e280e7aa75c23975c1b5b89dd25ff8a23a5b715bb0f"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject46.bin",
+      "cfb_bytes": 564736,
+      "cfb_sha256": "14fe9d537515890c1a23db77dc7ac7a7913693211243321003c62994f83fd81b",
+      "contents_bytes": 266072,
+      "contents_sha256": "b642813617f2b722e8ede1f69ae30a8ab3e8d53a64895d2d6f7b43b879f212c7",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject46.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 291554,
+          "sha256": "d9c99b05570ef6f3a3fefc7f087e4fd00ceb65db82e3257599d8fb57c1db7efc"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject47.bin",
+      "cfb_bytes": 2181632,
+      "cfb_sha256": "404f2a21ca5d99df3e6fc3b2ec3e849790d51d336ffbbc661fd8a9f8871d268b",
+      "contents_bytes": 919061,
+      "contents_sha256": "181d9208768aa4dced628f18086cdddc458f85638c60fd66052e8bc3159ef587",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject47.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1242594,
+          "sha256": "10bc57e75d4bb774cdf7bedc877b4e62c619a8e63a0e346c1a588787ff114f51"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject48.bin",
+      "cfb_bytes": 2186752,
+      "cfb_sha256": "433f7d6764fcf5929d532a924269ae20622d028e9969eb17c972b896c367677e",
+      "contents_bytes": 924359,
+      "contents_sha256": "a3fbfc9c7ba24d67f366383a1c863589e8ce15219cbc99822fe1e9e742d446b5",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject48.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1242546,
+          "sha256": "199ffec7ed644ca6ecab86777aaa80f55461608d46c472f1081b91d79e9c4ecb"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject49.bin",
+      "cfb_bytes": 115200,
+      "cfb_sha256": "6389d4d4d4ba4bce587db17dd5aa7c32acf3f7d6cec259ed62273b10a5d5f849",
+      "contents_bytes": 35164,
+      "contents_sha256": "cf052450c1a95b460676c2bb2930493ab2e879bb2aea00171acd8d6958857f0f",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject49.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 76668,
+          "sha256": "83c7da33d9b33c7f7b00eb5821d964eb77590f6aec28965e262fe81c3e17381b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject5.bin",
+      "cfb_bytes": 1586688,
+      "cfb_sha256": "e1ec6ad3e72f17406de7f67f88fad2d37c09ae43359f6d02520cc3901347348e",
+      "contents_bytes": 1571742,
+      "contents_sha256": "a310050e20d313b795812519d4c9b8d3b53e7d25aa4b4a48aad94148f3244257",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject5.Contents.bin",
+      "ole_cache_hashes": []
+    },
+    {
+      "part": "ppt/embeddings/oleObject50.bin",
+      "cfb_bytes": 111104,
+      "cfb_sha256": "e6bfbbd847cc9cec524ddefb15b67e5e94deecfa1aae575b6289073e727b1a44",
+      "contents_bytes": 34306,
+      "contents_sha256": "bb8b4727b4032aa2896544d186de52e496b07f359ac10b48cda809eec497987b",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject50.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 72728,
+          "sha256": "efad69219abe5d7d26ce2abe1c767416eaea77fee42bf7fd637b790236b8348c"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject51.bin",
+      "cfb_bytes": 284672,
+      "cfb_sha256": "200b7ce9cbb0e0ff70059f89d76cf7fefc0aba3dc97569dee6b0757b1b78e4f0",
+      "contents_bytes": 279593,
+      "contents_sha256": "263788702601b82c639efc95a6017abc92072ac70df92dcf9e288086203e1c15",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject51.Contents.bin",
+      "ole_cache_hashes": []
+    },
+    {
+      "part": "ppt/embeddings/oleObject52.bin",
+      "cfb_bytes": 70656,
+      "cfb_sha256": "ef642a0ebd2d9886f8862b588d576dbd3e0c07476043deb0a1e0ee30caca2800",
+      "contents_bytes": 28842,
+      "contents_sha256": "71bc52236036014c740f42453a44aa495a39a123616a9e92e386071dc5ac42a3",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject52.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 38040,
+          "sha256": "42c7bb4bc00aeadc7aa476d92efa23e90e52531fee5603c1e886c660cf7d0197"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject53.bin",
+      "cfb_bytes": 6625792,
+      "cfb_sha256": "17f2a03b6b2c625ad4d283c1ff2b70b7b7fbe3a34d3698845696a214e86a0f59",
+      "contents_bytes": 5993523,
+      "contents_sha256": "05aeb4569d13ae63f1fe86e36cc6202ffd1237a2487c054c35da080fbfd8b3c1",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject53.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 577338,
+          "sha256": "51da6c2144b0cc6d19e86b96ddd47dd5a729f9789499daa8f5483ddde46c59a5"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject54.bin",
+      "cfb_bytes": 6610944,
+      "cfb_sha256": "a4e45238baef3556d51169bf5713baf7ef980211f55e60d504eb20fbaf70c2e8",
+      "contents_bytes": 5994586,
+      "contents_sha256": "a2cbf2b55bf2a9aad543c763fb82388783084e65b558fe424d80232eedbab746",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject54.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 561728,
+          "sha256": "9b0bf986411e931933f4f249852e3d0cb2dc6c1097811733d294d814b9c84191"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject55.bin",
+      "cfb_bytes": 99840,
+      "cfb_sha256": "be9b16c96e27061f4e5883b9b79bc1047f5e768662938194259bae3e6110b34c",
+      "contents_bytes": 37174,
+      "contents_sha256": "f37ac06c09b6498e3787b4484127eb843bad9070251827acbef9615bff0ddaff",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject55.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 58888,
+          "sha256": "e2b1a6181e56942f66da0a824c22338c6b9a6bb1ab0302f00553e144a84b02e6"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject56.bin",
+      "cfb_bytes": 167424,
+      "cfb_sha256": "57c0182fd4fdc1c51754a9529270520b76412f0a839a6000c43ab2278e8f86af",
+      "contents_bytes": 67060,
+      "contents_sha256": "9ff126acbdc850af26a3dc258c8423d32e7b4a0bf370a45c212c0c22c471171d",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject56.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 96722,
+          "sha256": "2ce09eaeadc62de70eac361cf0136bd2f9412f1598515c403d495d7434f5986e"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject57.bin",
+      "cfb_bytes": 734208,
+      "cfb_sha256": "0b4c023f9230496e25186bf11f07caeaa027d8cc44adeaf2f943c799f8fad7cc",
+      "contents_bytes": 338341,
+      "contents_sha256": "13bb443aa2d8ff7a9a4f0c1cb777aeb86ba4abd12333aa961c3f496a34b621f0",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject57.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 387170,
+          "sha256": "c61693b693e6f051fdeda8f9b0ced877fff90d051bd749194ffde468ded95354"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject58.bin",
+      "cfb_bytes": 81920,
+      "cfb_sha256": "0402e70004695e5a24bb2d497786f96147cf3cb91b95b4da299fea7794dd5753",
+      "contents_bytes": 29924,
+      "contents_sha256": "1149d1da97c6797e8268334da35ac5f7d0b1332d584c5fcfcaeb548d00efcff7",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject58.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 48420,
+          "sha256": "670f27ded2fec44dcd32769867f9284f18519241b8b0c29464c04b46c0aa925c"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject59.bin",
+      "cfb_bytes": 249856,
+      "cfb_sha256": "5cae03d4eed0f1d76106e556fe494f3b950502ae1e368b9b6f70261127e5b631",
+      "contents_bytes": 119641,
+      "contents_sha256": "77aa1d8e3053cd4a5572fe948e433d4104dc1e431e85a73440f0fa60e613ebbd",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject59.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 125932,
+          "sha256": "eb971ac4c73273cda4a1a05fc462bdcfdb2b656c2559d3ad45f1504ff436e2f0"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject6.bin",
+      "cfb_bytes": 89600,
+      "cfb_sha256": "e0158f8c6221c109329b0bc94bc3ef59f21a3f237a523bf1286866ef74d3e3ac",
+      "contents_bytes": 21142,
+      "contents_sha256": "70742615e3c4b1e232ab731e48f85a88c162fe6ce2648cb644b559a6aaaf7f25",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject6.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 64848,
+          "sha256": "b284e732549d21def2cdec1e6188b5901613e035d7e5192381274d5b4024fcb2"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject60.bin",
+      "cfb_bytes": 256512,
+      "cfb_sha256": "e09c7dae724a418f8eaf8765ff12f0aa385c2c44e7ab997c32922098cf45b9f3",
+      "contents_bytes": 120395,
+      "contents_sha256": "af42de8c8f0eb990372e90b37d151c331153b1bb9521770e10031f85b7cd28da",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject60.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 131412,
+          "sha256": "68dd8df9ad5fdc86d52b81675371fe7689683c29f418ab46425240b25ee7e77d"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject61.bin",
+      "cfb_bytes": 80896,
+      "cfb_sha256": "1d2f11bdb16dda7da5b32805275cd9c8a2ac4971a06a136a23bb21cfbeed6bf2",
+      "contents_bytes": 22281,
+      "contents_sha256": "9c8a5f875131db5b51ff9aa43989782ef0f0cb3ad546db67bc4b0faed89f272f",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject61.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 55220,
+          "sha256": "32036739f094f669690985a6e47be8961c549b930a7a28372d137a5b61e8f6fa"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject62.bin",
+      "cfb_bytes": 73728,
+      "cfb_sha256": "ba4104d0eca8825aa8aa1998e3db76a8da767d8c426af58f94cbeccee03bdc4d",
+      "contents_bytes": 21593,
+      "contents_sha256": "3150027476275c85b8fc6286001e697bc0630586fc6fb315d3cbe035284bd26b",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject62.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 48584,
+          "sha256": "8976d468cc8c3d18a6f9d830fc9400e72be0bf90dcb7d6aa629b7119f2b2e3fa"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject63.bin",
+      "cfb_bytes": 2055168,
+      "cfb_sha256": "3943cc0ab394a33d2099240f5c6c0b722a88b4e73c7bdf39b65cf6b2ac6d03a5",
+      "contents_bytes": 1493393,
+      "contents_sha256": "d8f37d08209f1e0cb6090b60a6553fb588923c3731a2d3a20ad424cf8d1acfcd",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject63.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 543118,
+          "sha256": "f838a53cafc564dd44c29e9b9f606b04bd741402a2f0944efe8e6eac62c7b4ce"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject64.bin",
+      "cfb_bytes": 2257408,
+      "cfb_sha256": "4d141d21a1fdc082f68d09bdd3886e51cd5393b9169b8f5d8fbeaece9830c58d",
+      "contents_bytes": 1485104,
+      "contents_sha256": "ae0326d0ff55cbe3a528b593ac475cbb14a601872b73ff6762e7c3ee32a19e2c",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject64.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 752048,
+          "sha256": "8845fa789cd454ac56d82ff55ab334fc823d7735497a663320afafca00b51cc0"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject65.bin",
+      "cfb_bytes": 2027008,
+      "cfb_sha256": "0862fb7b03485eaf78a767cdfb902121e5cdc3dffcb8d53b20b50c63611ff09f",
+      "contents_bytes": 1566338,
+      "contents_sha256": "bde1fcfae65ddb17dfbe8aeb25a97c8a77ff3dcce9bdcfbbc2e82f6906f43360",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject65.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 441910,
+          "sha256": "011183ef0ca9a7ee1bbad6a59cbfbcc4de1795fd758edd036ac42b515f9802df"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject66.bin",
+      "cfb_bytes": 59904,
+      "cfb_sha256": "3cb8e969e1add36f9a5cfc3c07ff33ab8d5844a3417076c0de98090ede9aaa0e",
+      "contents_bytes": 15114,
+      "contents_sha256": "25c752c2c2ad373211040a4d70d4ee278cebbf868a0fbdd09c5a21a10282fd66",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject66.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 41542,
+          "sha256": "27133402260f7f39f19b388a66f19aec392e2c2c055ec6a1f348abfdb3ad892e"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject67.bin",
+      "cfb_bytes": 254464,
+      "cfb_sha256": "ff17fad259c3b3067224eee19b929468613964812f4b1b80258ccca372d9e175",
+      "contents_bytes": 119197,
+      "contents_sha256": "6edf3f33ce3f6d2c7e71f6402852bc0de5f851490a96bbd7eb7adacaa0eb1ed3",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject67.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 131022,
+          "sha256": "c9bca0d9d83100dc2d28ee13fa93243f8343e7fcda9d4a44a827ff253f3fdb49"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject68.bin",
+      "cfb_bytes": 1861120,
+      "cfb_sha256": "2fe0063782baa35f18b563b37adf56341b59f3bd2ff5df81c88da59c44c7bb20",
+      "contents_bytes": 576552,
+      "contents_sha256": "d2d97929c19f3b0318acd8464819a9461134f68814083b88f0e2d5db06396924",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject68.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1266778,
+          "sha256": "9b01c9d1e0d4ca9334a838dc0dd7330cb12752db35b386d01bdbb61accdf8817"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject69.bin",
+      "cfb_bytes": 1423872,
+      "cfb_sha256": "49386c3d32756ad66c9bffffed08ea5d3fd1c03cf6cb443f1d8e481dd5761589",
+      "contents_bytes": 565478,
+      "contents_sha256": "064895404775570611eab30921c8e52c981776d9c498c8face81cda9de500192",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject69.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 844510,
+          "sha256": "37c7766389603a5bba8ffb2bb9e5759aef717c894ca13b5546cd255c28469234"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject7.bin",
+      "cfb_bytes": 1876480,
+      "cfb_sha256": "f4e143d4c06d46ba7951be02f0c9a5f32b6754f00c96cd92986598989bc80f33",
+      "contents_bytes": 1411375,
+      "contents_sha256": "3d25b900fa89dc6902d2bc0f68a6f2d8cb50c84e58f790aef39100ff27e437bc",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject7.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 447912,
+          "sha256": "7dfe366c33d1f5d192f3001be56ce8c5238e1edd996a7946d9750fd9e1a8c482"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject70.bin",
+      "cfb_bytes": 1445376,
+      "cfb_sha256": "45fee6321f9bf75a6127edcdc0cf09f1707a56fe707af1c8f539d3dac55b27e0",
+      "contents_bytes": 588736,
+      "contents_sha256": "3099446751ae7183ef05973e9b91b5850d821c52fa16e1e5fb98d0aa4dc44c13",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject70.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 842418,
+          "sha256": "892cc08e87664dd5080fd62202bf57be40ce8ff8c37dd2361b33234a95365a6e"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject71.bin",
+      "cfb_bytes": 1445888,
+      "cfb_sha256": "59b69ee8e35b3fca5945429e40e78da5bb0fa9916bfb3c2d717ca0308899c755",
+      "contents_bytes": 589189,
+      "contents_sha256": "a6aeeaea62bad0d66534a1f1aec444b30a6275b92cc2423b59c567e4a392b187",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject71.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 842394,
+          "sha256": "1ec89a956cc226c6c52e577c15f1085866c0bd0d69ec7a7cc2876d8caf3cc227"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject72.bin",
+      "cfb_bytes": 1176576,
+      "cfb_sha256": "2837b62f0c479008894709383daa0d538b3434a8022cef769ba9dd2ef9161420",
+      "contents_bytes": 1164921,
+      "contents_sha256": "98d146f75cd12b1be0b1607646873aa38ec1d4ca4a1fbc08ea7dbddf71a55a83",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject72.Contents.bin",
+      "ole_cache_hashes": []
+    },
+    {
+      "part": "ppt/embeddings/oleObject73.bin",
+      "cfb_bytes": 2886144,
+      "cfb_sha256": "cd3b96be9b28b0a32a4df8b23abbff532c6dab3d4f6eebc2069c2409bc35f435",
+      "contents_bytes": 1164828,
+      "contents_sha256": "339cfc5800665f3e6532d9dbb0c2ade7548fdf0b78367927bb47e0ed467a8979",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject73.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1695252,
+          "sha256": "cdfe35402581ee58a01c7a3d26fd56d48145ac0c0fa28962119db46fd8e42fa3"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject74.bin",
+      "cfb_bytes": 301056,
+      "cfb_sha256": "de3f0fea05a4028aa3a45f0f9bdbb2427c9d265ca5f882e3067f3b2e159daf58",
+      "contents_bytes": 141295,
+      "contents_sha256": "d1956e7d3f669ddd3f62ff95ae29794d6faf83afb7df6bd9d54d6325ca4bf3cc",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject74.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 155068,
+          "sha256": "955303ff8d19d59c18e3729fb2ade19cb8cb1775d91fa8e7fa3c1d7b6b6c8f95"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject75.bin",
+      "cfb_bytes": 316416,
+      "cfb_sha256": "e93a7870af7e56ae36ed1e6961123371ddb7e34a53a2f6c1e6c531fa789278b0",
+      "contents_bytes": 144448,
+      "contents_sha256": "94248beab9e289aa2b5ca19dd8e8ba430cbe5e92c7f676b58eb991dbb9e9c11c",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject75.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 166524,
+          "sha256": "c82e372bddf18a64118fb599f5cc6590b411f348ffdbe1b8403b39dc82c7bbdc"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject76.bin",
+      "cfb_bytes": 275968,
+      "cfb_sha256": "bc042726d0b9719af9fb1b0eda9077634640a5bb5b47c20dde6933db4941d440",
+      "contents_bytes": 136954,
+      "contents_sha256": "05e527d5cb1e10748f956655ea30e7eab1f0b6fb885283a9d4585d3621797134",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject76.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 134124,
+          "sha256": "f4d0c335fed30168e760054ab46f6c0cee989b6ad9728f8ec23e6794c871bcd4"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject77.bin",
+      "cfb_bytes": 95744,
+      "cfb_sha256": "bfe870eaa7345aef6fa7ae2767edcec87bcb6e566a391e1ac3fc51506ce44edb",
+      "contents_bytes": 27057,
+      "contents_sha256": "fa66f62c3ad20fe354441e56909e4e6836912e953589af21ba30a3ae3be8c6d8",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject77.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 65212,
+          "sha256": "41c5f54ba5a1d8f6e15f8d4fda34adc9b934f3155c63a3a200a5844b5bdb3aad"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject78.bin",
+      "cfb_bytes": 75776,
+      "cfb_sha256": "ea95fa8201022f25080296157545b37460420a5e35149c72f6654d7b6beefa5e",
+      "contents_bytes": 18075,
+      "contents_sha256": "f58dbf6632686af65c1a670bd0b31679dc3aa3bb9f3e8187d29f5fa619cf26f2",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject78.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 53808,
+          "sha256": "5a9f3b3ac739a8a0a92ebc13585eecb065593eeec9b77f60411a648705a0c15a"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject79.bin",
+      "cfb_bytes": 81920,
+      "cfb_sha256": "d5f84206ea0fce1b0b37a7f1b047ed3ceb3d3c697fef6ec424ed3d5ceb78d506",
+      "contents_bytes": 28611,
+      "contents_sha256": "0d5d1fe7f28b2617c2bdfeed589cafb2b7f9b7bc580dea32456b65383a22c2fc",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject79.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 49902,
+          "sha256": "aa63bb3ca3343e04d67ae9ef5aa93a29258c20bc11f6ee794e86383deef044a1"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject8.bin",
+      "cfb_bytes": 1155584,
+      "cfb_sha256": "8d5711d78ee83af6cd7ad5a0b33c86c34eefd91cce0174aa61bc10e0f990bfd9",
+      "contents_bytes": 198821,
+      "contents_sha256": "20114045752a00f2029aafb1f4b0a6b3291fc2f7fa2af471c6060044049554f6",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject8.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 944788,
+          "sha256": "ec6683ae3d8b24523f1aa82d03099949935562b6cecece6de81329b99749a6eb"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject80.bin",
+      "cfb_bytes": 224256,
+      "cfb_sha256": "32652fa586bee16edf954f6cbcc7afa0d3f63ee137140bbd6fe440f28d5057ab",
+      "contents_bytes": 127978,
+      "contents_sha256": "6ecb4972f2cff6a56d73a6825fd3fdf3988e899f6c2efc0083e5aea6dc77b9d2",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject80.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 91820,
+          "sha256": "572e875ab401f9897b1629dad3882af1b5911605401e0733a842ad25b243f67d"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject81.bin",
+      "cfb_bytes": 83456,
+      "cfb_sha256": "bba4a142dd7e637da992127ebb8e12cf8791f8dec2e2594ed7f9ddb9fa4f46fb",
+      "contents_bytes": 27873,
+      "contents_sha256": "60b8b3b93e0bfaae12f49e614c837b4f71a5043fc05db295660991541cda6bf5",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject81.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 51954,
+          "sha256": "ffef3289540eaf4b48f92ffbd9a030ffb6187a6c34ca69005f884ccb5eec20b5"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject82.bin",
+      "cfb_bytes": 157184,
+      "cfb_sha256": "8b602c495110289d4d58ba9dca4b0c3d1c29bfbfc24cac58565cc5498c01ffb0",
+      "contents_bytes": 61001,
+      "contents_sha256": "af713b333c4811454a16b40bf39b67c5bb88c6839b8de8607308eba05022b9ba",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject82.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 91832,
+          "sha256": "a4c52e02e04b372912b6206abe3cae61137975d6e94946bb06f0a8acaa89b46a"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject83.bin",
+      "cfb_bytes": 258048,
+      "cfb_sha256": "c3a6703c8f0004dbe8f04095705b41c5cf4b148417edcdf80e255aa3332407c7",
+      "contents_bytes": 130317,
+      "contents_sha256": "2c29d9cbdf2ffe69f2800a31310a583b90c1d5bc14e0fbb8d8c4f59ec8af3ff4",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject83.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 123048,
+          "sha256": "c3e8640d4bd0bf8cc953f79220965a8c836c0548aff93472f99d9992be733a1f"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject84.bin",
+      "cfb_bytes": 284672,
+      "cfb_sha256": "f3c162a42fb3a3b185cc3f1f5a679668108011fbdcdbc19efa6a57b14ba27f7a",
+      "contents_bytes": 131010,
+      "contents_sha256": "a89254b866a0ccd4446e5b85bc1121bb1ec4f0130c441f45ad8f11905cf9ae76",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject84.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 148920,
+          "sha256": "802010f8f95b202c3e2a041ba5b26dd79eb93441ca234e88b57364439cbd014a"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject85.bin",
+      "cfb_bytes": 293376,
+      "cfb_sha256": "042c48608c27f30be0025bb94ca095ec6fd164cf9740d78c8a580c6541f041d0",
+      "contents_bytes": 133097,
+      "contents_sha256": "fdca9c62b72bc9152611bfd9c468ad0ec85dc3ea9d7970815ad026dd926d2363",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject85.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 155274,
+          "sha256": "614036575972f17ac8ac36a7f9ea94e33bf7f6195f211232c81db2611b9f309b"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject86.bin",
+      "cfb_bytes": 81408,
+      "cfb_sha256": "e2aba61f9ae27b2b7b2a29fb15fbad13ca461c68a3c6b0c806b88fe76b2447d7",
+      "contents_bytes": 28643,
+      "contents_sha256": "4d3b8fdb920144a26bd86ddba787e581a26f00e67f0b6dc734743787588e0e4a",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject86.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 49656,
+          "sha256": "7490e74f474dea1f4e88b3e17d7a1b56f0fedab8bdfcd2646b1c4f20cecfe7c2"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject87.bin",
+      "cfb_bytes": 82432,
+      "cfb_sha256": "92352580bbc83f8d07000bf6fae93e340d20437b976e93b229ee4f213ff75dcc",
+      "contents_bytes": 28350,
+      "contents_sha256": "3770be7093051d1b254d0a8642a4ecc2aa099c8a41dc264ce700a3e48aebd35c",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject87.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 50594,
+          "sha256": "68e97f501950500c8ff41d42c6185e1116305ac123685db6a43f989225c506c4"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject88.bin",
+      "cfb_bytes": 2511360,
+      "cfb_sha256": "1a2f3faca5914218646f587353e174c7fe3bfc869cfe235a1814b2c7e4ee2b47",
+      "contents_bytes": 1556511,
+      "contents_sha256": "b83ffd3ad770d5e2cb5918db1656fc02ecba760f3f7117ff1c4d3efc3b282d12",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject88.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 932304,
+          "sha256": "d8342409b5a27bf2aafa48547efac18eb4ced7cb2f7c945ceb45be42a4216747"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject89.bin",
+      "cfb_bytes": 2474496,
+      "cfb_sha256": "a0aa852200dac73d4d1341b149c5e0b13ccbd447da223d002d133f921dd7aba6",
+      "contents_bytes": 1555629,
+      "contents_sha256": "17838c086a3948fd0e76e47ea686317bee68aa1b88ac678093416d5d82f212a8",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject89.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 896870,
+          "sha256": "49117662cedf12a09b8a269c6bae62bc4165c010416d3e430c08017a72a8084d"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject9.bin",
+      "cfb_bytes": 210944,
+      "cfb_sha256": "6dee8067ec1670460df6bb203bf248e03d1f4d6667e62b962e94283eb375e5b0",
+      "contents_bytes": 89345,
+      "contents_sha256": "45fb216e13bbed5b78f7bcccf4a31e9431350242ae723e50ac5c64880ebbe43a",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject9.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 117038,
+          "sha256": "6ea988353bf6d0a3f25e46b5750a38b141c1df47040b24231b8771d9080d47ca"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject90.bin",
+      "cfb_bytes": 51712,
+      "cfb_sha256": "25536b607581c5161af6e859b69c09d21be4ba3df3a51ab620829ad46e9bfa7c",
+      "contents_bytes": 13662,
+      "contents_sha256": "73d800c56814c8870e30bcebc20d931aa6f222480d7e42a7b3401def81fa323f",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject90.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 35206,
+          "sha256": "e55055c829f4e4233be557d081f92261dcb4951396f8784cccbed137754c3c0d"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject91.bin",
+      "cfb_bytes": 1844224,
+      "cfb_sha256": "fc61183d0f04055eba1d77a031473602ddff92d54920c9290f0702dd0a1c2bfd",
+      "contents_bytes": 1623492,
+      "contents_sha256": "d7270545d0bcce2a9f1a7699c290eae50e0ec5c5c930df4e887fd1d7cdb8f308",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject91.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 203280,
+          "sha256": "43e0cd284d5fe3da018e33a293892b8f6b9b95607062f8ba93827c725a56f131"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject92.bin",
+      "cfb_bytes": 2012160,
+      "cfb_sha256": "4027164436846718fffe27e8e9b5e04352decd82aaef0c76c4112e32bfce6030",
+      "contents_bytes": 801490,
+      "contents_sha256": "63aa7cb095b06c5357ff90935349eb28b1913162560540b7f50bed168ec6edf9",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject92.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1191940,
+          "sha256": "34566c3cd8d7845a5cb5febd6ac1d04c5373c4a88cae6b8503246efbe49cf5c9"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject93.bin",
+      "cfb_bytes": 2542080,
+      "cfb_sha256": "5f5216a4a231ee654edd37b1d20e29de5c935dee4727dde181ca1f9add83970d",
+      "contents_bytes": 807010,
+      "contents_sha256": "ad65338eb8f9ffd8ad7d1e472b7b54f961a9aa7aa994bc7914c0b3feb1158c55",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject93.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 1712570,
+          "sha256": "196fcd7fb88a7e05da8a65ede96d654bd48a69dc4bf8c11a21edd6b366591026"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject94.bin",
+      "cfb_bytes": 278016,
+      "cfb_sha256": "335302477ed1f4c8f2279341053a052ec79927122e9afa154f29120c5cfd607b",
+      "contents_bytes": 134417,
+      "contents_sha256": "5af5e27eb59787aca5ac7d3fdeea3fe3d148800d6e46780ca05b7ae8d723c2dc",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject94.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 138260,
+          "sha256": "cf7bb2f02d3a53cf817cc09e56fd75f0a691ffd7e38b8c8f0eb627ae75229b72"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject95.bin",
+      "cfb_bytes": 815104,
+      "cfb_sha256": "89b77ab2c1fa50c7b2e2183d1cdfb778a1a7b9eb8112cf3a9e9e5bdfb7df4092",
+      "contents_bytes": 806116,
+      "contents_sha256": "95fca570e8d3c54675aacf651533fae55ea692b70afd65a9e52b38687818b0b6",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject95.Contents.bin",
+      "ole_cache_hashes": []
+    },
+    {
+      "part": "ppt/embeddings/oleObject96.bin",
+      "cfb_bytes": 813568,
+      "cfb_sha256": "2047e13b590a378fe8e932b3e3d7acd760017d93f86ae1a7993c084da0383740",
+      "contents_bytes": 804662,
+      "contents_sha256": "1dc6b660aad1a0c3616fb2685d6f04aaacec6d9e14438553f5eb0a560d8f0be0",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject96.Contents.bin",
+      "ole_cache_hashes": []
+    },
+    {
+      "part": "ppt/embeddings/oleObject97.bin",
+      "cfb_bytes": 1328640,
+      "cfb_sha256": "8c25a83b3a76ac5a5346f22067afbdd6aec7f503a9493fdd8944847829db5db4",
+      "contents_bytes": 527703,
+      "contents_sha256": "9391a2dabe9cc843ec319359905f587b1ffd1295d39d90686b03983c98879f39",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject97.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 787680,
+          "sha256": "c9e26281309280327ac34b509ad491548e8ab2636eaaba809648a272ad224bdd"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject98.bin",
+      "cfb_bytes": 1340928,
+      "cfb_sha256": "2023278eb095da44e0dd8ec6d89b45a7d8f1648c47f86c7aaec7025b4e3c2715",
+      "contents_bytes": 542258,
+      "contents_sha256": "4b1935b0512851ab8c2f7c51f3abfde47acafbae299c151165eb33c8bea1a99b",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject98.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 784920,
+          "sha256": "fb3b95caf86bcdb8c42a5ad4cc9fa4d6670bc03448ffcf04e35da33370f3007a"
+        }
+      ]
+    },
+    {
+      "part": "ppt/embeddings/oleObject99.bin",
+      "cfb_bytes": 1337344,
+      "cfb_sha256": "bb4d7ad9f79b0ba595cbd1542409853e8dd5bd9924caca59faa38f6a08c5a338",
+      "contents_bytes": 542256,
+      "contents_sha256": "74af23d6e8e90b52f94d3b4b8a7e856f3ce474fdc80ca8303b5eb222141aac2f",
+      "signature": "CPYUA 4.3268 195",
+      "local_file": "inputs/oleObject99.Contents.bin",
+      "ole_cache_hashes": [
+        {
+          "name": "\u0002OlePres000",
+          "bytes": 781568,
+          "sha256": "235dcb961de53778937a31344b019dc60e50e7b87477322a4138b1f355d31022"
+        }
+      ]
+    }
+  ]
+}

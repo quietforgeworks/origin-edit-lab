@@ -1,0 +1,876 @@
+{
+  "source_doi": "https://doi.org/10.57745/W0SEAA",
+  "license": {
+    "name": "etalab 2.0",
+    "uri": "https://spdx.org/licenses/etalab-2.0.html",
+    "iconUri": "https://entrepot.recherche.data.gouv.fr/assets/licence-ouverte.png"
+  },
+  "citation_metadata": {
+    "displayName": "Citation Metadata",
+    "name": "citation",
+    "fields": [
+      {
+        "typeName": "title",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "Dataset supporting the publication: \"Sub-diffraction-resolved spatial distribution of emitting excitons in STM-induced luminescence of 2D semiconductors via Richardson-Lucy deconvolution\""
+      },
+      {
+        "typeName": "alternativeTitle",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "Jeu de donn\u00e9es \u00e0 l'appui de la publication : \u00ab Distribution spatiale \u00e0 r\u00e9solution sub-diffractionnelle des excitons \u00e9metteurs dans la luminescence induite par STM des semi-conducteurs 2D via la d\u00e9convolution de Richardson-Lucy \u00bb"
+      },
+      {
+        "typeName": "datasetContact",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "datasetContactName": {
+              "typeName": "datasetContactName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Le Moal, Eric"
+            },
+            "datasetContactAffiliation": {
+              "typeName": "datasetContactAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Institut des Sciences Mol\u00e9culaires d'Orsay, CNRS, Universit\u00e9 Paris-Saclay"
+            },
+            "datasetContactEmail": {
+              "typeName": "datasetContactEmail",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "eric.le-moal@universite-paris-saclay.fr"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "author",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Le Moal, Eric"
+            },
+            "authorAffiliation": {
+              "typeName": "authorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "authorIdentifierScheme": {
+              "typeName": "authorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "authorIdentifier": {
+              "typeName": "authorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0002-8728-5066"
+            }
+          },
+          {
+            "authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Laurent, Elys\u00e9"
+            },
+            "authorAffiliation": {
+              "typeName": "authorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "authorIdentifierScheme": {
+              "typeName": "authorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "authorIdentifier": {
+              "typeName": "authorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0009-0003-5925-0776"
+            }
+          },
+          {
+            "authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Pe\u00f1a Rom\u00e1n, Ricardo Javier"
+            },
+            "authorAffiliation": {
+              "typeName": "authorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "authorIdentifierScheme": {
+              "typeName": "authorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "authorIdentifier": {
+              "typeName": "authorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0003-4673-1127"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "contributor",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Project Leader"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Le Moal, Eric"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0002-8728-5066"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Project Member"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Laurent, Elys\u00e9"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0009-0003-5925-0776"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Project Member"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Pe\u00f1a Rom\u00e1n, Ricardo Javier"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0003-4673-1127"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Researcher"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Aditi Raman Moghe"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Institut de Physique et de Chimie des Mat\u00e9riaux de Strasbourg, Universit\u00e9 de Strasbourg, CNRS, IPCMS, UMR 7504, F-67000 Strasbourg, France"
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0009-0002-6369-8293"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Supervisor"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "S\u00e9verine Le Moal"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0003-2798-0793"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Related Person"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Elizabeth Boer-Duchemin"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0002-3657-8424"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Related Person"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Luiz Fernando Zagonel"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Institute of Physics ``Gleb Wataghin'', Department of Applied Physics, State University of Campinas-UNICAMP, 13083-859, Campinas, Brazil"
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0002-4043-0318"
+            }
+          },
+          {
+            "contributorType": {
+              "typeName": "contributorType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Supervisor"
+            },
+            "contributorName": {
+              "typeName": "contributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "St\u00e9phane Berciaud"
+            },
+            "contributorAffiliation": {
+              "typeName": "contributorAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Institut de Physique et de Chimie des Mat\u00e9riaux de Strasbourg, Universit\u00e9 de Strasbourg, CNRS, IPCMS, UMR 7504, F-67000 Strasbourg, France"
+            },
+            "contributorIdentifierScheme": {
+              "typeName": "contributorIdentifierScheme",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "ORCID"
+            },
+            "contributorIdentifier": {
+              "typeName": "contributorIdentifier",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "0000-0002-5753-3671"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "producer",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "producerName": {
+              "typeName": "producerName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Institut des Sciences Mol\u00e9culaires d'Orsay"
+            },
+            "producerAffiliation": {
+              "typeName": "producerAffiliation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "CNRS, Universit\u00e9 Paris-Saclay"
+            },
+            "producerAbbreviation": {
+              "typeName": "producerAbbreviation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "ISMO"
+            },
+            "producerURL": {
+              "typeName": "producerURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://www.ismo.universite-paris-saclay.fr/"
+            },
+            "producerLogoURL": {
+              "typeName": "producerLogoURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://www.ismo.universite-paris-saclay.fr/wp-content/uploads/2022/06/cropped-Logo-ISMO_simple_b-1-205x116.png"
+            }
+          },
+          {
+            "producerName": {
+              "typeName": "producerName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Universit\u00e9 Paris-Saclay"
+            },
+            "producerURL": {
+              "typeName": "producerURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://www.universite-paris-saclay.fr/"
+            },
+            "producerLogoURL": {
+              "typeName": "producerLogoURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://www.universite-paris-saclay.fr/sites/default/files/media/2019-12/logo-ups.svg"
+            }
+          },
+          {
+            "producerName": {
+              "typeName": "producerName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Centre National de la Recherche Scientifique"
+            },
+            "producerAbbreviation": {
+              "typeName": "producerAbbreviation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "CNRS"
+            },
+            "producerURL": {
+              "typeName": "producerURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://www.cnrs.fr/fr"
+            },
+            "producerLogoURL": {
+              "typeName": "producerLogoURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://www.cnrs.fr/sites/default/files/logo/logo.svg"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "productionDate",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "2025-11-17"
+      },
+      {
+        "typeName": "productionPlace",
+        "multiple": true,
+        "typeClass": "primitive",
+        "value": [
+          "Universit\u00e9 Paris-Saclay, CNRS, Institut des Sciences Mol\u00e9culaires d'Orsay, 91405, Orsay, France."
+        ]
+      },
+      {
+        "typeName": "distributor",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "distributorName": {
+              "typeName": "distributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Entrep\u00f4t-Catalogue Recherche Data Gouv"
+            },
+            "distributorURL": {
+              "typeName": "distributorURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://entrepot.recherche.data.gouv.fr"
+            },
+            "distributorLogoURL": {
+              "typeName": "distributorLogoURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://entrepot.recherche.data.gouv.fr./logos/navbar/logo.svg"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "dsDescription",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "dsDescriptionValue": {
+              "typeName": "dsDescriptionValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Two-dimensional (2D) semiconductors such as transition metal dichalcogenide monolayers are the building blocks of a future generation of optoelectronic devices, and in particular, of ultrathin electroluminescent devices. The diffusion of charge carriers and excitons (bound electron-hole pairs) and their interactions with defects play a key role in the electroluminescence properties of these materials. Understanding and controlling these processes is crucial for the performance of future devices based on these materials. Unfortunately, exciton diffusion occurs at scales (20 - 200 nm) that are smaller than the spatial resolution of far-field optical microscopes (200 - 500 nm), which are limited by the diffraction of light. There are nanoscopy techniques coupling light and scanning near-field probes that overcome this diffraction limit. Recently, the electroluminescence properties of 2D semiconductors have been mapped at the nanoscale by recording light induced by tunneling current under the tip of a scanning tunneling microscope (STM) scanned over the sample. However, such techniques provide no information on the diffusion of charge carriers and excitons, as they are not sensitive to the spatial distribution of emission around the excitation source. At each tip position, the signal emitted by the entire sample, regardless of its source, is integrated.\n\nIn this work, we demonstrate a solution to this problem: we combine tunneling-current excitation under the tip of an STM (for extremely local excitation), wide-field optical microscopy (to image the spatial distribution of the emission), and deconvolution of optical microscopy images using an iterative Richardson-Lucy algorithm (to achieve spatial resolution beyond the diffraction limit). In this way, we reconstruct spatial emission distributions around the excitation point that have full widths at half maximum as small as \u03bb0/(9.4 \u00b1 0.7) (\u03bb0 is the emission wavelength), where the resolution of the optical microscope is at best \u03bb0/2.98 (Abbe criterion) or \u03bb0/2.44 (Rayleigh criterion). This result corresponds to an improvement in spatial resolution of at least a factor of 3. One reason why this has never been done before is that this type of deconvolution requires knowledge of the point spread function (PSF), which is generally very difficult to define for this type of combination of optical microscopy and scanning probes. Here, we overcome this difficulty by using known exciton properties to simulate the PSF as the image of an emitting exciton.\n\nThis dataset includes all raw data corresponding to the findings in the publication \"Sub-diffraction-resolved spatial distribution of emitting excitons in STM-induced luminescence of 2D semiconductors via Richardson-Lucy deconvolution\" by Elys\u00e9 Laurent, Ricardo Javier Pe\u00f1a Rom\u00e1n, Sarah Miller, Aditi Raman Moghe, Etienne Lorchat, S\u00e9verine Le Moal, Elizabeth Boer-Duchemin, Luiz Fernando Zagonel, St\u00e9phane Berciaud, and Eric Le Moal."
+            },
+            "dsDescriptionLanguage": {
+              "typeName": "dsDescriptionLanguage",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "English"
+            },
+            "dsDescriptionDate": {
+              "typeName": "dsDescriptionDate",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-11-28"
+            }
+          },
+          {
+            "dsDescriptionValue": {
+              "typeName": "dsDescriptionValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Les semi-conducteurs bidimensionnels (2D), tels que les monofeuillets de dichalcog\u00e9nures de m\u00e9taux de transition, constituent les \u00e9l\u00e9ments fondamentaux d'une future g\u00e9n\u00e9ration de dispositifs opto\u00e9lectroniques, et notamment de dispositifs \u00e9lectroluminescents ultra-minces. La diffusion des porteurs de charge et des excitons (paires \u00e9lectron-trou li\u00e9es) ainsi que leurs interactions avec les d\u00e9fauts jouent un r\u00f4le cl\u00e9 dans les propri\u00e9t\u00e9s d'\u00e9lectroluminescence de ces mat\u00e9riaux. La compr\u00e9hension et la ma\u00eetrise de ces processus sont essentielles pour les performances des futurs dispositifs bas\u00e9s sur ces mat\u00e9riaux. Malheureusement, la diffusion des excitons se produit \u00e0 des \u00e9chelles (20-200 nm) inf\u00e9rieures \u00e0 la r\u00e9solution spatiale des microscopes optiques \u00e0 champ lointain (200-500 nm), elle-m\u00eame limit\u00e9e par la diffraction de la lumi\u00e8re. Des techniques de nanoscopie couplant la lumi\u00e8re et des sondes \u00e0 champ proche permettent de s'affranchir de cette limite de diffraction. R\u00e9cemment, les propri\u00e9t\u00e9s d'\u00e9lectroluminescence des semi-conducteurs 2D ont \u00e9t\u00e9 cartographi\u00e9es \u00e0 l'\u00e9chelle nanom\u00e9trique en enregistrant la lumi\u00e8re induite par le courant tunnel sous la pointe d'un microscope \u00e0 effet tunnel (STM) balayant l'\u00e9chantillon. Cependant, ces techniques ne fournissent aucune information sur la diffusion des porteurs de charge et des excitons, car elles sont insensibles \u00e0 la distribution spatiale de l'\u00e9mission autour de la source d'excitation. \u00c0 chaque position de la pointe, le signal \u00e9mis par l'ensemble de l'\u00e9chantillon, quelle que soit sa source, est int\u00e9gr\u00e9.\n\nDans ce travail, nous pr\u00e9sentons une solution \u00e0 ce probl\u00e8me\u00a0: nous combinons l'excitation par courant tunnel sous la pointe d'un microscope \u00e0 effet tunnel (pour une excitation extr\u00eamement localis\u00e9e), la microscopie optique \u00e0 champ large (pour imager la distribution spatiale de l'\u00e9mission) et la d\u00e9convolution des images de microscopie optique \u00e0 l'aide d'un algorithme it\u00e9ratif de Richardson-Lucy (pour atteindre une r\u00e9solution spatiale inf\u00e9rieure \u00e0 la limite de diffraction). De cette mani\u00e8re, nous reconstruisons des distributions spatiales d'\u00e9mission autour du point d'excitation dont la largeur \u00e0 mi-hauteur est aussi faible que \u03bb\u2080/(9,4 \u00b1 0,7) (\u03bb\u2080 \u00e9tant la longueur d'onde d'\u00e9mission), la r\u00e9solution du microscope optique \u00e9tant au mieux de \u03bb\u2080/2,98 (crit\u00e8re d'Abbe) ou \u03bb\u2080/2,44 (crit\u00e8re de Rayleigh). Ce r\u00e9sultat correspond \u00e0 une am\u00e9lioration de la r\u00e9solution spatiale d'au moins un facteur 3. Si cette approche n'a jamais \u00e9t\u00e9 mise en \u0153uvre auparavant, c'est notamment parce que ce type de d\u00e9convolution requiert la connaissance de la fonction d'\u00e9talement du point (PSF), g\u00e9n\u00e9ralement tr\u00e8s difficile \u00e0 d\u00e9finir pour ce type de combinaison de microscopie optique et de sondes \u00e0 balayage. Nous surmontons ici cette difficult\u00e9 en utilisant les propri\u00e9t\u00e9s connues des excitons pour simuler la PSF comme l'image d'un exciton \u00e9metteur.\n\nCet ensemble de donn\u00e9es comprend toutes les donn\u00e9es brutes correspondant aux r\u00e9sultats de la publication \u00ab\u00a0Sub-diffraction-resolved spatial distribution of emitting excitons in STM-induced luminescence of 2D semiconductors via Richardson-Lucy deconvolution\u00a0\u00bb d'Elys\u00e9 Laurent, Ricardo Javier Pe\u00f1a Rom\u00e1n, Sarah Miller, Aditi Raman Moghe, Etienne Lorchat, S\u00e9verine Le Moal, Elizabeth Boer-Duchemin, Luiz Fernando Zagonel, St\u00e9phane Berciaud et Eric Le Moal."
+            },
+            "dsDescriptionLanguage": {
+              "typeName": "dsDescriptionLanguage",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "French"
+            },
+            "dsDescriptionDate": {
+              "typeName": "dsDescriptionDate",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-11-28"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "language",
+        "multiple": true,
+        "typeClass": "controlledVocabulary",
+        "value": [
+          "English"
+        ]
+      },
+      {
+        "typeName": "subject",
+        "multiple": true,
+        "typeClass": "controlledVocabulary",
+        "value": [
+          "Physics"
+        ]
+      },
+      {
+        "typeName": "keyword",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "keywordValue": {
+              "typeName": "keywordValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "exciton"
+            },
+            "keywordTermURL": {
+              "typeName": "keywordTermURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://loterre.istex.fr/NHT/fr/page/-B13SV1TK-S"
+            },
+            "keywordVocabulary": {
+              "typeName": "keywordVocabulary",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Condensed Matter Physics"
+            },
+            "keywordVocabularyURI": {
+              "typeName": "keywordVocabularyURI",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://loterre.istex.fr/NHT/fr/"
+            }
+          },
+          {
+            "keywordValue": {
+              "typeName": "keywordValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "microscopie \u00e0 effet tunnel"
+            },
+            "keywordTermURL": {
+              "typeName": "keywordTermURL",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://loterre.istex.fr/JVR/fr/page/-GPCDLZD0-5"
+            },
+            "keywordVocabulary": {
+              "typeName": "keywordVocabulary",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "MeSH (th\u00e9saurus)"
+            },
+            "keywordVocabularyURI": {
+              "typeName": "keywordVocabularyURI",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "https://loterre.istex.fr/JVR/fr/"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "kindOfData",
+        "multiple": true,
+        "typeClass": "controlledVocabulary",
+        "value": [
+          "Dataset"
+        ]
+      },
+      {
+        "typeName": "dataOrigin",
+        "multiple": true,
+        "typeClass": "controlledVocabulary",
+        "value": [
+          "experimental data",
+          "analysis data",
+          "simulation data",
+          "computer code"
+        ]
+      },
+      {
+        "typeName": "software",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "softwareName": {
+              "typeName": "softwareName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "ImageJ"
+            },
+            "softwareVersion": {
+              "typeName": "softwareVersion",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "1.53k"
+            }
+          },
+          {
+            "softwareName": {
+              "typeName": "softwareName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Matlab"
+            },
+            "softwareVersion": {
+              "typeName": "softwareVersion",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "R2021a"
+            }
+          },
+          {
+            "softwareName": {
+              "typeName": "softwareName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Origin"
+            },
+            "softwareVersion": {
+              "typeName": "softwareVersion",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2024b"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "publication",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "publicationRelationType": {
+              "typeName": "publicationRelationType",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "IsSupplementTo"
+            },
+            "publicationCitation": {
+              "typeName": "publicationCitation",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "\"Sub-diffraction-resolved spatial distribution of emitting excitons in STM-induced luminescence of 2D semiconductors via Richardson-Lucy deconvolution\" by Elys\u00e9 Laurent, Ricardo Javier Pe\u00f1a Rom\u00e1n, Sarah Miller, Aditi Raman Moghe, Etienne Lorchat, S\u00e9verine Le Moal, Elizabeth Boer-Duchemin, Luiz Fernando Zagonel, St\u00e9phane Berciaud, and Eric Le Moal."
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "grantNumber",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "grantNumberAgency": {
+              "typeName": "grantNumberAgency",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Agence nationale de la recherche"
+            },
+            "grantNumberValue": {
+              "typeName": "grantNumberValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "ANR-22-CE09-0008"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "project",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "projectId": {
+              "typeName": "projectId",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "ANR-22-CE09-0008"
+            },
+            "projectAcronym": {
+              "typeName": "projectAcronym",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "TEXTURES"
+            },
+            "projectTitle": {
+              "typeName": "projectTitle",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Tailoring exciton physics at the sub-nanometer scale in twist-engineered van der Waals heterostructures"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "timePeriodCovered",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "timePeriodCoveredStart": {
+              "typeName": "timePeriodCoveredStart",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2021-05-01"
+            },
+            "timePeriodCoveredEnd": {
+              "typeName": "timePeriodCoveredEnd",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2027-03-31"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "dateOfCollection",
+        "multiple": true,
+        "typeClass": "compound",
+        "value": [
+          {
+            "dateOfCollectionStart": {
+              "typeName": "dateOfCollectionStart",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2021-06-18"
+            },
+            "dateOfCollectionEnd": {
+              "typeName": "dateOfCollectionEnd",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-11-07"
+            }
+          }
+        ]
+      },
+      {
+        "typeName": "depositor",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "Le Moal, Eric"
+      },
+      {
+        "typeName": "dateOfDeposit",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "2025-11-24"
+      }
+    ]
+  },
+  "origin_executed": false,
+  "samples": [
+    {
+      "filename": "Fig 4d (Origin file).oggu",
+      "file_doi": "https://doi.org/10.57745/DXB5FR",
+      "source_url": "https://entrepot.recherche.data.gouv.fr/api/access/datafile/667566",
+      "bytes": 26453,
+      "md5": "39f5ecf543d29e9e2a196c0bfbd8e20f",
+      "sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+      "local_path": "public-native-samples/dataverse-667566.oggu",
+      "first_line": "CPYUA 4.3683 132",
+      "first_80_bytes_hex": "435059554120342e33363833203133320a27016cc0110106800114800640801201e4048304aaa88d0b810101810103800101810104840101810a507276774f504a555660000000000000900000000a02"
+    },
+    {
+      "filename": "Fig 4c (Origin file).oggu",
+      "file_doi": "https://doi.org/10.57745/C4BGCH",
+      "source_url": "https://entrepot.recherche.data.gouv.fr/api/access/datafile/667553",
+      "bytes": 29586,
+      "md5": "6f2a62c2d1728a7e95eace6b0071b5a4",
+      "sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+      "local_path": "public-native-samples/dataverse-667553.oggu",
+      "first_line": "CPYUA 4.3683 132",
+      "first_80_bytes_hex": "435059554120342e33363833203133320a27016cc0110106800114800640801201e4048304aaa88d0b810101810103800101810104840101810a507276774f504a55936c000000000000900000000a02"
+    },
+    {
+      "filename": "Fig 4b (Origin file).oggu",
+      "file_doi": "https://doi.org/10.57745/BSEB6G",
+      "source_url": "https://entrepot.recherche.data.gouv.fr/api/access/datafile/667559",
+      "bytes": 29769,
+      "md5": "3f96f55195ff2a34b6f4d40e0a532cff",
+      "sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+      "local_path": "public-native-samples/dataverse-667559.oggu",
+      "first_line": "CPYUA 4.3683 132",
+      "first_80_bytes_hex": "435059554120342e33363833203133320a27016cc0110106800114800640801201e4048304aaa88d0b810101810103800101810104840101810a507276774f504a554a6d000000000000900000000a02"
+    }
+  ]
+}

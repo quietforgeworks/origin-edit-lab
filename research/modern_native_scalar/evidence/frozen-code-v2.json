@@ -1,0 +1,58 @@
+{
+  "code/cfb_read.py": {
+    "sha256": "afbc1fdcfdeaf8ceafcee772380c8ef0e5c135b988565216e8f3d6dbf649d06a",
+    "bytes": 10351
+  },
+  "code/independent_cursor.py": {
+    "sha256": "4b4b3b4f8744ca77ef7b8fc9ba43af749df73709f6f448b860fe699c1425d537",
+    "bytes": 4033
+  },
+  "code/native_binding.py": {
+    "sha256": "2f54d94c26a998069209e30e4f62f70ce69e1579c50dcc42bfa9beabc9264e07",
+    "bytes": 13121
+  },
+  "code/native_container.py": {
+    "sha256": "4f5d8d4babc3e147681e40d2bf8943ddd59d863e560cbcf9f18dde6901c6f065",
+    "bytes": 6904
+  },
+  "code/native_scalar_writer.py": {
+    "sha256": "e47e998a5e090e6bb94fd6388e3f76ded00b9e25fe2ae49fea1f7bac8abb1cb6",
+    "bytes": 15635
+  },
+  "code/owner_walk.py": {
+    "sha256": "b7ae97ff5ac699d1d9737404f292a51e10a02c2df00b6bed0135feeecc893404",
+    "bytes": 12650
+  },
+  "code/sparse_transport.py": {
+    "sha256": "7ac8ecc8025f8c8b700197c1cb4e5bb50a1d808cb9cd28bf2afdc912e06cd80a",
+    "bytes": 1985
+  },
+  "code/verify_native_delta.py": {
+    "sha256": "9266fce370ce8d07bb83652c9dfab488d4891fc02915075903cfb59da31a7392",
+    "bytes": 4367
+  },
+  "code/walk_dataset_envelope.py": {
+    "sha256": "fe3f6998cc5cf09c5f955c7e02ac5d7126a83d30d2d50380a90f2680bc5be575",
+    "bytes": 12055
+  },
+  "code/writeback.py": {
+    "sha256": "9b971c9828cb6382ce1d21df6a21d5219424040a83e0438a1b33e8996ec21e93",
+    "bytes": 23363
+  },
+  "tests/test_native_binding.py": {
+    "sha256": "a4505b8501482380eef4e6fd36f6f3801077db3ec4600d3c0ba8a65e4935d4cd",
+    "bytes": 11903
+  },
+  "tests/test_native_container.py": {
+    "sha256": "098814b1352dfe6592c7d8cc05bc150c871901e06a53e9cd604129f6282763e7",
+    "bytes": 6704
+  },
+  "tests/test_native_scalar_writer.py": {
+    "sha256": "c2bb17403ad1c928bc11c6096795c41f170c738fe77e202a9d994329175a8621",
+    "bytes": 9914
+  },
+  "tests/test_owner_walk.py": {
+    "sha256": "a0e2d798920f209b5acf3914a253c7e313e6bd2bbf2bf5c6bb6d9c37218ab4b2",
+    "bytes": 11360
+  }
+}

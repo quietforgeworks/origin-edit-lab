@@ -1,0 +1,28 @@
+{
+  "source_record": "https://zenodo.org/records/20155927",
+  "archive": {
+    "id": "730f3387-6cb5-4b47-b4e4-9331ec334d93",
+    "key": "Spectral studies.zip",
+    "size": 174389352,
+    "checksum": "md5:17ffa54de396a8a3fa7371bf28831ef5",
+    "links": {
+      "self": "https://zenodo.org/api/records/20155927/files/Spectral%20studies.zip/content"
+    }
+  },
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "sample": {
+    "name": "Spectral studies/Spectral_studies_calibration/intensitites.opju",
+    "flags": 8,
+    "method": 8,
+    "crc32": 3340583371,
+    "compressed_bytes": 117000,
+    "bytes": 303758,
+    "local_offset": 172055837,
+    "local_path": "public-native-samples/spectral-calibration.opju",
+    "sha256": "d33be3c379310b57921a29de3f636142edba782ce7a3707ef52f652026e6333d",
+    "first_line": "CPYUA 4.3268 195",
+    "first_64_bytes_hex": "435059554120342e33323638203139350a15016cc0110101800108800940000d01e204000001850a507276774f504a552a94020000000000730000000a0200f8"
+  }
+}
