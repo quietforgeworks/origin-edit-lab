@@ -1,0 +1,54 @@
+test_bool_not_int (test_lz4_block.BlockTests.test_bool_not_int) ... ok
+test_declared_bound (test_lz4_block.BlockTests.test_declared_bound) ... ok
+test_empty_refused (test_lz4_block.BlockTests.test_empty_refused) ... ok
+test_existing_liblz4_synthetic_1000_cases (test_lz4_block.BlockTests.test_existing_liblz4_synthetic_1000_cases) ... ok
+test_extension_truncation (test_lz4_block.BlockTests.test_extension_truncation) ... ok
+test_literal_bounds (test_lz4_block.BlockTests.test_literal_bounds) ... ok
+test_literal_only (test_lz4_block.BlockTests.test_literal_only) ... ok
+test_match_overrun (test_lz4_block.BlockTests.test_match_overrun) ... ok
+test_mismatched_size (test_lz4_block.BlockTests.test_mismatched_size) ... ok
+test_offset_before_start (test_lz4_block.BlockTests.test_offset_before_start) ... ok
+test_terminal_five_literals_required (test_lz4_block.BlockTests.test_terminal_five_literals_required) ... ok
+test_terminal_sequence_required (test_lz4_block.BlockTests.test_terminal_sequence_required) ... ok
+test_too_near_final_match (test_lz4_block.BlockTests.test_too_near_final_match) ... ok
+test_types (test_lz4_block.BlockTests.test_types) ... ok
+test_zero_offset (test_lz4_block.BlockTests.test_zero_offset) ... ok
+test_relocated_self_contained_cli (test_owner_walk.PackagingV2.test_relocated_self_contained_cli) ... ok
+test_source_size_rejected_before_open_read (test_owner_walk.PackagingV2.test_source_size_rejected_before_open_read) ... ok
+test_ambiguous_81_raw_length_never_guessed (test_owner_walk.RegressionV2.test_ambiguous_81_raw_length_never_guessed) ... ok
+test_existing_unrelated_output_is_not_overwritten (test_owner_walk.RegressionV2.test_existing_unrelated_output_is_not_overwritten) ... ok
+test_failed_annotation_after_bounded_opaque_still_masks_inner_page (test_owner_walk.RegressionV2.test_failed_annotation_after_bounded_opaque_still_masks_inner_page) ... ok
+test_global_claim_budget (test_owner_walk.RegressionV2.test_global_claim_budget) ... ok
+test_hardlink_output_rejected_without_change (test_owner_walk.RegressionV2.test_hardlink_output_rejected_without_change) ... ok
+test_incomplete_outer_still_owns_opaque_payload (test_owner_walk.RegressionV2.test_incomplete_outer_still_owns_opaque_payload) ... ok
+test_missing_signature_newline_rejected (test_owner_walk.RegressionV2.test_missing_signature_newline_rejected) ... ok
+test_new_output_does_not_change_source (test_owner_walk.RegressionV2.test_new_output_does_not_change_source) ... ok
+test_non_ascii_signature_is_clean_rejection (test_owner_walk.RegressionV2.test_non_ascii_signature_is_clean_rejection) ... ok
+test_page_budget_checked_before_extra_decode (test_owner_walk.RegressionV2.test_page_budget_checked_before_extra_decode) ... ok
+test_publication_race_cannot_clobber (test_owner_walk.RegressionV2.test_publication_race_cannot_clobber) ... ok
+test_same_path_rejected_without_change (test_owner_walk.RegressionV2.test_same_path_rejected_without_change) ... ok
+test_symlink_output_rejected_without_change (test_owner_walk.RegressionV2.test_symlink_output_rejected_without_change) ... ok
+test_symlink_parent_rejected (test_owner_walk.RegressionV2.test_symlink_parent_rejected) ... ok
+test_complete_synthetic_ownership (test_owner_walk.TransportTests.test_complete_synthetic_ownership) ... ok
+test_corrupt_annotation_length_stops_chain (test_owner_walk.TransportTests.test_corrupt_annotation_length_stops_chain) ... ok
+test_curve_extra_properties (test_owner_walk.TransportTests.test_curve_extra_properties) ... ok
+test_encoded81_bounds_fail_closed (test_owner_walk.TransportTests.test_encoded81_bounds_fail_closed) ... ok
+test_encoded81_stays_opaque (test_owner_walk.TransportTests.test_encoded81_stays_opaque) ... ok
+test_histogram_zero_x_never_filled (test_owner_walk.TransportTests.test_histogram_zero_x_never_filled) ... ok
+test_missing_dataplot_magic_rejected (test_owner_walk.TransportTests.test_missing_dataplot_magic_rejected) ... ok
+test_named_title_from_sequential_parent (test_owner_walk.TransportTests.test_named_title_from_sequential_parent) ... ok
+test_nested_candidate_not_duplicate_standalone_page (test_owner_walk.TransportTests.test_nested_candidate_not_duplicate_standalone_page) ... ok
+test_no_mutation (test_owner_walk.TransportTests.test_no_mutation) ... ok
+test_noncanonical_varint_rejected (test_owner_walk.TransportTests.test_noncanonical_varint_rejected) ... ok
+test_nonempty_axisbreak_not_skipped (test_owner_walk.TransportTests.test_nonempty_axisbreak_not_skipped) ... ok
+test_nonempty_layer_label_and_properties (test_owner_walk.TransportTests.test_nonempty_layer_label_and_properties) ... ok
+test_truncation_not_complete (test_owner_walk.TransportTests.test_truncation_not_complete) ... ok
+test_two_layers_keep_distinct_owner_intervals (test_owner_walk.TransportTests.test_two_layers_keep_distinct_owner_intervals) ... ok
+test_two_pages (test_owner_walk.TransportTests.test_two_pages) ... ok
+test_unsupported_sparse_opcode_not_silently_skipped (test_owner_walk.TransportTests.test_unsupported_sparse_opcode_not_silently_skipped) ... ok
+test_wrong_signature_rejected (test_owner_walk.TransportTests.test_wrong_signature_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 2.100s
+
+OK

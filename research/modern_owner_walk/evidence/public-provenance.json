@@ -1,0 +1,60 @@
+{
+  "fixtures_included": false,
+  "sources": [
+    {
+      "record_url": "https://zenodo.org/records/20155927",
+      "license": "CC-BY-4.0",
+      "attribution": "Alexander Kazakov and coauthors",
+      "archive_member": "Low-T Magnetoresistance/HelioxVT_MR_summary.pptx",
+      "public_source_ppt_sha256": "207de07f76806d1059f4b6829203c2e3a4a74823df8b457cf03497cf9262a250",
+      "usage": "106 CPYUA Contents streams from published Origin OLE objects; binary samples not bundled"
+    },
+    {
+      "record_url": "https://zenodo.org/records/20155927",
+      "license": "CC-BY-4.0",
+      "attribution": "Alexander Kazakov and coauthors",
+      "archive_member": "Spectral studies/Spectral_studies_calibration/intensitites.opju",
+      "usage": "One standalone OPJU sample; not bundled"
+    },
+    {
+      "record_url": "https://doi.org/10.57745/W0SEAA",
+      "license": "Etalab-2.0",
+      "usage": "Three public OGGU files, IDs 667553, 667559, 667566; not bundled"
+    }
+  ],
+  "standalone_input_hashes": [
+    {
+      "bytes": 303758,
+      "sha256": "d33be3c379310b57921a29de3f636142edba782ce7a3707ef52f652026e6333d",
+      "signature": "CPYUA 4.3268 195",
+      "file": "spectral-calibration.opju"
+    },
+    {
+      "bytes": 29586,
+      "sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+      "signature": "CPYUA 4.3683 132",
+      "file": "dataverse-667553.oggu"
+    },
+    {
+      "bytes": 29769,
+      "sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+      "signature": "CPYUA 4.3683 132",
+      "file": "dataverse-667559.oggu"
+    },
+    {
+      "bytes": 26453,
+      "sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+      "signature": "CPYUA 4.3683 132",
+      "file": "dataverse-667566.oggu"
+    }
+  ],
+  "semantic_reference": {
+    "project": "LabPlot 2.12.1 bundled liborigin",
+    "official_source_archive": "https://download.kde.org/stable/labplot/labplot-2.12.1.tar.xz",
+    "archive_sha256": "e28155bfddf40e5b6f7c4791313556d1e48138044f216f210d515b9f6d6c106a",
+    "file": "src/3rdparty/liborigin/OriginAnyParser.cpp",
+    "file_sha256": "b43d1fbf3b70fd135188dcd12838c83b0886dc3444dbc63b086183e09f53d611",
+    "use": "Static old-format list-order and field-role corroboration only. No third-party code copied or bundled; not modern Origin acceptance."
+  },
+  "code_license": "Repository MIT; original project-authored code and synthetic tests only"
+}

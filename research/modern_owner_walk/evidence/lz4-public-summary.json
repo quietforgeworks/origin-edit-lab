@@ -1,0 +1,30 @@
+{
+  "proof_summary": {
+    "blocks": 259,
+    "compressed_smaller": 182,
+    "two_decoder_exact": 182,
+    "equal_length_opaque": 77,
+    "smaller_decode_failures": 0,
+    "equal_length_c_decoder_success": 0,
+    "all_input_hashes_unchanged": true,
+    "installed_liblz4_version": "1.10.0",
+    "Origin_semantics_verified": false,
+    "Origin_reopen_verified": false,
+    "writes_to_native_inputs": false,
+    "scope": "Encoded81 blocks in currently recognized public owner chains only. Equal-length payloads remain opaque, raw fallback unproved."
+  },
+  "discovery_scope": {
+    "public_files": 110,
+    "sources_unchanged": true,
+    "owner_walker_sha256": "afe17b186f1735e252c3ea376d36a7802f8d37e2b98f7c6d32a6fa3602c75b90",
+    "opaque_blocks": 259,
+    "files_with_blocks": 104,
+    "zlib_exact_consumed_matches": 0,
+    "codec_or_semantics_accepted": false,
+    "scope": "Only encoded81 blocks visible in supported identified page chains; not whole-file coverage",
+    "unsupported_file_count": 0
+  },
+  "decoder_separate_from_owner": true,
+  "equal_length_mode": "UNKNOWN; never treated as raw fallback",
+  "format_reference": "https://github.com/lz4/lz4/blob/v1.10.0/doc/lz4_Block_format.md"
+}

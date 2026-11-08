@@ -1,0 +1,18 @@
+{
+  "source_only": true,
+  "native_binary_fixtures": 0,
+  "private_input_hash_matches": 0,
+  "private_workspace_path_matches": 0,
+  "symlinks": 0,
+  "owner_module_unchanged_from_reviewed_v2": true,
+  "tests": {
+    "normal": 49,
+    "optimized": 49,
+    "relocated_normal": 49,
+    "relocated_optimized": 49,
+    "skipped_this_environment": 0
+  },
+  "lz4_separate_from_owner": true,
+  "dataset_envelope_not_included": true,
+  "publication_status": "Prepared only; not pushed or installed"
+}
