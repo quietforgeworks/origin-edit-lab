@@ -1,0 +1,607 @@
+{
+  "synthetic": {
+    "input_sequences": 483,
+    "exact_budget_encodings": 1264,
+    "decoded_words": 39543,
+    "nonminimal_encodings": 781,
+    "missing_sentinel_occurrences": 566,
+    "aggregate_raw_and_encoded_sha256": "8d4c06043c8680b3e2139f7743426b27bbc133212529cb5fd21a832b4416e711"
+  },
+  "public_template_lengths": {
+    "files": 3,
+    "streams": 13,
+    "toy_exact_budget_successes": 13,
+    "random_bit_refusals": 13,
+    "all_source_hashes_unchanged": true,
+    "records": [
+      {
+        "file": "dataverse-667553.oggu",
+        "source_sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+        "source_stream_interval": [
+          323,
+          705
+        ],
+        "count": 181,
+        "target_bytes": 382,
+        "source_stream_sha256": "3155432311fea1847e37e447ea1ddc32128484b730b612b9d09d7d674e20ef85",
+        "source_raw_sha256": "f79a05f7d3457854bc8ab32e68f834fa95b2d61a00b023c794a24da0ef7b0fd4",
+        "source_reencoded_sha256": "3155432311fea1847e37e447ea1ddc32128484b730b612b9d09d7d674e20ef85",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "67713944b93f0e2a3510975f1e41f009baeb96bd4dbb524966c867dd576e0cf0",
+        "toy_analysis": {
+          "count": 181,
+          "control_bytes": 91,
+          "minimum_bytes": 259,
+          "maximum_bytes": 1539,
+          "reachable_intervals": [
+            [
+              259,
+              1539
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "44c5d52ab05fe8b34b2a6d2ddb7eb022ffc292ac80d00fafaf72129c0fa6ffdd",
+        "toy_stream_bytes": 382,
+        "extra_bytes_above_toy_minimum": 123,
+        "random_bit_analysis": {
+          "count": 181,
+          "control_bytes": 91,
+          "minimum_bytes": 1538,
+          "maximum_bytes": 1539,
+          "reachable_intervals": [
+            [
+              1538,
+              1539
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667553.oggu",
+        "source_sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+        "source_stream_interval": [
+          938,
+          2272
+        ],
+        "count": 181,
+        "target_bytes": 1334,
+        "source_stream_sha256": "fed836ad2eca11e81c6e48761a51c701569b75cb04a0c7a0b9df8f37783973f9",
+        "source_raw_sha256": "148b629e2c6fcc6cda86e16155c696a8466802e5d37292b39b4313525b29de2b",
+        "source_reencoded_sha256": "fed836ad2eca11e81c6e48761a51c701569b75cb04a0c7a0b9df8f37783973f9",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "67713944b93f0e2a3510975f1e41f009baeb96bd4dbb524966c867dd576e0cf0",
+        "toy_analysis": {
+          "count": 181,
+          "control_bytes": 91,
+          "minimum_bytes": 259,
+          "maximum_bytes": 1539,
+          "reachable_intervals": [
+            [
+              259,
+              1539
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "37ca37ccdcb587bf202a7eec9f16f3965f8f40fd1361f77e4a44f35935513131",
+        "toy_stream_bytes": 1334,
+        "extra_bytes_above_toy_minimum": 1075,
+        "random_bit_analysis": {
+          "count": 181,
+          "control_bytes": 91,
+          "minimum_bytes": 1538,
+          "maximum_bytes": 1539,
+          "reachable_intervals": [
+            [
+              1538,
+              1539
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667553.oggu",
+        "source_sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+        "source_stream_interval": [
+          2533,
+          2673
+        ],
+        "count": 22,
+        "target_bytes": 140,
+        "source_stream_sha256": "55f8f35d9d04fb50969c2ac79be0032b6f3ed368f61ce4f88691a5488c8a40fc",
+        "source_raw_sha256": "74266bc9117bb2c3ac19fa06b99459af2ed1bf5128b8547dc5659e30be7c9fc8",
+        "source_reencoded_sha256": "55f8f35d9d04fb50969c2ac79be0032b6f3ed368f61ce4f88691a5488c8a40fc",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "4a988168d13fcb7f5d06833f540ac7577648875ab68179abd84926528a384a50",
+        "toy_analysis": {
+          "count": 22,
+          "control_bytes": 11,
+          "minimum_bytes": 97,
+          "maximum_bytes": 187,
+          "reachable_intervals": [
+            [
+              97,
+              187
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "8d8f86b5188e19765b63682bc2c3de93e44737931886d2bcecb9f8eadbd625b9",
+        "toy_stream_bytes": 140,
+        "extra_bytes_above_toy_minimum": 43,
+        "random_bit_analysis": {
+          "count": 22,
+          "control_bytes": 11,
+          "minimum_bytes": 187,
+          "maximum_bytes": 187,
+          "reachable_intervals": [
+            [
+              187,
+              187
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667553.oggu",
+        "source_sha256": "8148b1d8ea7995916b6ade44c2f19d8cc6d55aabb41bc96cef6b3de24aa0ffd0",
+        "source_stream_interval": [
+          2898,
+          3057
+        ],
+        "count": 22,
+        "target_bytes": 159,
+        "source_stream_sha256": "cfa1cecb2e8955a2783c1b5413694dbfc9d2fd16a705409dfc1db694b5e5b227",
+        "source_raw_sha256": "c17aead3896bc6ede74240a512bf9992edc3b42a69eef3a9f0bd9b3927494e8e",
+        "source_reencoded_sha256": "cfa1cecb2e8955a2783c1b5413694dbfc9d2fd16a705409dfc1db694b5e5b227",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "4a988168d13fcb7f5d06833f540ac7577648875ab68179abd84926528a384a50",
+        "toy_analysis": {
+          "count": 22,
+          "control_bytes": 11,
+          "minimum_bytes": 97,
+          "maximum_bytes": 187,
+          "reachable_intervals": [
+            [
+              97,
+              187
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "13c540e626e683284dcf721b74aa6b44469a83bd1f2169962fbb748b13b0333c",
+        "toy_stream_bytes": 159,
+        "extra_bytes_above_toy_minimum": 62,
+        "random_bit_analysis": {
+          "count": 22,
+          "control_bytes": 11,
+          "minimum_bytes": 187,
+          "maximum_bytes": 187,
+          "reachable_intervals": [
+            [
+              187,
+              187
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667559.oggu",
+        "source_sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+        "source_stream_interval": [
+          326,
+          886
+        ],
+        "count": 321,
+        "target_bytes": 560,
+        "source_stream_sha256": "12d4f1fd7b31bba9f63d3f02bab9896820548ba57cede1e50db0056b849d5a12",
+        "source_raw_sha256": "1e7ef152c13a39cbe56ba0db154abc0eaf71da37188a33e2fae64f5cf8002dc7",
+        "source_reencoded_sha256": "12d4f1fd7b31bba9f63d3f02bab9896820548ba57cede1e50db0056b849d5a12",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "82b7e7a8f64786fc6776a32914ce5ee8343b107cb88003f8dff9eb971ec30d11",
+        "toy_analysis": {
+          "count": 321,
+          "control_bytes": 161,
+          "minimum_bytes": 359,
+          "maximum_bytes": 2729,
+          "reachable_intervals": [
+            [
+              359,
+              2729
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "7f04ce52cfb9253c3290b2c98bd0b5107ffb48b65323b5dbc7315eb0f17e0384",
+        "toy_stream_bytes": 560,
+        "extra_bytes_above_toy_minimum": 201,
+        "random_bit_analysis": {
+          "count": 321,
+          "control_bytes": 161,
+          "minimum_bytes": 2726,
+          "maximum_bytes": 2729,
+          "reachable_intervals": [
+            [
+              2726,
+              2729
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667559.oggu",
+        "source_sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+        "source_stream_interval": [
+          1118,
+          3424
+        ],
+        "count": 312,
+        "target_bytes": 2306,
+        "source_stream_sha256": "c069d1c894d1553fa039872fc440283d322fa90d51ec3f3efb2e61e3a97ba823",
+        "source_raw_sha256": "448b1784ff30de59ed945a522a753ee2c999ff5a2ca6049b721b15ccca8f1a26",
+        "source_reencoded_sha256": "c069d1c894d1553fa039872fc440283d322fa90d51ec3f3efb2e61e3a97ba823",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "8761cf6e7c94dcbf8db1cb6933ff2901d47e5c17e1aec85365ec0604f3b59ae3",
+        "toy_analysis": {
+          "count": 312,
+          "control_bytes": 156,
+          "minimum_bytes": 354,
+          "maximum_bytes": 2652,
+          "reachable_intervals": [
+            [
+              354,
+              2652
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "17b035e0c50e0fa5a33cd27eba0e52b85f8f19751a4278eeaac59a1314c69a26",
+        "toy_stream_bytes": 2306,
+        "extra_bytes_above_toy_minimum": 1952,
+        "random_bit_analysis": {
+          "count": 312,
+          "control_bytes": 156,
+          "minimum_bytes": 2650,
+          "maximum_bytes": 2652,
+          "reachable_intervals": [
+            [
+              2650,
+              2652
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667559.oggu",
+        "source_sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+        "source_stream_interval": [
+          3687,
+          3893
+        ],
+        "count": 36,
+        "target_bytes": 206,
+        "source_stream_sha256": "0aec8e8fc708d4b0951e45f3417e41ba70f03e1b2ece34e46c631a97cd80dbba",
+        "source_raw_sha256": "a5d5c36839e551b84e0e5d38f5fc6d8f64e15e16b0bd1ec9de6062a6ac023ecd",
+        "source_reencoded_sha256": "0aec8e8fc708d4b0951e45f3417e41ba70f03e1b2ece34e46c631a97cd80dbba",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "f266ad691ca02758868dc75135c67c1ec431ff2b86d9406ceef4a8d0a1365a57",
+        "toy_analysis": {
+          "count": 36,
+          "control_bytes": 18,
+          "minimum_bytes": 124,
+          "maximum_bytes": 306,
+          "reachable_intervals": [
+            [
+              124,
+              306
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "1cbad7453353b01a578f8e59d17a7d12e1815f5be7b5c590fc191090b98aa2f4",
+        "toy_stream_bytes": 206,
+        "extra_bytes_above_toy_minimum": 82,
+        "random_bit_analysis": {
+          "count": 36,
+          "control_bytes": 18,
+          "minimum_bytes": 305,
+          "maximum_bytes": 306,
+          "reachable_intervals": [
+            [
+              305,
+              306
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667559.oggu",
+        "source_sha256": "32cf63bd7be289b6048d24a21af09b260b62e58c6a62679ce6a83206d917247f",
+        "source_stream_interval": [
+          4116,
+          4381
+        ],
+        "count": 36,
+        "target_bytes": 265,
+        "source_stream_sha256": "5d269fbad41d52374aabfe55b2d6829d3e2113e7b61642aca634f69b0dc7e312",
+        "source_raw_sha256": "8eb2d166c29a6a2824b1b6b86410b67bae555d22dc05f35f2d644c9f4c3f0ad5",
+        "source_reencoded_sha256": "5d269fbad41d52374aabfe55b2d6829d3e2113e7b61642aca634f69b0dc7e312",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "f266ad691ca02758868dc75135c67c1ec431ff2b86d9406ceef4a8d0a1365a57",
+        "toy_analysis": {
+          "count": 36,
+          "control_bytes": 18,
+          "minimum_bytes": 124,
+          "maximum_bytes": 306,
+          "reachable_intervals": [
+            [
+              124,
+              306
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "4a71f6be2df4f3101a07bcb2a67dbcff2e9243383a9de612192919bf30618d63",
+        "toy_stream_bytes": 265,
+        "extra_bytes_above_toy_minimum": 141,
+        "random_bit_analysis": {
+          "count": 36,
+          "control_bytes": 18,
+          "minimum_bytes": 305,
+          "maximum_bytes": 306,
+          "reachable_intervals": [
+            [
+              305,
+              306
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667566.oggu",
+        "source_sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+        "source_stream_interval": [
+          323,
+          868
+        ],
+        "count": 196,
+        "target_bytes": 545,
+        "source_stream_sha256": "4f3f8a0923d4e6e2fa9b6dd9c11a87a4c86b1cefa002fb9dcae814d740e6f4a0",
+        "source_raw_sha256": "b8c7365d7550bba53a838132e4d96d8c09dfe0b473462ab11eb85b5a66bb3d93",
+        "source_reencoded_sha256": "4f3f8a0923d4e6e2fa9b6dd9c11a87a4c86b1cefa002fb9dcae814d740e6f4a0",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "2d841eac6f5f194ab711a6298a1c489824783914e29d6b6674a7d443a788dc03",
+        "toy_analysis": {
+          "count": 196,
+          "control_bytes": 98,
+          "minimum_bytes": 266,
+          "maximum_bytes": 1666,
+          "reachable_intervals": [
+            [
+              266,
+              1666
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "ba12c77a768546920f405b8af4f16e1942dbc53463bd59ef3cf676e196ed7844",
+        "toy_stream_bytes": 545,
+        "extra_bytes_above_toy_minimum": 279,
+        "random_bit_analysis": {
+          "count": 196,
+          "control_bytes": 98,
+          "minimum_bytes": 1665,
+          "maximum_bytes": 1666,
+          "reachable_intervals": [
+            [
+              1665,
+              1666
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667566.oggu",
+        "source_sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+        "source_stream_interval": [
+          1092,
+          1530
+        ],
+        "count": 62,
+        "target_bytes": 438,
+        "source_stream_sha256": "ec6cddb3fa8ed1f751e25fe437b75263dd554350d69b8b6046d5ee40832f619b",
+        "source_raw_sha256": "a4ba58f0e8c3adef99fdc921bd41911cd4fe6dda192299e2061074b6b597b1db",
+        "source_reencoded_sha256": "ec6cddb3fa8ed1f751e25fe437b75263dd554350d69b8b6046d5ee40832f619b",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "6bc320ff1153f3eafb4a6ed4c425b39a27a9cdbf5cec6bd2bce18ed78921ea43",
+        "toy_analysis": {
+          "count": 62,
+          "control_bytes": 31,
+          "minimum_bytes": 144,
+          "maximum_bytes": 527,
+          "reachable_intervals": [
+            [
+              144,
+              527
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "1cd2c5d2055f88e75ebf7128823386380e103c40d4254e09a700737783e3d484",
+        "toy_stream_bytes": 438,
+        "extra_bytes_above_toy_minimum": 294,
+        "random_bit_analysis": {
+          "count": 62,
+          "control_bytes": 31,
+          "minimum_bytes": 526,
+          "maximum_bytes": 527,
+          "reachable_intervals": [
+            [
+              526,
+              527
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667566.oggu",
+        "source_sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+        "source_stream_interval": [
+          1535,
+          2175
+        ],
+        "count": 87,
+        "target_bytes": 640,
+        "source_stream_sha256": "95da34c1a99430080a27e2d7841fa26c47dcb35103f4ea64e93d3710e5e9c20a",
+        "source_raw_sha256": "c8b76d1f55a75d6abd26772ed82c992f460557c391dbc9641084b7deb6524128",
+        "source_reencoded_sha256": "95da34c1a99430080a27e2d7841fa26c47dcb35103f4ea64e93d3710e5e9c20a",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "d0f90a6c51460e986d40eca1a42e86f025d15773d9ae3be64eec57b50bf1fba2",
+        "toy_analysis": {
+          "count": 87,
+          "control_bytes": 44,
+          "minimum_bytes": 182,
+          "maximum_bytes": 740,
+          "reachable_intervals": [
+            [
+              182,
+              740
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "0afd031b72752542ecb30983800290ea433e1a4a39b322ac9581405498cf17bc",
+        "toy_stream_bytes": 640,
+        "extra_bytes_above_toy_minimum": 458,
+        "random_bit_analysis": {
+          "count": 87,
+          "control_bytes": 44,
+          "minimum_bytes": 740,
+          "maximum_bytes": 740,
+          "reachable_intervals": [
+            [
+              740,
+              740
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667566.oggu",
+        "source_sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+        "source_stream_interval": [
+          2438,
+          2575
+        ],
+        "count": 19,
+        "target_bytes": 137,
+        "source_stream_sha256": "964824ae9fe818b83ea6547bcfd09bd307584425989179c795f9bfcc28db4c0a",
+        "source_raw_sha256": "c6913af88c0763935361fec633bad0b9f8c3af97b0fe0060914654c16d22907d",
+        "source_reencoded_sha256": "964824ae9fe818b83ea6547bcfd09bd307584425989179c795f9bfcc28db4c0a",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "2003a8eebd5cd687186b74436231af51b5d5dbf5a9254d0f69df25dd8356cc09",
+        "toy_analysis": {
+          "count": 19,
+          "control_bytes": 10,
+          "minimum_bytes": 89,
+          "maximum_bytes": 162,
+          "reachable_intervals": [
+            [
+              89,
+              162
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "72c14cc38eb0dd22a026dba529a4a34a394852d3a736db51d8161616f431efa5",
+        "toy_stream_bytes": 137,
+        "extra_bytes_above_toy_minimum": 48,
+        "random_bit_analysis": {
+          "count": 19,
+          "control_bytes": 10,
+          "minimum_bytes": 162,
+          "maximum_bytes": 162,
+          "reachable_intervals": [
+            [
+              162,
+              162
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      },
+      {
+        "file": "dataverse-667566.oggu",
+        "source_sha256": "b12d0001abb980c56d0e0f0b1f42d7dfd0857bfa6bda8f849655d77721412fd2",
+        "source_stream_interval": [
+          2798,
+          2935
+        ],
+        "count": 19,
+        "target_bytes": 137,
+        "source_stream_sha256": "5548077c1673e8096bb9b116813912a575843a8827b869c6d083ee9af5a50a9f",
+        "source_raw_sha256": "de827094cd11f42932992557ca70d6ee88e1ad6a06e3de0898ec469d5e315b69",
+        "source_reencoded_sha256": "5548077c1673e8096bb9b116813912a575843a8827b869c6d083ee9af5a50a9f",
+        "toy_definition": "binary64 values float(i) for i in range(count), synthetic only",
+        "toy_raw_sha256": "2003a8eebd5cd687186b74436231af51b5d5dbf5a9254d0f69df25dd8356cc09",
+        "toy_analysis": {
+          "count": 19,
+          "control_bytes": 10,
+          "minimum_bytes": 89,
+          "maximum_bytes": 162,
+          "reachable_intervals": [
+            [
+              89,
+              162
+            ]
+          ]
+        },
+        "toy_status": "exact_budget_codec_success",
+        "toy_stream_sha256": "72c14cc38eb0dd22a026dba529a4a34a394852d3a736db51d8161616f431efa5",
+        "toy_stream_bytes": 137,
+        "extra_bytes_above_toy_minimum": 48,
+        "random_bit_analysis": {
+          "count": 19,
+          "control_bytes": 10,
+          "minimum_bytes": 162,
+          "maximum_bytes": 162,
+          "reachable_intervals": [
+            [
+              162,
+              162
+            ]
+          ]
+        },
+        "random_bit_status": "refused_unreachable"
+      }
+    ]
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "optimize": 0,
+  "external_revision": "431deeb7c8473503970ca56b78cc1678f57d373d",
+  "external_source_pins": {
+    "container": "e80996b8955d46b446bdc4761a55b19b6d760619edb0b94b98f16ebe47cb4115",
+    "opju_codec": "5a2c6f000ff8fef0a71ba8aab0876f7de785d5bb4dfa8d07dd612f052b737be9"
+  },
+  "implementation_sha256": "982b2c9119e8a460bcd850e46db14268164dc28a78faf38fc4153123e2031e25",
+  "harness_sha256": "a0d2ea12255d8fdcecc8ebf0234ad3868a145db27ffe6d0bd755a33e7371df7b",
+  "public_template_manifest_sha256": "4f59150060fd427f97fea59829c8cd7b070010287b6f030097b61c28b89810ec",
+  "unchanged_external_qualification": "Origin finite missing sentinel normalized to NaN; all other raw bits checked exactly",
+  "both_integer_decoders_bit_exact": true,
+  "native_origin_acceptance": false,
+  "native_containers_written": false,
+  "source_values_modified": false
+}

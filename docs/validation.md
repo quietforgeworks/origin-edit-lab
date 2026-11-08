@@ -2,7 +2,7 @@
 
 This public tree is tested on Linux, Python 3.12. The default test runner runs both normal Python and `python -O`, using only generated synthetic inputs. Synthetic OOXML fixtures are package-logic tests, not independently Office-validated presentations.
 
-A clean checkout on the recorded Linux/Python 3.12 environment runs 739 tests per Python mode: **536 pass and 203 explicitly skip**, with no failures. This includes the optional system liblz4 test, which skips on systems without liblz4 (535 pass, 204 skip). The previous 701 tests and all reviewed scientific modules are retained unchanged. The FPC addition contributes 11 author, 17 independent-review and 10 repository-packaging tests; their overlapping module/test names are deliberately isolated in separate subprocesses.
+A clean checkout on the recorded Linux/Python 3.12 environment runs 759 tests per Python mode: **556 pass and 203 explicitly skip**, with no failures. This includes the optional system liblz4 test, which skips on systems without liblz4 (555 pass, 204 skip). The previous 701 tests and all reviewed scientific modules are retained unchanged. The FPC addition contributes 11 author, 17 independent-review and 10 repository-packaging tests; their overlapping module/test names are deliberately isolated in separate subprocesses.
 
 The original suites include:
 
@@ -133,3 +133,12 @@ No OPJU/CFB/PPT writeback, dataset ownership proof, row-metadata changes, graph 
 analysis-dependency updates, or Origin/PowerPoint application lifecycle acceptance
 is provided by this codec. Those native application stages remain **NOT_RUN**.
 The separate dataset-writeback experiment is not part of this addition.
+
+
+## Exact-budget FPC research revision 2
+
+The isolated [exact-budget module](../research/modern_fpc_exact_budget/README.md) adds 14 codec/contract unittest groups and six repository-packaging tests per mode. All 20 pass after relocation in normal and optimized Python. All existing scientific modules and Skill 0.2.0 retain their baseline bytes.
+
+Standalone relocated oracle runs reproduce 125,970 width multisets, 1,111 streams and 63,627 schedules per mode. Adversarial runs reproduce 12,465 accepted budgets, 18,656 refusals, 43 invalid calls and two million-word boundary streams per mode. The unchanged frozen independent evidence also records 1,264 synthetic encodings, all 13 public budgets and 430 additional malformed/tampered-input refusals per mode; those external/public runs are not repeated by the default repository suite.
+
+The fixed public fixture is hash-pinned before parsing. Count remains trusted external metadata and FPC has no checksum; mathematical reachability cannot authenticate framing or data. The external decoder normalizes the finite missing sentinel, as documented. Native dataset/page/container serialization, Origin acceptance of nonminimal encodings, and true Origin cold-open/save/reopen/export remain NOT_RUN. See the [integration record](../research/modern_fpc_exact_budget/INTEGRATION.md) for inventory, licensing and test distinctions.

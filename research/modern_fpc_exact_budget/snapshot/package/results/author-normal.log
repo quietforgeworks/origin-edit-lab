@@ -1,0 +1,13 @@
+test_exact_word_categories (test_exact_budget.ExactBudgetTests.test_exact_word_categories) ... ok
+test_exhaustive_small_actual_inputs_and_all_budgets (test_exact_budget.ExactBudgetTests.test_exhaustive_small_actual_inputs_and_all_budgets) ... ok
+test_immutable_and_odd_unused_nibble (test_exact_budget.ExactBudgetTests.test_immutable_and_odd_unused_nibble) ... ok
+test_known_width_holes (test_exact_budget.ExactBudgetTests.test_known_width_holes) ... ok
+test_large_state_reuse_and_wrap (test_exact_budget.ExactBudgetTests.test_large_state_reuse_and_wrap) ... ok
+test_reset_separate_segments (test_exact_budget.ExactBudgetTests.test_reset_separate_segments) ... ok
+test_seeded_sequences_and_boundary_budgets (test_exact_budget.ExactBudgetTests.test_seeded_sequences_and_boundary_budgets) ... ok
+test_types_and_limits_fail_closed (test_exact_budget.ExactBudgetTests.test_types_and_limits_fail_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.646s
+
+OK

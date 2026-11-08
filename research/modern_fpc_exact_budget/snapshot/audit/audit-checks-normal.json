@@ -1,0 +1,20 @@
+{
+  "reviewed_hashes": {
+    "reference/independent_fpc_decoder.py": "0ad34fbaedf86655085e6302d864a3456af6377f7d00e641a2879dbf79734d89",
+    "reference/fpc_numeric.py": "43c3415066ed12f1f158e8406f6d62d1dc767daea537e31441865934e6c70dbc",
+    "reference/verified_oracle.py": "2e6281e200590d83c063fd1e633caa09988f511ba34fe925c2807871a105b98d",
+    "independent-review/adversarial_review.py": "620f999722de6b9a4e788d74da6e11fdc4aaa82590d9fd430a5d0598d4800f90",
+    "independent-review/reachability_oracle.py": "4bce21e420ed09ca2e956b16d0fdec285f15ba4640d03962cf61f1fff0cd734c",
+    "tests/test_exact_budget.py": "85a08e74a3e0546e0a27414eda04761761bcb6ec9484847f8f0e6932b0901c97",
+    "tests/test_revision_contract.py": "fe19bf10fc2487c5ed6ba2df74cfa5677067479f3840872f46f64e527f822b7b",
+    "evidence/public-template-streams.json": "4f59150060fd427f97fea59829c8cd7b070010287b6f030097b61c28b89810ec",
+    "code/experimental_exact_fpc.py": "982b2c9119e8a460bcd850e46db14268164dc28a78faf38fc4153123e2031e25",
+    "code/run_codec_experiments.py": "a0d2ea12255d8fdcecc8ebf0234ad3868a145db27ffe6d0bd755a33e7371df7b"
+  },
+  "exact_prior_stream_records": 13,
+  "exact_prior_provenance_records": 3,
+  "malformed_refusals": 430,
+  "synthetic_sentinel_and_nan_all_budgets": true,
+  "optimize": 0,
+  "normal_optimized_results_equal_except_optimize": true
+}

@@ -1,9 +1,9 @@
 {
   "schema": "origin-edit-lab-source-package-v1",
-  "baseline_commit": "891ffd13e66daab56ea5e0d65cc0d75e446ab8e5",
+  "baseline_commit": "67c3fd8d1f236c4470b4b58558f0d49037202d67",
   "profile": "reviewed-public-source-only-with-figure-layout-skill",
-  "file_count_excluding_this_manifest_and_its_checksum": 506,
-  "bytes_excluding_this_manifest_and_its_checksum": 9838810,
+  "file_count_excluding_this_manifest_and_its_checksum": 553,
+  "bytes_excluding_this_manifest_and_its_checksum": 10084068,
   "excludes": [
     "this manifest and its companion checksum from recursive inventory",
     "all generated fixtures, application profiles and runtime outputs"
@@ -27,8 +27,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14340,
-      "sha256": "e00b52c15e80f06e2beb377eb05d06d6d0d38674c15ca1ae294f06f762fde7c7"
+      "bytes": 14836,
+      "sha256": "ce22caf1469fe18b91b973a8b97e7a7e3010d9df5e31fa09b136d28062d15adc"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -72,8 +72,8 @@
     },
     {
       "path": "docs/validation.md",
-      "bytes": 16224,
-      "sha256": "fb6915a1ec8e47b62be83727f66b13b3d678a8503fbd72d87210f2ef32450fa8"
+      "bytes": 17602,
+      "sha256": "1ca363a8e92780d439d6a09236cc2fd89af5ebd0aa00d01ccfd1c34933b90795"
     },
     {
       "path": "docs/visual-layout.md",
@@ -1736,6 +1736,241 @@
       "sha256": "f322f79ef9cc20e948a623e94a8765d80ddeff24b1a954b3c071d37aa4e4e2a1"
     },
     {
+      "path": "research/modern_fpc_exact_budget/INTEGRATION.md",
+      "bytes": 3535,
+      "sha256": "1e959d2b379ef15b5afd26a4a62b9afc886fea555d550cc29f3685eed05fe874"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/README.md",
+      "bytes": 2706,
+      "sha256": "f58607a891c39e59580dbe8b5ed355751422121a7775720bc85f382f27caaaca"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/repository-tests/test_exact_budget_packaging.py",
+      "bytes": 4436,
+      "sha256": "d3addf02a8e6fac9e84d8c6d79e3d856716fbeaf341194a4970cfcf4fa5b1d19"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/MANIFEST.json",
+      "bytes": 7297,
+      "sha256": "105da20e019500b25bfbcabd0871774c756ab339319a6a33739d6153f6288202"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/README.md",
+      "bytes": 1804,
+      "sha256": "56dc2516e5757cdbff47bbdcd09ddb06979b22330cd458bd0c1dac845fe6be36"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/SHA256SUMS",
+      "bytes": 4309,
+      "sha256": "880a050cdba32951530c4f4b083931bbf39adb2d1958a66fad0adbcbc19f3a3b"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/PORTABLE_PUBLIC_AUDIT.md",
+      "bytes": 6854,
+      "sha256": "63936bda1e969f285be36fd385c732ca242f435e55e87a579fa6c7ad8707c411"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/audit-checks-normal.json",
+      "bytes": 1341,
+      "sha256": "29451bf439e177d12ebd3dc6c6eb2fbafd43e744edd5dee765b0a61315575497"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/audit-checks-normal.log",
+      "bytes": 1341,
+      "sha256": "29451bf439e177d12ebd3dc6c6eb2fbafd43e744edd5dee765b0a61315575497"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/audit-checks-optimized.json",
+      "bytes": 1341,
+      "sha256": "b6c982cb9de14100614bb50bd85b8d8cf73ffdb5b6d64b30fa704edb1beb358e"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/audit-checks-optimized.log",
+      "bytes": 1341,
+      "sha256": "b6c982cb9de14100614bb50bd85b8d8cf73ffdb5b6d64b30fa704edb1beb358e"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/audit_public_harness.py",
+      "bytes": 6123,
+      "sha256": "69f4edfa1e93bb72399d5d42cdf3f6d5a0517b24ca69f0e3c16ffd3e3f6d5ee8"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/old-runner-normal.json",
+      "bytes": 21750,
+      "sha256": "99ab378cbca1c2ca4ac2f0940478887042294ed3472c31f6abd2c78983c9603a"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/old-runner-optimized.json",
+      "bytes": 21750,
+      "sha256": "2030aaca3548a627d011baae9af5fd961e166bccd691a20fe252997efaa0e973"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/portable-public-normal.json",
+      "bytes": 22038,
+      "sha256": "037997f7c424a810e9dd214dc71889af8b7c32deea0bbc238ec8c6add7162ad9"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/portable-public-normal.log",
+      "bytes": 1251,
+      "sha256": "e977928c1917213b93108591ac5c3a97c9831c447541452fc6ac0bb7c24c0b49"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/portable-public-optimized.json",
+      "bytes": 22038,
+      "sha256": "8ce39e508af5fe8b9ceee46ccceb475171e462a992979ba17aa9a4734c38b4e5"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/audit/portable-public-optimized.log",
+      "bytes": 1251,
+      "sha256": "39e34129472694660f55a4e6fdf1d439c5998b8dea7f511ddebc7416e7e20245"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/CHANGES.md",
+      "bytes": 1507,
+      "sha256": "1bf25f778be41e08857f90e9c5ef0e4a6f517421be4516d70fc50a8c9e2bf758"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/LICENSE",
+      "bytes": 1072,
+      "sha256": "6bec3fa12142396c2aec26d2c62e1acc88726bb8568c9effeef02664be165884"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/README.md",
+      "bytes": 7402,
+      "sha256": "f2216751c6af0c22ebd6c02a2dcee96ef8c2c552e43879f021019cc5ab61861d"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/REPORT.md",
+      "bytes": 6385,
+      "sha256": "b5d8b2ad092e5ca8897e0ad3101fd11a0fb5ef31f0e58545d5479f14761c4351"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/SOURCES.md",
+      "bytes": 2970,
+      "sha256": "26ab571ed57697bf6d35f36d7a9c3ab0af58f260019c16090f7341949b75a902"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/code/experimental_exact_fpc.py",
+      "bytes": 7639,
+      "sha256": "982b2c9119e8a460bcd850e46db14268164dc28a78faf38fc4153123e2031e25"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/code/run_codec_experiments.py",
+      "bytes": 8269,
+      "sha256": "a0d2ea12255d8fdcecc8ebf0234ad3868a145db27ffe6d0bd755a33e7371df7b"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/evidence/public-template-streams.json",
+      "bytes": 10614,
+      "sha256": "4f59150060fd427f97fea59829c8cd7b070010287b6f030097b61c28b89810ec"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/independent-review/IMPLEMENTATION_REVIEW.md",
+      "bytes": 3892,
+      "sha256": "a30d5a6942bacff524c88d8b4e229ac6b5398c84fd7c7f217a10c493f131696f"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/independent-review/REACHABILITY_PROOF.md",
+      "bytes": 2643,
+      "sha256": "b57c3305b5f91f7f14489635a885f64c6c9531674f5fc722f1ac7fc8d223370a"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/independent-review/adversarial_review.py",
+      "bytes": 6236,
+      "sha256": "620f999722de6b9a4e788d74da6e11fdc4aaa82590d9fd430a5d0598d4800f90"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/independent-review/reachability_oracle.py",
+      "bytes": 3889,
+      "sha256": "4bce21e420ed09ca2e956b16d0fdec285f15ba4640d03962cf61f1fff0cd734c"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/reference/fpc_numeric.py",
+      "bytes": 6820,
+      "sha256": "43c3415066ed12f1f158e8406f6d62d1dc767daea537e31441865934e6c70dbc"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/reference/independent_fpc_decoder.py",
+      "bytes": 2632,
+      "sha256": "0ad34fbaedf86655085e6302d864a3456af6377f7d00e641a2879dbf79734d89"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/reference/verified_oracle.py",
+      "bytes": 3553,
+      "sha256": "2e6281e200590d83c063fd1e633caa09988f511ba34fe925c2807871a105b98d"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/adversarial-normal.json",
+      "bytes": 270,
+      "sha256": "117ffacbce25fce7100b5efd8f8ce109bc81f3f259d1bd223d49f136e7e68730"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/adversarial-normal.log",
+      "bytes": 252,
+      "sha256": "f9f162a86e56f15ce0c18146426444309ebc45e829acf9006f6805bac09b8df2"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/adversarial-optimized.json",
+      "bytes": 269,
+      "sha256": "9cf627abeeb9ae2ae848740735ec2c7e2789a4cb1410e77a9d2c1b284317d609"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/adversarial-optimized.log",
+      "bytes": 251,
+      "sha256": "eb4b1ce3380d3754b8b6f8af8ac8cbe41d29f84bc72f5983c14370cf4b1c336f"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/author-normal.log",
+      "bytes": 1004,
+      "sha256": "f36840916e3712abcde2a02ef4c3d8b27b8d68cf2730f1b53b5a07acfae861e4"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/author-optimized.log",
+      "bytes": 1004,
+      "sha256": "ac539ece0e019f6e8e44f3eb11e9b4c99b397b86f104db641ba3e1ffaf34e1b3"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/oracle-normal.json",
+      "bytes": 7253,
+      "sha256": "e63e61eba7cfd7bea5372312991add60fce9da449686f3bdd1203d4d4ba9df09"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/oracle-normal.log",
+      "bytes": 138,
+      "sha256": "bb72551324b7f855b5d44873f602d7afb7e77a7e0c84a9cbca81dc461d3d2ae6"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/oracle-optimized.json",
+      "bytes": 7253,
+      "sha256": "e63e61eba7cfd7bea5372312991add60fce9da449686f3bdd1203d4d4ba9df09"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/oracle-optimized.log",
+      "bytes": 138,
+      "sha256": "bb72551324b7f855b5d44873f602d7afb7e77a7e0c84a9cbca81dc461d3d2ae6"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/revision-normal.log",
+      "bytes": 1999,
+      "sha256": "db726d080aaf201b505b4855e425a907f880b452219ccd7719774267b021ef41"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/results/revision-optimized.log",
+      "bytes": 1999,
+      "sha256": "7658df26ee23824032480f258fedc3391aad594460b37a07043ea005cab51d2f"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/tests/test_exact_budget.py",
+      "bytes": 8560,
+      "sha256": "85a08e74a3e0546e0a27414eda04761761bcb6ec9484847f8f0e6932b0901c97"
+    },
+    {
+      "path": "research/modern_fpc_exact_budget/snapshot/package/tests/test_revision_contract.py",
+      "bytes": 4855,
+      "sha256": "fe19bf10fc2487c5ed6ba2df74cfa5677067479f3840872f46f64e527f822b7b"
+    },
+    {
       "path": "research/modern_native_binding/.gitignore",
       "bytes": 52,
       "sha256": "f7e52deea8a3bdd1c222bdef4a040d1ab0cd487451d4c71c4eb94b7187c51b1e"
@@ -2092,8 +2327,8 @@
     },
     {
       "path": "run_tests.py",
-      "bytes": 1477,
-      "sha256": "1a251b9a0db8c0e6bef799bddf3b8548711c15539308279ffbaaa0bfa49f12e6"
+      "bytes": 1587,
+      "sha256": "856f3dcea35682f080f09d0ad9f419bd1c5bbdcff16e15c201dc8401b3611b00"
     },
     {
       "path": "skills/collaborate-figure-layout/CHANGELOG.md",
