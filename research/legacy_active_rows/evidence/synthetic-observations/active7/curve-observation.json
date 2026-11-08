@@ -1,0 +1,533 @@
+{
+    "curve_found": true,
+    "method": "Actual imported XYCurve pointers, public Column::valueAt/rowCount and AbstractColumn::isValid/isMasked; passive QSignalSpy",
+    "point_signal_emissions": [
+        {
+            "end_index": 6,
+            "logical_point_count": 7,
+            "logical_points_binary64": [
+                [
+                    "8000000000000000",
+                    "8000000000000000"
+                ],
+                [
+                    "3ff199999999999a",
+                    "3fbf9add3746f65e"
+                ],
+                [
+                    "4000cccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "4008cccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "4010666666666666",
+                    "3fe0000000000000"
+                ],
+                [
+                    "4014666666666666",
+                    "3fe3333333333333"
+                ],
+                [
+                    "4018666666666666",
+                    "3fe6666666666666"
+                ]
+            ],
+            "start_index": 0
+        },
+        {
+            "end_index": 6,
+            "logical_point_count": 7,
+            "logical_points_binary64": [
+                [
+                    "8000000000000000",
+                    "8000000000000000"
+                ],
+                [
+                    "3ff199999999999a",
+                    "3fbf9add3746f65e"
+                ],
+                [
+                    "4000cccccccccccd",
+                    "3fd3333333333333"
+                ],
+                [
+                    "4008cccccccccccd",
+                    "3fd999999999999a"
+                ],
+                [
+                    "4010666666666666",
+                    "3fe0000000000000"
+                ],
+                [
+                    "4014666666666666",
+                    "3fe3333333333333"
+                ],
+                [
+                    "4018666666666666",
+                    "3fe6666666666666"
+                ]
+            ],
+            "start_index": 0
+        }
+    ],
+    "rows": [
+        {
+            "row": 0,
+            "x_bits": "8000000000000000",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "8000000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 1,
+            "x_bits": "3ff199999999999a",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fbf9add3746f65e",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 2,
+            "x_bits": "4000cccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 3,
+            "x_bits": "4008cccccccccccd",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fd999999999999a",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 4,
+            "x_bits": "4010666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe0000000000000",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 5,
+            "x_bits": "4014666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe3333333333333",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 6,
+            "x_bits": "4018666666666666",
+            "x_masked": false,
+            "x_valid": true,
+            "y_bits": "3fe6666666666666",
+            "y_masked": false,
+            "y_valid": true
+        },
+        {
+            "row": 7,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 8,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 9,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 10,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 11,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 12,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 13,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 14,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 15,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 16,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 17,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 18,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 19,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 20,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 21,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 22,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 23,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 24,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 25,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 26,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 27,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 28,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 29,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 30,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 31,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 32,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 33,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 34,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 35,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 36,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 37,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 38,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 39,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 40,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 41,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 42,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 43,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 44,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 45,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 46,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 47,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 48,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        },
+        {
+            "row": 49,
+            "x_bits": "7ff8000000000000",
+            "x_masked": false,
+            "x_valid": false,
+            "y_bits": "7ff8000000000000",
+            "y_masked": false,
+            "y_valid": false
+        }
+    ],
+    "signal_spy_valid": true,
+    "x_allocated_rows": 50,
+    "x_bound": true,
+    "y_allocated_rows": 50,
+    "y_bound": true
+}
