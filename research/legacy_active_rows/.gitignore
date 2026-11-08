@@ -1,0 +1,13 @@
+__pycache__/
+*.so
+*.opj
+*.lml
+application/results/
+application/profiles/
+candidates/generated*/
+candidates/run*/
+candidates/refused*/
+
+# Full app comparisons contain original fixture payload fragments.
+**/verified-results.json
+new-verification-reports/
