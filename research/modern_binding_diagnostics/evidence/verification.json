@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "tested_python": "3.12",
+  "self_contained_tests": {
+    "normal": {
+      "discovered": 33,
+      "passed": 32,
+      "external_skipped": 1
+    },
+    "optimized": {
+      "discovered": 33,
+      "passed": 32,
+      "external_skipped": 1
+    }
+  },
+  "external_public_proof": {
+    "normal": {
+      "public_inputs_verified": 110,
+      "expected_counts_match": true,
+      "source_inputs_unchanged": true
+    },
+    "optimized": {
+      "public_inputs_verified": 110,
+      "expected_counts_match": true,
+      "source_inputs_unchanged": true
+    },
+    "normal_optimized_reports_identical": true
+  },
+  "detached_copy": {
+    "unrelated_working_directory": true,
+    "empty_pythonpath": true,
+    "self_contained_normal_optimized_pass": true,
+    "external_all_110_normal_optimized_match": true
+  },
+  "integration": {
+    "base_commit": "b48076fa503f3fe75015e4096ee263238ab1ee50",
+    "normal": {
+      "discovered": 359,
+      "passed": 251,
+      "external_skipped": 108
+    },
+    "optimized": {
+      "discovered": 359,
+      "passed": 251,
+      "external_skipped": 108
+    },
+    "stable_checkout_modified": false
+  },
+  "native_files_modified": false,
+  "origin_acceptance": false
+}
