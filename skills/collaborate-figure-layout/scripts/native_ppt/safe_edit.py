@@ -1,6 +1,6 @@
 """Strict, source-bound edits of root-level native PowerPoint text shapes.
 
-No Office automation, embedded-object access, or text replacement. See README.md.
+No Office automation, embedded-object access, or text replacement. See references/native-ppt-text.md.
 """
 import argparse
 import copy
@@ -19,6 +19,21 @@ NS = {'p': 'http://schemas.openxmlformats.org/presentationml/2006/main',
       'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'}
 REL = 'http://schemas.openxmlformats.org/package/2006/relationships'
 MAX_BYTES = 256 * 1024 * 1024
+SPACING = {'line_pt': 'lnSpc', 'before_pt': 'spcBef', 'after_pt': 'spcAft'}
+
+def check_spacing_order(props):
+    last=-1;other=False
+    for node in props if props is not None else []:
+        tag=E.QName(node).localname
+        if tag in SPACING.values():
+            rank=list(SPACING.values()).index(tag)
+            if other or rank<=last:fail('Invalid paragraph spacing child order')
+            last=rank
+        else:other=True
+
+def spacing_xml(props):
+    return {tag: E.tostring(props.find('a:'+tag, NS), method='c14n').decode() if props is not None and props.find('a:'+tag, NS) is not None else None for tag in SPACING.values()}
+
 MAX_DELTA = 9144000  # ten inches, in integer EMU
 
 
@@ -97,15 +112,19 @@ def resolve(parts, plan):
             fail('Operation must be an object')
         base = ('op', 'slide', 'shape_id', 'old_text')
         if op.get('op') == 'font':
-            keys(op, base + ('run', 'old_run_text'), ('size_pt', 'fonts'))
-            if 'size_pt' not in op and 'fonts' not in op:
+            keys(op, base + ('run', 'old_run_text'), ('size_pt', 'fonts', 'tracking_pt', 'kerning_min_pt', 'old_character_spacing'))
+            if not {'size_pt','fonts','tracking_pt','kerning_min_pt'}.intersection(op):
                 fail('Empty font operation')
+        elif op.get('op') == 'paragraph_spacing':
+            keys(op, base + ('paragraph', 'old_spacing_xml'), tuple(SPACING))
+            if not set(SPACING).intersection(op):fail('Empty spacing operation')
         elif op.get('op') == 'translate':
             keys(op, base + ('old_xfrm', 'dx_emu', 'dy_emu'))
         else:
             fail('Unknown operation')
         name = order[integer(op['slide'], 1, len(order)) - 1]
-        root = roots.setdefault(name, xml(parts[name]))
+        if name not in roots:roots[name]=xml(parts[name])
+        root = roots[name]
         sid = op['shape_id']
         if not isinstance(sid, str) or not re.fullmatch(r'[1-9][0-9]*', sid):
             fail('Shape ID must be a decimal string')
@@ -152,6 +171,16 @@ def resolve(parts, plan):
             if props is not None and any(len(props.findall('a:' + script, NS)) > 1 for script in ('latin', 'ea', 'cs')):
                 fail('Duplicate font script properties')
             target = run
+            char_fields={'tracking_pt':('spc',-20,100),'kerning_min_pt':('kern',0,400)}
+            if set(char_fields).intersection(op):
+                keys(op.get('old_character_spacing'),('spc','kern'))
+                actual={k:props.get(k) if props is not None else None for k in ('spc','kern')}
+                if op['old_character_spacing']!=actual:fail('Character spacing precondition failed')
+                for key,(_,low,high) in char_fields.items():
+                    if key in op:
+                        value=op[key]
+                        if type(value) not in (int,float) or not low<=value<=high or abs(value*100-round(value*100))>1e-7:fail('Character spacing must be bounded points in hundredths')
+            elif 'old_character_spacing' in op:fail('Character spacing guard without a spacing change')
             if 'size_pt' in op:
                 size = op['size_pt']
                 if type(size) not in (int, float) or not 1 <= size <= 400 or abs(size * 100 - round(size * 100)) > 1e-7:
@@ -163,6 +192,18 @@ def resolve(parts, plan):
                 for font in fonts.values():
                     if not isinstance(font, str) or not 1 <= len(font) <= 128 or any(ord(c) < 32 for c in font) or font != font.strip() or font.startswith('+'):
                         fail('Invalid literal typeface')
+        elif op['op'] == 'paragraph_spacing':
+            paragraphs=body.findall('a:p', NS)
+            target=paragraphs[integer(op['paragraph'],0,len(paragraphs)-1)]
+            if len(target.findall('a:pPr',NS))>1:fail('Duplicate paragraph properties')
+            props=target.find('a:pPr',NS)
+            if props is not None and any(len(props.findall('a:'+tag,NS))>1 for tag in SPACING.values()):fail('Duplicate spacing properties')
+            check_spacing_order(props)
+            if op['old_spacing_xml']!=spacing_xml(props):fail('Paragraph spacing precondition failed')
+            for key in SPACING:
+                if key in op:
+                    value=op[key]
+                    if type(value) not in (int,float) or not (1 if key=='line_pt' else 0)<=value<=400 or abs(value*100-round(value*100))>1e-7:fail('Spacing must be bounded points in hundredths')
         else:
             target = shape.find('p:spPr/a:xfrm', NS)
             if target is None:
@@ -193,6 +234,17 @@ def edit(roots, changes):
             off = node.find('a:off', NS)
             for axis, delta in [('x', 'dx_emu'), ('y', 'dy_emu')]:
                 off.set(axis, str(int(off.get(axis)) + op[delta]))
+        elif op['op']=='paragraph_spacing':
+            props=node.find('a:pPr',NS)
+            if props is None:
+                props=E.Element('{%s}pPr'%NS['a']);node.insert(0,props)
+            for key,tag in SPACING.items():
+                if key not in op:continue
+                old=props.find('a:'+tag,NS)
+                if old is not None:props.remove(old)
+                child=E.Element('{%s}%s'%(NS['a'],tag));E.SubElement(child,'{%s}spcPts'%NS['a'],val=str(round(op[key]*100)))
+                order=list(SPACING.values());rank=order.index(tag)
+                index=next((i for i,c in enumerate(props) if E.QName(c).localname not in order or order.index(E.QName(c).localname)>rank),len(props));props.insert(index,child)
         else:
             props = node.find('a:rPr', NS)
             if props is None:
@@ -200,6 +252,8 @@ def edit(roots, changes):
                 node.insert(0, props)
             if 'size_pt' in op:
                 props.set('sz', str(round(op['size_pt'] * 100)))
+            for key,attr in [('tracking_pt','spc'),('kerning_min_pt','kern')]:
+                if key in op:props.set(attr,str(round(op[key]*100)))
             for script, font in op.get('fonts', {}).items():
                 child = props.find('a:' + script, NS)
                 if child is None:
@@ -239,6 +293,24 @@ def validate(original, output, plan):
                 if newoff.get(axis) != str(int(oldoff.get(axis)) + op[delta]):
                     fail('Translation mismatch')
                 newoff.set(axis, oldoff.get(axis))
+        elif op['op']=='paragraph_spacing':
+            oldprops,newprops=old.find('a:pPr',NS),new.find('a:pPr',NS)
+            if newprops is None:fail('Missing paragraph properties')
+            check_spacing_order(newprops)
+            for key,tag in SPACING.items():
+                if key not in op:continue
+                matches=newprops.findall('a:'+tag,NS)
+                if len(matches)!=1:fail('Spacing node missing or duplicate')
+                current=matches[0]
+                if current.attrib or current.text or current.tail or len(current)!=1:fail('Unexpected spacing content')
+                value=current[0]
+                if value.tag!='{%s}spcPts'%NS['a'] or dict(value.attrib)!={'val':str(round(op[key]*100))} or len(value) or value.text or value.tail:fail('Spacing mismatch')
+                newprops.remove(current)
+            if oldprops is not None:
+                for i,child in enumerate(oldprops):
+                    if any(child.tag=='{%s}%s'%(NS['a'],tag) and key in op for key,tag in SPACING.items()):newprops.insert(i,copy.deepcopy(child))
+            elif len(newprops) or newprops.attrib or newprops.text or newprops.tail:fail('Unexpected paragraph properties')
+            else:new.remove(newprops)
         else:
             oldprops, newprops = old.find('a:rPr', NS), new.find('a:rPr', NS)
             if newprops is None:
@@ -251,6 +323,12 @@ def validate(original, output, plan):
                     del newprops.attrib['sz']
                 else:
                     newprops.set('sz', previous)
+            for key,attr in [('tracking_pt','spc'),('kerning_min_pt','kern')]:
+                if key not in op:continue
+                if newprops.get(attr)!=str(round(op[key]*100)):fail('Character spacing mismatch')
+                previous=oldprops.get(attr) if oldprops is not None else None
+                if previous is None:del newprops.attrib[attr]
+                else:newprops.set(attr,previous)
             for script, font in op.get('fonts', {}).items():
                 prev = oldprops.find('a:' + script, NS) if oldprops is not None else None
                 current = newprops.find('a:' + script, NS)

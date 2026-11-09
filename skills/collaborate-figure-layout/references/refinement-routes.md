@@ -1,6 +1,6 @@
 # Three execution routes, one visual target
 
-Read [aesthetic-review.md](aesthetic-review.md), [alignment-review.md](alignment-review.md), [code-editing.md](code-editing.md) and [verification-and-delivery.md](verification-and-delivery.md) as relevant. Established rules versus user references is a **style choice**; Python, Windows MCP and Mac VM bridge are **execution choices**. All three must meet the same confirmed visual plan and final-size acceptance criteria. Do not lower the visual target because a route is easier.
+Use the shared aesthetic/alignment criteria. Read [code-editing.md](code-editing.md) only for the Python route and the native sections below only for the selected native route; final checks are in [verification-and-delivery.md](verification-and-delivery.md). Established rules versus user references is a **style choice**; Python, Windows MCP and Mac VM bridge are **execution choices**. All three must meet the same confirmed visual plan and final-size acceptance criteria. Do not lower the visual target because a route is easier.
 
 After the rough arrangement is understood, or immediately before an existing figure’s light refinement, offer:
 
@@ -27,7 +27,7 @@ Keep originals read-only. Bind the current PPT, source payload, preview, panel m
 
 For an explicitly requested first effect image, prepare a separately named disposable proposal copy within the requested appearance scope; retain all originals unchanged. Its creation is not approval to finalize or write back source objects. Use the selected engine when that is part of the request, and ask before substituting a materially different preview-only route. An Origin-generated proposal still requires the selected tool/session permissions; the Mac bridge additionally requires current-session execution approval below. Changes to scientific data, axis ranges or tick values are never implied by permission to preview.
 
-For explicitly approved appearance-only edits with no alignment/geometry change, bind the exact styling operation without inventing a new alignment proposal. The guide-first confirmation still applies whenever alignment/geometry is proposed.
+For explicitly approved appearance-only edits with no alignment/geometry change, bind the exact styling operation without inventing a new alignment proposal. Confirm new alignment relationships or material composition changes first; ordinary derived positions and spacing within the current confirmed aesthetic scope do not require per-coordinate approval.
 
 Use `aesthetic-review.md` for the shared visual checklist, rather than route-specific style defaults. Preserve datasets, missing-value positions, curve bindings, axis ranges, ticks, fits and smoothing unless separately requested and supported. Preserve exact scientific text/runs, semantic groups, image aspect/crop and fixed connector endpoints. Never redraw or fit curves to imitate the desired appearance.
 
@@ -93,3 +93,7 @@ Apply the same `aesthetic-review.md` acceptance checklist to all three routes, u
 Report separately: static review; plan/unit checks; source preservation; native edit/reparse; independent Origin cold reopen; rendered review; actual PowerPoint open/display/save; and OLE activation/refresh. Mark unperformed stages **not run**. Neither parser success nor a historical sample proves the current application lifecycle.
 
 Deliver only existing, verified new editable PPT/native files with required visible references in one independent native group per final PPT figure/slide, and a clean companion only as an addition. State exactly which representation changed and which remained unchanged. Keep originals and private provenance outside the skill. A layout page, cache-only image or unchanged copy is not a completed native-source refinement.
+
+## Whole-display Python refinement requirement
+
+When Python is selected, follow [whole-display refinement](python-whole-display.md): inspect and refine outer geometry, inner plotting-area dimensions/aspect, all text, axes, lines, spacing and distortion for every output object. Host-only resizing is not completed refinement. Use the executable coverage gate, preserve live OLE and native PPT objects, and report unsupported inner edits explicitly rather than inventing capability.

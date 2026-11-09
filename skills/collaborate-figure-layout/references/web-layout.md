@@ -1,73 +1,47 @@
-# Lightweight direct-interaction layout
+# Local interactive layout and fallback exchange
 
-## One small interaction surface
+## Default: saved state on the same computer
 
-Show only this task's real scientific thumbnails on a canvas headed “拖动图片编排”. Let the user drag, pull a side wider, resize from a corner, remove an unselected element and undo. Keep sibling plots independently draggable while retaining their common `parentPanelId`. Do not expose a material library, source upload manager, automatic-layout button, numerical dimensions, ratios, gap values or typography controls. The assistant handles arrangement requests in chat.
+Use [local-handoff.md](local-handoff.md) as the executable interaction guide. Build the task-private workbench with `scripts/prepare_local_handoff.py`, not the standalone screenshot page. The user drags/resizes actual panel thumbnails and semantic reference lines, then tells the assistant the stage is ready. The assistant reads current state directly, takes a recoverable work lock, edits or refines within the approved scope, unlocks and tells the user to refresh. No continuous model observation or public upload is implied.
 
-Default to a self-contained local offline HTML. Give screenshot-first instructions, Shift-click multi-selection, arrow-key adjustment, bounded group drag and undo. Keep optional local layout save/export and drop-in recovery simple; they are not required for screenshot feedback. Keyboard shortcuts must leave editable controls alone. Only for a newly requested online alternative, keep its surface to title, pictures and a small truthful save status. Restoring a layout file is not a scientific-asset uploader. Never label an offline export as a message sent to the assistant.
+Use the same existing project if present. Validate project/map/source binding and current revision before modifying it. Do not reset user work on rebuild or use an old screenshot as current state. Source original PPT, native objects and privately bound content remain unchanged during composition.
 
-A preview may stretch while the user drags its rough box. Export that geometry as composition intent only. Preserve original source/crop/aspect outside the page; restore appropriate scientific proportions and readable text during refinement.
+The interface stays simple: “拖动图片编排”, actual panel thumbnails, Shift selection, arrow nudges, side/corner sizing, undo, gray staging, five fixed semantic guide colors with left-side legend, and short stage choices. User guide edits are constraints. White-canvas panels alone enter refinement; partial boundary crossings block confirmation rather than silently cropping data. Work-lock UI and backend both enforce no editing during assistant work. See the handoff guide for expiry, cancellation and conflict recovery.
 
-## Prepare a task, not a reusable asset library
+## Build from verified source panels
 
-Curate semantic panels from the PPT before building the page. Render each complete panel from real source objects to a PNG thumbnail; do not use a single child image for a composite. Retain original source bindings privately. Keep `projectId`, stable panel IDs and `mapHash` bound to the private manifest; do not append to its hashed core while retaining an old hash.
+Curate semantic panels before generating the page. Render each complete panel, not one descendant of a composite. Preserve original membership privately, including labels, insets, legends and endpoint owners. Sibling plots can move independently while retaining association. Thumbnails may stretch as rough intent; final scientific proportions and glyphs must be restored from source.
 
-`assets/web-layout/` is a generic template with no user figures, labels, source files, saved state or deployment identity. `online/` contains the optional private Site backend template. The scripts do not publish a site, start a bridge or modify scientific sources.
+Prepare a private `previews.json` mapping panel IDs to actual PNG paths and the trusted binding manifest. Generate the default local workbench:
 
-Prepare a private task-local `previews.json` mapping each panel ID to its actual PNG path. Use the same binding manifest as the optional box-PPT helper; that helper's draft PPT need not be delivered in browser mode.
+```sh
+python scripts/prepare_local_handoff.py binding.json previews.json --output-dir handoff --thumbnail-record thumbnail-record.json
+```
 
-For the default local offline page:
+The generator does not start its local service. Follow local-handoff.md on the authorized computer. Verify file existence and actual page display there; a cloud path does not establish local delivery. It strips raw source bindings and emits safe panel metadata/PNG thumbnails only. Never bundle task-specific page/state/images into the reusable skill.
+
+## Fallback only: standalone offline file
+
+Use this when local readback cannot be made available without changing permissions, or the user explicitly chooses file/screenshot exchange. State the blocker and agree the fallback; do not silently revert to it. A standalone file does not have assistant readback.
 
 ```sh
 python scripts/prepare_web_project.py binding.json previews.json --mode offline --output-dir page --thumbnail-record thumbnail-record.json
 ```
 
-This writes a self-contained `page/index.html`; save that file locally in the user's requested workspace, not its auxiliary inputs. Do not upload the page, scientific previews or sources by default. Verify the file actually exists on the requested computer; a cloud path is not a completed Mac/Windows save. It embeds display thumbnails and escapes task text for safe HTML inclusion. There is no network connection or automatic assistant readback. A blocked local-storage API must not prevent interaction/export.
+This outputs self-contained `page/index.html`. It is a no-service fallback with optional save/export/restore. A screenshot may establish coarse order, grouping and emphasis but not exact coordinates, source edit approval, or hidden/omitted panels. Recover identity from intact sources and resolve uncertain omissions; never infer deletion from cropping. An export is not required if the agreed screenshot is sufficient. Do not pretend this standalone page contains the full local-state service features.
 
-Only after an explicit request to use hosting and the necessary authorized data-sharing scope, prepare a private online alternative:
-
-```sh
-python scripts/prepare_web_project.py binding.json previews.json --mode online --output-dir site --thumbnail-record thumbnail-record.json
-```
-
-This is not the default and must not be activated merely because a connector exists. Follow `$orbit:sites` and the available Sites implementation skill. Use the same verified task Site when one exists; otherwise register a real Site and its returned identity. Follow the generated template's build/readme interface. Never invent a Site ID or reuse a test identity. Keep actual hosting owner-private and verify access before sharing. Do not work around an access denial by widening sharing. Deliver a private online link only when its real interactive page works; otherwise state the blocker and offer the offline exchange.
-
-If a previously bound group is deliberately split into independent plots, the helper accepts `--migration-file` for an explicitly inspected old-map-to-new-child mapping. Use it only after checking both private bindings and exact source membership. It carries old selection/omission to known children and divides only rough display boxes; it does not approve the new refinement geometry. Do not infer mappings from labels or filenames, and never invent migration state for a screenshot-only handoff.
-
-The helper emits only view-safe project metadata, stable IDs, labels, rough bounds, parent-panel association and thumbnails. It strips `sourceBindings`/`sourceAssetIds` from the page. The thumbnail record retains hashes and source associations **outside** the output. Do not put original PPT/Origin/OLE files, internal paths, credentials, confirmation evidence or the binding manifest in either hosted output or this skill.
-
-## Receive the screenshot first
-
-The user's normal return is a screenshot. Identify its panel thumbnails/labels against the private source map; recover relative grouping, order, emphasis and approximate placement. Do not convert screenshot pixels into exact final positions or assume omitted/hidden panels were deleted. Ask only when uncertain identity, selection or grouping materially changes the proposal. A clear screenshot is sufficient to proceed to semantic guide/appearance proposal; do not demand JSON for convenience.
-
-The local page has no network synchronization. Preserve the screenshot privately and distinguish it from a saved layout record. Optional file export/restore is a recovery feature. If useful, accept an exported layout or read the exact user-saved file from an authorized connected computer after the user says it was saved. Use the expected project-specific filename, not unrelated downloads or agent-generated test records.
-
-## Optional official connector or saved-state exchange
-
-Only when an online workflow is explicitly requested, prefer a relevant official read-only connector over browser scraping where it supports the task. Discover and use its actual schema: a connector may take no parameters and expose one fixed project. Verify returned project ID, map hash and envelope/layout consistency, canvas, revision/time and panel IDs. Preserve the actual structured response privately. Before source geometry is applied, require a trusted manifest linking that **exact** project/map to the source file hash and object memberships. Missing/mismatched source bindings block application; do not associate projects by label, filename or similar images.
-
-Read access proves only that a saved snapshot is retrievable. A revision, timestamp, `browser-layout` field or stored approval flag does not prove a user manipulated the page, can reach it, or approved source editing. Do not invent actor/save-event history. Never claim live synchronization from a fixed snapshot. An official connector's read permission does not authorize writes, deployment, an Origin session or broader access.
-
-## Validate actual saved state when supplied
-
-Online saving must be verified for the actual task/account: user operation → server acknowledgment → assistant tool-side read of the matching project, map hash and revision. A reachable empty database, a local developer fixture or a successful build is not that evidence. Do not call it direct readback until this loop has worked. Read the latest real saved revision when the user says they are done; do not assume a screenshot is current server state.
-
-The online backend uses revision-checked writes and authenticated owner isolation. A stale revision or changed project binding is a conflict to resolve, not permission to overwrite server state. Browser-provided source mappings, identity headers or approval flags are never trusted. A server acknowledgment means saved, not scientifically approved.
-
-Offline HTML/local browser state is not automatically visible to the assistant. If a saved-layout file is actually needed, ask for the optional export; do not require hand-editing JSON or make it a condition when the screenshot suffices. Local restore aids the user, not assistant access. Treat screenshots as coarse composition evidence when sufficient, leaving absent panels unresolved rather than inferring deletion.
-
-The export uses `schema: "figure-layout-roundtrip/v1"`, unchanged `projectId` and `mapHash`, fixed `canvas: {width,height,unit:"mm"}`, `selectedPanels: [{id,bounds:{x,y,w,h},text?}]` and `omittedPanelIds`. Every original ID belongs to exactly one selected/omitted set. Reject duplicate or unknown IDs, stale bindings and non-finite or malformed geometry. Derive source membership and parent-panel association from the trusted manifest, never an imported override.
-
-Validate a received export or a preserved real server layout record:
+For a supplied export, validate `figure-layout-roundtrip/v1`, project/map hashes, finite geometry and the exact selected/omitted partition against the private source binding:
 
 ```sh
 python scripts/read_web_layout.py returned-layout.json --manifest binding.json --output intent.json --source original.pptx
 ```
 
-The helper records the raw layout hash, validates the binding/selection and rechecks supplied original hashes. It does not authenticate user approval or edit scientific sources. Resolve missing source verification, out-of-canvas content or empty selection before applying source edits. Treat omission as selection for this figure, not permission to delete scientific data.
+This command accepts the legacy export, not the local service envelope. Imported source mappings or approval flags are not trusted. Omission excludes a panel from this figure, not permission to delete data.
 
-## Check before delivery
+## Separately requested online alternative
 
-When template behavior/version or relevant environment changes, test actual single/group drag, Shift selection, arrow-key nudging, editable-control focus, boundary protection, side widening, corner resize, removal/undo, optional export and drop-in restore on the delivered surface. Reuse unchanged version-matched template test evidence on later tasks, but check each new page's bindings, thumbnails, no-network configuration and composition. Verify an exported layout with the exact private binding and original hashes. Test different-project/mapHash refusal, unsafe IDs, malformed coordinates and untrusted text. Check that sibling plots move independently while the source association survives roundtrip. A static preview is not an interactive test.
+Only an explicit hosting/data-sharing request can select the `--mode online` template. Follow the available Sites skill, private access controls and actual connector schemas. A saved snapshot is not real-time synchronization or a user approval. Verify task/account/project/map and source membership; never invent a Site identity or widen sharing around a denial. Do not upload scientific material by default.
 
-Distinguish template/local tests from production access, real-user save/readback, and native-source refinement. Keep current test evidence in task notes, not hard-coded claims in the skill. After recovery, ask the refinement execution-route choice and apply the shared aesthetic/guide-first workflow in the main skill.
+## Verify without making screenshots the workflow
+
+For changed code/environment, exercise actual drag, multiselect, keyboard focus, staging, guide color/ownership, three guide choices, locks, expiry/cancel, conflict handling, refresh and unsaved-draft recovery. Verify user action → save acknowledgment → matching assistant readback, then assistant update → user refresh. Keep UI/render screenshots as internal evidence when useful, not required user handoff. Test new page bindings and thumbnails even when reusing version-matched tests. State template tests, actual browser checks and native PPT/Origin validation separately.

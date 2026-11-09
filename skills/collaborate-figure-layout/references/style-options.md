@@ -1,5 +1,7 @@
 # Typography and palette choices
 
+For font size, character spacing, line/paragraph spacing and reference whitespace, follow [reference-led typography](typography-reference.md) before choosing or applying numerical targets.
+
 Use this reference when choosing a final typography target or a requested color change. It supplements the default accepted compact scientific look in [aesthetic-review.md](aesthetic-review.md). Before fine stretching/refinement, ask whether the user has reference images unless already answered or supplied for the unchanged task. If none, use the established style by default. Do not repeat the question for an unchanged choice. Reuse a versioned, accepted role hierarchy or mapping when its semantic identities and rendering assumptions still apply; keep new-source bindings, current output inspection and plan approval separate. A request for an arrangement preview alone does not authorize source styling.
 
 ## Ask once, then inspect the reference
@@ -54,3 +56,5 @@ Inspect overlapping curves, markers, error bars, fills and transparency at final
 Check grayscale readability, line/background contrast and intended print/projection use. Use color-vision-deficiency simulations when available and report what was actually tested, not a blanket accessibility claim. Verify all edited active/fallback representations consistently so transparency or color meaning does not change between renderers.
 
 Bind the chosen reference, role targets and exact category mapping to the complete proposal in [alignment-review.md](alignment-review.md). A changed font, reference or color decision cannot inherit approval from an unrelated earlier layout version.
+
+

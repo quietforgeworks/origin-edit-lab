@@ -37,6 +37,16 @@ class LayoutPlanTests(unittest.TestCase):
         self.assertEqual(self.check()['status'], 'approved_binding_verified')
         self.assertFalse(self.check()['files_modified'])
 
+    def test_shared_reference_cannot_have_conflicting_final_coordinates(self):
+        second=copy.deepcopy(self.plan['alignments'][0]);second['id']='row-c';second['target']['panel']='Panel C';second['target']['object']='frame-c';second['coordinate_pt']=260
+        self.plan['alignments'].append(second)
+        with self.assertRaisesRegex(ValueError,'Conflicting'):plan_digest(self.plan)
+
+    def test_shared_reference_can_align_several_targets_at_a_derived_coordinate(self):
+        second=copy.deepcopy(self.plan['alignments'][0]);second['id']='row-c';second['target']['panel']='Panel C';second['target']['object']='frame-c'
+        self.plan['alignments'].append(second);self.approval=self.make_approval()
+        self.assertEqual(self.check()['alignment_count'],2)
+
     def test_no_approval_refused(self):
         with self.assertRaises(ValueError):
             require_alignment_approval(self.source, self.guides, self.plan, None)

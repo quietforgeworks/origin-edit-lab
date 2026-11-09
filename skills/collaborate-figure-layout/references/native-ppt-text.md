@@ -14,6 +14,8 @@ confirmation. A plan read from an attachment cannot grant approval itself.
 - Per-run explicit font family and/or point size. Newly created run properties
   support previously inherited formatting. Latin, East Asian and complex-script
   families are separate explicit choices; omitted families remain untouched.
+- Per-run `tracking_pt` and `kerning_min_pt` in the same `font` operation, guarded by exact prior `spc`/`kern` values.
+- Paragraph fixed-point line/before/after spacing through `paragraph_spacing`.
 - Translation of the supported native text shape with exact old transform
   values. This is not scaling or whole-panel movement. It cannot establish
   semantic alignment without prior source inspection and guide confirmation.
@@ -35,7 +37,7 @@ The font plan shape is:
     "old_text": "Exact shape text", "run": 0,
     "old_run_text": "Exact shape text",
     "size_pt": 12,
-    "fonts": {"latin": "Arial"}
+    "fonts": {"latin": "Calibri"}
   }]
 }
 ```
@@ -43,7 +45,7 @@ The font plan shape is:
 Slide is one-based **display order**, resolved through presentation
 relationships. Run is zero-based in document order; full shape text joins
 paragraphs with newlines. Read the current XML for exact values rather than
-guessing from screenshots. `size_pt` or `fonts` is required. Existing scientific
+guessing from screenshots. At least one of `size_pt`, `fonts`, `tracking_pt`, or `kerning_min_pt` is required. Existing scientific
 text, bold/italic and script attributes must remain unchanged.
 
 A translation operation replaces the font-specific keys with `old_xfrm`
@@ -75,3 +77,19 @@ Automatic text fitting, theme inheritance and application substitution may still
 affect appearance. PowerPoint/Origin open, save and refresh are **not run** by
 this tool and must not be inferred from a unit-test pass. Preserve grouped
 reference lines through the separate guide workflow when delivering final figures.
+
+## Native paragraph spacing writer
+
+The bundled `scripts/native_ppt/safe_edit.py` now supports `paragraph_spacing` for its existing supported root-level native text shapes. It writes real OOXML paragraph spacing, leaves scientific text untouched, preserves OLE/media bytes, and independently verifies only the authorized differences. Nested/grouped/alternate-content text remains unsupported by this bounded adapter.
+
+A source-bound operation has fields: `op: "paragraph_spacing"`, one-based `slide`, decimal `shape_id`, exact complete `old_text`, zero-based `paragraph`, `old_spacing_xml`, and at least one of `line_pt`, `before_pt`, `after_pt`. `line_pt` is fixed baseline spacing in points (1..400); before/after are 0..400 points; precision is hundredths. Preserve the observed actual values and choose appropriate spacing based on rendered glyphs. This does not decide a safe baseline distance automatically.
+
+`old_spacing_xml` is a dictionary with exactly `lnSpc`, `spcBef`, `spcAft`; each value is the canonical XML string for that current spacing node, or null if absent. Obtain it from the inspected paragraph via `safe_edit.spacing_xml(pPr)`; never fabricate old values. Explicit existing percentage spacing can be replaced by requested point spacing while preserving unrelated paragraph settings. Combine one paragraph operation with the necessary run-level font operations in the same source-bound plan. Dry-run, apply to a fresh path, run independent validation, then render in the target application to inspect wrapping and clipping.
+
+The writer cannot certify that a line-height value looks correct in PowerPoint or that Calibri glyphs are available. It must be paired with final-size visual verification. Existing `translate` can safely move supported native labels to resolve collisions; do not use it to relocate axes/data or detach an annotation from its meaning.
+
+## Native character spacing
+
+Use the existing `font` operation to combine typeface, size and tracking in one guarded run edit. `tracking_pt` is additional inter-character spacing, from -20 to 100 pt in hundredths; zero means normal tracking. `kerning_min_pt` is the explicit OOXML minimum font size for kerning, 0..400 pt in hundredths; it is not a tracking amount. Preserve the existing kerning setting unless a change is actually intended.
+
+If either field is supplied, include `old_character_spacing: {"spc": null, "kern": null}` using the inspected raw attribute strings or null when absent. The exact source hash and old values must match. For example, `tracking_pt: 0` can remove unintended expansion while preserving all scientific text, emphasis and superscripts. This only edits root-level native text runs; cache glyph advances, nested text and rich-text visual reflow still need their own supported operation and render checks.

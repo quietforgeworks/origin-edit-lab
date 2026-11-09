@@ -1,8 +1,30 @@
 # Per-task scientific figure quality specification
 
+For font size, character spacing, line/paragraph spacing and reference whitespace, follow [reference-led typography](typography-reference.md) before choosing or applying numerical targets.
+
 This module makes the shared aesthetics executable as **measured design decisions and acceptance evidence**, not a beauty score. Use it with [aesthetic-review.md](aesthetic-review.md), [alignment-review.md](alignment-review.md), [style-options.md](style-options.md), [source-preservation.md](source-preservation.md) and [verification-and-delivery.md](verification-and-delivery.md). It adds no source writer, native API or automatic permission.
 
 Both entry modes and all three editing routes have the same final visual target. Interactive mode first recovers composition intent; light refinement preserves the accepted arrangement and limits changes. Neither a rough stretch nor a similar reference figure permits moving data relative to axes, relabeling observations, changing values or inventing evidence. Resolve the existing reference-image question once before refinement; no reference means use the established style, not stop.
+
+## Review matrix and correction order
+
+Use this matrix on the actual final-size render. For each applicable row, record observed issue → supported correction → reviewed evidence (or verified-unchanged / blocked with a reason). Cover every selected member; reuse shared evidence without duplicating forms. The table is a decision aid, not a new executable schema or automatic aesthetic score.
+
+| Layer | Inspect | Correct through the supported layer | Acceptance evidence |
+|---|---|---|---|
+| Whole figure | Reading order, emphasis, outer whitespace, row/column rhythm, completeness | Redistribute blank space and panel geometry within agreed intent | Whole view at final size; source/content coverage |
+| Relationships | Requested edges, centers/baselines and label ownership | Derive common positions from aesthetics; do not pin sketch lines or infer extra equal widths | Actual final anchors and positive owner/neighbor gaps |
+| Typography | Face/weight/size by role, all native/cache labels, inset readability, glyph aspect | Reference-scaled sizes and undistorted glyphs | Same-role peer glyphs, smallest labels, no substitution/cropping |
+| Text spacing | Tracking/kerning, scientific spaces, superscripts, multiline baselines, paragraph gaps | Correct advances/baselines and text boxes; retain exact scientific meaning | Full words/units and dense crops, not nominal point values only |
+| Axes and frame | Tick attachment, visible frame bounds, titles/units, line hierarchy and clips | Move appearance anchors and tune strokes without changing ranges/ticks/data mapping | Both directions at final size; source-axis invariants |
+| Curves and encodings | Path completeness, color/category mapping, error bars, uncertainty and meaningful marker sizes | Preserve encodings; adjust only authorized presentation properties | Data/path or native-data checks plus visible full curves |
+| Color and contrast | Series/legend mapping, light curves, background contrast, requested print/grayscale use | Preserve source palette by default; improve permitted stroke/readability; obtain a clear mapping for requested recoloring | Final-size category distinction without altered scientific color/scale meaning |
+| Markers and legends | Square/triangle/circle/composite shape, fills, rotation, sample matching | Restore individual glyphs about data centers; match legend counterpart | Source geometry, centers, actual rendered shape and legend association |
+| Annotations/insets | Pulse labels, callouts, ROI/scale bars, legend/colorbar ownership | Reposition in verified empty space; keep complete native components | Text–text, text–stroke and non-text occlusion checks, all close neighbors |
+| Scientific imagery | Micrograph/model aspect, contextual crop, valid scale bars | Faithful proportional/crop operations only when appropriate | Intact measurement geometry; no generative evidence replacement |
+| Delivery | Editable types/groups, OLE/cache consistency, final guides and active/fallback media | Supported native/cache writes and reversible guide group | Protected content, exact allowed diff, final render and separately stated app checks |
+
+Fix in this order: scientific loss/ownership → clipping or deformation → unreadable type/encodings → collisions → alignment/gutters → minor styling. Solve a shared cause before tuning individual symptoms. Do not trade data, readable reference type or correct symbols for a tidy box grid. A visible failure remains a failure even if a parser/checklist passes.
 
 ## Contents
 
@@ -22,7 +44,7 @@ Set the intended output medium, figure width/height and final display scale from
 
 Create a private design record before exact editing. A task-local record is not the bundled alignment helper's schema and cannot be passed to it as approval. Each target needs an actual old measurement, proposed value/range, units, measurement method, uncertainty/tolerance rationale and evidence. Reuse a versioned accepted style only where role, source semantics, output scale and renderer assumptions match. Defaults are starting values, never proof that a new figure passes. User preferences may override aesthetic defaults, not scientific fidelity or safety.
 
-The following is an **unfilled example**, not measured user data. All angle-bracket strings must be replaced by evidence; `null` means unknown, not zero or passed. Expand the arrays to cover every affected object/role. Keep this record, source hashes and approval evidence private, outside reusable skill files and delivered figures.
+The following is an optional record example, not a mandatory form or measured user data. Keep only fields relevant to the task and reference shared unchanged evidence; do not copy the entire form for a small correction. Cover affected objects/roles and required final checks. Actual executable plan/coverage schemas remain strict and separate. Replace any used placeholders with evidence; `null` means unknown, not zero or passed. Keep the record private.
 
 ```yaml
 spec_version: figure-quality-v1
@@ -100,6 +122,8 @@ Run the distortion audit against **every role in that coverage inventory**, not 
 
 **Mandatory final reference guides.** Each final figure slide in an editable PPT must contain **one independent native group containing all its alignment guides**, selectable/hidden/deleted together, behind scientific content and visually distinct from data. Do not scatter guides among scientific groups or confuse reference guides with scientific reference curves. Use the verified guide method in [alignment-review.md](alignment-review.md#create-removable-native-guides). Inspect the actual final file for one uniquely identified guide group per figure slide, unique shape IDs, expected guide-only member types/counts, correct stacking and no scientific members or changed connections. Choose visible comparison segments in available margins/gaps without obscuring evidence. Remove only that group on a verification copy and prove clean-content/coordinate/relationship equivalence and same-render equality; retain the group in the delivered final. A clean companion is additional, never a substitute. A final screenshot/image must visibly show the guides but cannot claim editable grouping. If the requested format or available writer cannot meet the requirement, disclose that precise limitation; do not claim the guide gate passed.
 
+Marker-shape acceptance also covers squares, triangles and composite plot/legend glyphs: compare source proportions, angles and intended orientation after the full affine transform; preserve data centers and any measurement encoding. A matching glyph bounding box alone does not prove the square/triangle is restored. Follow [marker-glyph restoration](aesthetic-review.md#restore-plot-and-legend-marker-glyphs).
+
 ## 4. Apply independent acceptance gates
 
 Run these against the actual final artifact, not only the proposal. Record `pass`, `fail`, `unverified` or `not run` with evidence; no averaged score can override a failed gate. Keep source integrity, measured geometry/shape and independently viewed whole-figure quality as separate decisions. A code-generated green report or complete supplied observation record cannot pass the visual gate.
@@ -117,6 +141,8 @@ Run these against the actual final artifact, not only the proposal. Record `pass
 
 Use the smallest correction that addresses the measured defect: translate a bound group or annotation, reclaim non-scientific whitespace, then consider a supported geometry/type change. Do not start by shrinking all text, globally recoloring, reflowing every panel or replacing evidence. Re-render the affected region and the full figure after each candidate; repeat integrity and guide checks for every relevant change.
 
-Default to one planned correction pass and one verification-driven correction pass after the initial proposal. This is an efficiency budget, not permission to accept a defect. Reuse unchanged measurements/tests; exactly recheck changed properties, transform descendants, adjacent clearances, shared resources and the final whole view. If a fix changes the approved plan, show the revised complete proposal and obtain matching confirmation under the alignment rules.
+Default to one planned correction pass and one verification-driven correction pass after the initial proposal. This is an efficiency budget, not permission to accept a defect. Reuse unchanged measurements/tests; exactly recheck changed properties, transform descendants, adjacent clearances, shared resources and the final whole view. Rebind changed execution plans. Obtain new confirmation only for material changes of source, selection/order, relationship meaning or agreed aesthetic scope; routine numerical repairs within it remain authorized.
 
 If the same defect persists, the source cannot support the target, or any fidelity check fails, stop the affected edit and preserve a rejected candidate separately. Return to the last intact verified source/accepted revision, never reverse-patch uncertain changes or overwrite originals. State the specific remaining issue and supported alternative; ask one focused question only when it affects the choice. More iterations are justified by a new measurable hypothesis or user direction, not blind retries. Deliver a preview with an explicit limitation when appropriate; do not label it a completed high-quality final figure.
+
+

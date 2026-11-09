@@ -1,28 +1,42 @@
-# Stable defaults and targeted revalidation
+# Efficient decisions, reuse and verification
 
-The skill should save time without replacing evidence with constants. Keep stable behavior encoded; do not repeatedly ask the user or rerun an unchanged toolkit's full regression suite for each layout.
+## Decision ownership
 
-## Defaults to reuse
+Apply current user instructions first, then compatible choices already made in the conversation, then this skill's defaults. Preserve the scientific/source invariants of the chosen operation. A helper's exact hash/old-value guard protects an execution; it does not require the user to choose coordinates or reconfirm the same intent.
 
-- Entry modes: interactive rough layout versus minor refinement of an already arranged figure. Skip HTML for minor refinement, preserve composition and automatically prepare the minimal guide/typography proposal; apply only after matching confirmation.
-- Local self-contained offline HTML, no source/thumbnail/page upload or website deployment; screenshot return is sufficient for coarse intent when clear.
-- Real thumbnails; minimal drag/resize, Shift selection, arrow-key adjustment, undo and bounded movement. Optional local layout save/restore, no material library or auto-arrange button.
-- Preserve all scientific units unless selection is actually established. Stable IDs and semantic parents are not display labels.
-- Shared aesthetic hierarchy, positive annotation gaps, semantic grouping, exact-edge/ink/baseline rules, guides before final-source application. Assistant chooses ordinary numerical details.
-- Preserve exact data, text/runs, axes/ticks/ranges, fits, image crops/aspects, payloads and fixed connector endpoints outside explicitly approved changes.
-- Three route labels and layer distinctions; separate style-template choice. Reuse the latest applicable user choice, never an earlier conflicting choice.
-- No built-in bridge startup, capability research, unknown-code execution or persistent access grant.
+| Situation | Next action |
+|---|---|
+| Mode, route, reference and alignment intent are already clear | Resume the current stage; do not repeat the questions |
+| User says “好了” after dragging | Read current saved state and inspect changes; do not infer confirmation |
+| User explicitly confirms the just-reviewed current arrangement/relationships in chat | Record that exact revision with `confirm --revision N`, then `read-confirmed`; do not make them repeat the same confirmation in a button |
+| User requests a clear font/spacing/marker correction | Reuse established relationships and route, apply the new appearance scope, and verify affected objects and neighbors |
+| New source, selection/order, relationship meaning or material aesthetic intent | Resolve the changed scope, preserving independent completed work |
+| A derivation changes numerical positions inside agreed relationships/aesthetic criteria | Rebind the concrete execution plan; no per-coordinate user approval |
+| User edited the workbench during private processing | Preserve the newer draft; update only compatible previews or reconcile the changed scope, never replace it from a stale snapshot |
+| A particular conversion/editor operation fails | Try a supported faithful alternative within the chosen layer; otherwise name that facet's blocker and continue independent work |
 
-Version stable template/tool code, test fixtures, manifest schema and dependencies. Keep a compact capability record: toolkit hash/version, relevant environment/version, operation family, executed tests and their evidence. Reuse it only for an unchanged applicable combination. Never change a historical `not run` to `passed` or treat a synthetic pass as an application lifecycle test.
+Use one concise request for genuinely unresolved choices. Ask reference/style questions once; no reference means the source/established aesthetic baseline. Do not ask about routine dimensions, margins or font sizes that can be derived from the reference.
 
-## Checks that remain per source/task
+## One task record, selective reading
 
-1. Resolve the actual requested file/version and verify full source hash before cached reuse and immediately before mutation.
-2. Inspect source families and scientific panel/object membership; check thumbnails and relevant representations. An unchanged source may reuse its verified inventory, with identity/hash confirmed; a same filename is insufficient.
-3. Check imported/saved project/map identity, selection and geometry if used. For screenshot-only input, state ambiguities instead of pretending exact state was validated.
-4. Match current route/style/plan/guide approvals, exact targets and expected old values. Recheck current permissions/session state before external or native actions; approval cannot be cached as a permanent grant.
-5. Verify actual non-no-op result, protected data/parts, allowed diff and rendered appearance of the new output. Application reopen/refresh claims need actual applicable execution evidence.
+Keep a small private record with current source/hash, mode, route, selected panels and source objects, reference/style targets, confirmed relationships, current saved revision, planned operations and verification evidence. No universal giant form is required. The executable coverage schema retains its required object/facet entries, but may reference one shared valid evidence file rather than duplicate prose for every run.
 
-Re-run targeted regressions after edits to relevant code, schema, parser, browser behavior, dependencies, security boundaries or supported file structures; run the full related suite for broad changes. New operations need their own synthetic tests and real-file validation. If a known environment check is cached, verify it is still the selected unchanged environment before relying on it.
+The main entrypoint selects the stage; [operation-map.md](operation-map.md) selects the operation. Read detailed schemas only for the chosen helper. References have defined owners: guide semantics in `guide-relations.md`, visual design in `aesthetic-review.md`, typography in `typography-reference.md`, numerical verification in `quality-specification.md`, runtime handoff in `local-handoff.md`. Do not recursively reread every linked file on every turn.
 
-Do not hard-code today's user filenames, project IDs, source hashes, coordinates, approved images, installed fonts, private endpoints or active session status in this reusable skill. They belong in private per-task records. Reuse a verified capability, not a fictional success.
+## Reuse without staleness
+
+Reuse verified inventories, faithful baselines, source bindings and unchanged render measurements when their source hashes, selected parts, renderer and output scale still match. Check changed source/version once before preparing a write and again where the writer requires it. Do not keep re-extracting or converting identical caches.
+
+Inspect one full baseline and the fragile regions first. Batch independent object inspections and renders. Apply compatible changes in one source-bound plan; then check actual allowed differences. Repair a shared root cause once, followed by per-instance exceptions and whole-figure review.
+
+After an edit, recheck changed objects, transform descendants, neighboring ink, shared resources and final full-view composition. Reuse unchanged applicable checks. Default to a planned correction pass plus a verification-driven pass; further iterations need a specific remaining defect or new user direction. Never stop merely to satisfy that efficiency budget while a required fix remains safely achievable.
+
+Run tool regressions when implementation/schema/behavior changes, not for every new figure. Per-file content preservation and final rendering are still required. A previously tested renderer/helper is reusable evidence of that capability only, never proof of a new figure's appearance or native lifecycle.
+
+## Keep handoff small
+
+`assistant_layout.py read` and `read-confirmed` return layout, relationships, revision and preview hashes by default. Use `--include-previews` only when the PNG payload is actually needed; do not dump it into the conversation. New servers support summary reads; the CLI falls back to filtering a legacy full response.
+
+Prepare immutable private candidates and visual evidence without holding a workbench lock. Acquire a lock for shared-state changes/publication, after checking current revision. Keep it short, renew when necessary, release in `finally`, and stop writes if the user cancels it. The lock is not a substitute for source/plan guards.
+
+Deliver a short result with the actual file/page and relevant limitations. Keep test logs, source mappings and unsupported-route diagnostics private unless needed to explain a real blocker.

@@ -1,9 +1,9 @@
 {
   "schema": "origin-edit-lab-source-package-v1",
-  "baseline_commit": "347a7c9cfb065357222b244d6252a1d8374f518c",
-  "profile": "reviewed-public-source-only-with-bounded-python-adapters",
-  "file_count_excluding_this_manifest_and_its_checksum": 563,
-  "bytes_excluding_this_manifest_and_its_checksum": 10154317,
+  "baseline_commit": "39b66357c69d39631d47b10908a16717a0239551",
+  "profile": "reviewed-public-source-only-with-figure-layout-V1",
+  "file_count_excluding_this_manifest_and_its_checksum": 589,
+  "bytes_excluding_this_manifest_and_its_checksum": 10345883,
   "excludes": [
     "this manifest and its companion checksum from recursive inventory",
     "all generated fixtures, private source profiles and runtime outputs"
@@ -27,8 +27,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14836,
-      "sha256": "ce22caf1469fe18b91b973a8b97e7a7e3010d9df5e31fa09b136d28062d15adc"
+      "bytes": 14932,
+      "sha256": "0e15d7c27f3e69248af6518f6cbc4b2f8ce96049ac4300f7e98fd29d62cd0195"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -44,6 +44,11 @@
       "path": "docs/capabilities.md",
       "bytes": 884,
       "sha256": "d0d40d77d1938f225f779df1246d79a68f380dc8299684ea1b1e759419633ebc"
+    },
+    {
+      "path": "docs/figure-layout-v1-validation.md",
+      "bytes": 1046,
+      "sha256": "8d77df137d559b0286886614fc6e473243e6d4d7a3eac5d39a3bcd4f6e5851fa"
     },
     {
       "path": "docs/native-data-packaging.md",
@@ -2332,8 +2337,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/CHANGELOG.md",
-      "bytes": 3542,
-      "sha256": "f42b7dad3c5598a915a25133ca56fbf040266ceda2c3123894620fe426142336"
+      "bytes": 8817,
+      "sha256": "b2c0f8c05f023018fef97e3a694380cceefb572d6d5b5325841b4896a23db8d9"
     },
     {
       "path": "skills/collaborate-figure-layout/LICENSE",
@@ -2342,33 +2347,53 @@
     },
     {
       "path": "skills/collaborate-figure-layout/MANIFEST.json",
-      "bytes": 17081,
-      "sha256": "b02b266e45543cc1396d4b2e24f75c39821b707e65cab80bd0582a9b2475d6c6"
+      "bytes": 21297,
+      "sha256": "ca08f0bfc418241a24d6e5f52a2312632a1df9c53fe94355060b85dfdee387b6"
     },
     {
       "path": "skills/collaborate-figure-layout/README.md",
-      "bytes": 4806,
-      "sha256": "3172311705d9a1c869171c269da984f8ad52c4fa4ba6b0325ad922237e73ec81"
+      "bytes": 3351,
+      "sha256": "2fda80519f3d97054f59524f84d11d866bbd279a2b4b5e46963825b0bde9aac4"
     },
     {
       "path": "skills/collaborate-figure-layout/SKILL.md",
-      "bytes": 28722,
-      "sha256": "4ca0666f07cbb62131c33405e81d37c7195a60a2aabb1efa5d0ed0f8557c271d"
+      "bytes": 10750,
+      "sha256": "bb48cb476e0db9e8211d69dbd94dba5aa54fbdc488297b877b49952b74003307"
     },
     {
       "path": "skills/collaborate-figure-layout/VERSION",
-      "bytes": 6,
-      "sha256": "71015c979ccb0fc8a0be7ca0ae83046ab045cdc2c8faa09fb2f0f7e440f9b4a6"
+      "bytes": 3,
+      "sha256": "44a465bcb3b0dca03df75f910d58d2e86889315cce0946e7454d39b6d61632b0"
     },
     {
       "path": "skills/collaborate-figure-layout/agents/openai.yaml",
-      "bytes": 646,
-      "sha256": "a092b0c5bac845d8681b82356b6c643216e01d795af31e664f299f2a730c881a"
+      "bytes": 528,
+      "sha256": "0d6e730977d7ba73cbc01583d2dfb998284c2a35ab12210804dc40142115cb53"
     },
     {
       "path": "skills/collaborate-figure-layout/assets/icon.svg",
       "bytes": 2922,
       "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/assets/local-handoff/assistant_layout.py",
+      "bytes": 6099,
+      "sha256": "6090d2794537abf765897f67e5943cb44edebf0a39fc85b11048c6bdccc9c84a"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/assets/local-handoff/guide_relations.py",
+      "bytes": 3490,
+      "sha256": "c7875292a5f8936579ab89243c8eeec9e315f626525bb48fe41cbe03f5b9ab00"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/assets/local-handoff/server.py",
+      "bytes": 18601,
+      "sha256": "d404a3fe952ccae1c37c8d9405aa032130a6ddc8ce96d197ed450712d3ea46b4"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/assets/local-handoff/workbench.template.html",
+      "bytes": 37751,
+      "sha256": "45daa142663ece18b09d584a3b681e900585eac455d2d9de7bb1f169e9056b30"
     },
     {
       "path": "skills/collaborate-figure-layout/assets/web-layout/app.js",
@@ -2497,13 +2522,13 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/aesthetic-review.md",
-      "bytes": 27973,
-      "sha256": "81186bf8406e5e6175f83ef3993bc7df912eda9311d2b0af4e5c36e201a39fac"
+      "bytes": 30712,
+      "sha256": "7e204f175846aabf6ae11b074e945719f4abc8208e13b98cf7fec848be28e92e"
     },
     {
       "path": "skills/collaborate-figure-layout/references/alignment-review.md",
-      "bytes": 22965,
-      "sha256": "e6cf403550a9fa117480ca80fcb539928bb418e4e6b92ae01f32eb5b2f004e1a"
+      "bytes": 23957,
+      "sha256": "956c40ac457f976939975755103839bb3a33723474f747435ce36a181ea756db"
     },
     {
       "path": "skills/collaborate-figure-layout/references/bounded-native-methods.md",
@@ -2512,18 +2537,18 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/code-editing.md",
-      "bytes": 38929,
-      "sha256": "e460f9209001b233c632eeb4fba2d9043e68f8ea2506fe4d8a61df736e2c9d47"
+      "bytes": 40183,
+      "sha256": "49ebe82399739c4e3b10bc8d76f42e407416ba3a903e13deb992db9794225e0b"
     },
     {
       "path": "skills/collaborate-figure-layout/references/collaboration-dialogue.md",
-      "bytes": 6559,
-      "sha256": "0118438b60065c280dff5463171659fbfd2679eda918bf9882ad20e3fb6ff287"
+      "bytes": 9284,
+      "sha256": "6d162707e518d0143ceac59a30d10aab327458a7000402a79b69bea1662a3f34"
     },
     {
       "path": "skills/collaborate-figure-layout/references/fast-path.md",
-      "bytes": 3629,
-      "sha256": "9d4ce553894a13d08f1a957cc11340f75431a0b164021ba279e597dff1db00e7"
+      "bytes": 5181,
+      "sha256": "0e45067caf1deafeb4586e20474a26ef3d0f2c746220d19f3eb779d2529aa4a0"
     },
     {
       "path": "skills/collaborate-figure-layout/references/figure-quality-fixtures.md",
@@ -2537,13 +2562,23 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/file-exchange.md",
-      "bytes": 5766,
-      "sha256": "0d6cc4137a2e6ebe4d8000e261a483f0b2e8a25d0e9e02f85cd297b6add89ded"
+      "bytes": 5795,
+      "sha256": "3588a2e2de364afe713bd81f7e7806f0460a3a2b719f87c40ab577c2cd6226de"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/guide-relations.md",
+      "bytes": 7291,
+      "sha256": "68583cc4f32ead61983fd8fbb208b34d236b53b53fb80f47a25a067c67b9e859"
     },
     {
       "path": "skills/collaborate-figure-layout/references/guide-tool.md",
-      "bytes": 7548,
-      "sha256": "280ee5e9268214e2c209b20c2babce787be0fb6aab4f5d891307d95111496d9f"
+      "bytes": 7728,
+      "sha256": "5b01d140c23891bd0b6f03ed2ca1bfb5c8fa45b5f9bb4013b6d6d6291bc9a270"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/local-handoff.md",
+      "bytes": 11392,
+      "sha256": "29ea33c6ce5b5456094a47236926c7847c482db1ed54b4c1015ac911bb1da1c7"
     },
     {
       "path": "skills/collaborate-figure-layout/references/native-origin-plans.md",
@@ -2552,8 +2587,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/native-ppt-text.md",
-      "bytes": 3658,
-      "sha256": "d6ff473910c3fadfd43fc9d8039eb15ab9ae7dc0e3c7a1e6bcc5b38285f9f176"
+      "bytes": 6732,
+      "sha256": "17baad51ec54e4f465ed226e8d93a91ee4b05614cc42844b14cc6b138e83a4bd"
     },
     {
       "path": "skills/collaborate-figure-layout/references/observation-checker.md",
@@ -2561,14 +2596,29 @@
       "sha256": "9d153d9560a65712adef7fd548b4bce278f1248fcf67fbedb742b640cd2c40ee"
     },
     {
+      "path": "skills/collaborate-figure-layout/references/ole-display-safety.md",
+      "bytes": 7028,
+      "sha256": "b051b512bd6c92153d9b3b458bbf42be29667feb522405391eb306e60c42d927"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/operation-map.md",
+      "bytes": 5456,
+      "sha256": "d1ba629fb4d08c4088a97398a7234a726cc079216064ce50826ba7fd93836787"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/python-whole-display.md",
+      "bytes": 8565,
+      "sha256": "dd96deeb9be12ac7227be7254d77f330d08d9407b92897b0b064d0d7d76d37ae"
+    },
+    {
       "path": "skills/collaborate-figure-layout/references/quality-specification.md",
-      "bytes": 23899,
-      "sha256": "dc8ca2d1ab0d2a451f2a14d0ea411e2f6758f20248395a671a087f6f5a4d62c6"
+      "bytes": 28230,
+      "sha256": "bed8e08c6eec94658e104a89d4150f2566fd54f0025e3dfe7d7cdadf0ba55a82"
     },
     {
       "path": "skills/collaborate-figure-layout/references/refinement-routes.md",
-      "bytes": 15236,
-      "sha256": "7d449f2e8e7fc8e2dd0f31e65960beb2f2bf524df30edbb4a5b1f5f9fe710933"
+      "bytes": 15887,
+      "sha256": "8ac536f1c9333c6760119907b437bcf7879b5faa8611feded75f96db52691139"
     },
     {
       "path": "skills/collaborate-figure-layout/references/reviewed-external-methods.md",
@@ -2582,8 +2632,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/style-options.md",
-      "bytes": 8473,
-      "sha256": "f33b76115b76f8157794320cc424d237ba79f751c752162f648334d678a1c47c"
+      "bytes": 8665,
+      "sha256": "7c111342c187987f8219b896b25c88d2bc453c1a8141efdf7215b994d736ab34"
     },
     {
       "path": "skills/collaborate-figure-layout/references/toolkit-reuse.md",
@@ -2591,14 +2641,24 @@
       "sha256": "1ce60edbc40ceb50f9e0eceb6497ad41e3143e4a5ec5c282b873b3a53ed8d65f"
     },
     {
+      "path": "skills/collaborate-figure-layout/references/typography-reference.md",
+      "bytes": 9985,
+      "sha256": "e938205c1cee185089ccc83d8aca7bce57525d66ae64c59200a449a0afa4e201"
+    },
+    {
       "path": "skills/collaborate-figure-layout/references/verification-and-delivery.md",
-      "bytes": 7505,
-      "sha256": "a540ce71f8700d6c1aa2d6ef1c3a6bb05aad8907e463eaa8dd2f54f98b882f3e"
+      "bytes": 7558,
+      "sha256": "1114af019777da83ed1f1012c443bcef31e4574fef009c96f197aed172b4f4a0"
     },
     {
       "path": "skills/collaborate-figure-layout/references/web-layout.md",
-      "bytes": 10345,
-      "sha256": "db6f296a60fd2c2f28090c330ecc5edc41c11a7d86a1ef7b9efc0c50bf6ad030"
+      "bytes": 5091,
+      "sha256": "cf5261818d1da2d90dbd3b2341a12ba80ee00bc3793912ae0b38e13288af3e8d"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/workflow-audit.md",
+      "bytes": 4568,
+      "sha256": "2e24a1a1ea29474cf0741849f3acd326629e2acd3099a164fb158cb57ab8a8e9"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/alignment_guides.py",
@@ -2682,8 +2742,13 @@
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/native_ppt/safe_edit.py",
-      "bytes": 15523,
-      "sha256": "e057d1e3588edf5b2008561e6b49487dd85dc8ea33b2a962bbaa6da050330342"
+      "bytes": 20744,
+      "sha256": "8856a9f17e64856e88e664569dff39fe931e189bfd3b1bc7ed74d97d80866fa6"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_ppt/test_character_spacing.py",
+      "bytes": 3671,
+      "sha256": "6a56b0a7de81df48aba3642756fd4134b11daac4901b26e26c6395c217d580e2"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/native_ppt/test_independent_ppt.py",
@@ -2691,14 +2756,34 @@
       "sha256": "82cbfcf11b4957da55cb5824626ba1b9f14ece57945af8ea3bbf59bd641645a4"
     },
     {
+      "path": "skills/collaborate-figure-layout/scripts/native_ppt/test_paragraph_spacing.py",
+      "bytes": 3354,
+      "sha256": "222f9e6e9aa3ae45c96ef4384dce2b298316a77bae2aafd5173496aa0abf29d6"
+    },
+    {
       "path": "skills/collaborate-figure-layout/scripts/native_ppt/test_safe_edit.py",
       "bytes": 9600,
       "sha256": "2eeeac65f0c9f4f02d70edeb74ab4cb5dd5948b003bd08bea2a70af8ae5a3387"
     },
     {
+      "path": "skills/collaborate-figure-layout/scripts/normalize_ole_display.py",
+      "bytes": 7184,
+      "sha256": "1913722e41b6e6f353d6ed38ac4c944409f61a575ede6216860d55a534bc0301"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/prepare_local_handoff.py",
+      "bytes": 2930,
+      "sha256": "fe486500daf42dba1f725d9c126b44b9810da0d632c3481452b81ddc2e62ee6c"
+    },
+    {
       "path": "skills/collaborate-figure-layout/scripts/prepare_web_project.py",
       "bytes": 5607,
       "sha256": "069554a364e683c90cecfbe60e1f8acdb2267d83649c3d0c0fff50721af5d928"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/python_display_coverage.py",
+      "bytes": 4471,
+      "sha256": "322adf5f46dcc5bd547a044a8d96a7406996402a51654d84c1f48583d9aa9e75"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/read_web_layout.py",
@@ -2717,8 +2802,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/source_edit/layout_plan.py",
-      "bytes": 8210,
-      "sha256": "9788ac269471f17e4b9040d354a5b9d124d9c3d25292341cbc5fbf2b6eb43ff9"
+      "bytes": 8885,
+      "sha256": "bcc0aa268fbe235077e279876abd4922038accb7f4bb267b26aa05fcd647a5ed"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/source_edit/pixel_overlay.py",
@@ -2762,8 +2847,8 @@
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/source_edit/test_layout_plan.py",
-      "bytes": 8580,
-      "sha256": "f4360c71e5158e781f674345d00c316d84068511a1fb042f972cf178fc91af85"
+      "bytes": 9352,
+      "sha256": "59cddb7973a9c961ff30b40d632191b399e379c63747c03535321692551049cd"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/source_edit/test_paired_vml.py",
@@ -2816,14 +2901,59 @@
       "sha256": "d0305bb64ad533a512328e2ba63bd6fb2b27c5f20d3e5a5bfb3b8cec2f35b0f8"
     },
     {
+      "path": "skills/collaborate-figure-layout/tests/local_handoff_controls.test.cjs",
+      "bytes": 9260,
+      "sha256": "b44d96d76431d68a19ea8fd563d39584fbdc75607613b93c036d2da3a4fc4cfd"
+    },
+    {
       "path": "skills/collaborate-figure-layout/tests/offline_layout_controls.test.cjs",
       "bytes": 11620,
       "sha256": "a2257d0480f9cf01de8d36d78cd23d96cce67d86de7891eb4be533512b43101a"
     },
     {
+      "path": "skills/collaborate-figure-layout/tests/test_compact_handoff.py",
+      "bytes": 2532,
+      "sha256": "46814fc773d84b937d64adad2dafb3d2f724d4e2ac47b2b9c55f0eb4a5ef978a"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_guide_relations.py",
+      "bytes": 4864,
+      "sha256": "91eef191e3d3e2e789b53445708b8c76b654f61ff2f10e725fd8feec45822620"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_handoff_end_to_end.py",
+      "bytes": 5332,
+      "sha256": "c50aae46cb276828b06c5dc62cde488df5858377ad4938620b657a723262b7ff"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_local_handoff.py",
+      "bytes": 4721,
+      "sha256": "af589c9733b2f0b0d2b23edc9e0a3084f3f4197b995f0b09b30095a82eada2f0"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_normalize_ole_display.py",
+      "bytes": 5177,
+      "sha256": "467cd3afd809b82ee88d0ddbef03fd66450cca9f2e134c81d6daf4cb79da4e02"
+    },
+    {
       "path": "skills/collaborate-figure-layout/tests/test_prepare_web_project.py",
       "bytes": 7805,
       "sha256": "8153608216b7e2a71f1870ad74dda121b1210404b4345cdef12731dcf2904a28"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_preview_handoff.py",
+      "bytes": 2475,
+      "sha256": "4f1d2b362ed258b0179c4c3a75e8952c12dbc9393a457d7b8203f3f6065fab15"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_python_display_coverage.py",
+      "bytes": 2429,
+      "sha256": "f7ada039d1eb99c4165ae1e6f2f07ea54dedcd7233697fe8eba2ba1f3f7834c0"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/tests/test_stage_failure_recovery.py",
+      "bytes": 2669,
+      "sha256": "3942051de723eaf83b51b3f7f6df771fc5d1505424926d48a5c2559c8ace8513"
     }
   ]
 }

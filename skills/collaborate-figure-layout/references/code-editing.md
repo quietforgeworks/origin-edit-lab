@@ -16,6 +16,10 @@ Read this for the code route after source inventory and route selection. The bun
 - [Revisions and rollback](#revisions-and-rollback)
 - [Portable tests and provenance](#portable-tests-and-provenance)
 
+## Live OLE and target-host display gate
+
+Before any cache-based PPT write or delivery, follow [ole-display-safety.md](ole-display-safety.md). The refined working page itself must retain individual live Origin objects; a full-page PNG plus originals on another page is not an acceptable cache-edit delivery. Use the bounded display-normalization helper for its supported branch structure, then verify the actual target PowerPoint. Report native activation separately.
+
 ## Python direct-edit workflow
 
 This is the executable workflow for **用 Python 直接修改（这种修改可能会导致 Origin 重新打开时格式改变）**. Use it after the current route choice, whether the figure came from interactive layout or an already arranged figure. The CLI chain below is for **PPTX inputs only**. For a standalone image, inspect/preserve its actual bytes and format; use only an authorized supported image operation or resolve an existing editable source when the requested change needs one. Do not run a PPT parser on a PNG or turn raster scientific data into invented editable axes/text.
@@ -218,7 +222,7 @@ python "$CODE/layout_plan.py" inspect plan.json > guide-review.json
 python "$CODE/layout_plan.py" check plan.json --source source.pptx --guides shown-guides.png --approval approval.json
 ```
 
-Only after the user confirms the **shown** proposal, record a private approval object with exactly `decision: "approve"`, matching `plan_version`, `source_sha256`, `guides_sha256`, canonical `plan_sha256`, the exact `alignments` binding list from the summary, and `user_confirmation` pointing to/quoting the trusted conversation. Use `plan_sha256` returned by inspection: it hashes canonical validated JSON, not raw file bytes. Empty `questions` is required. Changed source, guide, version, coordinate or any plan content invalidates approval.
+Use the current trusted user authorization for the reviewed relationships and requested style scope; show/confirm a proposal when those meanings are genuinely new. Record a fresh execution binding with exactly `decision: "approve"`, matching `plan_version`, `source_sha256`, `guides_sha256`, canonical `plan_sha256`, the exact `alignments` binding list from the summary, and `user_confirmation` pointing to/quoting the trusted conversation. Use `plan_sha256` returned by inspection: it hashes canonical validated JSON, not raw file bytes. Empty `questions` is required. Changes invalidate the old concrete machine binding: regenerate it and verify the current authorization scope. Routine derived coordinates within confirmed relationships/aesthetic criteria are not pins from the workbench and do not alone require repeated user confirmation.
 
 The actual patcher must call `require_alignment_approval(source_bytes, guides_bytes, plan, approval)` before changing anything, on the same bytes it will use, then apply old-value guards and recheck source/guide hashes before publishing. A prior standalone CLI check is not an authorization token for later changed inputs.
 
@@ -280,3 +284,9 @@ python scripts/source_edit/smoke_pipeline.py --output-dir ANOTHER_NEW_TEST_DIREC
 `--render` requires installed Inkscape. Without it, the smoke uses known synthetic primitive PNGs for package plumbing and explicitly records SVG rasterization as **not run**. The optional renderer test is skipped if Inkscape is absent; report that skip instead of counting it as executed. The smoke accepts no real source deck and writes only a new directory. It extracts an actual synthetic source SVG/PNG/CFB, performs a hash-guarded SVG appearance change, replaces synchronized paired preview references, verifies unchanged payload/shared picture/native text/geometry/untouched slide, and produces package protection reports. Synthetic CFB/package envelopes are not real editable Origin graphs or Office compatibility evidence.
 
 At this integration, 121 synthetic tests passed normally and with optimization, and the operation smoke passed with installed Inkscape in both modes. The rendered change was bounded to the intended synthetic curve; all tested package/content protections passed. Real-file EMF-to-SVG conversion fidelity, PowerPoint, macOS, Origin native reopening and refresh were **not run**. Re-run the relevant regression commands when this toolkit, its dependencies/environment or operation family changes. For an unchanged verified toolkit, reuse the recorded template evidence while checking each new source, plan, output and render; the recorded result never certifies a future user file or task-specific native patcher. See [fast-path.md](fast-path.md).
+
+
+
+## Whole-display Python refinement requirement
+
+When Python is selected, follow [whole-display refinement](python-whole-display.md): inspect and refine outer geometry, inner plotting-area dimensions/aspect, all text, axes, lines, spacing and distortion for every output object. Host-only resizing is not completed refinement. Use the executable coverage gate, preserve live OLE and native PPT objects, and report unsupported inner edits explicitly rather than inventing capability.

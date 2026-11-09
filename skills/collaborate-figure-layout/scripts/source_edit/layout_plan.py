@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Read-only alignment approval gate; does not move objects or establish user identity."""
+"""Guard derived final execution coordinates, never workbench guide positions.
+
+Workbench positions are nonbinding relationship hints. Derive this concrete plan
+from approved relationships plus aesthetics before binding and checking it.
+"""
 from __future__ import annotations
 import argparse
 import hashlib
@@ -64,6 +68,7 @@ def validate_plan(plan):
     if not isinstance(plan['alignments'], list) or not plan['alignments']:
         raise ValueError('Plan needs explicit alignment pairs')
     ids, targets = set(), set()
+    anchor_coordinates = {}
     for item in plan['alignments']:
         exact_keys(item, {'id', 'reference', 'target', 'coordinate_pt', 'certainty'}, 'Alignment')
         if not nonempty_text(item['id']) or item['id'] in ids:
@@ -79,6 +84,11 @@ def validate_plan(plan):
         n = item['coordinate_pt']
         if type(n) not in {int, float} or not math.isfinite(n):
             raise ValueError('Alignment coordinate must be finite points')
+        for anchor in (item['reference'], item['target']):
+            key=tuple(anchor[k] for k in ('panel','object','edge','basis','axis'))
+            if key in anchor_coordinates and anchor_coordinates[key] != n:
+                raise ValueError('Conflicting derived coordinates for the same anchor')
+            anchor_coordinates[key]=n
         if item['certainty'] not in {'clear', 'needs_confirmation'}:
             raise ValueError('Certainty must be clear or needs_confirmation')
     return plan
@@ -99,7 +109,8 @@ def review_summary(plan):
             'source_sha256': plan['source_sha256'], 'guides_sha256': plan['guides_sha256'],
             'plan_sha256': plan_digest(plan), 'alignments': alignment_bindings(plan),
             'questions': plan['questions'],
-            'note': 'Show the guide proposal and resolve questions. This report is not approval.'}
+            'coordinate_policy': 'derived-final-plan-not-workbench-guide-positions',
+            'note': 'Review alignment relationships and aesthetic scope; bind derived execution coordinates. This report is not approval.'}
 
 
 def require_alignment_approval(source_bytes, guides_bytes, plan, approval):
@@ -108,7 +119,7 @@ def require_alignment_approval(source_bytes, guides_bytes, plan, approval):
     if plan['questions']:
         raise ValueError('Unresolved alignment questions must be answered before applying')
     if sha256(source_bytes) != plan['source_sha256'] or sha256(guides_bytes) != plan['guides_sha256']:
-        raise ValueError('Source or presented guide changed; regenerate and reconfirm the plan')
+        raise ValueError('Source or bound final guide changed; regenerate execution binding and verify authorization scope')
     exact_keys(approval, {'decision', 'plan_version', 'source_sha256', 'guides_sha256', 'plan_sha256', 'alignments', 'user_confirmation'}, 'Approval')
     if approval['decision'] != 'approve' or not nonempty_text(approval['user_confirmation'], 4000):
         raise ValueError('Explicit user confirmation is required')

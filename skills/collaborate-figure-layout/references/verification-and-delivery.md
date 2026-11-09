@@ -4,7 +4,7 @@ Use this checklist after any of the three editing routes. A stage may be complet
 
 ## Preserve the source and identity
 
-- Keep the original source read-only and prove its full hash unchanged. Retain the exact input, returned screenshot or actual layout record, and confirmed plan privately.
+- Keep the original source read-only and prove its full hash unchanged. Retain the exact input, current saved-state revision and confirmed plan privately; a returned screenshot belongs only to an agreed fallback.
 - Recheck target slide/host/XML/relationship bindings. Count coverage by scientific membership, not merely shape count; verify the selected and deliberately omitted units.
 - For code-based layout or preview work, compare every protected OLE payload and unknown/unmodified ZIP part byte-for-byte. Validate only the allowlisted changed parts and all touched relationships/content types.
 - For real Origin native Save, literal payload byte equality is not expected. Compare the available scientific data, missing values, curves/bindings, layers, axes, fits and non-target graph properties before/after and after a separate reopen. State any uninspectable properties; do not infer universal preservation from a partial API snapshot.
@@ -54,7 +54,7 @@ Use “not run” rather than “passed” for unavailable stages. A bridge requ
 
 ## Deliver the requested result
 
-- **Rough arrangement:** interactive HTML plus optional same-geometry preview; label it as composition intent.
+- **Rough arrangement:** local saved-state workbench plus optional same-geometry preview; label it as composition intent.
 - **Effect-only request:** a guide-visible image, with a clean companion only as an addition; say which source layers remain untouched.
 - **Code-edited PPT:** a new deck with all reference lines in one independent native group per final figure/slide, plus a clean companion when wanted, with the actual preview/native-object scope and refresh limitation.
 - **Native Origin work:** verified new native output/export, and a PPT only when a supported reinsertion and its stated checks were completed.

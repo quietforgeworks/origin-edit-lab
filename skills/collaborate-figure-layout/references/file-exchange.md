@@ -1,6 +1,6 @@
 # Optional PPT box-draft exchange
 
-Use this reference only when the user chooses the PowerPoint fallback. Local offline HTML with screenshot feedback is the default in the main skill.
+Use this reference only when the user chooses the PowerPoint fallback. The default is local saved-state handoff in the main skill; this box-PPT exchange is an explicit fallback.
 
 ## Bundled tools
 

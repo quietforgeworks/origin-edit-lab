@@ -41,7 +41,7 @@ python preview/compat.py project.opju
 
 ## 科研组合图协作 Skill
 
-[collaborate-figure-layout 0.2.0](skills/collaborate-figure-layout/README.md) 将互动式粗排、已有版式轻微精修、科学源文件保护、审美规范与参考线确认串成可复用流程。包含离线拖动页、有限预览编辑工具和单个简单图页的可移除 PPT 参考线；不包含用户科研素材，也不声称通用 Origin 写入或已通过 Origin/PowerPoint 应用重开验收。新增已核实观察的只读检查器、合成案例、遮挡与套号归属检查，以及数据保真和标记/字间距回归。它不是自动识图器，也不新增原生 Origin 写入。范围与测试见[版本说明](skills/collaborate-figure-layout/CHANGELOG.md)。
+[collaborate-figure-layout V1](skills/collaborate-figure-layout/README.md) 将互动式粗排、已有版式轻微精修、科学源文件保护、审美规范与参考线确认串成可复用流程。包含离线拖动页、有限预览编辑工具和单个简单图页的可移除 PPT 参考线；不包含用户科研素材，也不声称通用 Origin 写入或已通过 Origin/PowerPoint 应用重开验收。新增已核实观察的只读检查器、合成案例、遮挡与套号归属检查，以及数据保真和标记/字间距回归。它不是自动识图器，也不新增原生 Origin 写入。范围与测试见[版本说明](skills/collaborate-figure-layout/CHANGELOG.md)。
 
 ## 独立运行的读取验证
 
@@ -115,4 +115,4 @@ The separate [strict modern reference reader](research/modern_native_binding/REA
 The separate [exact-bit FPC numeric codec](research/modern_fpc_codec/README.md) preserves opaque binary64 representations in memory and has two locally authored raw decoders plus a pinned external comparison. It is not a native dataset/container writer. Corpus-only wire identity, experimental matrix extraction and the external API's finite-sentinel normalization are explicitly bounded. Portable tests and recorded-evidence checks do not rerun native applications or certify Origin acceptance.
 
 
-The isolated [exact-budget FPC research revision 2](research/modern_fpc_exact_budget/README.md) adds bounded same-count exact-length encoding when a budget is mathematically reachable, preserving the raw 64-bit words. Its 44-file audited snapshot remains byte-identical; the historical unpublished labels are explained by the integration record. It does not implement native dataset/container writeback or establish Origin acceptance. The bundled figure-layout skill remains version **0.2.0**.
+The isolated [exact-budget FPC research revision 2](research/modern_fpc_exact_budget/README.md) adds bounded same-count exact-length encoding when a budget is mathematically reachable, preserving the raw 64-bit words. Its 44-file audited snapshot remains byte-identical; the historical unpublished labels are explained by the integration record. It does not implement native dataset/container writeback or establish Origin acceptance. The bundled figure-layout skill is now **V1**; see its changelog for the local handoff workflow, relationship-only guides and native text-spacing safeguards.
