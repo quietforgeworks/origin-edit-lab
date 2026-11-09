@@ -1,6 +1,6 @@
 # Collaborate Figure Layout
 
-Version **0.2.0**. A reusable scientific-figure collaboration skill with two entry modes: interactive rough composition and light refinement of an existing arrangement. Start with [SKILL.md](SKILL.md).
+Version **0.2.1**. A reusable scientific-figure collaboration skill with two entry modes: interactive rough composition and light refinement of an existing arrangement. Start with [SKILL.md](SKILL.md).
 
 ## Included
 
@@ -44,3 +44,12 @@ Repeat the Python commands with `-O` after `-B` to test optimized execution. The
 The authored source and documentation are [MIT licensed](LICENSE). Python, Node.js and optional renderers are installed separately. The online template lockfile records separately installed MIT/Apache/BSD dependencies; it does not bundle their code or relicense them. No proprietary Origin/Office runtime or fonts are included. See the repository [third-party notices](https://github.com/quietforgeworks/origin-edit-lab/blob/main/THIRD_PARTY.md).
 
 [Release notes](CHANGELOG.md) describe the versioned scope. `MANIFEST.json` records the exact SHA-256 of each packaged file except the manifest itself.
+
+## Bounded Python adapters in 0.2.1
+
+See [native PPT text](references/native-ppt-text.md) for supported top-level text/translation and [native Origin plans](references/native-origin-plans.md) for separately reviewed same-length byte plans and one ordinary-FAT Contents write. These are executable bounded adapters, not generic native styling, automatic field discovery, preview synchronization or bridge launchers. Private source profiles stay external.
+
+```sh
+python -B -m unittest discover -s scripts/native_ppt -p "test_*.py"
+python -B -m unittest discover -s scripts/native_origin -p "test_*.py"
+```

@@ -7,7 +7,7 @@ root=Path(__file__).resolve().parent
 subprocess.run([sys.executable,'-B',str(root/'preview/make_fixtures.py')],check=True)
 for optimized in (False,True):
     # Keep frozen supplements in separate processes: some module/test names overlap.
-    for suite in ('preview','native','research/ropj_readback','research/legacy_style_fields/tests','research/legacy_active_rows/tests','research/modern_binding_diagnostics/tests','research/modern_owner_walk/tests','research/legacy_allocation/tests','research/legacy_multicurve/tests','research/modern_native_binding','research/modern_native_scalar/tests','research/modern_fpc_codec/tests','research/modern_fpc_codec/independent-review','research/modern_fpc_codec/repository-tests','research/modern_fpc_exact_budget/snapshot/package/tests','research/modern_fpc_exact_budget/repository-tests'):
+    for suite in ('preview','native','skills/collaborate-figure-layout/scripts/native_ppt','skills/collaborate-figure-layout/scripts/native_origin','research/ropj_readback','research/legacy_style_fields/tests','research/legacy_active_rows/tests','research/modern_binding_diagnostics/tests','research/modern_owner_walk/tests','research/legacy_allocation/tests','research/legacy_multicurve/tests','research/modern_native_binding','research/modern_native_scalar/tests','research/modern_fpc_codec/tests','research/modern_fpc_codec/independent-review','research/modern_fpc_codec/repository-tests','research/modern_fpc_exact_budget/snapshot/package/tests','research/modern_fpc_exact_budget/repository-tests'):
         flags=['-B','-O'] if optimized else ['-B']
         subprocess.run([sys.executable,*flags,'-m','unittest','discover','-s',str(root/suite),'-p','test_*.py','-v'],check=True,cwd=root)
 

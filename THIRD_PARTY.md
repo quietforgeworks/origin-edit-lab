@@ -35,3 +35,7 @@ not relicense those external dependencies. No copied GPL parser implementation,
 compiled observer, external native sample, screenshot pixel or user measurement
 is included in these supplements. The repository's existing Apache-2.0 modules
 and notices are unchanged.
+
+## Bounded workflow adapters
+
+The `native_ppt` and `native_origin` modules in the figure-layout skill are independently authored project code under MIT, tested with generated synthetic inputs. They do not copy user-supplied toolkit implementations, private fixed-source profiles, scientific samples or historical application evidence. The native container wrapper reuses this repository’s existing authored `cfb_extract.py`; no new external parser is vendored.

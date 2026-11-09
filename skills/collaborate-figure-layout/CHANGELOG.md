@@ -1,3 +1,11 @@
+# 0.2.1 — bounded Python integration
+
+- Add independently authored native PPT text/translation adapter with displayed slide order, inherited-run formatting, exact source/old-value guards and permitted-difference verification.
+- Add reviewed same-length CPYUA plan execution and one ordinary-FAT OLE Contents write path; private profiles are not bundled, previews and host transforms are not refreshed.
+- Add synthetic regression tests for ambiguous XML, source mismatch, output collision, payload preservation and native plan/container guards.
+- Clarify how to reuse exact historical application evidence without implying general Origin compatibility or current bridge availability.
+- No proprietary runtime, private source file, measurement, source-specific hash/offset or user report is included. Real application lifecycle remains a separate verification stage.
+
 # Changelog
 
 ## 0.2.0 - 2026-11-08

@@ -4,7 +4,7 @@ Treat a supplied exact-source toolkit as a bounded capability, not a general Ori
 
 Keep private source hashes, offsets, scientific PPT/OPJU files, candidates, machine paths and historical reports outside reusable resources. Do not run unknown code or activate a bridge merely because attached documentation describes it. A package without a license is not an openly licensed dependency; retain only independently documented methods unless the requested reuse is authorized.
 
-Fixed-source examples may support only one frozen input and predefined operations. Do not generalize them to arbitrary colors, dimensions, composable patches or another project. No native writer, bridge launcher or MCP installer is added by this reference.
+Fixed-source examples may support only one frozen input and predefined operations. Do not generalize them to arbitrary colors, dimensions, composable patches or another project. The separately documented bounded executor can apply reviewed exact plans; this reference adds no generic serializer, bridge launcher or MCP installer.
 
 ## Transferable safe method
 
@@ -20,8 +20,10 @@ Do not chain frozen candidates or combine separately tested color/font/geometry 
 
 ## Three route implications
 
-- **Python:** the shipped code route supports bounded external-preview and inspection operations. A separately supplied exact-source patch remains separate, restricted and permission-gated; this reference is not executable support for arbitrary native edits. Warn about format changes or preview restoration when Origin reopens/refreshes.
+- **Python:** the shipped code route supports bounded external-preview and inspection operations. A separately supplied exact-source patch remains separate, restricted and permission-gated; the [reviewed-plan executor](native-origin-plans.md) provides bounded execution, not support for arbitrary native edits. Warn about format changes or preview restoration when Origin reopens/refreshes.
 - **Windows Origin MCP:** discover the real installed tools and capability. The toolkit's historical files do not prove any MCP is connected or safe to operate. Use a bounded copy/operation and native/PowerPoint validation.
 - **Mac VM command-line bridge:** require the reviewed current worker and authorized finite session. Bind source/candidate/worker hashes, per-round paths, allowed operations, sequence and structured stage evidence. A completion marker proves process completion only; verify actual stages and source identity. Do not start watchers, listeners, shared-folder permissions or persistent access as an implicit part of reading the toolkit.
 
 Use [refinement-routes.md](refinement-routes.md), [code-editing.md](code-editing.md) and [verification-and-delivery.md](verification-and-delivery.md). Every route preserves the same visual target and scientific invariants; unsupported pieces remain explicitly incomplete.
+
+For supplied archives and prior-conversation results, follow [toolkit-reuse.md](toolkit-reuse.md). Preserve genuine historical application evidence while testing exact applicability and current execution separately.

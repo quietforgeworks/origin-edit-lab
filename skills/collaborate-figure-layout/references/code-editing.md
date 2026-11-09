@@ -1,6 +1,6 @@
 # Python direct editing of scientific figures
 
-Read this for the code route after source inventory and route selection. The bundled helpers are self-contained; installing another skill is not required to run them. They are bounded tools from `edit-origin-in-ppt`, not a whole-slide editor or native Origin writer. Use the **same** [aesthetic review](aesthetic-review.md) and [source preservation](source-preservation.md) criteria as both native-Origin routes. An execution choice never changes the target look or approves unrelated scientific/style changes.
+Read this for the code route after source inventory and route selection. The bundled helpers are self-contained; installing another skill is not required to run them. They are bounded tools from `edit-origin-in-ppt`, not a whole-slide editor or general Origin writer. The bounded native text adapter and reviewed Origin plan executor are separate supported paths, described below. Use the **same** [aesthetic review](aesthetic-review.md) and [source preservation](source-preservation.md) criteria as both native-Origin routes. An execution choice never changes the target look or approves unrelated scientific/style changes.
 
 ## Contents
 
@@ -20,7 +20,7 @@ Read this for the code route after source inventory and route selection. The bun
 
 This is the executable workflow for **用 Python 直接修改（这种修改可能会导致 Origin 重新打开时格式改变）**. Use it after the current route choice, whether the figure came from interactive layout or an already arranged figure. The CLI chain below is for **PPTX inputs only**. For a standalone image, inspect/preserve its actual bytes and format; use only an authorized supported image operation or resolve an existing editable source when the requested change needs one. Do not run a PPT parser on a PNG or turn raster scientific data into invented editable axes/text.
 
-The shipped PPT write path is **extract → guarded SVG appearance edit → render → replace the selected external PPT preview → verify**. Native PPT objects/host geometry use the narrow Python/OOXML recipe below, not the preview-replacement command. Internal OLE caches and native Origin graph fields have no bundled writer.
+The shipped PPT write path is **extract → guarded SVG appearance edit → render → replace the selected external PPT preview → verify**. Native PPT objects/host geometry use the narrow Python/OOXML recipe below, not the preview-replacement command. Internal OLE caches have no bundled writer. A separately reviewed same-length native plan can run through [native-origin-plans.md](native-origin-plans.md); this does not discover fields or provide general graph editing.
 
 1. **Freeze and identify the input.** From the skill directory, resolve the current source and a new private revision directory. The following Bash examples use assistant-filled values; obtain actual paths, part names, hashes and selectors from this task, not these illustrative names. Check dependencies under [setup](#setup-and-source-binding).
 
@@ -36,7 +36,7 @@ The shipped PPT write path is **extract → guarded SVG appearance edit → rend
    ```
 
    Use `native-inventory.json`'s `assets[].source.kind`, structural members, host IDs, XML paths and transforms to recognize native shapes/text, pictures, groups, charts and OLE hosts. Use `preview-inventory.json` for the current one-based slide, `ole:N`/`picture:N` key and exact media/payload parts. Inspect actual renders and signatures as well: these inventories do not certify scientific grouping, active compatibility branches or native Origin validity.
-2. **Choose the actual edited layer.** For a PPT host move/resize or native text/shape/connector edit, go to [the task-specific OOXML recipe](#5-direct-native-ppt-ooxml-edits-narrow-recipe-not-bundled-automation). A picture/OLE external-preview appearance edit follows steps 3–7. For PNG-only scientific content, do not invent an SVG/text/curve representation; retain it or obtain a supported source. For internal OlePres/native OPJ/OPJU changes, stop the unsupported write and report the exact missing operation; [bounded native methodology](bounded-native-methods.md) is not an installed writer. Do not substitute external-preview changes for requested native changes.
+2. **Choose the actual edited layer.** For a PPT host move/resize or native text/shape/connector edit, go to [the task-specific OOXML recipe](#5-direct-native-ppt-ooxml-edits-narrow-recipe-not-bundled-automation). A picture/OLE external-preview appearance edit follows steps 3–7. For PNG-only scientific content, do not invent an SVG/text/curve representation; retain it or obtain a supported source. For a reviewed native plan use [the bounded executor](native-origin-plans.md). For unsupported native fields or internal OlePres changes, stop and report the missing operation; never invent offsets. Do not substitute external-preview changes for requested native changes.
 3. **Extract and establish an unchanged baseline.** Set `SVG_PART` to the selected object's actual current SVG part, then run:
 
    ```sh
@@ -79,7 +79,7 @@ The shipped PPT write path is **extract → guarded SVG appearance edit → rend
 - **Independent derived preview:** an extracted/converted SVG or rendered PNG edited outside the deck. This is an effect proposal only until explicitly reinserted. It neither changes a PPT cache nor becomes editable Origin data.
 - **External visible preview:** media referenced by DrawingML and sometimes paired VML. `pptx_origin.py replace` changes exactly the selected object's visible media references, cloning assets to protect shared uses. This is the implemented source-file appearance route.
 - **Internal OLE presentation cache:** streams such as `\x02OlePres000` inside a Compound File. `cfb_extract.py` can inventory/extract exact streams, but no internal OlePres editor or universal decoder is included. An external preview change leaves these streams unchanged.
-- **Actual Origin payload:** project/graph data inside an OLE `Contents` stream or an independent OPJ/OPJU. It may not be a complete standalone project. The tools here do not write it. `compat.py` reports metadata and offers snapshot comparisons, not a parser, serializer or compatibility certification.
+- **Actual Origin payload:** project/graph data inside an OLE `Contents` stream or an independent OPJ/OPJU. It may not be a complete standalone project. The bounded executor can apply only an independently reviewed exact same-length plan; see [native-origin-plans.md](native-origin-plans.md). It does not discover or infer valid graph fields. `compat.py` reports metadata and offers snapshot comparisons, not a parser, serializer or compatibility certification.
 
 PNG/JPEG scientific text and curves cannot become native editable objects by relabeling the file. Do not use a generative redraw, broad white masking, guessed values or new curves to imitate a source edit. Use authorized source data or obtain agreement for an explicitly limited preview result. Do not apply blanket direct EMF, internal OlePres or OPJU style changes: offsets, duplicated representations, length/checksum dependencies and object semantics require a separately implemented and tested operation. This route does not activate Origin, a Windows bridge or a VM.
 
@@ -193,6 +193,8 @@ Explain the exact consequence: **the slide's visible preview changed; embedded O
 
 ## 5. Direct native PPT OOXML edits: narrow recipe, not bundled automation
 
+For supported top-level text-shape typography and translations, first use the tested [native PPT adapter](native-ppt-text.md). The following recipe remains necessary for unsupported groups, connectors and other object families.
+
 Native objects can be changed with code, but neither `layout_boxes.py` nor `pptx_origin.py` is a scientific-source layout writer. A box-page arrangement is not a ready-to-apply native-PPT geometry plan. Create and test a **task-specific** patcher for the exact supported object/transform families; if that cannot be done safely, remain at proposal and explain the missing implementation.
 
 1. Load exact read-only bytes with `pptx_origin.Package`; check its source hash, relationships and the task manifest. Refuse signed packages (`_xmlsignatures/`), as the low-level save API does not perform the preview replacer's signature check. Resolve the actual slide part and a unique native `p:cNvPr/@id` together with its ancestry and expected object kind. Never select by text, color, or approximate location alone. Build a semantic group mapping for image, ROI, caption, legend and panel label, plus separate connector endpoint owners.
@@ -264,7 +266,7 @@ Keep the original, extracted exact bytes, approved plan and every candidate as d
 
 ## Portable tests and provenance
 
-The seven runtime helpers in `scripts/source_edit/` are byte-for-byte copies of the inspected stable `edit-origin-in-ppt` utilities: `pptx_origin.py`, `svg_edit.py`, `cfb_extract.py`, `wmf_emf_extract.py`, `layout_plan.py`, `pixel_overlay.py`, `compat.py`. Their bounded behavior is preserved. No experimental native writer, user fixture, scientific image, private report or local-runtime file is bundled. Synthetic fixture generators create all test assets in temporary directories. The copied regression tests are retained, with package fixture references replaced by generated fixtures and external-corpus cases omitted. New tests cover snapshot helpers and the complete CLI chain.
+The seven runtime helpers in `scripts/source_edit/` are byte-for-byte copies of the inspected stable `edit-origin-in-ppt` utilities: `pptx_origin.py`, `svg_edit.py`, `cfb_extract.py`, `wmf_emf_extract.py`, `layout_plan.py`, `pixel_overlay.py`, `compat.py`. Their bounded behavior is preserved. No user fixture, scientific image, private report or local-runtime file is bundled. Independently authored native_ppt and native_origin adapters are separately tested with synthetic inputs; they do not carry private fixed-source profiles or claim general Origin compatibility. Synthetic fixture generators create all test assets in temporary directories. The copied regression tests are retained, with package fixture references replaced by generated fixtures and external-corpus cases omitted. New tests cover snapshot helpers and the complete CLI chain.
 
 Run these separately from the page/layout test suite, from the skill root:
 

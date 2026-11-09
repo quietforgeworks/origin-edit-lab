@@ -1,12 +1,12 @@
 {
   "schema": "origin-edit-lab-source-package-v1",
-  "baseline_commit": "67c3fd8d1f236c4470b4b58558f0d49037202d67",
-  "profile": "reviewed-public-source-only-with-figure-layout-skill",
-  "file_count_excluding_this_manifest_and_its_checksum": 553,
-  "bytes_excluding_this_manifest_and_its_checksum": 10084068,
+  "baseline_commit": "347a7c9cfb065357222b244d6252a1d8374f518c",
+  "profile": "reviewed-public-source-only-with-bounded-python-adapters",
+  "file_count_excluding_this_manifest_and_its_checksum": 563,
+  "bytes_excluding_this_manifest_and_its_checksum": 10154317,
   "excludes": [
     "this manifest and its companion checksum from recursive inventory",
-    "all generated fixtures, application profiles and runtime outputs"
+    "all generated fixtures, private source profiles and runtime outputs"
   ],
   "origin_lifecycle": "UNVALIDATED",
   "files": [
@@ -32,8 +32,8 @@
     },
     {
       "path": "THIRD_PARTY.md",
-      "bytes": 3061,
-      "sha256": "a6e9f479c1f2da7b91bae8903790d14eac343ea0fe31734bbf6a306e932a362a"
+      "bytes": 3525,
+      "sha256": "8fe8ad3eef343da1c3fd7cac22e4e550eb18eba33014b9c5d18e190522baf7c4"
     },
     {
       "path": "docs/alignment-plan.md",
@@ -2327,13 +2327,13 @@
     },
     {
       "path": "run_tests.py",
-      "bytes": 1587,
-      "sha256": "856f3dcea35682f080f09d0ad9f419bd1c5bbdcff16e15c201dc8401b3611b00"
+      "bytes": 1698,
+      "sha256": "742b7df85b19d88a15693e44abb8a7ba3475ad364aae71f8abc922ce7f71334e"
     },
     {
       "path": "skills/collaborate-figure-layout/CHANGELOG.md",
-      "bytes": 2674,
-      "sha256": "cc8e592e9ef5314a19dcde7235d6510866d5bdacdd2fe889cf19ae421ecababa"
+      "bytes": 3542,
+      "sha256": "f42b7dad3c5598a915a25133ca56fbf040266ceda2c3123894620fe426142336"
     },
     {
       "path": "skills/collaborate-figure-layout/LICENSE",
@@ -2342,23 +2342,23 @@
     },
     {
       "path": "skills/collaborate-figure-layout/MANIFEST.json",
-      "bytes": 15268,
-      "sha256": "b14da81f5a99835f66f68f60d4caa518786cfa2699cf6b9f24e63d13f6afac5d"
+      "bytes": 17081,
+      "sha256": "b02b266e45543cc1396d4b2e24f75c39821b707e65cab80bd0582a9b2475d6c6"
     },
     {
       "path": "skills/collaborate-figure-layout/README.md",
-      "bytes": 4201,
-      "sha256": "953db471c29a73f89bc34815aa1cd154f6c1785b3139ba9130ef0cb911637b30"
+      "bytes": 4806,
+      "sha256": "3172311705d9a1c869171c269da984f8ad52c4fa4ba6b0325ad922237e73ec81"
     },
     {
       "path": "skills/collaborate-figure-layout/SKILL.md",
-      "bytes": 28155,
-      "sha256": "ae6fc61c0f96287dce7190e388ba24a06b3da7900b7c2ab273b243f53158c02b"
+      "bytes": 28722,
+      "sha256": "4ca0666f07cbb62131c33405e81d37c7195a60a2aabb1efa5d0ed0f8557c271d"
     },
     {
       "path": "skills/collaborate-figure-layout/VERSION",
       "bytes": 6,
-      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
+      "sha256": "71015c979ccb0fc8a0be7ca0ae83046ab045cdc2c8faa09fb2f0f7e440f9b4a6"
     },
     {
       "path": "skills/collaborate-figure-layout/agents/openai.yaml",
@@ -2507,13 +2507,13 @@
     },
     {
       "path": "skills/collaborate-figure-layout/references/bounded-native-methods.md",
-      "bytes": 4787,
-      "sha256": "971ca52aa83f377cadadf9c16c0b1fe01636ba2b7fe8cd41690f51effc38df1b"
+      "bytes": 5129,
+      "sha256": "1d12d2e358a2cb6badd999b4e0508095aab48a4367447836e0148752daf74a64"
     },
     {
       "path": "skills/collaborate-figure-layout/references/code-editing.md",
-      "bytes": 38116,
-      "sha256": "4efad8d1523a7d937741eb579d2b939f0bc0b7bb5146ced046de8d302c1331db"
+      "bytes": 38929,
+      "sha256": "e460f9209001b233c632eeb4fba2d9043e68f8ea2506fe4d8a61df736e2c9d47"
     },
     {
       "path": "skills/collaborate-figure-layout/references/collaboration-dialogue.md",
@@ -2546,6 +2546,16 @@
       "sha256": "280ee5e9268214e2c209b20c2babce787be0fb6aab4f5d891307d95111496d9f"
     },
     {
+      "path": "skills/collaborate-figure-layout/references/native-origin-plans.md",
+      "bytes": 4800,
+      "sha256": "5d84df1ef4b6fd957e038f4496ad2c92c8f73b76ce21d9d851edf24e89ab63e1"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/native-ppt-text.md",
+      "bytes": 3658,
+      "sha256": "d6ff473910c3fadfd43fc9d8039eb15ab9ae7dc0e3c7a1e6bcc5b38285f9f176"
+    },
+    {
       "path": "skills/collaborate-figure-layout/references/observation-checker.md",
       "bytes": 17173,
       "sha256": "9d153d9560a65712adef7fd548b4bce278f1248fcf67fbedb742b640cd2c40ee"
@@ -2574,6 +2584,11 @@
       "path": "skills/collaborate-figure-layout/references/style-options.md",
       "bytes": 8473,
       "sha256": "f33b76115b76f8157794320cc424d237ba79f751c752162f648334d678a1c47c"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/references/toolkit-reuse.md",
+      "bytes": 3666,
+      "sha256": "1ce60edbc40ceb50f9e0eceb6497ad41e3143e4a5ec5c282b873b3a53ed8d65f"
     },
     {
       "path": "skills/collaborate-figure-layout/references/verification-and-delivery.md",
@@ -2644,6 +2659,41 @@
       "path": "skills/collaborate-figure-layout/scripts/layout_boxes.py",
       "bytes": 20763,
       "sha256": "9ea61e5585d045a717c1b02de16e6cf77dd8f4c75afc4e80bbef5d016aeae295"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_origin/ppt_contents_patch.py",
+      "bytes": 7854,
+      "sha256": "acc180d9ab524874b684406c746a9ce2417343d0bc61bbbfac772772f8af44c3"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_origin/reviewed_patch.py",
+      "bytes": 4774,
+      "sha256": "1943fe75558b3bb09a87f1d32ee5b1ef961c2c711b95e0c160996fc06093152f"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_origin/test_independent_native.py",
+      "bytes": 2023,
+      "sha256": "57fa5353e9cf02bcd28b38c87b34ee291d43908e18db1a7da56c365be27e60c5"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_origin/test_reviewed_patch.py",
+      "bytes": 8490,
+      "sha256": "ed76d0bd0751a87ff244ec227d8540216ba7f151459aaf0fc15b0e94ffc087a1"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_ppt/safe_edit.py",
+      "bytes": 15523,
+      "sha256": "e057d1e3588edf5b2008561e6b49487dd85dc8ea33b2a962bbaa6da050330342"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_ppt/test_independent_ppt.py",
+      "bytes": 4278,
+      "sha256": "82cbfcf11b4957da55cb5824626ba1b9f14ece57945af8ea3bbf59bd641645a4"
+    },
+    {
+      "path": "skills/collaborate-figure-layout/scripts/native_ppt/test_safe_edit.py",
+      "bytes": 9600,
+      "sha256": "2eeeac65f0c9f4f02d70edeb74ab4cb5dd5948b003bd08bea2a70af8ae5a3387"
     },
     {
       "path": "skills/collaborate-figure-layout/scripts/prepare_web_project.py",
