@@ -3,7 +3,7 @@
   "baseline_commit": "39b66357c69d39631d47b10908a16717a0239551",
   "profile": "reviewed-public-source-only-with-figure-layout-V1",
   "file_count_excluding_this_manifest_and_its_checksum": 589,
-  "bytes_excluding_this_manifest_and_its_checksum": 10345883,
+  "bytes_excluding_this_manifest_and_its_checksum": 10338537,
   "excludes": [
     "this manifest and its companion checksum from recursive inventory",
     "all generated fixtures, private source profiles and runtime outputs"
@@ -27,8 +27,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14932,
-      "sha256": "0e15d7c27f3e69248af6518f6cbc4b2f8ce96049ac4300f7e98fd29d62cd0195"
+      "bytes": 7586,
+      "sha256": "22e408285ad041b70e95bf7081e893d269093e277eadfd27e7b21057c6b5e097"
     },
     {
       "path": "THIRD_PARTY.md",
